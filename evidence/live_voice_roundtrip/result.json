@@ -1,0 +1,647 @@
+{
+  "date": "2026-10-07",
+  "mode": "REAL_OPENAI_CHROME_WEBRTC_WITH_SYNTHETIC_TEST_INPUT",
+  "physical_microphone": "NOT_VERIFIED",
+  "input": "macOS Kyoko synthetic Japanese: 駅から何分ですか。",
+  "model": "configured .env OPENAI_REALTIME_MODEL",
+  "status": "HARNESS_STOPPED_AFTER_TOOL_PREAMBLE",
+  "user_question": "駅から何分ですか?",
+  "actual_answer": "駅までの目安の時間を、公開資料の範囲でお伝えしますね。",
+  "error": "expect(received).toMatch(expected)\n\nExpected pattern: /12|１２/\nReceived string:  \"駅までの目安の時間を、公開資料の範囲でお伝えしますね。\"",
+  "events": [
+    {
+      "type": "session.created",
+      "at_ms": 1791335225613
+    },
+    {
+      "type": "session.updated",
+      "at_ms": 1791335225704
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335225739
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335225740
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335225740
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335225740
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335225740
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335225740
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335225772
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791335225785
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335225913
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335225923
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226052
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226058
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226078
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226078
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226083
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226092
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226097
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226103
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226367
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226376
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226382
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226390
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226396
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226405
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226411
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226419
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226427
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226435
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226441
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226450
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226454
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226829
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226837
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226843
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226852
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335226857
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335227328
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335227329
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791335227329
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335227370
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335227370,
+      "transcript": "こんにちは。AI住宅コンシェルジュです。公開資料の物件名をお伝えできるように、まず確認しますね。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335227370
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335227370
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335227370
+    },
+    {
+      "type": "response.function_call_arguments.done",
+      "at_ms": 1791335227370,
+      "tool": "get_property_overview"
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335227375
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335227375
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335227377,
+      "status": "completed"
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791335227413
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335227506
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335227506
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335227551
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335227859
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335227859
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335227872
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335227872
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335227880
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335227887
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335227899
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228038
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228044
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228052
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228061
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228199
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228204
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228213
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228232
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228255
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228369
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228383
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228403
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228408
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228415
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228415
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228683
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228691
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228697
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228704
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228718
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228722
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335228725
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229097
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229106
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229115
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229119
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229128
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229137
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229146
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229151
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229161
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229166
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229535
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229547
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335229551
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335229932
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335229932,
+      "transcript": "物件名は「コモンステージ八千代中央 分譲住宅 No.15」です。参照資料は「周辺環境_Chrome検証.pdf」です。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335229935
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335229948
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335229948
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335229948,
+      "status": "completed"
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791335229986
+    },
+    {
+      "type": "input_audio_buffer.speech_started",
+      "at_ms": 1791335243988
+    },
+    {
+      "type": "output_audio_buffer.cleared",
+      "at_ms": 1791335243988
+    },
+    {
+      "type": "conversation.item.truncated",
+      "at_ms": 1791335243995
+    },
+    {
+      "type": "input_audio_buffer.speech_stopped",
+      "at_ms": 1791335246114
+    },
+    {
+      "type": "input_audio_buffer.committed",
+      "at_ms": 1791335246114
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335246114
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335246124
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246356
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246361
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246364
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246366
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246369
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246373
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335246378
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.completed",
+      "at_ms": 1791335246703,
+      "transcript": "駅から何分ですか?"
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335246833
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335247210
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335247210
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335247222
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247224
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247237
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247246
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791335247399
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247400
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247413
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247429
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247430
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247569
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247577
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247587
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247771
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247781
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247799
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247822
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247831
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247841
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247849
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247856
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335247866
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335248164
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335248173
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335248979
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335248979
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791335248979
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335249027
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335249027,
+      "transcript": "駅までの目安の時間を、公開資料の範囲でお伝えしますね。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335249029
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335249029
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335249034
+    },
+    {
+      "type": "response.function_call_arguments.done",
+      "at_ms": 1791335249034,
+      "tool": "get_property_overview"
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335249034
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335249034
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335249034,
+      "status": "completed"
+    }
+  ],
+  "acceptance_note": "The first post-question completed response was a preamble followed by a knowledge tool call. The harness ended before tool continuation. Final station answer was not awaited; no upstream error occurred. Corrected final run waits for numeric answer plus audio playback completion."
+}

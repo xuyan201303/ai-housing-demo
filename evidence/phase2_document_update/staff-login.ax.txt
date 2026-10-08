@@ -1,0 +1,75 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/staff, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/staff
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/staff, Placeholder: Google で検索または URL を入力
+					10 ボタン このタブをブックマークに追加します
+				11 container
+					12 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					13 ポップアップボタン 拡張機能
+				14 ボタン YAN
+				15 ポップアップボタン Chrome
+			16 ツールバー ブックマーク
+				17 ツールバー 保存したタブグループ
+					18 ボタン タブグループ
+				19 スプリッタ セパレータ
+				20 ブックマーク フォルダ ボタン ミラヴン
+				21 ブックマーク フォルダ ボタン 富士ソフト
+				22 ブックマーク フォルダ ボタン サイト
+				23 ブックマーク ボタン chatGTP
+				24 ブックマーク ボタン Google Gemini
+				25 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				26 ブックマーク ボタン マイドライブ
+				27 ブックマーク ボタン 発注ナビ
+				28 ブックマーク フォルダ ボタン すべてのブックマーク
+				29 スプリッタ セパレータ
+			30 container
+				31 スクロール領域
+					32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/staff
+						33 container
+							34 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							35 text SANZO DEMO /  STAFF
+							36 見出し スタッフログイン, Value: 1
+								37 テキスト スタッフログイン
+							38 テキスト 資料の管理・接客対応にはアクセス認証が必要です。
+							39 container
+								40 テキスト パスワード
+								41 セキュリティ保護されたテキストフィールド (settable) パスワード
+							42 ボタン ログイン
+							43 link お客様ページに戻る, Value: localhost:5176/
+			44 ポップアップボタン タブ検索
+			45 container
+				46 タブグループ
+					47 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 155 MB, Value: off
+						48 ボタン 閉じる
+					49 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						50 ボタン 閉じる
+					51 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 175 MB, Value: off
+						52 ボタン 閉じる
+					53 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ, Value: on
+						54 ボタン 閉じる
+			55 ボタン 新しいタブ
+			56 ボタン Gemini in Chrome を開く
+	57 閉じるボタン
+	58 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	59 しまうボタン
+60 menu bar
+	61 Chrome
+	62 ファイル
+	63 編集
+	64 表示
+	65 履歴
+	66 ブックマーク
+	67 プロファイル
+	68 タブ
+	69 ウィンドウ
+	70 ヘルプ
+
+The focused UI element is 41 セキュリティ保護されたテキストフィールド (settable) パスワード

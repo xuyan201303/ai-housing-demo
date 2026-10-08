@@ -1,0 +1,163 @@
+{
+  "task": "HOUSING_V1_ADMIN_END_TO_END_ACCEPTANCE",
+  "phase": "PHASE_2_ROUND_3_FINAL",
+  "recorded_at": "2026-10-08T02:16:24.913925+00:00",
+  "ADMIN_FIRST_USE_FLOW": "PASS_TEST_BROWSER_FLOW",
+  "ADMIN_UPDATE_FLOW": "PASS_TEST_BROWSER_FLOW",
+  "CUSTOMER_DATA_INTEGRATION": "PASS_TEST_PROVIDER_ACTUAL_TOOLS_AND_BACKEND_ONLY",
+  "EMPLOYEE_USABILITY": "WAITING_FOR_USER_REVIEW",
+  "NORMAL_ENVIRONMENT": "NOT_SWITCHED",
+  "PHASE2_TECHNICAL_STATUS": "PASS",
+  "environment": {
+    "admin": "http://localhost:5177/admin",
+    "customer": "http://localhost:5177/",
+    "staff": "http://localhost:5177/staff",
+    "backend": "http://127.0.0.1:8004",
+    "frontend_proxy": "http://127.0.0.1:8004",
+    "database": "evidence/phase2_admin_e2e/ui-test.db",
+    "uploads": "evidence/phase2_admin_e2e/ui-uploads",
+    "provider": "TEST - actual business Tools",
+    "current_version": 2,
+    "registered_documents": 6,
+    "published_documents": 6,
+    "same_code_version": true,
+    "code_sha256": "131836241a166dbc81e72ff2c93b9210010f6ed7af8a62ae7c5cd4a679cda44f",
+    "resume_command": "zsh /Users/kyoen/Projects/ai-housing-demo/scripts/start_phase2_admin_e2e.sh",
+    "resume_command_verified": true,
+    "resume_verification_cwd": "/private/tmp",
+    "test_credentials_local_file": "TEST_LOGIN.txt",
+    "test_credentials_file_mode": "0600",
+    "customer_start": "文字で開始"
+  },
+  "verification": {
+    "browser": "ACTUAL_GOOGLE_CHROME_CUA_PAGE_ACTIONS",
+    "browser_actor": "TEST_AUTOMATION_SHARED_ADMIN_NOT_USER_PERSONAL_APPROVAL",
+    "initial_business_tables": {
+      "documents": 0,
+      "versions": 0,
+      "sessions": 0,
+      "confirmations": 0,
+      "document_revisions": 0,
+      "publication_drafts": 0,
+      "publication_submissions": 0,
+      "staff_calls": 0
+    },
+    "http_seed_upload_confirm_publish": false,
+    "sdk": "INSTALLED_DISTRIBUTION_1.8.0",
+    "actual_sdk_documents": 6,
+    "each_document_uploaded_and_parsed_once": true,
+    "daily_json_editing_used": false,
+    "incomplete_draft_save_refresh_relogin": true,
+    "specific_missing_question_error_and_focus": true,
+    "manual_test_faq_is_sdk_fact": false,
+    "v1_first_publication": "REAL_CHROME_FROM_EMPTY_ADMIN",
+    "v2_update_publication": "REAL_CHROME_ONE_FAQ_REVISION",
+    "v2_diff": {
+      "added": 0,
+      "replaced": 1,
+      "retained": 5,
+      "removed": 0
+    },
+    "v1_snapshot_immutable": true,
+    "all_six_raw_normalized_immutable": true,
+    "old_session_A1_new_session_A2_actual_tool_and_AX": true,
+    "real_backend_mortgage": [
+      {
+        "version": 1,
+        "property_price": 76900000,
+        "down_payment": 5000000,
+        "loan_amount": 71900000,
+        "years": 35,
+        "annual_rate": 1.195,
+        "monthly_payment": 209563
+      },
+      {
+        "version": 2,
+        "property_selected": false,
+        "property_price": null,
+        "loan_amount": 30000000,
+        "years": 35,
+        "annual_rate": 1.195,
+        "monthly_payment": 87439,
+        "loan_amount_entry": "EXPLICIT_CUSTOMER_FORM_NOT_TEST_PROVIDER_NLU"
+      }
+    ],
+    "staff_pending_accepted_completed_sync": true,
+    "ended_sessions": 3,
+    "all_three_sessions_ended": true,
+    "screenshots": 39,
+    "backend_regression": {
+      "status": "REUSED_UNCHANGED_BACKEND_222_PASS",
+      "rerun_this_round": false,
+      "backend_files_hash_unchanged": true,
+      "unchanged_files": 32,
+      "log": "../phase2_document_update/backend_tests.log",
+      "warning": "Existing Starlette deprecation only"
+    },
+    "frontend_build": {
+      "status": "PASS",
+      "log": "frontend_build.log"
+    },
+    "paid_ai_tts_calls": 0,
+    "real_ai_current_code": "NOT_VERIFIED",
+    "real_voice_mic_speaker": "NOT_TESTED"
+  },
+  "fixed": [
+    {
+      "issue": "Unsaved edits lost on logout",
+      "original_evidence": "05-failure-unsaved-logout.png",
+      "retest": "08-unsaved-logout-guard.png",
+      "browser_cancel_retains_and_explicit_discard_logs_out": "PASS"
+    },
+    {
+      "issue": "Confirmation field error not visible from bottom of page",
+      "original_evidence": "07-missing-question-error.png",
+      "retest": "09-missing-field-focused.png",
+      "browser_retest": "PASS"
+    },
+    {
+      "issue": "Initial publication entry described updating a nonexistent current version",
+      "original_evidence": "12-first-publish-label-before-fix.png",
+      "retest": "13-first-publication-entry.png",
+      "browser_retest": "PASS"
+    }
+  ],
+  "protection": {
+    "normal_database_sql_requests": 0,
+    "normal_database_migration_confirmation_publication": false,
+    "normal_db_env_unchanged": true,
+    "sdk_distribution_wheel_unchanged": true,
+    "old_two_round_files": 996,
+    "old_two_round_files_unchanged": true,
+    "changed_frontend_paths": [
+      "frontend/src/Admin.tsx",
+      "frontend/src/AdminPublication.tsx",
+      "frontend/src/AdminReview.tsx",
+      "frontend/src/App.tsx"
+    ],
+    "sdk_source_access": false,
+    "model_voice_or_business_rules_changed": false,
+    "voice_parameters_unchanged": "Nanami / chat / +15% / 1.15"
+  },
+  "limitations": [
+    "TEST provider proves application data linkage, not real model, voice, anti-hallucination or employee subjective acceptance",
+    "22 selected-property TEST provider routing missed general FAQ; not counted as A1 pass",
+    "25 FAQ preview contains two equivalent visible rows; non-blocking retained observation",
+    "14 and 25 PNG show viewport only; full change details are in AX and API readback",
+    "Before-v2 read-only sampling executed after v2 publication; retained with timing note and not used as prepublish API proof",
+    "Unknown extension fields remain advanced diagnostics; no generic JSON form system",
+    "Normal switch and new paid calls need separate explicit approval"
+  ],
+  "deliverables": {
+    "employee_guide": "../../docs/ADMIN_END_TO_END_GUIDE.md",
+    "gallery": "index.html",
+    "acceptance": "acceptance.md",
+    "published_tool_customer_evidence": "customer_data_integration.json",
+    "final_readback": "final_readback.json",
+    "sdk_evidence": "sdk_parse_records.json",
+    "protected_evidence": "protected_check.json",
+    "normal_upgrade": "../../docs/DOCUMENT_UPDATE_NORMAL_UPGRADE.md",
+    "real_ai_gap": "real_ai_evidence_gap.md"
+  },
+  "next": "STOPPED_AT_PHASE_2_ROUND_3_NO_PHASE_3_NO_FOURTH_ADMIN_ROUND"
+}

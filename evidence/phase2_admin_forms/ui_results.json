@@ -1,0 +1,154 @@
+{
+  "task": "HOUSING_V1_ADMIN_FORMS",
+  "status": "PASS",
+  "verification": "ACTUAL_GOOGLE_CHROME_TEST_ONLY",
+  "time": "2026-10-08T10:01:12.464452+09:00",
+  "admin_url": "http://localhost:5175/admin",
+  "backend": "127.0.0.1:8002",
+  "test_database": "evidence/phase2_admin_forms/ui-test.db",
+  "sdk_version": "1.8.0",
+  "sdk_results": "REAL_INSTALLED_DISTRIBUTION",
+  "paid_ai_tts_calls": 0,
+  "microphone": "NOT_USED",
+  "normal_database": "NO_DATABASE_CONNECTION_OR_WRITES",
+  "checks": {
+    "real_sdk_pdf_excel_upload_parse": "PASS",
+    "backend_draft_refresh_raw_immutable_unconfirmed_not_public": "PASS",
+    "equipment_add_edit_delete": "PASS",
+    "faq_add_edit_delete_sources_manual_not_sdk": "PASS",
+    "rate_edit_existing_conditions_unknown_preserved_inline_error": "PASS",
+    "optional_numeric_clear_deletes_key_and_original_restored": "PASS",
+    "property_identity_matches_other_real_sdk_documents": "PASS",
+    "r2_usage_independent_confirmation_publication": "PASS",
+    "customer_property_backend_loan_staff_end_regression": "PASS",
+    "published_draft_preserves_current_approval_snapshot_customer_permissions": "PASS",
+    "all_sdk_raw_normalized_preserved_customer_boundary": "PASS",
+    "pc_responsive_no_page_errors": "PASS"
+  },
+  "documents": {
+    "物件概要_demo.pdf": {
+      "id": "ba269ec128104df3aaaff57ce5fbdf70",
+      "filename": "物件概要_demo.pdf",
+      "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "raw_sha256": "f0e6ee254087cf64968172956cc3117c40f0b08ce644a426d567419a6fe406f5",
+      "normalized_sha256": "47f1f348bde07565238cf9f41d4a1243e905f3190943e871121b20b002ccbda8",
+      "parsed_at": "2026-10-08T09:57:08+09:00"
+    },
+    "設備仕様_demo.pdf": {
+      "id": "48bb8e54383f4c1aab8fc42be4330f29",
+      "filename": "設備仕様_demo.pdf",
+      "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "raw_sha256": "648c882ca3471705928262b195bc10a84736e3ccae8fd13548319f12b663bbad",
+      "normalized_sha256": "121b514c901756d682788f0454e25f9af3ef340335a3d0764dd2aff042612b28",
+      "parsed_at": "2026-10-08T09:57:08+09:00"
+    },
+    "住宅購入基礎FAQ_demo.pdf": {
+      "id": "b628049e9e5e45128185917cadf29ff4",
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "raw_sha256": "a892ed5fd6b52c20870c0e5e56ac1dcd9201df4429231f9542199f82a39fda01",
+      "normalized_sha256": "44316245e01616b8d5dad6734dbfbe4b8a1201c96e8cb811f9256a0171b122a4",
+      "parsed_at": "2026-10-08T09:57:09+09:00"
+    },
+    "住宅ローン_demo.xlsx": {
+      "id": "db3d9767e9fb4659afea4bcc51f3bdb1",
+      "filename": "住宅ローン_demo.xlsx",
+      "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.excel.inspect_workbook + read_sheet",
+      "raw_sha256": "a0ad248455a025fd222890b3dc596ea377904d91b074b2d008b4d51b8ee31fdd",
+      "normalized_sha256": "ce303313835a7d6d05897cb504cd7305eb940fbc4a38f3750b53aad824543fa8",
+      "parsed_at": "2026-10-08T09:57:09+09:00"
+    },
+    "住宅ローン基礎FAQ_demo.pdf": {
+      "id": "7a53b811d9504f919cebab6bc703d4fa",
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "raw_sha256": "500f0c0bb1a2ec8aecab38cab68cf8660a5abd938b1fb1d845876b55017c9375",
+      "normalized_sha256": "38e5d781768fee4d367e974fbf58da40372c2a8c14b3cf5cbc376ac9ff983dae",
+      "parsed_at": "2026-10-08T09:57:09+09:00"
+    },
+    "周辺環境_demo.pdf": {
+      "id": "f40b4aca16a14a8c93bf2e9b6c88425a",
+      "filename": "周辺環境_demo.pdf",
+      "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "raw_sha256": "0e6600c32968cd3c9a4b4da6886e6bd3f9c274b188baf38a491e2eb4ed44901b",
+      "normalized_sha256": "01411ba8b908697275650c773971399005e79c6cdbdc24ca77f99610562c42c1",
+      "parsed_at": "2026-10-08T09:57:09+09:00"
+    }
+  },
+  "test_published_version": 1,
+  "mortgage": {
+    "version": 1,
+    "rate_id": "db3d9767e9fb4659afea4bcc51f3bdb1:rate:0",
+    "bank": "三菱UFJ銀行",
+    "product": "住宅ローン 新規借入 ずーっと一律優遇コース（TESTフォーム）",
+    "rate_type": "変動金利",
+    "property_price": 76900000,
+    "down_payment": 5000000,
+    "loan_amount": 71900000,
+    "annual_interest_rate": 1.195,
+    "years": 35,
+    "monthly_payment": 209563,
+    "calculation_date": "2026-10-08",
+    "effective_date": "2026-10-01",
+    "valid_until": "2026-10-31",
+    "rate_basis": "公開済み参考金利",
+    "price_basis": null,
+    "loan_to_value": 0.9349804941482445,
+    "loan_to_value_percent": 93.49804941482445,
+    "conditions": [],
+    "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+    "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+    "references": [
+      {
+        "label": "確認・公開済み住宅購入資料",
+        "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+      },
+      {
+        "label": "確認・公開済み物件資料",
+        "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+      }
+    ]
+  },
+  "browser_page_errors": [],
+  "backend_regression": {
+    "passed": 208,
+    "warnings": 1,
+    "evidence": "backend_tests.txt"
+  },
+  "frontend_build": "PASS",
+  "headed_test_chrome": "OPEN_AUTHENTICATED",
+  "browser_process_session": 7497,
+  "limitations": [
+    "Employee shared Admin authentication remains unchanged.",
+    "Actual paid AI, TTS and microphone are outside this round.",
+    "No arbitrary-PDF automatic structuring guarantee.",
+    "Untouched unsupported fields are preserved; advanced editing still uses diagnostic JSON.",
+    "No normal DB publication or deployment.",
+    "Technical Chrome verification does not record user Phase 1 experience acceptance."
+  ],
+  "historical_failures": [
+    {
+      "evidence": "initial/chrome_result.json",
+      "reason": "TEST scenario renamed the property in only one source; existing publication conflict guard correctly denied it. No production rule change."
+    },
+    {
+      "evidence": "verified/chrome_result.json",
+      "reason": "Playwright exact label did not match the existing Customer select label including option text. Selector fixed; no Customer core change."
+    }
+  ],
+  "next": "Phase 2 second round: document replacement, publication diff preview, version management and restoration. NOT_STARTED",
+  "chrome_sdk_parse_requests": 6,
+  "normal_database_file_check": "FILE_HASH_UNCHANGED"
+}

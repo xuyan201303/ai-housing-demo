@@ -1,0 +1,1 @@
+{"kind":"table","sheet":"Smoke","address":"A1:C5","rows":5,"cols":3,"values":[["SANZO SDK",null,null],["Field","Value","Purpose"],["Property","SANZO smoke fixture","Synthetic SDK fixture"],["Price JPY",12345678,"Not a real property"],["Publishable",false,"Must not be published"]]}

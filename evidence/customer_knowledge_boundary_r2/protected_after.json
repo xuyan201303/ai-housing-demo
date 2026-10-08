@@ -1,0 +1,21 @@
+{
+  "protected_hashes": {
+    ".env": "5849d3ec6d2eff2b02a268c2fe2462e1066c5c8cfb635697ff61b36e4350ae81",
+    "backend/requirements.txt": "8f8b392a05886faaec7e3a629167d57affcffd1b436126f7b0936914330358b3",
+    "frontend/package-lock.json": "fabd1bdd8ed8aa30f5f0448c46864e78e5b5feb745329b1c38626ccc93a3a808"
+  },
+  "normal_data_stats": {
+    "/Users/kyoen/Projects/ai-housing-demo/data/housing.db-shm": {
+      "size": 32768,
+      "mtime_ns": 1791351277770413379
+    },
+    "/Users/kyoen/Projects/ai-housing-demo/data/housing.db-wal": {
+      "size": 0,
+      "mtime_ns": 1791351277770253296
+    },
+    "/Users/kyoen/Projects/ai-housing-demo/data/housing.db": {
+      "size": 425984,
+      "mtime_ns": 1791348534309410859
+    }
+  }
+}

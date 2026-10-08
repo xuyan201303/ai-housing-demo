@@ -1,0 +1,210 @@
+{
+  "recorded_at": "2026-10-08T02:04:36.397828+00:00",
+  "method": "ISOLATED_TEST_READ_ONLY_HTTP_GET",
+  "sdk_version": "1.8.0",
+  "count": 6,
+  "versions_count": 0,
+  "documents": [
+    {
+      "id": "f562fef1e00e4761ae553bcc1d0dbd56",
+      "filename": "住宅ローン_demo.xlsx",
+      "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T11:03:02+09:00",
+      "confirmation_id": 6,
+      "confirmed_at": "2026-10-08T11:03:48+09:00",
+      "sdk_raw_sha256": "bd4560e75f7cb4b7b4bb6b39e485b64bd9344cf45441d5fe857919e7ab3d61d8",
+      "sdk_normalized_sha256": "ce8f580a05920efaa4a215f886a91ea50e3d17439397a705b963ebdd597a0477",
+      "raw_initial_match": null,
+      "normalized_initial_match": null,
+      "draft_revision": 1,
+      "confirmed_revision_id": "c7c78a7703b5405b90b8ba722cc161a9",
+      "revisions": [
+        {
+          "revision_id": "c7c78a7703b5405b90b8ba722cc161a9",
+          "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+          "confirmation_id": 6,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T11:03:48+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：Excelの2商品、参考金利、適用条件、借入条件、期間・出典URLを照合。第一商品のconditionsは元の補足欄の文を項目に手入力。金利値や式は変更していません。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    },
+    {
+      "id": "3e15caace3244e91bd84c606f3744d52",
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T11:02:42+09:00",
+      "confirmation_id": 5,
+      "confirmed_at": "2026-10-08T11:02:56+09:00",
+      "sdk_raw_sha256": "78b1b14f6905e3326c4d16c8c2eb5ec17cb8cfd299cafd24df40b5511a2af460",
+      "sdk_normalized_sha256": "c4d41236f3ff219aae49cad0aa4097e9da7bdc1dcba59ba5d7453bbe5802ce7e",
+      "raw_initial_match": null,
+      "normalized_initial_match": null,
+      "draft_revision": 1,
+      "confirmed_revision_id": "9eebd42334ce4c49a4d5bb2b8e75265b",
+      "revisions": [
+        {
+          "revision_id": "9eebd42334ce4c49a4d5bb2b8e75265b",
+          "document_id": "3e15caace3244e91bd84c606f3744d52",
+          "confirmation_id": 5,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T11:02:56+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：SDK読み取り本文、フラット35の一般的な購入手続、審査非保証、公式出典と期間を照合。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    },
+    {
+      "id": "f37d98f8669945f08147d8d37e540681",
+      "filename": "周辺環境_demo.pdf",
+      "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T11:01:41+09:00",
+      "confirmation_id": 4,
+      "confirmed_at": "2026-10-08T11:02:36+09:00",
+      "sdk_raw_sha256": "a1322d1b3d0dea794ae2995303a6c25672e9698e1d9003a276c09dd2b662163b",
+      "sdk_normalized_sha256": "3a3b0882144401300bf55d4323cb672bd97224fc232a1fe797b60cbff3ffe213",
+      "raw_initial_match": true,
+      "normalized_initial_match": true,
+      "draft_revision": 1,
+      "confirmed_revision_id": "a45e6a5184974b2f86875be2476975da",
+      "revisions": [
+        {
+          "revision_id": "a45e6a5184974b2f86875be2476975da",
+          "document_id": "f37d98f8669945f08147d8d37e540681",
+          "confirmation_id": 4,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T11:02:36+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：周辺施設と掲載範囲を原資料で照合。基準日は概要登録日を日付欄へ手動整理し、元の限定を注意事項へ保持。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    },
+    {
+      "id": "943986e694d84d7cb1c927221c083df8",
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T10:57:38+09:00",
+      "confirmation_id": 3,
+      "confirmed_at": "2026-10-08T11:01:35+09:00",
+      "sdk_raw_sha256": "56bc3722e9090ebbf1b450e2b0d09089c14a0b0fa9c44a172a22760f58d59ccc",
+      "sdk_normalized_sha256": "b9ea77babf3406ac0d7c6fdff4f50b056464a89d2204ec2177c511df1d0ad1cc",
+      "raw_initial_match": true,
+      "normalized_initial_match": true,
+      "draft_revision": 2,
+      "confirmed_revision_id": "64816d5a825d4d9f9ef84521a72ffaaf",
+      "revisions": [
+        {
+          "revision_id": "64816d5a825d4d9f9ef84521a72ffaaf",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "confirmation_id": 3,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T11:01:35+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：SDK本文・公式出典・期間を照合。FAQはブラウザ操作確認用のTEST人工入力でSDK認識結果ではありません。質問欄を補完して確認。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    },
+    {
+      "id": "57fa0ce159714fceba9f4c55e85e9bb0",
+      "filename": "設備仕様_demo.pdf",
+      "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T10:56:56+09:00",
+      "confirmation_id": 2,
+      "confirmed_at": "2026-10-08T10:57:27+09:00",
+      "sdk_raw_sha256": "03411bb8e88756cef110f3228ae647b1451f8a82e5fcc3e648493631de453f73",
+      "sdk_normalized_sha256": "591ef3809f0fcb8f7b5f009920984798fb764c26d10490b83c29ded4153a04fa",
+      "raw_initial_match": true,
+      "normalized_initial_match": true,
+      "draft_revision": 1,
+      "confirmed_revision_id": "90ae66b3a6834208811dcb734b898111",
+      "revisions": [
+        {
+          "revision_id": "90ae66b3a6834208811dcb734b898111",
+          "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+          "confirmation_id": 2,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T10:57:27+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：設備15項目と原資料、出典、期限を照合。第一項の説明を整理した手入力です。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    },
+    {
+      "id": "b70b6e67f6fa4041bf41f01fa2610653",
+      "filename": "物件概要_demo.pdf",
+      "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+      "status": "confirmed",
+      "usage": "customer",
+      "parsed_at": "2026-10-08T10:55:29+09:00",
+      "confirmation_id": 1,
+      "confirmed_at": "2026-10-08T10:56:27+09:00",
+      "sdk_raw_sha256": "ac5fd906cc20c3ddc2e9ef968cb712851ffb9c3a7e7d4212f222a20b41d34f3f",
+      "sdk_normalized_sha256": "5a531bb1d2ad5a021fc1f9cebb39a0cb905c90e3d0b4e04f7a9314e0a74ebb8f",
+      "raw_initial_match": true,
+      "normalized_initial_match": true,
+      "draft_revision": 1,
+      "confirmed_revision_id": "894e8a24fa514bcca3a331383ef3c0f7",
+      "revisions": [
+        {
+          "revision_id": "894e8a24fa514bcca3a331383ef3c0f7",
+          "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+          "confirmation_id": 1,
+          "usage_epoch": 0,
+          "usage": "customer",
+          "confirmed_at": "2026-10-08T10:56:27+09:00",
+          "actor": "admin",
+          "note": "TESTブラウザ検証：原資料本文・出典・期限を照合。駐車場の未確認表記を手入力。SDK原文は変更していません。",
+          "cancelled": false,
+          "replaces_document_id": null,
+          "replaces_confirmation_id": null,
+          "revoked": false,
+          "published_versions": []
+        }
+      ]
+    }
+  ],
+  "initial_four_raw_normalized_unchanged": true,
+  "changed_initial_records": [],
+  "manual_test_faq": "Manual business candidate only; SDK original FAQ structure contains zero entries and original body retained."
+}

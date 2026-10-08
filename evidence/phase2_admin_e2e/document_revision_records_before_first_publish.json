@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-08T02:04:36.397828+00:00",
+  "method": "ISOLATED_TEST_READ_ONLY_HTTP_GET",
+  "records": {
+    "f562fef1e00e4761ae553bcc1d0dbd56": [
+      {
+        "revision_id": "c7c78a7703b5405b90b8ba722cc161a9",
+        "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+        "confirmation_id": 6,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T11:03:48+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：Excelの2商品、参考金利、適用条件、借入条件、期間・出典URLを照合。第一商品のconditionsは元の補足欄の文を項目に手入力。金利値や式は変更していません。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ],
+    "3e15caace3244e91bd84c606f3744d52": [
+      {
+        "revision_id": "9eebd42334ce4c49a4d5bb2b8e75265b",
+        "document_id": "3e15caace3244e91bd84c606f3744d52",
+        "confirmation_id": 5,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T11:02:56+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：SDK読み取り本文、フラット35の一般的な購入手続、審査非保証、公式出典と期間を照合。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ],
+    "f37d98f8669945f08147d8d37e540681": [
+      {
+        "revision_id": "a45e6a5184974b2f86875be2476975da",
+        "document_id": "f37d98f8669945f08147d8d37e540681",
+        "confirmation_id": 4,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T11:02:36+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：周辺施設と掲載範囲を原資料で照合。基準日は概要登録日を日付欄へ手動整理し、元の限定を注意事項へ保持。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ],
+    "943986e694d84d7cb1c927221c083df8": [
+      {
+        "revision_id": "64816d5a825d4d9f9ef84521a72ffaaf",
+        "document_id": "943986e694d84d7cb1c927221c083df8",
+        "confirmation_id": 3,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T11:01:35+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：SDK本文・公式出典・期間を照合。FAQはブラウザ操作確認用のTEST人工入力でSDK認識結果ではありません。質問欄を補完して確認。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ],
+    "57fa0ce159714fceba9f4c55e85e9bb0": [
+      {
+        "revision_id": "90ae66b3a6834208811dcb734b898111",
+        "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+        "confirmation_id": 2,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T10:57:27+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：設備15項目と原資料、出典、期限を照合。第一項の説明を整理した手入力です。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ],
+    "b70b6e67f6fa4041bf41f01fa2610653": [
+      {
+        "revision_id": "894e8a24fa514bcca3a331383ef3c0f7",
+        "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+        "confirmation_id": 1,
+        "usage_epoch": 0,
+        "usage": "customer",
+        "confirmed_at": "2026-10-08T10:56:27+09:00",
+        "actor": "admin",
+        "note": "TESTブラウザ検証：原資料本文・出典・期限を照合。駐車場の未確認表記を手入力。SDK原文は変更していません。",
+        "cancelled": false,
+        "replaces_document_id": null,
+        "replaces_confirmation_id": null,
+        "revoked": false,
+        "published_versions": []
+      }
+    ]
+  }
+}

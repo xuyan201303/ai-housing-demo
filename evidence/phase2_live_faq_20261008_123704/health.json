@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "admin_publication_contract_version": 1,
+  "admin_publication_schema_ready": true,
+  "knowledge_boundary_version": 2,
+  "sdk_version": "1.8.0",
+  "demo_mode": "demo",
+  "ai_configured": true,
+  "realtime_configured": true,
+  "realtime_voice": "marin",
+  "voice_instructions_sha256": "b7b68f09cb521131986a0124e7d7901e5afeb2faccb1a9db3dd38c7cae2fc7f8"
+}

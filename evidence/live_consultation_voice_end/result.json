@@ -1,0 +1,5364 @@
+{
+  "date": "2026-10-07",
+  "mode": "REAL_CHROME_WEBRTC_REAL_OPENAI_REAL_TOOLS_SYNTHETIC_KYOKO_INPUT",
+  "normal_demo_acceptance": "NOT_RUN",
+  "physical_microphone": "NOT_VERIFIED",
+  "physical_speaker_audibility": "NOT_VERIFIED",
+  "model": "configured .env OPENAI_REALTIME_MODEL",
+  "single_session": true,
+  "source_hashes_at_start": {
+    "frontend/src/Mortgage.tsx": "37d63677c72f3bb22d5df4956ea99be0200c1a0f35075750e9286e02519fa756",
+    "frontend/src/Customer.tsx": "a4d8e1d56294feb89aa24c56aa09904f545629af7663e06950170a1ea4632b16",
+    "frontend/src/useVoice.ts": "5c786bbbd27c2e45806755b0a6f08858a3b2e9571339c39f0eec3ca5bf74539e",
+    "backend/app/services/ai.py": "de28aaf2d521b55a011c840743cdfe314f7026326984560e7dde66f9ff52c809",
+    "backend/app/services/realtime.py": "c521389611ab819fa43b3b8e81ec665992144d2ce07a1702aa937a895226a1e4",
+    "backend/app/services/tools.py": "529994fc5e1c5a8f17d4cc6320367855de6fbfcda51dd3e7a2e7f05101df4bce",
+    "backend/app/services/context.py": "cd8a9a1f02c18e66c7dbc7545fecd79e1468b42d63a6e79db4d5eeed82f1aa3d",
+    "backend/app/services/sessions.py": "84a18d1ee4a22fa713c3a4ca6a0ef1f995a1703a3b7f9347cd7c171faf7b357a",
+    "backend/app/services/guardrails.py": "0a9bfdfa6481d9896267362d503aa9864e9a133dab3e8182ce54dbedfd010f4f",
+    "backend/app/services/loan_selection.py": "5aa328fa0d79ee3244630858824b80622177ac4affe4d88f9fd56c5f10e61a9d",
+    "frontend/src/styles.css": "c97bc5e3af470c578b388749e329b2d1c315a1dbba7efcc89f240ebe1555069c"
+  },
+  "inputs": [
+    {
+      "label": "all_explicit_loan_inputs",
+      "text": "物件はまだ決めていません。借入額は三千万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月返済額を試算してください。",
+      "kind": "SYNTHETIC_MACOS_KYOKO_WAV",
+      "sha256": "b4645d1030283ada5b55e8dbd23a81b22a3eabf0004f43e39cfa1fbc254f7e94"
+    },
+    {
+      "label": "underwriting_handoff",
+      "text": "この年収なら、ローン審査に絶対通りますか？",
+      "kind": "SYNTHETIC_MACOS_KYOKO_WAV",
+      "sha256": "12e9b0fe817a35696f28a5f1a29388aaba885df0df8700ce43abec35623e072b"
+    }
+  ],
+  "turns": [
+    {
+      "label": "all_explicit_loan_inputs",
+      "intended_input": "物件はまだ決めていません。借入額は三千万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月返済額を試算してください。",
+      "actual_input": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。",
+      "actual_answer": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。\n参考金利の条件をお伝えしてから、試算に進みますね。\n概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。",
+      "events": [
+        {
+          "type": "input_audio_buffer.speech_started",
+          "at_ms": 1791340042365
+        },
+        {
+          "type": "input_audio_buffer.speech_stopped",
+          "at_ms": 1791340056567
+        },
+        {
+          "type": "input_audio_buffer.committed",
+          "at_ms": 1791340056568
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340056576
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340056576
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056861
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056866
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056870
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056882
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056882
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056885
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056891
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056895
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056947
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340056950
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057006
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057006
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057006
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057006
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057008
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057010
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057010
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057013
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057017
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057018
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057025
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057025
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057025
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057025
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057026
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057026
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057031
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057035
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057035
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057037
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057041
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057041
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057041
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057093
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057093
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057094
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057095
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057098
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057147
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057153
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057153
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057153
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057154
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057154
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057157
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057159
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057160
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340057162
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.completed",
+          "at_ms": 1791340057385,
+          "transcript": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。"
+        },
+        {
+          "type": "response.created",
+          "at_ms": 1791340057544
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340058043
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340058043
+        },
+        {
+          "type": "response.content_part.added",
+          "at_ms": 1791340058057
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058058
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058066
+        },
+        {
+          "type": "output_audio_buffer.started",
+          "at_ms": 1791340058375
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058375
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058380
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058538
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058538
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058543
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058543
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058547
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058663
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058663
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058670
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058673
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058673
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058677
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058680
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058684
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058684
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058893
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058903
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058910
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058915
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058921
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058929
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058938
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340058943
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340059897
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340059897
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340059897
+        },
+        {
+          "type": "response.output_audio.done",
+          "at_ms": 1791340059937
+        },
+        {
+          "type": "response.output_audio_transcript.done",
+          "at_ms": 1791340059937,
+          "transcript": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。"
+        },
+        {
+          "type": "response.content_part.done",
+          "at_ms": 1791340059944
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340059944
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340059944
+        },
+        {
+          "type": "response.function_call_arguments.done",
+          "at_ms": 1791340059944,
+          "tool": "get_mortgage_rates"
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340059944
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340059944
+        },
+        {
+          "type": "response.done",
+          "at_ms": 1791340059944,
+          "status": "completed",
+          "function_calls": 1
+        },
+        {
+          "type": "rate_limits.updated",
+          "at_ms": 1791340059995
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340060075
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340060080
+        },
+        {
+          "type": "response.created",
+          "at_ms": 1791340060108
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340060627
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340060627
+        },
+        {
+          "type": "response.content_part.added",
+          "at_ms": 1791340060643
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060644
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060679
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060957
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060965
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060965
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340060969
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061126
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061134
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061134
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061144
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061144
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061149
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061247
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061254
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061258
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061265
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061265
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061269
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061273
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340061273
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340062632
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340062632
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062633
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062663
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062676
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062689
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062701
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062701
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062712
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062723
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062725
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062730
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062743
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062749
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062762
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062767
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062776
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062788
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062798
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062798
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062819
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062833
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062833
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062847
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062857
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062867
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062880
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062894
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062934
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062936
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062939
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062939
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062942
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062947
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062956
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062969
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062980
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062985
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340062996
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063008
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063018
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063026
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063037
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063064
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063064
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063086
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063099
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063105
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063105
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063115
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063124
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063129
+        },
+        {
+          "type": "response.function_call_arguments.delta",
+          "at_ms": 1791340063137
+        },
+        {
+          "type": "response.output_audio.done",
+          "at_ms": 1791340063173
+        },
+        {
+          "type": "response.output_audio_transcript.done",
+          "at_ms": 1791340063173,
+          "transcript": "参考金利の条件をお伝えしてから、試算に進みますね。"
+        },
+        {
+          "type": "response.content_part.done",
+          "at_ms": 1791340063176
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340063176
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340063180
+        },
+        {
+          "type": "response.function_call_arguments.done",
+          "at_ms": 1791340063180,
+          "tool": "calculate_mortgage"
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340063180
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340063180
+        },
+        {
+          "type": "response.done",
+          "at_ms": 1791340063181,
+          "status": "completed",
+          "function_calls": 1
+        },
+        {
+          "type": "rate_limits.updated",
+          "at_ms": 1791340063228
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340063357
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340063357
+        },
+        {
+          "type": "response.created",
+          "at_ms": 1791340063389
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340063769
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340063769
+        },
+        {
+          "type": "response.content_part.added",
+          "at_ms": 1791340063786
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340063786
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340063797
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340063805
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340063813
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064143
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064155
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064155
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064305
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064315
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064315
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064316
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064352
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064356
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064361
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064379
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064384
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064391
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064652
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064660
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064677
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064690
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340064696
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065147
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065157
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065162
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065186
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065195
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065205
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065213
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065602
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065612
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065622
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065631
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065641
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065652
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065657
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065665
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065672
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065677
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340065685
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066054
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066060
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066084
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066098
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066127
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066144
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066151
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066162
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066169
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066180
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066185
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066597
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066606
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066611
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066618
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066618
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066637
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066642
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340066647
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067086
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067098
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067107
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067116
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067121
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067127
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067137
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067153
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067153
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067553
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067559
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067574
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067579
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067589
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067593
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340067598
+        },
+        {
+          "type": "output_audio_buffer.started",
+          "at_ms": 1791340067928
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068005
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068015
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068022
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068031
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068037
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068045
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068054
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068063
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068068
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068478
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068484
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068494
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068500
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068505
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068891
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068900
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068907
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068913
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068920
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068924
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068944
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068951
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068958
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068970
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340068975
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069352
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069360
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069379
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069379
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069383
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069388
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069395
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069404
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069414
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069421
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069427
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069435
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069440
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069818
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069831
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069841
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069849
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069861
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069866
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069871
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069876
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340069881
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070268
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070289
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070289
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070289
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070298
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070305
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070311
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070322
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070327
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070340
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070344
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070352
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070362
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070737
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070746
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070764
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070771
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070771
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340070777
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071186
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071196
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071201
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071213
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071219
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071227
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071233
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071724
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071736
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071746
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071759
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071767
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340071778
+        },
+        {
+          "type": "response.output_audio.done",
+          "at_ms": 1791340072391
+        },
+        {
+          "type": "response.output_audio_transcript.done",
+          "at_ms": 1791340072391,
+          "transcript": "概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。"
+        },
+        {
+          "type": "response.content_part.done",
+          "at_ms": 1791340072391
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340072396
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340072396
+        },
+        {
+          "type": "response.done",
+          "at_ms": 1791340072396,
+          "status": "completed",
+          "function_calls": 0
+        },
+        {
+          "type": "rate_limits.updated",
+          "at_ms": 1791340072434
+        },
+        {
+          "type": "output_audio_buffer.stopped",
+          "at_ms": 1791340107829
+        }
+      ],
+      "subtitles": "音声字幕 · リアルタイムお客様：物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。",
+      "avatar": "avatar-stage idle",
+      "tool_events": [
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": null,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:01+09:00",
+          "event_id": 365,
+          "kind": "tool"
+        },
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": null,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:03+09:00",
+          "event_id": 366,
+          "kind": "tool"
+        },
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": 30000000,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:37+09:00",
+          "event_id": 370,
+          "kind": "tool"
+        },
+        {
+          "name": "get_mortgage_rates",
+          "arguments": {},
+          "result": {
+            "rates": [
+              {
+                "bank": "三菱UFJ銀行",
+                "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+                "rate_type": "変動金利",
+                "rate": 1.195,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+                "source_name": "三菱UFJ銀行 住宅ローン金利",
+                "checked_at": "2026-10-07",
+                "years_min": 2,
+                "years_max": 40,
+                "loan_amount_min": 5000000,
+                "loan_amount_max": 300000000,
+                "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+                "reference": {
+                  "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                  "filename": "住宅ローン_Chrome検証.xlsx",
+                  "location": "Rates!2",
+                  "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                },
+                "scope": "property",
+                "requires_acquisition_price_for_estimate": false,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+              },
+              {
+                "bank": "住宅金融支援機構・取扱金融機関",
+                "product": "フラット35 新機構団信付き 21～35年",
+                "rate_type": "全期間固定金利",
+                "rate": 3.83,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+                "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+                "checked_at": "2026-10-07",
+                "rate_over_90_percent": 3.94,
+                "years_min": 21,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 120000000,
+                "max_loan_to_value": 1,
+                "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+                "reference": {
+                  "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                  "filename": "住宅ローン_Chrome検証.xlsx",
+                  "location": "Rates!3",
+                  "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+                },
+                "scope": "property",
+                "requires_acquisition_price_for_estimate": true,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!3",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+              }
+            ],
+            "version": 4,
+            "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+          },
+          "created_at": "2026-10-07T11:27:39+09:00",
+          "event_id": 372,
+          "kind": "tool"
+        },
+        {
+          "name": "calculate_mortgage",
+          "arguments": {
+            "down_payment": null,
+            "loan_amount": 30000000,
+            "property_price": null,
+            "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "years": 35
+          },
+          "result": {
+            "property_price": null,
+            "down_payment": null,
+            "loan_amount": 30000000,
+            "annual_interest_rate": 1.195,
+            "years": 35,
+            "monthly_payment": 87439,
+            "calculation_date": "2026-10-07",
+            "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "references": [
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "version": 4,
+            "property_context": null,
+            "price_basis": "物件未選択・顧客申告借入額",
+            "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+          },
+          "created_at": "2026-10-07T11:27:43+09:00",
+          "event_id": 375,
+          "kind": "tool"
+        }
+      ],
+      "messages": [
+        {
+          "role": "assistant",
+          "text": "こんにちは。AI住宅コンシェルジュです。住宅購入や購入の流れ、住宅ローンなどについて、自由に相談していただけます。いま気になっていることや進め方で迷っている点があれば、ざっくばらんに教えてください。",
+          "created_at": "2026-10-07T11:27:07+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 367,
+          "kind": "message"
+        },
+        {
+          "role": "user",
+          "text": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。",
+          "created_at": "2026-10-07T11:27:37+09:00",
+          "channel": "voice",
+          "event_id": 369,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。",
+          "created_at": "2026-10-07T11:27:39+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 371,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "参考金利の条件をお伝えしてから、試算に進みますね。",
+          "created_at": "2026-10-07T11:27:43+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            },
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!3",
+              "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 374,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。",
+          "created_at": "2026-10-07T11:27:52+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 377,
+          "kind": "message"
+        }
+      ]
+    },
+    {
+      "label": "underwriting_handoff",
+      "intended_input": "この年収なら、ローン審査に絶対通りますか？",
+      "actual_input": "この年収なら、ローン審査に絶対通りますか?",
+      "actual_answer": "住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。",
+      "events": [
+        {
+          "type": "input_audio_buffer.speech_started",
+          "at_ms": 1791340110322
+        },
+        {
+          "type": "input_audio_buffer.speech_stopped",
+          "at_ms": 1791340114647
+        },
+        {
+          "type": "input_audio_buffer.committed",
+          "at_ms": 1791340114647
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340114647
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340114647
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115292
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115296
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115301
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115304
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115310
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115315
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115320
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115332
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115440
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115440
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115447
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115447
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115447
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115455
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115455
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.delta",
+          "at_ms": 1791340115455
+        },
+        {
+          "type": "conversation.item.input_audio_transcription.completed",
+          "at_ms": 1791340117499,
+          "transcript": "この年収なら、ローン審査に絶対通りますか?"
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340117651
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340117651
+        },
+        {
+          "type": "response.created",
+          "at_ms": 1791340117658
+        },
+        {
+          "type": "response.output_item.added",
+          "at_ms": 1791340118392
+        },
+        {
+          "type": "conversation.item.added",
+          "at_ms": 1791340118392
+        },
+        {
+          "type": "response.content_part.added",
+          "at_ms": 1791340118413
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118413
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118424
+        },
+        {
+          "type": "output_audio_buffer.started",
+          "at_ms": 1791340118622
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118623
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118634
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118634
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118634
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118771
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118783
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118789
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118789
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118795
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118937
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118958
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118966
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118980
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118991
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118991
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340118996
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119002
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119271
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119283
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119288
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119293
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119298
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119305
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119314
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119327
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119333
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119338
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119720
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119728
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119735
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119742
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119751
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119762
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119767
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119778
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119784
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340119790
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120161
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120173
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120178
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120185
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120190
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120199
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120206
+        },
+        {
+          "type": "response.output_audio_transcript.delta",
+          "at_ms": 1791340120212
+        },
+        {
+          "type": "response.output_audio.done",
+          "at_ms": 1791340120662
+        },
+        {
+          "type": "response.output_audio_transcript.done",
+          "at_ms": 1791340120662,
+          "transcript": "住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。"
+        },
+        {
+          "type": "response.content_part.done",
+          "at_ms": 1791340120662
+        },
+        {
+          "type": "conversation.item.done",
+          "at_ms": 1791340120664
+        },
+        {
+          "type": "response.output_item.done",
+          "at_ms": 1791340120664
+        },
+        {
+          "type": "response.done",
+          "at_ms": 1791340120666,
+          "status": "completed",
+          "function_calls": 0
+        },
+        {
+          "type": "rate_limits.updated",
+          "at_ms": 1791340120713
+        },
+        {
+          "type": "output_audio_buffer.stopped",
+          "at_ms": 1791340129405
+        }
+      ],
+      "subtitles": "音声字幕 · リアルタイムお客様：この年収なら、ローン審査に絶対通りますか?住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。",
+      "avatar": "avatar-stage idle",
+      "tool_events": [
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": null,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:01+09:00",
+          "event_id": 365,
+          "kind": "tool"
+        },
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": null,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:03+09:00",
+          "event_id": 366,
+          "kind": "tool"
+        },
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "c268173429a745bd84bb434d0ad8a805",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "c268173429a745bd84bb434d0ad8a805",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 4,
+            "property_selected": false,
+            "customer_declared": {
+              "loan_amount": 30000000,
+              "property_price": null,
+              "source": "顧客の発話。公開資料の事実ではない。"
+            },
+            "company_material_available": false,
+            "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+          },
+          "created_at": "2026-10-07T11:27:37+09:00",
+          "event_id": 370,
+          "kind": "tool"
+        },
+        {
+          "name": "get_mortgage_rates",
+          "arguments": {},
+          "result": {
+            "rates": [
+              {
+                "bank": "三菱UFJ銀行",
+                "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+                "rate_type": "変動金利",
+                "rate": 1.195,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+                "source_name": "三菱UFJ銀行 住宅ローン金利",
+                "checked_at": "2026-10-07",
+                "years_min": 2,
+                "years_max": 40,
+                "loan_amount_min": 5000000,
+                "loan_amount_max": 300000000,
+                "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+                "reference": {
+                  "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                  "filename": "住宅ローン_Chrome検証.xlsx",
+                  "location": "Rates!2",
+                  "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                },
+                "scope": "property",
+                "requires_acquisition_price_for_estimate": false,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+              },
+              {
+                "bank": "住宅金融支援機構・取扱金融機関",
+                "product": "フラット35 新機構団信付き 21～35年",
+                "rate_type": "全期間固定金利",
+                "rate": 3.83,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+                "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+                "checked_at": "2026-10-07",
+                "rate_over_90_percent": 3.94,
+                "years_min": 21,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 120000000,
+                "max_loan_to_value": 1,
+                "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+                "reference": {
+                  "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                  "filename": "住宅ローン_Chrome検証.xlsx",
+                  "location": "Rates!3",
+                  "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+                },
+                "scope": "property",
+                "requires_acquisition_price_for_estimate": true,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!3",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+              }
+            ],
+            "version": 4,
+            "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+          },
+          "created_at": "2026-10-07T11:27:39+09:00",
+          "event_id": 372,
+          "kind": "tool"
+        },
+        {
+          "name": "calculate_mortgage",
+          "arguments": {
+            "down_payment": null,
+            "loan_amount": 30000000,
+            "property_price": null,
+            "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "years": 35
+          },
+          "result": {
+            "property_price": null,
+            "down_payment": null,
+            "loan_amount": 30000000,
+            "annual_interest_rate": 1.195,
+            "years": 35,
+            "monthly_payment": 87439,
+            "calculation_date": "2026-10-07",
+            "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "references": [
+              {
+                "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+                "filename": "住宅ローン_Chrome検証.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "version": 4,
+            "property_context": null,
+            "price_basis": "物件未選択・顧客申告借入額",
+            "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+          },
+          "created_at": "2026-10-07T11:27:43+09:00",
+          "event_id": 375,
+          "kind": "tool"
+        },
+        {
+          "name": "call_staff",
+          "arguments": {
+            "reason": "住宅ローン審査の判断依頼",
+            "last_customer_question": "この年収なら、ローン審査に絶対通りますか?"
+          },
+          "result": {
+            "id": "f6893b8733ee474dbb19be4346cabb09",
+            "session_id": "8d13f99774914359a1e7e1be054aa128",
+            "version": 4,
+            "property_name": "住宅購入の一般相談",
+            "created_at": "2026-10-07T11:28:37+09:00",
+            "reason": "住宅ローン審査の判断依頼",
+            "last_customer_question": "この年収なら、ローン審査に絶対通りますか?",
+            "status": "pending",
+            "accepted_at": null,
+            "completed_at": null
+          },
+          "created_at": "2026-10-07T11:28:37+09:00",
+          "event_id": 381,
+          "kind": "tool"
+        }
+      ],
+      "messages": [
+        {
+          "role": "assistant",
+          "text": "こんにちは。AI住宅コンシェルジュです。住宅購入や購入の流れ、住宅ローンなどについて、自由に相談していただけます。いま気になっていることや進め方で迷っている点があれば、ざっくばらんに教えてください。",
+          "created_at": "2026-10-07T11:27:07+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 367,
+          "kind": "message"
+        },
+        {
+          "role": "user",
+          "text": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。",
+          "created_at": "2026-10-07T11:27:37+09:00",
+          "channel": "voice",
+          "event_id": 369,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。",
+          "created_at": "2026-10-07T11:27:39+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 371,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "参考金利の条件をお伝えしてから、試算に進みますね。",
+          "created_at": "2026-10-07T11:27:43+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            },
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!3",
+              "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 374,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。",
+          "created_at": "2026-10-07T11:27:52+09:00",
+          "channel": "voice",
+          "references": [
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            }
+          ],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 377,
+          "kind": "message"
+        },
+        {
+          "role": "user",
+          "text": "この年収なら、ローン審査に絶対通りますか?",
+          "created_at": "2026-10-07T11:28:37+09:00",
+          "channel": "voice",
+          "event_id": 379,
+          "kind": "message"
+        },
+        {
+          "role": "assistant",
+          "text": "住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。",
+          "created_at": "2026-10-07T11:28:40+09:00",
+          "channel": "voice",
+          "references": [],
+          "version": 4,
+          "provider": "openai_realtime",
+          "event_id": 382,
+          "kind": "message"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "general_greeting_without_default_property": "PASS",
+    "real_backend_voice_subtitle_card_amount": "PASS_87439_JPY",
+    "explicit_loan_no_default_price": "PASS",
+    "voice_underwriting_non_guarantee": "PASS_ACTUAL_ANSWER_REQUIRES_REVIEW",
+    "staff_ui_and_customer_polling": "PASS_PENDING_ACCEPTED_COMPLETED_SAME_SESSION",
+    "end_cleanup": "PASS_STOPPED_INPUT_PAUSED_AUDIO_CLOSED_PEER_UPSTREAM_200_ENDED_SESSION"
+  },
+  "status": "PASS_TARGETED_REAL_VOICE_LOAN_STAFF_END_PENDING_REVIEW",
+  "session_id": "8d13f99774914359a1e7e1be054aa128",
+  "version": 4,
+  "initial_property_id": null,
+  "greeting": "こんにちは。AI住宅コンシェルジュです。住宅購入や購入の流れ、住宅ローンなどについて、自由に相談していただけます。いま気になっていることや進め方で迷っている点があれば、ざっくばらんに教えてください。",
+  "general_ui_prior_evidence": "evidence/live_consultation_voice/result.json (general card / clarification checks before targeted loan fix)",
+  "preselection_conditions_prior_evidence": "evidence/live_consultation_voice_recheck/result.json: actual first presentation covers both Flat35 bands, dates and product conditions",
+  "calculation": {
+    "property_price": null,
+    "down_payment": null,
+    "loan_amount": 30000000,
+    "annual_interest_rate": 1.195,
+    "years": 35,
+    "monthly_payment": 87439,
+    "calculation_date": "2026-10-07",
+    "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+    "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+    "bank": "三菱UFJ銀行",
+    "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+    "rate_type": "変動金利",
+    "effective_date": "2026-10-01",
+    "valid_until": "2026-10-31",
+    "references": [
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "Rates!2",
+        "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+      }
+    ],
+    "version": 4,
+    "property_context": null,
+    "price_basis": "物件未選択・顧客申告借入額",
+    "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+  },
+  "calculator_arguments": {
+    "down_payment": null,
+    "loan_amount": 30000000,
+    "property_price": null,
+    "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+    "years": 35
+  },
+  "calculation_card": "MONTHLY PAYMENT / ESTIMATE\n月々の返済額（概算）\n87,439 円\n借入額\n30,000,000 円\n参考金利\n年 1.195%\n返済期間\n35 年\n計算日\n2026-10-07\n\n物件未選択・顧客申告借入額\n\n本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。諸費用・税金・保険料・金利変動等は含みません。\n\n本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。\n\n参照資料\n住宅ローン_Chrome検証.xlsx · Rates!2\n原情報 ↗",
+  "staff_call_created": {
+    "id": "f6893b8733ee474dbb19be4346cabb09",
+    "session_id": "8d13f99774914359a1e7e1be054aa128",
+    "version": 4,
+    "property_name": "住宅購入の一般相談",
+    "created_at": "2026-10-07T11:28:37+09:00",
+    "reason": "住宅ローン審査の判断依頼",
+    "last_customer_question": "この年収なら、ローン審査に絶対通りますか?",
+    "status": "pending",
+    "accepted_at": null,
+    "completed_at": null
+  },
+  "staff_accepted": {
+    "id": "f6893b8733ee474dbb19be4346cabb09",
+    "session_id": "8d13f99774914359a1e7e1be054aa128",
+    "version": 4,
+    "property_name": "住宅購入の一般相談",
+    "created_at": "2026-10-07T11:28:37+09:00",
+    "reason": "住宅ローン審査の判断依頼",
+    "last_customer_question": "この年収なら、ローン審査に絶対通りますか?",
+    "status": "accepted",
+    "accepted_at": "2026-10-07T11:28:50+09:00",
+    "completed_at": null
+  },
+  "staff_completed": {
+    "id": "f6893b8733ee474dbb19be4346cabb09",
+    "session_id": "8d13f99774914359a1e7e1be054aa128",
+    "version": 4,
+    "property_name": "住宅購入の一般相談",
+    "created_at": "2026-10-07T11:28:37+09:00",
+    "reason": "住宅ローン審査の判断依頼",
+    "last_customer_question": "この年収なら、ローン審査に絶対通りますか?",
+    "status": "completed",
+    "accepted_at": "2026-10-07T11:28:50+09:00",
+    "completed_at": "2026-10-07T11:28:51+09:00"
+  },
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "こんにちは。AI住宅コンシェルジュです。住宅購入や購入の流れ、住宅ローンなどについて、自由に相談していただけます。いま気になっていることや進め方で迷っている点があれば、ざっくばらんに教えてください。",
+      "created_at": "2026-10-07T11:27:07+09:00",
+      "channel": "voice",
+      "references": [
+        {
+          "document_id": "c268173429a745bd84bb434d0ad8a805",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "location": "p.1",
+          "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+        },
+        {
+          "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+          "filename": "住宅ローン基礎FAQ_demo.pdf",
+          "location": "p.1",
+          "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+        }
+      ],
+      "version": 4,
+      "provider": "openai_realtime",
+      "event_id": 367,
+      "kind": "message"
+    },
+    {
+      "role": "user",
+      "text": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。",
+      "created_at": "2026-10-07T11:27:37+09:00",
+      "channel": "voice",
+      "event_id": 369,
+      "kind": "message"
+    },
+    {
+      "role": "assistant",
+      "text": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。",
+      "created_at": "2026-10-07T11:27:39+09:00",
+      "channel": "voice",
+      "references": [
+        {
+          "document_id": "c268173429a745bd84bb434d0ad8a805",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "location": "p.1",
+          "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+        },
+        {
+          "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+          "filename": "住宅ローン基礎FAQ_demo.pdf",
+          "location": "p.1",
+          "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+        }
+      ],
+      "version": 4,
+      "provider": "openai_realtime",
+      "event_id": 371,
+      "kind": "message"
+    },
+    {
+      "role": "assistant",
+      "text": "参考金利の条件をお伝えしてから、試算に進みますね。",
+      "created_at": "2026-10-07T11:27:43+09:00",
+      "channel": "voice",
+      "references": [
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!2",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+        },
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!3",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+        }
+      ],
+      "version": 4,
+      "provider": "openai_realtime",
+      "event_id": 374,
+      "kind": "message"
+    },
+    {
+      "role": "assistant",
+      "text": "概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。",
+      "created_at": "2026-10-07T11:27:52+09:00",
+      "channel": "voice",
+      "references": [
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!2",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+        }
+      ],
+      "version": 4,
+      "provider": "openai_realtime",
+      "event_id": 377,
+      "kind": "message"
+    },
+    {
+      "role": "user",
+      "text": "この年収なら、ローン審査に絶対通りますか?",
+      "created_at": "2026-10-07T11:28:37+09:00",
+      "channel": "voice",
+      "event_id": 379,
+      "kind": "message"
+    },
+    {
+      "role": "assistant",
+      "text": "住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。",
+      "created_at": "2026-10-07T11:28:40+09:00",
+      "channel": "voice",
+      "references": [],
+      "version": 4,
+      "provider": "openai_realtime",
+      "event_id": 382,
+      "kind": "message"
+    }
+  ],
+  "tool_events": [
+    {
+      "name": "get_consultation_context",
+      "arguments": {},
+      "result": {
+        "items": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            "scope": "general"
+          },
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            "scope": "general"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "c268173429a745bd84bb434d0ad8a805",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+            "filename": "住宅ローン基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+          }
+        ],
+        "version": 4,
+        "property_selected": false,
+        "customer_declared": {
+          "loan_amount": null,
+          "property_price": null,
+          "source": "顧客の発話。公開資料の事実ではない。"
+        },
+        "company_material_available": false,
+        "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+      },
+      "created_at": "2026-10-07T11:27:01+09:00",
+      "event_id": 365,
+      "kind": "tool"
+    },
+    {
+      "name": "get_consultation_context",
+      "arguments": {},
+      "result": {
+        "items": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            "scope": "general"
+          },
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            "scope": "general"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "c268173429a745bd84bb434d0ad8a805",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+            "filename": "住宅ローン基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+          }
+        ],
+        "version": 4,
+        "property_selected": false,
+        "customer_declared": {
+          "loan_amount": null,
+          "property_price": null,
+          "source": "顧客の発話。公開資料の事実ではない。"
+        },
+        "company_material_available": false,
+        "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+      },
+      "created_at": "2026-10-07T11:27:03+09:00",
+      "event_id": 366,
+      "kind": "tool"
+    },
+    {
+      "name": "get_consultation_context",
+      "arguments": {},
+      "result": {
+        "items": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            "scope": "general"
+          },
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            "scope": "general"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "c268173429a745bd84bb434d0ad8a805",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+            "filename": "住宅ローン基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+          }
+        ],
+        "version": 4,
+        "property_selected": false,
+        "customer_declared": {
+          "loan_amount": 30000000,
+          "property_price": null,
+          "source": "顧客の発話。公開資料の事実ではない。"
+        },
+        "company_material_available": false,
+        "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+      },
+      "created_at": "2026-10-07T11:27:37+09:00",
+      "event_id": 370,
+      "kind": "tool"
+    },
+    {
+      "name": "get_mortgage_rates",
+      "arguments": {},
+      "result": {
+        "rates": [
+          {
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "rate": 1.195,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+            "source_name": "三菱UFJ銀行 住宅ローン金利",
+            "checked_at": "2026-10-07",
+            "years_min": 2,
+            "years_max": 40,
+            "loan_amount_min": 5000000,
+            "loan_amount_max": 300000000,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            },
+            "scope": "property",
+            "requires_acquisition_price_for_estimate": false,
+            "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+            "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+          },
+          {
+            "bank": "住宅金融支援機構・取扱金融機関",
+            "product": "フラット35 新機構団信付き 21～35年",
+            "rate_type": "全期間固定金利",
+            "rate": 3.83,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+            "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+            "checked_at": "2026-10-07",
+            "rate_over_90_percent": 3.94,
+            "years_min": 21,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 120000000,
+            "max_loan_to_value": 1,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!3",
+              "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+            },
+            "scope": "property",
+            "requires_acquisition_price_for_estimate": true,
+            "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+            "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!3",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ],
+        "version": 4,
+        "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+      },
+      "created_at": "2026-10-07T11:27:39+09:00",
+      "event_id": 372,
+      "kind": "tool"
+    },
+    {
+      "name": "calculate_mortgage",
+      "arguments": {
+        "down_payment": null,
+        "loan_amount": 30000000,
+        "property_price": null,
+        "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+        "years": 35
+      },
+      "result": {
+        "property_price": null,
+        "down_payment": null,
+        "loan_amount": 30000000,
+        "annual_interest_rate": 1.195,
+        "years": 35,
+        "monthly_payment": 87439,
+        "calculation_date": "2026-10-07",
+        "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "references": [
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ],
+        "version": 4,
+        "property_context": null,
+        "price_basis": "物件未選択・顧客申告借入額",
+        "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+      },
+      "created_at": "2026-10-07T11:27:43+09:00",
+      "event_id": 375,
+      "kind": "tool"
+    },
+    {
+      "name": "call_staff",
+      "arguments": {
+        "reason": "住宅ローン審査の判断依頼",
+        "last_customer_question": "この年収なら、ローン審査に絶対通りますか?"
+      },
+      "result": {
+        "id": "f6893b8733ee474dbb19be4346cabb09",
+        "session_id": "8d13f99774914359a1e7e1be054aa128",
+        "version": 4,
+        "property_name": "住宅購入の一般相談",
+        "created_at": "2026-10-07T11:28:37+09:00",
+        "reason": "住宅ローン審査の判断依頼",
+        "last_customer_question": "この年収なら、ローン審査に絶対通りますか?",
+        "status": "pending",
+        "accepted_at": null,
+        "completed_at": null
+      },
+      "created_at": "2026-10-07T11:28:37+09:00",
+      "event_id": 381,
+      "kind": "tool"
+    }
+  ],
+  "events": [
+    {
+      "type": "session.created",
+      "at_ms": 1791340023659
+    },
+    {
+      "type": "session.updated",
+      "at_ms": 1791340023768
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791340023769
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340024048
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340024048
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791340024062
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024065
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024072
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791340024291
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024298
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024298
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024416
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024424
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024427
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024542
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024553
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024557
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024564
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024573
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024596
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024605
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024609
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024871
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024874
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024882
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024892
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024898
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024910
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024913
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024925
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340024928
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025303
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025311
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025321
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025324
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025329
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025342
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025363
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025370
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025378
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025381
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025773
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025780
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025784
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025799
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025806
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025813
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025819
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025828
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025838
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340025848
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026245
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026251
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026259
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026273
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026278
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026288
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026294
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026304
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026310
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026319
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026327
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026336
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026347
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026731
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026742
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026748
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026757
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026765
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026775
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026791
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340026794
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791340027196
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791340027201,
+      "transcript": "こんにちは。AI住宅コンシェルジュです。住宅購入や購入の流れ、住宅ローンなどについて、自由に相談していただけます。いま気になっていることや進め方で迷っている点があれば、ざっくばらんに教えてください。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791340027201
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340027201
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340027201
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791340027201,
+      "status": "completed",
+      "function_calls": 0
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791340027249
+    },
+    {
+      "type": "output_audio_buffer.stopped",
+      "at_ms": 1791340039046
+    },
+    {
+      "type": "input_audio_buffer.speech_started",
+      "at_ms": 1791340042365
+    },
+    {
+      "type": "input_audio_buffer.speech_stopped",
+      "at_ms": 1791340056567
+    },
+    {
+      "type": "input_audio_buffer.committed",
+      "at_ms": 1791340056568
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340056576
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340056576
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056861
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056866
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056870
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056882
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056882
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056885
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056891
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056895
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056947
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340056950
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057006
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057006
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057006
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057006
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057008
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057010
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057010
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057013
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057017
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057018
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057025
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057025
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057025
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057025
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057026
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057026
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057031
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057035
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057035
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057037
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057041
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057041
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057041
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057093
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057093
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057094
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057095
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057098
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057147
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057153
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057153
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057153
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057154
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057154
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057157
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057159
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057160
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340057162
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.completed",
+      "at_ms": 1791340057385,
+      "transcript": "物件はまだ決めていません。借り入れ額は3,000万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月変退額を試算してください。"
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791340057544
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340058043
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340058043
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791340058057
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058058
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058066
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791340058375
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058375
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058380
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058538
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058538
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058543
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058543
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058547
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058663
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058663
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058670
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058673
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058673
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058677
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058680
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058684
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058684
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058893
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058903
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058910
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058915
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058921
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058929
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058938
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340058943
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340059897
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340059897
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340059897
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791340059937
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791340059937,
+      "transcript": "では、まず参考にできる金利の一覧を確認してからお話しを組み立てますね。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791340059944
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340059944
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340059944
+    },
+    {
+      "type": "response.function_call_arguments.done",
+      "at_ms": 1791340059944,
+      "tool": "get_mortgage_rates"
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340059944
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340059944
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791340059944,
+      "status": "completed",
+      "function_calls": 1
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791340059995
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340060075
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340060080
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791340060108
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340060627
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340060627
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791340060643
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060644
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060679
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060957
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060965
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060965
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340060969
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061126
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061134
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061134
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061144
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061144
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061149
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061247
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061254
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061258
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061265
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061265
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061269
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061273
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340061273
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340062632
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340062632
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062633
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062663
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062676
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062689
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062701
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062701
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062712
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062723
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062725
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062730
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062743
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062749
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062762
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062767
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062776
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062788
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062798
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062798
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062819
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062833
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062833
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062847
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062857
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062867
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062880
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062894
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062934
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062936
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062939
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062939
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062942
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062947
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062956
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062969
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062980
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062985
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340062996
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063008
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063018
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063026
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063037
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063064
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063064
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063086
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063099
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063105
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063105
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063115
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063124
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063129
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791340063137
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791340063173
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791340063173,
+      "transcript": "参考金利の条件をお伝えしてから、試算に進みますね。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791340063176
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340063176
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340063180
+    },
+    {
+      "type": "response.function_call_arguments.done",
+      "at_ms": 1791340063180,
+      "tool": "calculate_mortgage"
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340063180
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340063180
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791340063181,
+      "status": "completed",
+      "function_calls": 1
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791340063228
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340063357
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340063357
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791340063389
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340063769
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340063769
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791340063786
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340063786
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340063797
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340063805
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340063813
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064143
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064155
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064155
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064305
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064315
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064315
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064316
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064352
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064356
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064361
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064379
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064384
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064391
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064652
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064660
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064677
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064690
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340064696
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065147
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065157
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065162
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065186
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065195
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065205
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065213
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065602
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065612
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065622
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065631
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065641
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065652
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065657
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065665
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065672
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065677
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340065685
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066054
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066060
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066084
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066098
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066127
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066144
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066151
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066162
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066169
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066180
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066185
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066597
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066606
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066611
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066618
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066618
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066637
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066642
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340066647
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067086
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067098
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067107
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067116
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067121
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067127
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067137
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067153
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067153
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067553
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067559
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067574
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067579
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067589
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067593
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340067598
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791340067928
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068005
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068015
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068022
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068031
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068037
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068045
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068054
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068063
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068068
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068478
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068484
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068494
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068500
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068505
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068891
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068900
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068907
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068913
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068920
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068924
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068944
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068951
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068958
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068970
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340068975
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069352
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069360
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069379
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069379
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069383
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069388
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069395
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069404
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069414
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069421
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069427
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069435
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069440
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069818
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069831
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069841
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069849
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069861
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069866
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069871
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069876
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340069881
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070268
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070289
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070289
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070289
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070298
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070305
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070311
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070322
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070327
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070340
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070344
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070352
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070362
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070737
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070746
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070764
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070771
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070771
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340070777
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071186
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071196
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071201
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071213
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071219
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071227
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071233
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071724
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071736
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071746
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071759
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071767
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340071778
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791340072391
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791340072391,
+      "transcript": "概算では、毎月の返済額はおよそ87,439円です。参考金利は三菱UFJ銀行の「住宅ローン 新規借入 ずーっと一律優遇コース」の変動金利、1.195パーセントです。基準日は2026年10月1日で、有効期限は2026年10月31日です。これは参考の計算で、審査や実際の適用金利、将来の金利変動は保証されません。手数料、税金、保険なども含まれていません。参照資料は「住宅ローン_Chrome検証.xlsx」のRatesシートです。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791340072391
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340072396
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340072396
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791340072396,
+      "status": "completed",
+      "function_calls": 0
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791340072434
+    },
+    {
+      "type": "output_audio_buffer.stopped",
+      "at_ms": 1791340107829
+    },
+    {
+      "type": "input_audio_buffer.speech_started",
+      "at_ms": 1791340110322
+    },
+    {
+      "type": "input_audio_buffer.speech_stopped",
+      "at_ms": 1791340114647
+    },
+    {
+      "type": "input_audio_buffer.committed",
+      "at_ms": 1791340114647
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340114647
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340114647
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115292
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115296
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115301
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115304
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115310
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115315
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115320
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115332
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115440
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115440
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115447
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115447
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115447
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115455
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115455
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791340115455
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.completed",
+      "at_ms": 1791340117499,
+      "transcript": "この年収なら、ローン審査に絶対通りますか?"
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340117651
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340117651
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791340117658
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791340118392
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791340118392
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791340118413
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118413
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118424
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791340118622
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118623
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118634
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118634
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118634
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118771
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118783
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118789
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118789
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118795
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118937
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118958
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118966
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118980
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118991
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118991
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340118996
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119002
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119271
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119283
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119288
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119293
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119298
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119305
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119314
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119327
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119333
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119338
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119720
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119728
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119735
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119742
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119751
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119762
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119767
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119778
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119784
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340119790
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120161
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120173
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120178
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120185
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120190
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120199
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120206
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791340120212
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791340120662
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791340120662,
+      "transcript": "住宅ローンの審査の可否について、AIから確定的なご案内はできません。融資できるかどうかの判断は行わず、担当スタッフからご案内いたします。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791340120662
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791340120664
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791340120664
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791340120666,
+      "status": "completed",
+      "function_calls": 0
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791340120713
+    },
+    {
+      "type": "output_audio_buffer.stopped",
+      "at_ms": 1791340129405
+    }
+  ],
+  "avatar_states": [
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791340020331
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791340020873
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791340022828
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791340023775
+    },
+    {
+      "state": "avatar-stage speaking",
+      "at_ms": 1791340024298
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791340039051
+    },
+    {
+      "state": "avatar-stage listening",
+      "at_ms": 1791340042369
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791340056575
+    },
+    {
+      "state": "avatar-stage speaking",
+      "at_ms": 1791340058379
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791340107838
+    },
+    {
+      "state": "avatar-stage listening",
+      "at_ms": 1791340110332
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791340114657
+    },
+    {
+      "state": "avatar-stage speaking",
+      "at_ms": 1791340118632
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791340129416
+    }
+  ],
+  "page_errors": [],
+  "received_audio": [
+    {
+      "bytesReceived": 720280,
+      "packetsReceived": 5532
+    }
+  ],
+  "local_media_end": {
+    "peer_state": "closed",
+    "sender_tracks": [
+      "ended"
+    ],
+    "synthetic_input_tracks": [
+      "ended"
+    ],
+    "playback_paused": true,
+    "playback_source_cleared": true,
+    "avatar": "avatar-stage idle",
+    "active_session_caption": false
+  },
+  "ended_status": "ended",
+  "realtime_end": {
+    "status": "closed",
+    "upstream_hangup_status": 200
+  },
+  "source_hashes_at_end": {
+    "frontend/src/Mortgage.tsx": "37d63677c72f3bb22d5df4956ea99be0200c1a0f35075750e9286e02519fa756",
+    "frontend/src/Customer.tsx": "a4d8e1d56294feb89aa24c56aa09904f545629af7663e06950170a1ea4632b16",
+    "frontend/src/useVoice.ts": "5c786bbbd27c2e45806755b0a6f08858a3b2e9571339c39f0eec3ca5bf74539e",
+    "backend/app/services/ai.py": "de28aaf2d521b55a011c840743cdfe314f7026326984560e7dde66f9ff52c809",
+    "backend/app/services/realtime.py": "c521389611ab819fa43b3b8e81ec665992144d2ce07a1702aa937a895226a1e4",
+    "backend/app/services/tools.py": "529994fc5e1c5a8f17d4cc6320367855de6fbfcda51dd3e7a2e7f05101df4bce",
+    "backend/app/services/context.py": "cd8a9a1f02c18e66c7dbc7545fecd79e1468b42d63a6e79db4d5eeed82f1aa3d",
+    "backend/app/services/sessions.py": "84a18d1ee4a22fa713c3a4ca6a0ef1f995a1703a3b7f9347cd7c171faf7b357a",
+    "backend/app/services/guardrails.py": "0a9bfdfa6481d9896267362d503aa9864e9a133dab3e8182ce54dbedfd010f4f",
+    "backend/app/services/loan_selection.py": "5aa328fa0d79ee3244630858824b80622177ac4affe4d88f9fd56c5f10e61a9d",
+    "frontend/src/styles.css": "c97bc5e3af470c578b388749e329b2d1c315a1dbba7efcc89f240ebe1555069c"
+  }
+}

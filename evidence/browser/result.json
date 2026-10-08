@@ -1,0 +1,16 @@
+{
+  "browser": "installed Google Chrome (headless)",
+  "api": "real isolated FastAPI :8001",
+  "sdk": "actual SANZO package 1.8.0",
+  "ai": "BLOCKED missing key",
+  "voice": "NOT_VERIFIED",
+  "scenarios": [
+    "Chrome UI upload -> real SDK parse -> explicit test-admin review -> publication of four files: PASS",
+    "Missing key is visibly rejected; no fake AI or voice success: PASS",
+    "Loan 5m down /35y /Flat35 >90% uses backend3.94% condition with real result: PASS",
+    "Policy rejects judgement -> persisted staff record -> separate staff Chrome tab accepts/completes -> customer polling updates: PASS",
+    "820px tablet width has no horizontal overflow: PASS"
+  ],
+  "status": "PASS",
+  "uncaught_page_errors": []
+}

@@ -1,0 +1,1201 @@
+{
+  "recorded_at": "2026-10-08T02:13:20.144535+00:00",
+  "method": "PERSISTED_ACTUAL_TOOL_EVENTS_READBACK_PLUS_REAL_CHROME_AX",
+  "provider": "TEST - not model or voice acceptance",
+  "published": {
+    "v1": {
+      "faq_question": "TEST案内の確認方法は？",
+      "faq_answer": "TEST：初回公開のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+      "document_approvals": {
+        "b70b6e67f6fa4041bf41f01fa2610653": 1,
+        "57fa0ce159714fceba9f4c55e85e9bb0": 2,
+        "f37d98f8669945f08147d8d37e540681": 4,
+        "943986e694d84d7cb1c927221c083df8": 3,
+        "3e15caace3244e91bd84c606f3744d52": 5,
+        "f562fef1e00e4761ae553bcc1d0dbd56": 6
+      },
+      "price": 76900000,
+      "equipment": [
+        "断熱等級6（原資料に記載）",
+        "フロントオープン式食洗機（パナソニック）",
+        "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+        "太陽光発電（3.0kW）",
+        "HEMS",
+        "第一種換気",
+        "ビルトイン空気清浄機（Air Me）",
+        "家庭用燃料電池（エネファーム）",
+        "エアコン（2台）",
+        "床暖房（リビング・ダイニング）",
+        "キッチンのタッチレス水栓",
+        "保温浴槽付きユニットバス",
+        "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+        "長期優良住宅",
+        "住宅性能評価書（設計・建築の両方が公式掲載）"
+      ],
+      "rates": [
+        {
+          "bank": "三菱UFJ銀行",
+          "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+          "rate_type": "変動金利",
+          "rate": 1.195,
+          "effective_date": "2026-10-01",
+          "valid_until": "2026-10-31",
+          "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+          "source_name": "三菱UFJ銀行 住宅ローン金利",
+          "checked_at": "2026-10-07",
+          "years_min": 2,
+          "years_max": 40,
+          "loan_amount_min": 5000000,
+          "loan_amount_max": 300000000,
+          "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+          "reference": {
+            "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+            "filename": "住宅ローン_demo.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          "conditions": [
+            "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+          ],
+          "scope": "general"
+        },
+        {
+          "bank": "住宅金融支援機構・取扱金融機関",
+          "product": "フラット35 新機構団信付き 21～35年",
+          "rate_type": "全期間固定金利",
+          "rate": 3.83,
+          "effective_date": "2026-10-01",
+          "valid_until": "2026-10-31",
+          "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+          "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+          "checked_at": "2026-10-07",
+          "rate_over_90_percent": 3.94,
+          "years_min": 21,
+          "years_max": 35,
+          "loan_amount_min": 1000000,
+          "loan_amount_max": 120000000,
+          "max_loan_to_value": 1,
+          "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+          "reference": {
+            "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+            "filename": "住宅ローン_demo.xlsx",
+            "location": "Rates!3",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          },
+          "scope": "general"
+        }
+      ]
+    },
+    "v2": {
+      "faq_question": "TEST案内の確認方法は？",
+      "faq_answer": "TEST：更新後のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+      "document_approvals": {
+        "b70b6e67f6fa4041bf41f01fa2610653": 1,
+        "57fa0ce159714fceba9f4c55e85e9bb0": 2,
+        "f37d98f8669945f08147d8d37e540681": 4,
+        "943986e694d84d7cb1c927221c083df8": 7,
+        "3e15caace3244e91bd84c606f3744d52": 5,
+        "f562fef1e00e4761ae553bcc1d0dbd56": 6
+      },
+      "price": 76900000,
+      "equipment": [
+        "断熱等級6（原資料に記載）",
+        "フロントオープン式食洗機（パナソニック）",
+        "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+        "太陽光発電（3.0kW）",
+        "HEMS",
+        "第一種換気",
+        "ビルトイン空気清浄機（Air Me）",
+        "家庭用燃料電池（エネファーム）",
+        "エアコン（2台）",
+        "床暖房（リビング・ダイニング）",
+        "キッチンのタッチレス水栓",
+        "保温浴槽付きユニットバス",
+        "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+        "長期優良住宅",
+        "住宅性能評価書（設計・建築の両方が公式掲載）"
+      ],
+      "rates": [
+        {
+          "bank": "三菱UFJ銀行",
+          "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+          "rate_type": "変動金利",
+          "rate": 1.195,
+          "effective_date": "2026-10-01",
+          "valid_until": "2026-10-31",
+          "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+          "source_name": "三菱UFJ銀行 住宅ローン金利",
+          "checked_at": "2026-10-07",
+          "years_min": 2,
+          "years_max": 40,
+          "loan_amount_min": 5000000,
+          "loan_amount_max": 300000000,
+          "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+          "reference": {
+            "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+            "filename": "住宅ローン_demo.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          "conditions": [
+            "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+          ],
+          "scope": "general"
+        },
+        {
+          "bank": "住宅金融支援機構・取扱金融機関",
+          "product": "フラット35 新機構団信付き 21～35年",
+          "rate_type": "全期間固定金利",
+          "rate": 3.83,
+          "effective_date": "2026-10-01",
+          "valid_until": "2026-10-31",
+          "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+          "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+          "checked_at": "2026-10-07",
+          "rate_over_90_percent": 3.94,
+          "years_min": 21,
+          "years_max": 35,
+          "loan_amount_min": 1000000,
+          "loan_amount_max": 120000000,
+          "max_loan_to_value": 1,
+          "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+          "reference": {
+            "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+            "filename": "住宅ローン_demo.xlsx",
+            "location": "Rates!3",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          },
+          "scope": "general"
+        }
+      ]
+    }
+  },
+  "actual_tool_traces": [
+    {
+      "session_id": "9d7f55e1953c456097ac4a711daf0d83",
+      "version": 2,
+      "status": "ended",
+      "tools": [
+        {
+          "name": "search_consultation_knowledge",
+          "created_at": "2026-10-08T11:10:38+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "TEST案内の確認方法は？\nTEST：更新後のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+                "reference": {
+                  "location": "TEST人工入力・ブラウザ操作確認用",
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "3e15caace3244e91bd84c606f3744d52",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "location": "TEST人工入力・ブラウザ操作確認用",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 2,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          },
+          "contains_A1": false,
+          "contains_A2": true
+        },
+        {
+          "name": "get_mortgage_rates",
+          "created_at": "2026-10-08T11:10:48+09:00",
+          "result": {
+            "rates": [
+              {
+                "bank": "三菱UFJ銀行",
+                "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+                "rate_type": "変動金利",
+                "rate": 1.195,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+                "source_name": "三菱UFJ銀行 住宅ローン金利",
+                "checked_at": "2026-10-07",
+                "years_min": 2,
+                "years_max": 40,
+                "loan_amount_min": 5000000,
+                "loan_amount_max": 300000000,
+                "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+                "reference": {
+                  "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                  "filename": "住宅ローン_demo.xlsx",
+                  "location": "Rates!2",
+                  "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                },
+                "conditions": [
+                  "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+                ],
+                "scope": "general",
+                "requires_acquisition_price_for_estimate": false,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+              },
+              {
+                "bank": "住宅金融支援機構・取扱金融機関",
+                "product": "フラット35 新機構団信付き 21～35年",
+                "rate_type": "全期間固定金利",
+                "rate": 3.83,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+                "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+                "checked_at": "2026-10-07",
+                "rate_over_90_percent": 3.94,
+                "years_min": 21,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 120000000,
+                "max_loan_to_value": 1,
+                "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+                "reference": {
+                  "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                  "filename": "住宅ローン_demo.xlsx",
+                  "location": "Rates!3",
+                  "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+                },
+                "scope": "general",
+                "requires_acquisition_price_for_estimate": true,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!3",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+              }
+            ],
+            "version": 2,
+            "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+          }
+        },
+        {
+          "name": "calculate_mortgage",
+          "created_at": "2026-10-08T11:10:58+09:00",
+          "result": {
+            "property_price": null,
+            "down_payment": null,
+            "loan_amount": 30000000,
+            "annual_interest_rate": 1.195,
+            "years": 35,
+            "monthly_payment": 87439,
+            "calculation_date": "2026-10-08",
+            "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "rate_id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "references": [
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "version": 2,
+            "property_context": null,
+            "price_basis": "物件未選択・顧客申告借入額",
+            "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+          }
+        },
+        {
+          "name": "call_staff",
+          "created_at": "2026-10-08T11:10:59+09:00",
+          "result": {
+            "id": "278385bc7dc04613ae69b974d69318ed",
+            "session_id": "9d7f55e1953c456097ac4a711daf0d83",
+            "version": 2,
+            "property_name": "住宅購入の一般相談",
+            "created_at": "2026-10-08T11:10:59+09:00",
+            "reason": "住宅ローン審査の判断依頼",
+            "last_customer_question": "この年収なら、ローン審査に絶対通りますか？",
+            "status": "pending",
+            "accepted_at": null,
+            "completed_at": null
+          }
+        },
+        {
+          "name": "list_properties",
+          "created_at": "2026-10-08T11:11:21+09:00",
+          "result": {
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "コモンステージ八千代中央 分譲住宅 No.15"
+              }
+            ],
+            "references": [],
+            "version": 2
+          }
+        },
+        {
+          "name": "get_property_overview",
+          "created_at": "2026-10-08T11:11:23+09:00",
+          "result": {
+            "property": {
+              "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+              "field_references": {
+                "property_name": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "lot": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "price": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "address": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "station": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "land_area": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "building_area": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "completion_date": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "layout": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "scope_notes": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "source_name": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "source_url": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "checked_at": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "effective_date": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "valid_until": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "parking": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "equipment": {
+                  "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "surroundings": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                }
+              },
+              "lot": "No.15",
+              "price": 76900000,
+              "address": "千葉県八千代市大和田新田字向山477番247",
+              "station": "東葉高速鉄道 八千代中央駅",
+              "land_area": 139.85,
+              "building_area": 93.25,
+              "completion_date": "2026-05",
+              "layout": "3LDK（No.15公式平面図から分類）",
+              "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。基準日は物件概要の登録日2026-10-02で、周辺ページ固有の更新日は未記載です。",
+              "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+              "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+              "checked_at": "2026-10-07",
+              "effective_date": "2026-10-02",
+              "valid_until": "2026-10-15",
+              "parking": "原資料に駐車可能台数の明記がないため未確認。",
+              "equipment": [
+                "断熱等級6（原資料に記載）",
+                "フロントオープン式食洗機（パナソニック）",
+                "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+                "太陽光発電（3.0kW）",
+                "HEMS",
+                "第一種換気",
+                "ビルトイン空気清浄機（Air Me）",
+                "家庭用燃料電池（エネファーム）",
+                "エアコン（2台）",
+                "床暖房（リビング・ダイニング）",
+                "キッチンのタッチレス水栓",
+                "保温浴槽付きユニットバス",
+                "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+                "長期優良住宅",
+                "住宅性能評価書（設計・建築の両方が公式掲載）"
+              ],
+              "surroundings": [
+                "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+                "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+                "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+                "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+                "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+                "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+              ]
+            },
+            "references": [
+              {
+                "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "f37d98f8669945f08147d8d37e540681",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              },
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "version": 2
+          }
+        }
+      ],
+      "staff_calls": [
+        {
+          "id": "278385bc7dc04613ae69b974d69318ed",
+          "session_id": "9d7f55e1953c456097ac4a711daf0d83",
+          "version": 2,
+          "property_name": "住宅購入の一般相談",
+          "created_at": "2026-10-08T11:10:59+09:00",
+          "reason": "住宅ローン審査の判断依頼",
+          "last_customer_question": "この年収なら、ローン審査に絶対通りますか？",
+          "status": "completed",
+          "accepted_at": "2026-10-08T11:11:08+09:00",
+          "completed_at": "2026-10-08T11:11:10+09:00"
+        }
+      ]
+    },
+    {
+      "session_id": "840e99e4b8654987bf16c3d0c496a0e2",
+      "version": 1,
+      "status": "ended",
+      "tools": [
+        {
+          "name": "search_consultation_knowledge",
+          "created_at": "2026-10-08T11:09:59+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "TEST案内の確認方法は？\nTEST：初回公開のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+                "reference": {
+                  "location": "TEST人工入力・ブラウザ操作確認用",
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "3e15caace3244e91bd84c606f3744d52",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "location": "TEST人工入力・ブラウザ操作確認用",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 1,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          },
+          "contains_A1": true,
+          "contains_A2": false
+        },
+        {
+          "name": "search_consultation_knowledge",
+          "created_at": "2026-10-08T11:10:31+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "TEST案内の確認方法は？\nTEST：初回公開のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+                "reference": {
+                  "location": "TEST人工入力・ブラウザ操作確認用",
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "3e15caace3244e91bd84c606f3744d52",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "location": "TEST人工入力・ブラウザ操作確認用",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 1,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          },
+          "contains_A1": true,
+          "contains_A2": false
+        }
+      ],
+      "staff_calls": []
+    },
+    {
+      "session_id": "8fb52ac467814b699ae33bfc0a0d8022",
+      "version": 1,
+      "status": "ended",
+      "tools": [
+        {
+          "name": "search_consultation_knowledge",
+          "created_at": "2026-10-08T11:08:39+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "3e15caace3244e91bd84c606f3744d52",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "TEST案内の確認方法は？\nTEST：初回公開のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+                "reference": {
+                  "location": "TEST人工入力・ブラウザ操作確認用",
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              },
+              {
+                "location": "TEST人工入力・ブラウザ操作確認用",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "version": 1,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          },
+          "contains_A1": true,
+          "contains_A2": false
+        },
+        {
+          "name": "search_consultation_knowledge",
+          "created_at": "2026-10-08T11:08:45+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "TEST案内の確認方法は？\nTEST：初回公開のFAQ表示を確認するための回答です。実際の営業案内ではありません。",
+                "reference": {
+                  "location": "TEST人工入力・ブラウザ操作確認用",
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "943986e694d84d7cb1c927221c083df8",
+                  "filename": "住宅購入基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                "scope": "general"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+                "reference": {
+                  "document_id": "3e15caace3244e91bd84c606f3744d52",
+                  "filename": "住宅ローン基礎FAQ_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+                },
+                "scope": "general"
+              }
+            ],
+            "references": [
+              {
+                "location": "TEST人工入力・ブラウザ操作確認用",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              }
+            ],
+            "version": 1,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          },
+          "contains_A1": true,
+          "contains_A2": false
+        },
+        {
+          "name": "list_properties",
+          "created_at": "2026-10-08T11:08:56+09:00",
+          "result": {
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "コモンステージ八千代中央 分譲住宅 No.15"
+              }
+            ],
+            "references": [],
+            "version": 1
+          }
+        },
+        {
+          "name": "get_property_overview",
+          "created_at": "2026-10-08T11:09:01+09:00",
+          "result": {
+            "property": {
+              "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+              "field_references": {
+                "property_name": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "lot": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "price": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "address": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "station": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "land_area": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "building_area": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "completion_date": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "layout": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "scope_notes": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "source_name": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "source_url": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "checked_at": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "effective_date": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "valid_until": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "parking": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "equipment": {
+                  "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "surroundings": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                }
+              },
+              "lot": "No.15",
+              "price": 76900000,
+              "address": "千葉県八千代市大和田新田字向山477番247",
+              "station": "東葉高速鉄道 八千代中央駅",
+              "land_area": 139.85,
+              "building_area": 93.25,
+              "completion_date": "2026-05",
+              "layout": "3LDK（No.15公式平面図から分類）",
+              "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。基準日は物件概要の登録日2026-10-02で、周辺ページ固有の更新日は未記載です。",
+              "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+              "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+              "checked_at": "2026-10-07",
+              "effective_date": "2026-10-02",
+              "valid_until": "2026-10-15",
+              "parking": "原資料に駐車可能台数の明記がないため未確認。",
+              "equipment": [
+                "断熱等級6（原資料に記載）",
+                "フロントオープン式食洗機（パナソニック）",
+                "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+                "太陽光発電（3.0kW）",
+                "HEMS",
+                "第一種換気",
+                "ビルトイン空気清浄機（Air Me）",
+                "家庭用燃料電池（エネファーム）",
+                "エアコン（2台）",
+                "床暖房（リビング・ダイニング）",
+                "キッチンのタッチレス水栓",
+                "保温浴槽付きユニットバス",
+                "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+                "長期優良住宅",
+                "住宅性能評価書（設計・建築の両方が公式掲載）"
+              ],
+              "surroundings": [
+                "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+                "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+                "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+                "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+                "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+                "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+              ]
+            },
+            "references": [
+              {
+                "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "f37d98f8669945f08147d8d37e540681",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+              },
+              {
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              },
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "version": 1
+          }
+        },
+        {
+          "name": "get_mortgage_rates",
+          "created_at": "2026-10-08T11:09:05+09:00",
+          "result": {
+            "rates": [
+              {
+                "bank": "三菱UFJ銀行",
+                "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+                "rate_type": "変動金利",
+                "rate": 1.195,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+                "source_name": "三菱UFJ銀行 住宅ローン金利",
+                "checked_at": "2026-10-07",
+                "years_min": 2,
+                "years_max": 40,
+                "loan_amount_min": 5000000,
+                "loan_amount_max": 300000000,
+                "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+                "reference": {
+                  "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                  "filename": "住宅ローン_demo.xlsx",
+                  "location": "Rates!2",
+                  "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                },
+                "conditions": [
+                  "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+                ],
+                "scope": "general",
+                "requires_acquisition_price_for_estimate": false,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+              },
+              {
+                "bank": "住宅金融支援機構・取扱金融機関",
+                "product": "フラット35 新機構団信付き 21～35年",
+                "rate_type": "全期間固定金利",
+                "rate": 3.83,
+                "effective_date": "2026-10-01",
+                "valid_until": "2026-10-31",
+                "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+                "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+                "checked_at": "2026-10-07",
+                "rate_over_90_percent": 3.94,
+                "years_min": 21,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 120000000,
+                "max_loan_to_value": 1,
+                "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+                "reference": {
+                  "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                  "filename": "住宅ローン_demo.xlsx",
+                  "location": "Rates!3",
+                  "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+                },
+                "scope": "general",
+                "requires_acquisition_price_for_estimate": true,
+                "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+                "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!3",
+                "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+              }
+            ],
+            "version": 1,
+            "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+          }
+        },
+        {
+          "name": "calculate_mortgage",
+          "created_at": "2026-10-08T11:09:17+09:00",
+          "result": {
+            "property_price": 76900000,
+            "down_payment": 5000000,
+            "loan_amount": 71900000,
+            "annual_interest_rate": 1.195,
+            "years": 35,
+            "monthly_payment": 209563,
+            "calculation_date": "2026-10-08",
+            "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "rate_id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+            "rate_basis": "公開済み参考金利",
+            "loan_to_value": 0.9349804941482445,
+            "loan_to_value_percent": 93.49804941482445,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "conditions": [
+              "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+            ],
+            "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "references": [
+              {
+                "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+                "filename": "住宅ローン_demo.xlsx",
+                "location": "Rates!2",
+                "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              }
+            ],
+            "version": 1
+          }
+        },
+        {
+          "name": "search_property_knowledge",
+          "created_at": "2026-10-08T11:09:41+09:00",
+          "result": {
+            "items": [
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n物件概要\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nprice: 76900000\nprice_basis: 土地建物価格（税込）\naddress: 千葉県八千代市大和田新田字向山477番247\nstation: 東葉高速鉄道 八千代中央駅\nland_area: 139.85\nbuilding_area: 93.25\ncompletion_date: 2026-05\narea_unit: m²\nlayout: 3LDK（No.15公式平面図から分類）\nlayout_details: 1階LDK 16.8帖。2階主寝室7.2帖、洋室4.8帖が2室。\nparking_notes: No.15 の平面図に車2台の描写はあるが、駐車可能台数・寸法・対応車種の明記は未確認。2台\n駐車可と断定しない。\nscope_notes: 駅距離920～950m・最長徒歩12分は販売中4戸の掲載範囲。No.15単独の徒歩分数は未確認。\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件概要\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06gaiyou.html\nsource_url: https://www.sekisuihouse.co.jp/bunjouimage/bukken-pub/00015123/368063/PlanSlideshow_1_5_1781504643.jpg\n確認事項\n価格・面積・完成年月はNo.15の公開情報です。価格は76,900,000円（土地建物・税込）。\nNo.15 の公式平面図にある LDK と3室を読み取った分類。ページの文字欄に3LDKの明記はない。\n情報登録日2026-10-02、有効期限2026-10-15。実演前に販売状況を再確認してください。期限後は現行の確定情報として使\n用しません。",
+                "reference": {
+                  "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                  "filename": "物件概要_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "scope": "property"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n設備仕様\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nequipment: 断熱等級6\nequipment: フロントオープン式食洗機（パナソニック）\nequipment: 屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）\nequipment: 太陽光発電（3.0kW）\nequipment: HEMS\nequipment: 第一種換気\nequipment: ビルトイン空気清浄機（Air Me）\nequipment: 家庭用燃料電池（エネファーム）\nequipment: エアコン（2台）\nequipment: 床暖房（リビング・ダイニング）\nequipment: キッチンのタッチレス水栓\nequipment: 保温浴槽付きユニットバス\nequipment: トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしてい\nない。停電時200Vの全負荷出力。）\nequipment: 長期優良住宅\nequipment: 住宅性能評価書（設計・建築の両方が公式掲載）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nscope_notes: すべて公式ページでNo.15に掲載された設備。性能保証や未掲載の仕様を補完しません。\n確認事項\n蓄電システムの公式表記「4.9kW」を記録しています。kWhへの訂正・換算は行っていません。\n第三者の写真・図面は使用していません。設備の詳細条件は担当スタッフにご確認ください。",
+                "reference": {
+                  "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                  "filename": "設備仕様_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                },
+                "scope": "property"
+              },
+              {
+                "text": "公開情報を基にSANZOがデモ用に再構成 1\n周辺環境\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nstation: 東葉高速鉄道 八千代中央駅\nscope_notes: 周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではあり\nません。\nsurroundings: 八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）\nsurroundings: 八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）\nsurroundings: 東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）\nsurroundings: 向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）\nvalid_until: 2026-10-15\n確認事項\nNo.15単独の距離・徒歩分数は未確認です。範囲の端点をNo.15に割り当てていません。\n公式周辺写真の撮影年月2025年8月は情報登録日ではありません。この資料に写真は転載していません。\n徒歩所要時間は公式掲載値です。経路や歩行速度等により変わります。",
+                "reference": {
+                  "document_id": "f37d98f8669945f08147d8d37e540681",
+                  "filename": "周辺環境_demo.pdf",
+                  "location": "p.1",
+                  "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+                },
+                "scope": "property"
+              }
+            ],
+            "references": [
+              {
+                "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+                "filename": "物件概要_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+                "filename": "設備仕様_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "document_id": "f37d98f8669945f08147d8d37e540681",
+                "filename": "周辺環境_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+              }
+            ],
+            "version": 1,
+            "note": "検索結果は候補。質問の根拠がない場合は不明と案内してください。"
+          }
+        }
+      ],
+      "staff_calls": []
+    }
+  ],
+  "customer_actual_display_checks": {
+    "v1_faq": {
+      "screenshot": "17-customer-v1-faq.png",
+      "actual_AX_contains_A1": true
+    },
+    "new_v1_after_confirmation": {
+      "screenshot": "24-new-v1-after-update-confirmation.png",
+      "actual_AX_contains_A1": true
+    },
+    "old_v1_after_v2": {
+      "screenshot": "27-old-v1-after-v2-publication.png",
+      "actual_AX_contains_A1": true,
+      "actual_AX_does_not_contain_A2": true
+    },
+    "new_v2": {
+      "screenshot": "28-new-v2-faq.png",
+      "actual_AX_contains_A2": true,
+      "actual_AX_does_not_contain_A1": true
+    },
+    "v1_backend_mortgage": {
+      "screenshot": "19-customer-v1-mortgage.png",
+      "actual_AX_contains_209563": true
+    },
+    "v2_backend_mortgage": {
+      "screenshot": "29-v2-no-property-mortgage.png",
+      "actual_AX_contains_87439": true
+    }
+  },
+  "limitations": [
+    "22 selected-property session TEST routing used property scope and missed general FAQ; not counted as A1 proof",
+    "Loan amount for v2 entered explicitly in real Customer form, not extracted by TEST provider",
+    "No paid AI/voice or human employee acceptance"
+  ]
+}

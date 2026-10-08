@@ -1,0 +1,397 @@
+{
+  "database_from_preserved_config": "/Users/kyoen/Projects/ai-housing-demo/data/housing.db",
+  "database_exists": true,
+  "uploads_configured": true,
+  "normal_read_before": {
+    "documents": 0,
+    "confirmed": 0,
+    "versions": 0
+  },
+  "files": [
+    {
+      "file": "demo_documents/物件概要_demo.pdf",
+      "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+      "matching_existing_count": 0,
+      "action": "upload_via_business_api",
+      "document_id": "22e15ea4e0694b0c97f7a765c6f48b08",
+      "status_before_parse": "uploaded",
+      "parse_action": "existing_SDK_business_parse_api",
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "parsed_at": "2026-10-07T10:43:00+09:00",
+      "normalized": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000.0,
+          "address": "千葉県八千代市大和田新田字向山477番247",
+          "station": "東葉高速鉄道 八千代中央駅",
+          "land_area": 139.85,
+          "building_area": 93.25,
+          "completion_date": "2026-05",
+          "layout": "3LDK（No.15公式平面図から分類）",
+          "scope_notes": "駅距離920～950m・最長徒歩12分は販売中4戸の掲載範囲。No.15単独の徒歩分数は未確認。",
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02",
+          "valid_until": "2026-10-15"
+        },
+        "knowledge": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n物件概要\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nprice: 76900000\nprice_basis: 土地建物価格（税込）\naddress: 千葉県八千代市大和田新田字向山477番247\nstation: 東葉高速鉄道 八千代中央駅\nland_area: 139.85\nbuilding_area: 93.25\ncompletion_date: 2026-05\narea_unit: m²\nlayout: 3LDK（No.15公式平面図から分類）\nlayout_details: 1階LDK 16.8帖。2階主寝室7.2帖、洋室4.8帖が2室。\nparking_notes: No.15 の平面図に車2台の描写はあるが、駐車可能台数・寸法・対応車種の明記は未確認。2台\n駐車可と断定しない。\nscope_notes: 駅距離920～950m・最長徒歩12分は販売中4戸の掲載範囲。No.15単独の徒歩分数は未確認。\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件概要\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06gaiyou.html\nsource_url: https://www.sekisuihouse.co.jp/bunjouimage/bukken-pub/00015123/368063/PlanSlideshow_1_5_1781504643.jpg\n確認事項\n価格・面積・完成年月はNo.15の公開情報です。価格は76,900,000円（土地建物・税込）。\nNo.15 の公式平面図にある LDK と3室を読み取った分類。ページの文字欄に3LDKの明記はない。\n情報登録日2026-10-02、有効期限2026-10-15。実演前に販売状況を再確認してください。期限後は現行の確定情報として使\n用しません。",
+            "reference": {
+              "document_id": "22e15ea4e0694b0c97f7a765c6f48b08",
+              "filename": "物件概要_demo.pdf",
+              "location": "p.1"
+            }
+          }
+        ],
+        "rates": [],
+        "faq": []
+      },
+      "raw_sha256": "704585a56619c567b3d1fd3c866a7e5bb5b8067161be3d9ce6265c6744c9daf6",
+      "confirmed_at": null,
+      "published_version": null,
+      "human_review_summary": {
+        "main_extraction": "No.15、価格76,900,000円、土地139.85㎡、建物93.25㎡、住所477番247、2026-05完成、3LDK（図面からの分類）",
+        "source_scope_date": "積水ハウス物件TOP・概要・No.15図面。No.15限定。確認日2026-10-07／登録2026-10-02／期限2026-10-15。",
+        "human_confirmation": "No.15と価格・面積・完成年月の対応、3LDK分類の根拠、駐車台数未確認、駅12分は4戸の範囲であること。",
+        "locations": [
+          "p.1"
+        ]
+      }
+    },
+    {
+      "file": "demo_documents/設備仕様_demo.pdf",
+      "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+      "matching_existing_count": 0,
+      "action": "upload_via_business_api",
+      "document_id": "30fc20eb48fe4add83c99e23dd155aaf",
+      "status_before_parse": "uploaded",
+      "parse_action": "existing_SDK_business_parse_api",
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "parsed_at": "2026-10-07T10:43:00+09:00",
+      "normalized": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "equipment": [
+            "断熱等級6",
+            "フロントオープン式食洗機（パナソニック）",
+            "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+            "太陽光発電（3.0kW）",
+            "HEMS",
+            "第一種換気",
+            "ビルトイン空気清浄機（Air Me）",
+            "家庭用燃料電池（エネファーム）",
+            "エアコン（2台）",
+            "床暖房（リビング・ダイニング）",
+            "キッチンのタッチレス水栓",
+            "保温浴槽付きユニットバス",
+            "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+            "長期優良住宅",
+            "住宅性能評価書（設計・建築の両方が公式掲載）"
+          ],
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02",
+          "valid_until": "2026-10-15",
+          "scope_notes": "すべて公式ページでNo.15に掲載された設備。性能保証や未掲載の仕様を補完しません。"
+        },
+        "knowledge": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n設備仕様\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nequipment: 断熱等級6\nequipment: フロントオープン式食洗機（パナソニック）\nequipment: 屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）\nequipment: 太陽光発電（3.0kW）\nequipment: HEMS\nequipment: 第一種換気\nequipment: ビルトイン空気清浄機（Air Me）\nequipment: 家庭用燃料電池（エネファーム）\nequipment: エアコン（2台）\nequipment: 床暖房（リビング・ダイニング）\nequipment: キッチンのタッチレス水栓\nequipment: 保温浴槽付きユニットバス\nequipment: トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしてい\nない。停電時200Vの全負荷出力。）\nequipment: 長期優良住宅\nequipment: 住宅性能評価書（設計・建築の両方が公式掲載）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nscope_notes: すべて公式ページでNo.15に掲載された設備。性能保証や未掲載の仕様を補完しません。\n確認事項\n蓄電システムの公式表記「4.9kW」を記録しています。kWhへの訂正・換算は行っていません。\n第三者の写真・図面は使用していません。設備の詳細条件は担当スタッフにご確認ください。",
+            "reference": {
+              "document_id": "30fc20eb48fe4add83c99e23dd155aaf",
+              "filename": "設備仕様_demo.pdf",
+              "location": "p.1"
+            }
+          }
+        ],
+        "rates": [],
+        "faq": []
+      },
+      "raw_sha256": "acc3670a93a2915361550799789b0f4463d81d922d20b6814f6993dda8e46d56",
+      "confirmed_at": null,
+      "published_version": null,
+      "human_review_summary": {
+        "main_extraction": "設備15項目。断熱等級6、太陽光3.0kW、食洗機、Air Me、エネファーム、エアコン2台、LD床暖房等。蓄電表記4.9kW保持。",
+        "source_scope_date": "積水ハウス物件TOP No.15設備欄。確認日2026-10-07／登録2026-10-02／期限2026-10-15。",
+        "human_confirmation": "15項目がNo.15の設備であること。未掲載仕様・性能保証を補わず、4.9kWをkWhへ訂正しないこと。",
+        "locations": [
+          "p.1"
+        ]
+      }
+    },
+    {
+      "file": "demo_documents/周辺環境_demo.pdf",
+      "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+      "matching_existing_count": 0,
+      "action": "upload_via_business_api",
+      "document_id": "97801b7b550b40aca0a385eaa84af084",
+      "status_before_parse": "uploaded",
+      "parse_action": "existing_SDK_business_parse_api",
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.pdf.extract_native_text",
+      "parsed_at": "2026-10-07T10:43:00+09:00",
+      "normalized": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "station": "東葉高速鉄道 八千代中央駅",
+          "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。",
+          "surroundings": [
+            "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+            "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+            "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+            "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+          ],
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）",
+          "valid_until": "2026-10-15"
+        },
+        "knowledge": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n周辺環境\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nstation: 東葉高速鉄道 八千代中央駅\nscope_notes: 周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではあり\nません。\nsurroundings: 八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）\nsurroundings: 八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）\nsurroundings: 東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）\nsurroundings: 向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）\nvalid_until: 2026-10-15\n確認事項\nNo.15単独の距離・徒歩分数は未確認です。範囲の端点をNo.15に割り当てていません。\n公式周辺写真の撮影年月2025年8月は情報登録日ではありません。この資料に写真は転載していません。\n徒歩所要時間は公式掲載値です。経路や歩行速度等により変わります。",
+            "reference": {
+              "document_id": "97801b7b550b40aca0a385eaa84af084",
+              "filename": "周辺環境_demo.pdf",
+              "location": "p.1"
+            }
+          }
+        ],
+        "rates": [],
+        "faq": []
+      },
+      "raw_sha256": "415259c29d2abb15425b01fec18b306d3346bc0344a73af80296263b9ecf0557",
+      "confirmed_at": null,
+      "published_version": null,
+      "human_review_summary": {
+        "main_extraction": "駅920～950m・最長12分、学校・保育園・病院・スーパー・公園を含む計6施設。",
+        "source_scope_date": "積水ハウス周辺環境。販売中4戸の範囲・最長値。確認日2026-10-07／期限2026-10-15。基準日は物件概要登録2026-10-02を参照（周辺ページ固有の更新日は未記載）。",
+        "human_confirmation": "No.15単独の距離として使わないこと。周辺固有の更新日未記載・写真撮影日2025-08を更新日と扱わないこと。",
+        "locations": [
+          "p.1"
+        ]
+      }
+    },
+    {
+      "file": "demo_documents/住宅ローン_demo.xlsx",
+      "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "matching_existing_count": 0,
+      "action": "upload_via_business_api",
+      "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+      "status_before_parse": "uploaded",
+      "parse_action": "existing_SDK_business_parse_api",
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "sdk_api": "document_sdk.excel.inspect_workbook + read_sheet",
+      "parsed_at": "2026-10-07T10:43:00+09:00",
+      "normalized": {
+        "property": {},
+        "knowledge": [],
+        "rates": [
+          {
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "rate": 1.195,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+            "source_name": "三菱UFJ銀行 住宅ローン金利",
+            "checked_at": "2026-10-07",
+            "years_min": 2,
+            "years_max": 40,
+            "loan_amount_min": 5000000,
+            "loan_amount_max": 300000000,
+            "id": "e9e36ae2af88432f9cf9f424e8f2264a:Rates:2",
+            "reference": {
+              "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+              "filename": "住宅ローン_demo.xlsx",
+              "location": "Rates!2"
+            }
+          },
+          {
+            "bank": "住宅金融支援機構・取扱金融機関",
+            "product": "フラット35 新機構団信付き 21～35年",
+            "rate_type": "全期間固定金利",
+            "rate": 3.83,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+            "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+            "checked_at": "2026-10-07",
+            "rate_over_90_percent": 3.94,
+            "years_min": 21,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 120000000,
+            "max_loan_to_value": 1,
+            "id": "e9e36ae2af88432f9cf9f424e8f2264a:Rates:3",
+            "reference": {
+              "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+              "filename": "住宅ローン_demo.xlsx",
+              "location": "Rates!3"
+            }
+          }
+        ],
+        "faq": []
+      },
+      "raw_sha256": "5c11fa803a179e4cb9bc2ea76cb5e4a4237a340469012735ca9c08845f0c49fd",
+      "confirmed_at": null,
+      "published_version": null,
+      "human_review_summary": {
+        "main_extraction": "Rates!2 MUFG変動参考1.195%、2～40年、500万～3億円。Rates!3 フラット35新団信21～35年：融資率9割以下3.83%、9割超3.94%、100万～1.2億円、上限融資率100%。",
+        "source_scope_date": "三菱UFJ銀行金利ページ／住宅金融支援機構金利情報。2026年10月借入・資金受取分。確認日2026-10-07／適用2026-10-01～31。月初は期間正規化で公表日ではない。",
+        "human_confirmation": "参考金利・年数・金額・9割区分・審査や手数料注意文を確認。MUFGのLTV上限・9割金利区分は資料未登録、Flat35の条件を転用しないこと。",
+        "locations": [
+          "Rates!2",
+          "Rates!3"
+        ]
+      }
+    }
+  ],
+  "checked_at": "2026-10-07T01:43:00.221793+00:00",
+  "normal_read_after": {
+    "documents": 4,
+    "parsed": 4,
+    "confirmed": 0,
+    "versions": 0,
+    "current_version": null,
+    "sessions": 0
+  },
+  "normal_health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "frontends": {
+    "5173": {
+      "http": 200,
+      "proxy_health": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "demo",
+        "ai_configured": true,
+        "realtime_configured": true
+      }
+    },
+    "5174": {
+      "http": 200,
+      "proxy_health": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": true,
+        "realtime_configured": true
+      }
+    }
+  },
+  "configured_database_crosscheck": {
+    "read_only": true,
+    "api_and_db_document_ids_match": true,
+    "api_and_db_file_hashes_match": true,
+    "confirmations": 0,
+    "versions": 0
+  },
+  "configuration_presence": {
+    "OPENAI_API_KEY": true,
+    "ADMIN_PASSWORD": true,
+    "STAFF_PASSWORD": true,
+    "DATABASE_URL": true,
+    "UPLOAD_DIR": true,
+    "OPENAI_TEXT_MODEL": true,
+    "OPENAI_REALTIME_MODEL": true
+  },
+  "manual_confirmation_performed": false,
+  "publication_performed": false,
+  "test_database_copied": false,
+  "normal_urls": [
+    "http://localhost:5173/",
+    "http://localhost:5173/admin",
+    "http://localhost:5173/staff"
+  ],
+  "normal_backend": "http://127.0.0.1:8000",
+  "manual_acceptance_state": "WAITING_FOR_USER_CONFIRM_AND_PUBLISH_THEN_MIC_TEST",
+  "official_property_recheck": {
+    "checked_date": "2026-10-07",
+    "method": "official primary pages opened with browsing tool in this turn",
+    "property_top": {
+      "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html",
+      "matches": [
+        "No.15 price 7690万円",
+        "land 139.85 m2",
+        "building 93.25 m2",
+        "No.15 equipment section including solar 3.0kW and official battery 4.9kW"
+      ]
+    },
+    "property_overview": {
+      "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06gaiyou.html",
+      "matches": [
+        "No.15 address 477番247",
+        "2026年5月 completion",
+        "sale lots 4; station max 12min",
+        "registered 2026-10-02; valid 2026-10-15"
+      ]
+    },
+    "nearby": {
+      "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+      "status": "page accessible; browsing extraction has cached crawl label 2 weeks ago; detailed six-distance verification not claimed anew"
+    },
+    "layout_plan": "not reinterpreted or copied this turn; retain prior qualified classification and human confirmation",
+    "mortgage_rate_recheck": "handled separately; this preparation only preserves SDK-extracted dated workbook facts"
+  },
+  "normal_chrome_readonly_verification": {
+    "status": "PASS_NORMAL_ADMIN_STAFF_READONLY_CHROME",
+    "browser": "installed Google Chrome headless",
+    "base": "http://localhost:5173",
+    "ai_calls": 0,
+    "confirmation_calls": 0,
+    "publication_calls": 0,
+    "session_calls": 0,
+    "page_errors": [],
+    "console_errors": [],
+    "mutations": [],
+    "started_at": "2026-10-07T01:43:44.736Z",
+    "health": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "demo",
+      "ai_configured": true,
+      "realtime_configured": true
+    },
+    "admin": {
+      "document_rows": 4,
+      "parsed_badges": 4,
+      "publication": "未公開",
+      "confirmation_button_disabled": true,
+      "horizontal_overflow": false
+    },
+    "staff": {
+      "authenticated": true,
+      "horizontal_overflow": false
+    },
+    "completed_at": "2026-10-07T01:43:48.079Z",
+    "visual_review": "admin.png/staff.png both inspected: 4 parsed docs; 0 confirmed; unpublished; overview review fields correct and raw/normalized tabs accessible; confirmation/publish disabled; no horizontal clipping or secrets; staff empty state correct"
+  },
+  "normal_vite_started_this_turn": {
+    "session_id": 65203,
+    "port": 5173,
+    "dependencies_reinstalled": false
+  }
+}

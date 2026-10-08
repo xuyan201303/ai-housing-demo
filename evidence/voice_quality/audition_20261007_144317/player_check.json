@@ -1,0 +1,69 @@
+{
+  "chrome_local_file_media_load": "PASS",
+  "physical_speaker_acceptance": "NOT_TESTED",
+  "players": [
+    {
+      "file": "marin_1.wav",
+      "duration": 7.9,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "marin_2.wav",
+      "duration": 10.05,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "marin_3.wav",
+      "duration": 14.35,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "cedar_1.wav",
+      "duration": 8.5,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "cedar_2.wav",
+      "duration": 10.1,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "cedar_3.wav",
+      "duration": 14.3,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "coral_1.wav",
+      "duration": 8.85,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "coral_2.wav",
+      "duration": 10.95,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    },
+    {
+      "file": "coral_3.wav",
+      "duration": 15.2,
+      "autoplay": false,
+      "controls": true,
+      "paused": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_admin_e2e/ui-test.db",
+  "read_only": true,
+  "initial_counts": {
+    "documents": 0,
+    "versions": 0,
+    "sessions": 0,
+    "confirmations": 0,
+    "document_revisions": 0,
+    "publication_drafts": 0,
+    "publication_submissions": 0,
+    "staff_calls": 0
+  },
+  "seeded": false,
+  "browser_flow_not_started": true
+}

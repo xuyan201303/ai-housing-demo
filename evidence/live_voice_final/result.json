@@ -1,0 +1,1003 @@
+{
+  "date": "2026-10-07",
+  "mode": "REAL_OPENAI_CHROME_WEBRTC_WITH_SYNTHETIC_TEST_INPUT",
+  "physical_microphone": "NOT_VERIFIED",
+  "input": "macOS Kyoko synthetic Japanese: 駅から何分ですか。",
+  "model": "configured .env OPENAI_REALTIME_MODEL",
+  "status": "FAIL",
+  "user_question": "駅から何分ですか?",
+  "actual_answer": "八千代中央駅までは、販売中4戸の範囲で920から950メートル、最長徒歩12分と記載されています。ただし、これはNo.15単独の実測値ではありません。根拠は「周辺環境_Chrome検証.pdf」です。",
+  "events": [
+    {
+      "type": "session.created",
+      "at_ms": 1791335389140
+    },
+    {
+      "type": "session.updated",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389255
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389313
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791335389330
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389451
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389463
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389593
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389606
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389612
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389618
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389624
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389631
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389638
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389648
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389917
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389925
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389933
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389944
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389952
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389958
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389962
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389968
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389980
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389987
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335389992
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390359
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390368
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390374
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390383
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390388
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390395
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335390404
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335391242
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335391242
+    },
+    {
+      "type": "response.function_call_arguments.delta",
+      "at_ms": 1791335391242
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335391285
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335391285,
+      "transcript": "こんにちは。AI住宅コンシェルジュです。公開資料の物件名を確認してから、知りたいポイントを整理しますね。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335391291
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335391291
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335391291
+    },
+    {
+      "type": "response.function_call_arguments.done",
+      "at_ms": 1791335391291,
+      "tool": "get_property_overview"
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335391291
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335391291
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335391294,
+      "status": "completed"
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791335391346
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335391419
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335391419
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335391469
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335391788
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335391788
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335391802
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391802
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391813
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391818
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391823
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391962
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391968
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391977
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335391987
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392124
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392133
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392145
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392150
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392289
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392299
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392311
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392328
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392334
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392340
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392340
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392604
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392616
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392624
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392629
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392629
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335392639
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393014
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393024
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393030
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393034
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393039
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393046
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393055
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393065
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393069
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393454
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393463
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393468
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393473
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393479
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393485
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393491
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393859
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393871
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393879
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393891
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393895
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393900
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393908
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393915
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393926
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393931
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393937
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393948
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335393958
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394321
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394329
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394342
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394347
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394356
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394363
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394367
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394375
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394384
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394391
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394403
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394403
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394777
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394783
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394792
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394799
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394814
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394814
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394826
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394828
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335394836
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335395217
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335395229
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335395510
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335395510,
+      "transcript": "物件名は「コモンステージ八千代中央 分譲住宅 No.15」です。No.15の建売住宅としてご案内しています。詳しい内容は公開済みの「物件概要」や「周辺環境」の資料を参照しながらお話しできます。気になる点を教えてください。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335395514
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335395514
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335395514
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335395517,
+      "status": "completed"
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791335395572
+    },
+    {
+      "type": "input_audio_buffer.speech_started",
+      "at_ms": 1791335407288
+    },
+    {
+      "type": "output_audio_buffer.cleared",
+      "at_ms": 1791335407288
+    },
+    {
+      "type": "conversation.item.truncated",
+      "at_ms": 1791335407295
+    },
+    {
+      "type": "input_audio_buffer.speech_stopped",
+      "at_ms": 1791335409410
+    },
+    {
+      "type": "input_audio_buffer.committed",
+      "at_ms": 1791335409418
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335409418
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335409418
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409618
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409623
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409624
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409629
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409633
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409643
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.delta",
+      "at_ms": 1791335409649
+    },
+    {
+      "type": "conversation.item.input_audio_transcription.completed",
+      "at_ms": 1791335409884,
+      "transcript": "駅から何分ですか?"
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791335410032
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791335410757
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791335410757
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791335410787
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410787
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410787
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410800
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410800
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410932
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410944
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791335410950
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410950
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335410958
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411095
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411107
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411238
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411247
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411263
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411283
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411288
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411296
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411305
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411307
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411573
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411577
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411588
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411599
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411604
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411611
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411616
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411984
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335411998
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412007
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412013
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412021
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412027
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412034
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412041
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412410
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412419
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412426
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412433
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412443
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412449
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412455
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412459
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412912
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412920
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412933
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412937
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412943
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412956
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412963
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335412971
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413400
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413417
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413434
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413441
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413448
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413462
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413469
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413476
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413483
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413499
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413913
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413921
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413929
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413937
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791335413944
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791335414419
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791335414419,
+      "transcript": "八千代中央駅までは、販売中4戸の範囲で920から950メートル、最長徒歩12分と記載されています。ただし、これはNo.15単独の実測値ではありません。根拠は「周辺環境_Chrome検証.pdf」です。"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791335414419
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791335414421
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791335414421
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791335414424,
+      "status": "completed"
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791335414472
+    },
+    {
+      "type": "output_audio_buffer.stopped",
+      "at_ms": 1791335428237
+    }
+  ],
+  "received_audio": [
+    {
+      "bytesReceived": 292664,
+      "packetsReceived": 1978
+    }
+  ],
+  "avatar_states": [
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791335386640
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791335386926
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791335388277
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791335389259
+    },
+    {
+      "state": "avatar-stage speaking",
+      "at_ms": 1791335389335
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791335391480
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791335407295
+    },
+    {
+      "state": "avatar-stage thinking",
+      "at_ms": 1791335409418
+    },
+    {
+      "state": "avatar-stage speaking",
+      "at_ms": 1791335410957
+    },
+    {
+      "state": "avatar-stage idle",
+      "at_ms": 1791335428250
+    }
+  ],
+  "subtitles": "音声字幕 · リアルタイムお客様：駅から何分ですか?八千代中央駅までは、販売中4戸の範囲で920から950メートル、最長徒歩12分と記載されています。ただし、これはNo.15単独の実測値ではありません。根拠は「周辺環境_Chrome検証.pdf」です。",
+  "page_errors": [],
+  "error": "expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false"
+}

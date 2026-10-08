@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-07T14:34:29.615134+09:00",
+  "runtime_matches_current_voice_instructions": true,
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true,
+    "realtime_voice": "marin",
+    "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+  },
+  "normal_documents": [
+    {
+      "filename": "物件概要_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "設備仕様_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "周辺環境_demo.pdf",
+      "status": "published"
+    },
+    {
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "status": "parsed"
+    },
+    {
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "status": "parsed"
+    },
+    {
+      "filename": "住宅ローン_demo.xlsx",
+      "status": "parsed"
+    },
+    {
+      "filename": "周辺環境_demo.pdf",
+      "status": "parsed"
+    },
+    {
+      "filename": "設備仕様_demo.pdf",
+      "status": "parsed"
+    },
+    {
+      "filename": "物件概要_demo.pdf",
+      "status": "parsed"
+    }
+  ],
+  "published_versions": [
+    3,
+    2,
+    1
+  ],
+  "paid_api_calls_this_turn": 0,
+  "backend_tests": "143 passed",
+  "microphone_speaker_naturalness": "WAITING",
+  "source_hashes": {
+    "backend/app/services/ai.py": "9e881927c00645f030856a75b2a23558089b031fa91041a7aeb5ef12e42f15bc",
+    "backend/app/services/realtime.py": "ee60682eb33283bdcf065ccb789de237707ef2fd1484fa253f86dfb0c80ec431",
+    "backend/app/config.py": "e23ad20615236b6108954d50cf5a514f8f6cae0fba96cb75fdc481a149c88e14",
+    "backend/app/api/routes.py": "a927edf56d924d96fa070d4c2743e866a09a6faab052b2a89078558fe2eed11a"
+  }
+}

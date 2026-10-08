@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_document_id": "cec138c050354c43a815c12848dbaaf0",
+  "replaces_document_id": "b0730b719f3f4bb890aee5bc4dd4cd7c",
+  "replaces_confirmation_id": 1,
+  "new_confirmation_id": 10,
+  "sdk_version": "1.8.0",
+  "sdk_api": "document_sdk.pdf.extract_native_text",
+  "sha256": "8f6b2c6fd6a41ae2a06a57bd8f036d0c4780a36d123c8efa07004e21b03d1da5",
+  "raw_sha256": "a1af7579bc76b900722bf027491f3f683769b690c1e0f56f07c1bd3609186eef",
+  "normalized_sha256": "c0e5afd78ffc82540a76c373f9162720eb041476bc46fe2a1fd1846604eec68b",
+  "source_identity_exact": true,
+  "old_raw_normalized": "UNCHANGED",
+  "version_count_before_publication": 1,
+  "published_price_before_publication": 76900000.0
+}

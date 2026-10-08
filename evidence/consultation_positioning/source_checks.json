@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-07T11:46:02.887887+09:00",
+  "files_sha256": {
+    "backend/app/services/context.py": "cd8a9a1f02c18e66c7dbc7545fecd79e1468b42d63a6e79db4d5eeed82f1aa3d",
+    "backend/app/services/sessions.py": "84a18d1ee4a22fa713c3a4ca6a0ef1f995a1703a3b7f9347cd7c171faf7b357a",
+    "backend/app/services/tools.py": "529994fc5e1c5a8f17d4cc6320367855de6fbfcda51dd3e7a2e7f05101df4bce",
+    "backend/app/services/ai.py": "de28aaf2d521b55a011c840743cdfe314f7026326984560e7dde66f9ff52c809",
+    "backend/app/services/realtime.py": "c521389611ab819fa43b3b8e81ec665992144d2ce07a1702aa937a895226a1e4",
+    "backend/app/services/guardrails.py": "521d125529d510f5317e114c27f41ffe13331bfd2fb2779a8e54a3e01865a040",
+    "backend/app/services/loan_selection.py": "5aa328fa0d79ee3244630858824b80622177ac4affe4d88f9fd56c5f10e61a9d",
+    "backend/app/services/documents.py": "a4d0120fac0811a9ec1fa0b2c99b8b33fb60c93787bede50ae1bd3e9dfc3aab2",
+    "backend/app/services/document_sdk_adapter.py": "d1eb47676e12e50d1a360c9dbb4d303e32fe0fde18a4b06fea95dd46a0654046",
+    "backend/app/services/staff.py": "4fddaef4c7295249f913c133fe7b4c63fccaeda6bfcb11f3e83692ff1843a879",
+    "backend/app/schemas/domain.py": "6efaade8b679e9551a4f6312bfdd0716698008f11c88a2a4df47ece199c167b9",
+    "backend/app/api/routes.py": "3509783c3b65bcd784de668e5390ac89a2c3cfda59ea2fe5a5e8817c61f9a102",
+    "frontend/src/Customer.tsx": "34b507b7a1ba56c586da3cdae56bad20680591f8c6a072be243bb95501ae237b",
+    "frontend/src/Mortgage.tsx": "37d63677c72f3bb22d5df4956ea99be0200c1a0f35075750e9286e02519fa756",
+    "frontend/src/Admin.tsx": "ca2be9709f8d6cde1d76ea1ffd81942b5cfada3736d594d975bba4b23c7e60cd",
+    "frontend/src/styles.css": "f3ee9bc45b35386f177b86c1cfd244661f806aae300c3fca6f359e1213e19002"
+  },
+  "sdk_modified": false,
+  "backend_tests": "138 passed",
+  "frontend_build": "PASS",
+  "voice_source_differences_since_targeted_end": [
+    "frontend/src/Customer.tsx",
+    "backend/app/services/guardrails.py",
+    "frontend/src/styles.css"
+  ],
+  "difference_validation": "Text property topic priority: actual Chrome; narrow layout: real Backend/Chrome; general borrowing-capacity policy: unit boundary test."
+}

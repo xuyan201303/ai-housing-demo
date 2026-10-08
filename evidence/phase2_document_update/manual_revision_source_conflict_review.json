@@ -1,0 +1,32 @@
+{
+  "test_only": true,
+  "sdk_version": "1.8.0",
+  "normal_db_accessed": false,
+  "paid_calls": 0,
+  "application_code_changed": false,
+  "source": "Actual installed SDK and application ToolService/tool_evidence in a fresh temporary isolated database",
+  "scenario": "Confirm and publish original PDF, create and confirm a manual price-only business revision, publish revision without altering its knowledge text",
+  "sdk_raw_unchanged": true,
+  "original_knowledge_price_line": "price: 76900000",
+  "published_structured_price": 78000000,
+  "search_property_knowledge_queries": [
+    {
+      "query": "価格",
+      "actual_hits": 1,
+      "tool_evidence_contains_old_price_literal": true
+    },
+    {
+      "query": "price",
+      "actual_hits": 1,
+      "tool_evidence_contains_old_price_literal": true
+    },
+    {
+      "query": "物件",
+      "actual_hits": 1,
+      "tool_evidence_contains_old_price_literal": true
+    }
+  ],
+  "get_property_overview_tool_evidence_price": 78000000.0,
+  "confirmed_defect": "Approved reviewed.knowledge can retain obsolete original literals while reviewed.property contains a manual amendment. Current evidence checking does not reconcile their business values.",
+  "not_verified": "No actual AI response or voice output was requested."
+}

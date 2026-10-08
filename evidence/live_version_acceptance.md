@@ -1,0 +1,11 @@
+# Scenario B — actual SDK and OpenAI version isolation, 2026-10-07
+
+PASS. Execution used the actual `DocumentService`, `SessionService`, `ToolService` and `AiService` with a dedicated `evidence/live_version/test.db`, never either HTTP instance's database. This is local-service execution with actual external OpenAI Responses calls, not an HTTP or browser test. Exactly two customer turns, no retry and no model override.
+
+1. Uploaded the existing `demo_documents/物件概要_demo.pdf` to the independent test store, parsed it through installed SANZO SDK 1.8.0, confirmed the actual normalized result with an explicit TEST note, and published test version 1 at ¥76,900,000. Started the old session.
+2. Generated a one-page native-text PDF explicitly labeled TEST ONLY, with a synthetic price of ¥77,000,000, a TEST property name and an `example.invalid` TEST source. It is not an official market-price update. Uploaded and parsed the new PDF using the actual SDK, confirmed its normalized result with a TEST note, and published test version 2. Started the new session.
+3. After version 2 was published, asked each session its price through actual `AiService.respond`. The old session answered **7,690万円**, referenced the original document and remained at version 1. The new session answered **77,000,000円**, named the TEST property, referenced only the updated TEST document and remained at version 2.
+
+Verified immutable old/new snapshot prices, answer version IDs, non-crossing reference document IDs, separate persisted customer/assistant message histories and real pinned overview tool events. Both test sessions ended. Source file SHA-256, canonical SDK raw-result SHA-256, installed SDK API/version, confirmation notes, actual questions/answers, snapshots and persisted events are saved in `live_version_acceptance.json`; SDK raw results are saved under `live_version/`.
+
+The generated TEST PDF was rendered using Poppler and its complete page visually inspected: readable Japanese text, intact TEST labels, no clipping or overlap. The TEST source and generated PDF remain confined to this isolated acceptance evidence. This test does not alter the normal Demo's documents, confirmation records, publication state or customer histories.

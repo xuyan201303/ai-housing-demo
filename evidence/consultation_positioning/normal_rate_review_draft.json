@@ -1,0 +1,66 @@
+{
+  "property": {},
+  "knowledge": [],
+  "rates": [
+    {
+      "bank": "三菱UFJ銀行",
+      "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+      "rate_type": "変動金利",
+      "rate": 1.195,
+      "effective_date": "2026-10-01",
+      "valid_until": "2026-10-31",
+      "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+      "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+      "source_name": "三菱UFJ銀行 住宅ローン金利",
+      "checked_at": "2026-10-07",
+      "years_min": 2,
+      "years_max": 40,
+      "loan_amount_min": 5000000,
+      "loan_amount_max": 300000000,
+      "id": "e9e36ae2af88432f9cf9f424e8f2264a:Rates:2",
+      "reference": {
+        "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+        "filename": "住宅ローン_demo.xlsx",
+        "location": "Rates!2"
+      }
+    },
+    {
+      "bank": "住宅金融支援機構・取扱金融機関",
+      "product": "フラット35 新機構団信付き 21～35年",
+      "rate_type": "全期間固定金利",
+      "rate": 3.83,
+      "effective_date": "2026-10-01",
+      "valid_until": "2026-10-31",
+      "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+      "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+      "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+      "checked_at": "2026-10-07",
+      "rate_over_90_percent": 3.94,
+      "years_min": 21,
+      "years_max": 35,
+      "loan_amount_min": 1000000,
+      "loan_amount_max": 120000000,
+      "max_loan_to_value": 1,
+      "id": "e9e36ae2af88432f9cf9f424e8f2264a:Rates:3",
+      "reference": {
+        "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+        "filename": "住宅ローン_demo.xlsx",
+        "location": "Rates!3"
+      }
+    }
+  ],
+  "faq": [],
+  "document": {
+    "scope": "general",
+    "source_name": "三菱UFJ銀行 住宅ローン金利 / 住宅金融支援機構 フラット35 最新の金利情報",
+    "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+    "source_urls": [
+      "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+      "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+    ],
+    "checked_at": "2026-10-07",
+    "effective_date": "2026-10-01",
+    "valid_until": "2026-10-31",
+    "scope_notes": "金融機関商品の参考金利。各商品の出典・期間・適用条件はrates行を照合。特定物件への適用や審査承認を意味しません。"
+  }
+}

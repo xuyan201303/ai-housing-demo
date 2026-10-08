@@ -1,0 +1,386 @@
+Window: "Final100K 完成提醒", App: Google Chrome.
+0 標準ウインドウ Final100K 完成提醒 - Google Chrome - YAN, URL: chatgpt.com/c/6ac3c576-b410-83ee-b8b6-935eaf15d566, Secondary Actions: Raise
+	1 container Final100K 完成提醒 - Google Chrome - YAN, URL: chatgpt.com/c/6ac3c576-b410-83ee-b8b6-935eaf15d566
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: chatgpt.com/c/6ac3c576-b410-83ee-b8b6-935eaf15d566, Placeholder: Google で検索または URL を入力
+					10 ボタン このタブをブックマークに追加します
+				11 container
+					12 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					13 ポップアップボタン 拡張機能
+				14 ボタン YAN
+				15 ポップアップボタン Chrome
+			16 ツールバー ブックマーク
+				17 ツールバー 保存したタブグループ
+					18 ボタン タブグループ
+				19 スプリッタ セパレータ
+				20 ブックマーク フォルダ ボタン ミラヴン
+				21 ブックマーク フォルダ ボタン 富士ソフト
+				22 ブックマーク フォルダ ボタン サイト
+				23 ブックマーク ボタン chatGTP
+				24 ブックマーク ボタン Google Gemini
+				25 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				26 ブックマーク ボタン マイドライブ
+				27 ブックマーク ボタン 発注ナビ
+				28 ブックマーク フォルダ ボタン すべてのブックマーク
+				29 スプリッタ セパレータ
+			30 container
+				31 スクロール領域
+					32 HTML コンテンツ Final100K 完成提醒, URL: chatgpt.com/c/6ac3c576-b410-83ee-b8b6-935eaf15d566
+						33 container
+							34 container
+								35 link コンテンツへスキップ, Value: chatgpt.com/c/6ac3c576-b410-83ee-b8b6-935eaf15d566#_r_2oe_
+								36 container アプリのナビゲーション
+									37 ボタン ホーム
+									38 ボタン スペース
+									39 ボタン スケジュール
+									40 ボタン プラグイン
+									41 ポップアップボタン 探索
+									42 ボタン サイト
+									43 ポップアップボタン プロフィールメニューを開く
+								44 container
+									45 ボタン 新しいチャット
+									46 container
+										47 ボタン 共有
+										48 ポップアップボタン その他
+										49 切り替えボタン 概要の固定表示を切り替え, Value: 0
+											50 イメージ
+									51 container
+										52 container Conversation
+											53 container
+												54 分割バー 今日 8:52
+												55 見出し あなたの発言:, Value: 4
+													56 テキスト あなたの発言:
+												57 テキスト 最新进度
+												58 ボタン メッセージをコピーする
+												59 ボタン プロンプトを共有
+												60 ボタン メッセージを編集
+												61 container
+													62 ボタン 3m 9s考えました
+													63 テキスト 3m 9s考えました
+												64 見出し ChatGPT の発言:, Value: 4
+													65 テキスト ChatGPT の発言:
+												66 テキスト 最新情况有一个重要变化：
+												67 テキスト 100K 的 SDK capture 已经全部完成，但最终 offline diff 中途停了。
+												68 コンテンツリスト
+													69 container
+														70 AXListMarker • 
+														71 テキスト Capture：100,000 / 100,000 完成
+													72 container
+														73 AXListMarker • 
+														74 テキスト returned = 100000
+													75 container
+														76 AXListMarker • 
+														77 テキスト exceptions = 0
+													78 container
+														79 AXListMarker • 
+														80 テキスト rejected = 0
+													81 container
+														82 AXListMarker • 
+														83 テキスト unexpected_runtime_failures = 0
+													84 container
+														85 AXListMarker • 
+														86 text 完成时间约日本时间  今天 08:18
+													87 container
+														88 AXListMarker • 
+														89 text SSD 还剩约  125.03 GiB
+													90 container
+														91 AXListMarker • 
+														92 テキスト SDK 不需要再跑一次，10万份 actual 都已经完整保存。
+													93 container
+														94 AXListMarker • 
+														95 text Offline diff 已判到  17,500 / 100,000
+													96 container
+														97 AXListMarker • 
+														98 text 当前部分结果： CORRECT=16,949 、 DUPLICATE=540 、 WRONG_ORDER=11
+													99 container
+														100 AXListMarker • 
+														101 text 然后 validator 因运行环境问题退出： ModuleNotFoundError: No module named 'tools'
+													102 container
+														103 AXListMarker • 
+														104 text 因此现在  没有最终  RESULT.json ，也不能说 Final100K PASS。
+													105 container
+														106 AXListMarker • 
+														107 テキスト 当前 Final100K 进程已经停止，不是在后台继续跑。
+												108 テキスト 这个报错不是 SDK 解析错误。是 frozen validator 在加载旧 independent oracle 时，引用了：
+												109 container
+													110 テキスト プレーンテキスト
+													111 切り替えボタン 行の折り返しを有効にする, Value: 0
+													112 ボタン コピーする
+												113 テキスト tools.pdf_100k_audit.source_page_geometry
+												114 テキスト 但它实际位于旧证据目录的：
+												115 container
+													116 テキスト プレーンテキスト
+													117 切り替えボタン 行の折り返しを有効にする, Value: 0
+													118 ボタン コピーする
+												119 テキスト FROZEN_BASELINE_PUBLIC_CONTRACTS/tools/pdf_100k_audit/...
+												120 text 而运行时 import path 没包含这个目录。 另外，前17,500份里的 
+												121 テキスト 540 DUPLICATE + 11 WRONG_ORDER 也是真正需要调查的 partial diff 结果
+												122 text ，目前不能先假设是 SDK bug，也不能忽略。 所以现在正确的下一步是：
+												123 テキスト 不要重跑10万份SDK。只修 offline diff 的 import/runtime 环境，然后用已经保存好的100,000份 actual 继续/重新做完整 offline diff；之后再分类那551个差异。
+												124 テキスト 也就是说，好消息是最耗时间的 
+												125 テキスト 10万份PDF实际解析已经100%完成，而且异常退出为0
+												126 テキスト 。现在剩下的是判卷阶段。
+												127 ボタン コピーする
+												128 ボタン 回答を評価
+												129 ボタン 共有
+												130 切り替えボタン 読み上げ, Value: 0
+												131 ポップアップボタン 回答を再生成
+												132 ポップアップボタン その他のアクション
+												133 見出し あなたの発言:, Value: 4
+													134 テキスト あなたの発言:
+												135 ボタン 1件の選択
+												136 テキスト 好的，开始修复吧
+												137 ボタン メッセージをコピーする
+												138 ボタン メッセージを編集
+												139 container
+													140 ボタン 4m 37s考えました
+													141 テキスト 4m 37s考えました
+												142 見出し ChatGPT の発言:, Value: 4
+													143 テキスト ChatGPT の発言:
+												144 テキスト 已经开始修复，而且
+												145 テキスト 没有重跑10万份SDK
+												146 text 。 目前做了两件事：先确认报错只是 offline diff 的  PYTHONPATH  缺少旧 frozen contract 的  tools  路径；随后用完全相同的 frozen 文件重新启动了 
+												147 テキスト offline diff only
+												148 text 。旧的失败 diff 保留不动，新 diff 写入新的 immutable 目录。 当前状态：
+												149 container
+													150 テキスト プレーンテキスト
+													151 切り替えボタン 行の折り返しを有効にする, Value: 0
+													152 ボタン コピーする
+												153 container
+													154 text 100K capture       = 100000 / 100000 SDK异常退出         = 0 新增SDK调用          = 0 offline diff retry = 6,987 / 100,000 CORRECT             = 6,978 WRONG_ORDER         = 9 DUPLICATE           = 0（目前还没跑到 suite04） RESULT.json         = 尚未生成
+												155 テキスト 新 diff 进程正在你的 Mac 上运行，目前 CPU 接近 100%，而且
+												156 container
+													157 text 没有任何  baseline_worker
+												158 text ，所以现在只是在用保存好的 actual 判卷。 原来的 import 问题已经通过独立 import probe 验证修复；下一步就是让这次完整 offline diff 跑完，然后我会把所有非  CORRECT  按：
+												159 テキスト SDK bug / Validator bug / Expected binding问题 / semantic non-uniqueness
+												160 テキスト 逐类处理。现在先不碰 SDK，避免在完整结果出来前误修。
+												161 ボタン コピーする
+												162 ボタン 回答を評価
+												163 ボタン 共有
+												164 切り替えボタン 読み上げ, Value: 0
+												165 ポップアップボタン 回答を再生成
+												166 ポップアップボタン その他のアクション
+												167 見出し あなたの発言:, Value: 4
+													168 テキスト あなたの発言:
+												169 テキスト 现在是什么状况？ 进度
+												170 ボタン メッセージをコピーする
+												171 ボタン プロンプトを共有
+												172 ボタン メッセージを編集
+												173 container
+													174 ボタン 1m 17s考えました
+													175 テキスト 1m 17s考えました
+												176 見出し ChatGPT の発言:, Value: 4
+													177 テキスト ChatGPT の発言:
+												178 テキスト 现在状态正常，
+												179 テキスト 之前的 import 问题已经确认修好了
+												180 text 。 最新进度：
+												181 コンテンツリスト
+													182 container
+														183 AXListMarker • 
+														184 text 10万份 SDK capture： 100,000 / 100,000 完成
+													185 container
+														186 AXListMarker • 
+														187 text SDK capture 异常： 0
+													188 container
+														189 AXListMarker • 
+														190 テキスト SDK 不会再调用、也不会重跑PDF
+													191 container
+														192 AXListMarker • 
+														193 text 新的 offline diff： 42,197 / 100,000
+													194 container
+														195 AXListMarker • 
+														196 text 完成率： 42.20%
+													197 container
+														198 AXListMarker • 
+														199 text 剩余： 57,803
+													200 container
+														201 AXListMarker • 
+														202 text 当前已经判到： epdf-16-2196
+													203 container
+														204 AXListMarker • 
+														205 text offline diff 进程仍在运行，CPU约  99%
+													206 container
+														207 AXListMarker • 
+														208 text SSD 剩余约  124 GiB
+												209 テキスト 最关键的是，第一次是在 
+												210 テキスト 17,500
+												211 text  份因为  ModuleNotFoundError  停掉；现在已经跑到 
+												212 テキスト 42,197
+												213 text ，所以那个运行环境问题已经真正越过去了。 按目前约29分钟跑4.2万份的速度，粗略估计还需要 
+												214 テキスト 40分钟左右
+												215 text ，之后才会生成最终  RESULT.json 。 我现在不实时重新扫描整个 gzip 去统计  DUPLICATE / WRONG_ORDER ，因为那会和正在运行的判卷抢SSD/CPU。等100,000全部判完，我再一次性给你最终：
+												216 container
+													217 テキスト プレーンテキスト
+													218 切り替えボタン 行の折り返しを有効にする, Value: 0
+													219 ボタン コピーする
+												220 container
+													221 text CORRECT MISSING WRONG EXTRA DUPLICATE WRONG_OWNER WRONG_ORDER WRONG_COORDINATE WRONG_STRUCTURE ABNORMAL_EXIT UNPROVED
+												222 テキスト 以及每一类到底是 
+												223 テキスト SDK bug 还是 Validator问题
+												224 テキスト 。
+												225 ボタン コピーする
+												226 ボタン 回答を評価
+												227 ボタン 共有
+												228 切り替えボタン 読み上げ, Value: 0
+												229 ポップアップボタン 回答を再生成
+												230 ポップアップボタン その他のアクション
+												231 見出し あなたの発言:, Value: 4
+													232 テキスト あなたの発言:
+												233 テキスト 进度
+												234 ボタン メッセージをコピーする
+												235 ボタン プロンプトを共有
+												236 ボタン メッセージを編集
+												237 container
+													238 ボタン 28s考えました
+													239 テキスト 28s考えました
+												240 見出し ChatGPT の発言:, Value: 4
+													241 テキスト ChatGPT の発言:
+												242 container
+													243 text Final100K  ·  Offline  Diff
+												244 見出し 95.81%, Value: 1
+													245 テキスト 95.81%
+												246 container
+													247 text 95,806  /  100,000
+												248 container
+													249 text 最新检查： 10月8日  09:55（日本时间）
+												250 コンテンツリスト
+													251 container
+														252 AXListMarker • 
+														253 text 已判定： 95,806份
+													254 container
+														255 AXListMarker • 
+														256 text 剩余： 4,194份
+													257 container
+														258 AXListMarker • 
+														259 text SDK  Capture：100,000/100,000，异常0
+													260 container
+														261 AXListMarker • 
+														262 text Offline  diff：仍在运行，CPU约99%
+													263 container
+														264 AXListMarker • 
+														265 text SSD剩余：124.01  GiB
+													266 container
+														267 AXListMarker • 
+														268 テキスト 最终 
+														269 テキスト RESULT.json
+														270 テキスト ：尚未生成
+												271 container
+													272 text 按当前速度，预计 再过2～5分钟 完成判卷。
+												273 container
+													274 text 现在不需要任何操作，让它继续运行即可。 完成后才能确认最终错误数量和是否通过  Final100K。
+												275 ボタン コピーする
+												276 ボタン 回答を評価
+												277 ボタン 共有
+												278 切り替えボタン 読み上げ, Value: 0
+												279 ポップアップボタン 回答を再生成
+												280 ポップアップボタン その他のアクション
+												281 見出し あなたの発言:, Value: 4
+													282 テキスト あなたの発言:
+												283 テキスト 进度
+												284 ボタン メッセージをコピーする
+												285 ボタン プロンプトを共有
+												286 ボタン メッセージを編集
+												287 container
+													288 ボタン 19s考えました
+													289 テキスト 19s考えました
+												290 見出し ChatGPT の発言:, Value: 4
+													291 テキスト ChatGPT の発言:
+												292 container
+													293 text Final100K  ·  Offline  Diff
+												294 見出し 96.08%, Value: 1
+													295 テキスト 96.08%
+												296 container
+													297 text 96,075  /  100,000
+												298 container
+													299 text 10月8日  10:04（日本时间）
+												300 コンテンツリスト
+													301 container
+														302 AXListMarker • 
+														303 テキスト 已判卷：96,075份
+													304 container
+														305 AXListMarker • 
+														306 テキスト 剩余：3,925份
+													307 container
+														308 AXListMarker • 
+														309 text SDK  Capture：100,000/100,000  完成，异常0
+													310 container
+														311 AXListMarker • 
+														312 text Offline  Diff：运行中，CPU约100%
+													313 container
+														314 AXListMarker • 
+														315 text SSD剩余：124.01  GiB
+													316 container
+														317 AXListMarker • 
+														318 テキスト 最终 
+														319 テキスト RESULT.json
+														320 テキスト ：尚未生成
+												321 container
+													322 text 目前在  epdf-38 ，这一组判卷速度明显较慢，但进程正常，没有停止。
+												323 container
+													324 text 现在不需要操作，继续等待。 完成后还要确认先前发现的  DUPLICATE 和  WRONG_ORDER 差异，不能直接判定  Final100K  PASS。
+												325 ボタン コピーする
+												326 ボタン 回答を評価
+												327 ボタン 共有
+												328 切り替えボタン 読み上げ, Value: 0
+												329 ポップアップボタン 回答を再生成
+												330 ポップアップボタン その他のアクション
+											331 container
+												332 テキスト ChatGPT は間違えることがあります。重要な情報は確認してください。
+											333 container
+												334 見出し 最新の応答, Value: 4
+													335 テキスト 最新の応答
+												336 container
+													337 ボタン ファイルなどを追加
+													338 テキスト入力領域 (settable) ChatGPT に聞く, Value: ChatGPT に聞く
+
+														339 テキスト ChatGPT に聞く
+													340 ポップアップボタン ChatGPT モデルを選択
+													341 ボタン 音声入力
+													342 ボタン 音声会話を開始
+							343 テキスト 回答が完了しました
+			344 ポップアップボタン タブ検索
+			345 container
+				346 タブグループ
+					347 タブ (selected, settable, boolean) Final100K 完成提醒 - メモリ使用量 - 629 MB, Value: on
+						348 ボタン 閉じる
+					349 タブ (settable, boolean) AI接客システム提案 - メモリ使用量 - 458 MB, Value: off
+						350 ボタン 閉じる
+					351 タブ (settable, boolean) TWGW ボード - バックログ - Jira - メモリ使用量 - 776 MB, Value: off
+						352 ボタン 閉じる
+					353 タブ (settable, boolean) [TWGW-40097] デザイントークン - Icons等の整理 実装_4（Android） - Jira, Value: off
+						354 ボタン 閉じる
+					355 タブ (settable, boolean) [TWGW-38815] Compose L-2-2. TOYOTAポイント登録完了モーダル のCompose置き換え対応（Android） - Jira, Value: off
+						356 ボタン 閉じる
+					357 タブ (settable, boolean) [TWGW-41402] テスト仕様書作成 / レビュー - Jira - メモリ使用量 - 431 MB, Value: off
+						358 ボタン 閉じる
+					359 タブ (settable, boolean) [TWGW-41403] テスト実施 - Jira, Value: off
+						360 ボタン 閉じる
+					361 タブ (settable, boolean) [TWGW-41404] PR作成 - Jira - メモリ使用量 - 438 MB, Value: off
+						362 ボタン 閉じる
+					363 タブ (settable, boolean) カレンダー - TOYOTA Wallet - Confluence - メモリ使用量 - 653 MB, Value: off
+						364 ボタン 閉じる
+			365 ボタン 新しいタブ
+			366 ボタン Gemini in Chrome を開く
+	367 閉じるボタン
+	368 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	369 しまうボタン
+370 menu bar
+	371 Chrome
+	372 ファイル
+	373 編集
+	374 表示
+	375 履歴
+	376 ブックマーク
+	377 プロファイル
+	378 タブ
+	379 ウィンドウ
+	380 ヘルプ
+
+The focused UI element is 338 テキスト入力領域 (settable) ChatGPT に聞く, Value: ChatGPT に聞く

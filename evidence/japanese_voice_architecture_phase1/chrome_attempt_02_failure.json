@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "provider": "TEST_ONLY_FAKE_WEBRTC_AND_ELECTRONIC_TONE",
+  "paid_api_calls": 0,
+  "physical_microphone": "NOT_TESTED",
+  "physical_speaker": "NOT_TESTED",
+  "checks": {},
+  "page_errors": [],
+  "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '接客を開始', exact: true })\u001b[22m\n"
+}

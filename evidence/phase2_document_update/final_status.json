@@ -1,0 +1,115 @@
+{
+  "task": "HOUSING_V1_DOCUMENT_UPDATE_AND_PUBLISH",
+  "phase": "PHASE_2_ROUND_2",
+  "recorded_at": "2026-10-08T01:39:21.197840+00:00",
+  "status": "ISOLATED_IMPLEMENTATION_AND_ACCEPTANCE_COMPLETE",
+  "normal_switch": "NOT_EXECUTED",
+  "next": "PHASE_2_ROUND_3_FULL_ADMIN_ACCEPTANCE_NOT_STARTED",
+  "environment": {
+    "admin": "http://localhost:5176/admin",
+    "customer": "http://localhost:5176/",
+    "staff": "http://localhost:5176/staff",
+    "backend": "http://127.0.0.1:8003",
+    "database": "evidence/phase2_document_update/ui-test.db",
+    "publication_contract_version": 1,
+    "publication_schema_ready": true,
+    "current_test_version": 3,
+    "published_documents": 6,
+    "registered_documents": 7
+  },
+  "verified": {
+    "actual_sdk": "INSTALLED_DISTRIBUTION_1.8.0",
+    "real_sdk_documents": 7,
+    "browser": "ACTUAL_GOOGLE_CHROME",
+    "ui_technology": "cua_repl native AX",
+    "ui_checks": {
+      "conditions_add_edit_delete_save_refresh": "PASS",
+      "conditions_explicit_confirmation_raw_immutable": "PASS",
+      "customer_general_property_selection_v1": "PASS",
+      "old_session_v1_after_new_business_confirmation": "PASS",
+      "new_file_actual_sdk_review_and_confirmation": "PASS",
+      "cancel_unpublished_business_update_keeps_v1": "PASS",
+      "publication_draft_save_refresh_baseline_retains_five": "PASS",
+      "real_chrome_preview_explicit_v2_publication": "PASS",
+      "old_session_remains_v1_after_v2": "PASS",
+      "new_customer_uses_v2": "PASS",
+      "equipment_surroundings_card_close_v2_loan_backend": "PASS",
+      "v2_staff_pending_accepted_completed_customer_sync_end": "PASS",
+      "restore_preview_business_price": "PASS",
+      "real_chrome_restore_creates_v3": "PASS",
+      "history_shared_admin_v1_v2_v3_retained": "PASS"
+    },
+    "screenshots": 17,
+    "initial_v1": "EXPLICIT_ISOLATED_HTTP_SETUP_NOT_CHROME",
+    "v2_and_v3": "EXPLICIT_ACTUAL_CHROME_PUBLICATION",
+    "v1_v2_snapshots_immutable": true,
+    "all_seven_sdk_raw_normalized_immutable": true,
+    "v3_new_session": "GENERAL_UNSELECTED_THEN_EXPLICIT_PROPERTY_AND_ENDED",
+    "backend_regression": {
+      "passed": 222,
+      "warnings": 1,
+      "log": "backend_tests.log"
+    },
+    "frontend_build": {
+      "status": "PASS",
+      "log": "frontend_build.log"
+    },
+    "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+    "loan_staff_tools": "REAL_BUSINESS_CODE",
+    "paid_ai_tts_calls": 0,
+    "real_microphone": "NOT_USED",
+    "real_speaker_or_voice_naturalness": "NOT_VERIFIED",
+    "atomic_failure_and_replay": {
+      "method": "ISOLATED_FASTAPI_TESTCLIENT_ROUTES_REAL_SQLITE_TRANSACTION",
+      "test": "backend/tests/test_update_permission_edges.py::test_failure_at_publication_receipt_rolls_back_version_and_is_retryable",
+      "evidence": "transaction_rollback_regression.json",
+      "physical_network_packet_loss_tested": false
+    }
+  },
+  "fixed": [
+    {
+      "issue": "New confirmation invalidated an old published approval",
+      "evidence": "bug_reproduction.json",
+      "resolution": "Independent immutable confirmation associations plus explicit revocation epoch"
+    },
+    {
+      "issue": "Structured price could contradict approved price: numeric source text",
+      "evidence": "manual_revision_source_conflict_fix.json",
+      "resolution": "Preview and commit same exact-format conflict blocker; no automatic source rewrite"
+    },
+    {
+      "issue": "Distinct-file restore omitted resulting price change",
+      "initial_evidence": "15-initial-restore-missing-price.png",
+      "resolution_evidence": "15-restore-preview.png",
+      "resolution": "Actual published composition business field diff; real Chrome repreview and v3 publication"
+    }
+  ],
+  "unchanged": {
+    "normal_database_sql_connections": 0,
+    "normal_database_migration_confirmation_publication": false,
+    "protected_files": 65,
+    "protected_hashes_unchanged": true,
+    "environment_file_unchanged": true,
+    "sdk_source_access": false,
+    "sdk_reinstalled_or_modified": false,
+    "voice_model_or_configuration_changed": false,
+    "voice": "Nanami / chat / +15% / 1.15 (unchanged)",
+    "protected_evidence": "protected_check.json"
+  },
+  "limitations": [
+    "Only isolated normal business services and TEST provider; no real AI/Realtime/microphone/voice acceptance",
+    "No normal database upgrade or customer-demo deployment",
+    "Duplicate/permission/expiry/parallel-stale/atomic-rollback adversarial cases exercised by isolated HTTP regression, not claimed as multi-window Chrome tests",
+    "Price-text guard covers unambiguous numeric price: lines in existing format, not arbitrary semantic conflicts",
+    "Published change preview compares major fields and document text, not full PDF visual or character-level diff",
+    "Shared admin actor recorded truthfully; no independent employee identities"
+  ],
+  "deliverables": {
+    "gallery": "index.html",
+    "acceptance": "acceptance.md",
+    "final_api_readback": "final_readback.json",
+    "employee_guide": "../../docs/DOCUMENT_UPDATE_PHASE2.md",
+    "normal_upgrade_instructions": "../../docs/DOCUMENT_UPDATE_NORMAL_UPGRADE.md",
+    "api_contract": "../../docs/DOCUMENT_UPDATE_API.md"
+  }
+}

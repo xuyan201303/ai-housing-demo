@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-10-07T01:46:41.613Z",
+  "browser": "installed Google Chrome headless",
+  "base": "http://localhost:5173",
+  "ai_calls": 0,
+  "session_calls": 0,
+  "microphone_permission_requested": false,
+  "mutations": [],
+  "page_errors": [],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)"
+  ],
+  "status": "FAIL",
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "public_property": {
+    "http": 409,
+    "data": {
+      "error": {
+        "code": "NO_PUBLISHED_DATA",
+        "message": "公開済みの資料がありません。管理画面で確認・公開してください。"
+      }
+    }
+  },
+  "failure": "expect(locator).toBeVisible() failed\n\nLocator: getByRole('button', { name: '接客を開始', exact: true })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('button', { name: '接客を開始', exact: true }) with timeout 5000ms\n  - waiting for getByRole('button', { name: '接客を開始', exact: true })\n"
+}

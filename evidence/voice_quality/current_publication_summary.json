@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "document_ids": [
+    "75c8b09490484e34b39d9d0f1b8d0ea4",
+    "44b8ba1d5876474d8f837d27dd7e97ad",
+    "412a58db970045968959c8b4c519df0a",
+    "8caae4e5870a42c7a7be824f08cbb509",
+    "60cd886ea2904b25bc7d0d3c10474702",
+    "98e6cf520d2342b6bbc24385c1d1c6af"
+  ],
+  "rate_count": 0,
+  "property_keys": [
+    "property_name",
+    "lot",
+    "station",
+    "scope_notes",
+    "surroundings",
+    "source_name",
+    "source_url",
+    "checked_at",
+    "effective_date",
+    "valid_until",
+    "equipment",
+    "price",
+    "address",
+    "land_area",
+    "building_area",
+    "completion_date",
+    "layout",
+    "field_references"
+  ],
+  "knowledge_scopes": [
+    "property",
+    "general",
+    "general",
+    "general",
+    "property",
+    "property"
+  ]
+}

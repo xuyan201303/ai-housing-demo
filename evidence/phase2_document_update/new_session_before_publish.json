@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "source": "REAL_ISOLATED_HTTP",
+  "customer": {
+    "id": "77adbc9d1dc940d48c5f2feff0f5f69f",
+    "version": 1,
+    "mode": "text",
+    "property_id": "No.15",
+    "status": "active",
+    "created_at": "2026-10-08T10:22:45+09:00",
+    "ended_at": null,
+    "property": {
+      "property_id": "No.15",
+      "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+      "lot": "No.15",
+      "price": 76900000.0,
+      "address": "千葉県八千代市大和田新田字向山477番247",
+      "layout": "3LDK（No.15公式平面図から分類）",
+      "station": "東葉高速鉄道 八千代中央駅",
+      "walking_minutes": null,
+      "land_area": 139.85,
+      "building_area": 93.25,
+      "completion_date": "2026-05",
+      "parking": null,
+      "equipment": [
+        "断熱等級6",
+        "フロントオープン式食洗機（パナソニック）",
+        "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+        "太陽光発電（3.0kW）",
+        "HEMS",
+        "第一種換気",
+        "ビルトイン空気清浄機（Air Me）",
+        "家庭用燃料電池（エネファーム）",
+        "エアコン（2台）",
+        "床暖房（リビング・ダイニング）",
+        "キッチンのタッチレス水栓",
+        "保温浴槽付きユニットバス",
+        "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+        "長期優良住宅",
+        "住宅性能評価書（設計・建築の両方が公式掲載）"
+      ],
+      "surroundings": [
+        "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+        "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+        "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+        "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+        "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+        "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+      ],
+      "scope_notices": [
+        "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+      ],
+      "checked_at": "2026-10-07",
+      "effective_date": "2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）",
+      "valid_until": "2026-10-15",
+      "references": [
+        {
+          "label": "確認・公開済み物件資料",
+          "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+        },
+        {
+          "label": "確認・公開済み物件資料",
+          "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+        }
+      ]
+    },
+    "products": [
+      {
+        "id": "804b26a8b3bd4e6982da70df0ee564ff:rate:0",
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "rate": 1.195,
+        "rate_over_90_percent": null,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 2,
+        "years_max": 40,
+        "loan_amount_min": 5000000.0,
+        "loan_amount_max": 300000000.0,
+        "max_loan_to_value": null,
+        "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "conditions": [
+          "TEST：一番目の条件を修正。実際の金融条件ではありません。",
+          "TEST：二番目の行。順番と未編集データを保持します。"
+        ],
+        "requires_acquisition_price_for_estimate": false,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ]
+      },
+      {
+        "id": "804b26a8b3bd4e6982da70df0ee564ff:rate:1",
+        "bank": "住宅金融支援機構・取扱金融機関",
+        "product": "フラット35 新機構団信付き 21～35年",
+        "rate_type": "全期間固定金利",
+        "rate": 3.83,
+        "rate_over_90_percent": 3.94,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 21,
+        "years_max": 35,
+        "loan_amount_min": 1000000.0,
+        "loan_amount_max": 120000000.0,
+        "max_loan_to_value": 1.0,
+        "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+        "conditions": [],
+        "requires_acquisition_price_for_estimate": true,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ]
+      }
+    ],
+    "messages": [],
+    "display_events": [],
+    "staff_calls": [],
+    "realtime": {
+      "status": "not_started",
+      "error": null
+    }
+  },
+  "new_confirmation_price": 77900000,
+  "current_confirmation_id": 9,
+  "current_publication_version": 1,
+  "health_contract": 1
+}

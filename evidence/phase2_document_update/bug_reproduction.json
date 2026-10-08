@@ -1,0 +1,13 @@
+{
+  "test_only": true,
+  "sdk_version": "1.8.0",
+  "published_version": 1,
+  "old_confirmation_id": 1,
+  "approvals_before": 1,
+  "approvals_after_new_confirmation_before_publish": 0,
+  "original_price": 76900000.0,
+  "available_price_after": null,
+  "bug_reproduced": true,
+  "normal_db_accessed": false,
+  "paid_calls": 0
+}

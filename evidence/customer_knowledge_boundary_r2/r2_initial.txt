@@ -1,0 +1,18 @@
+..F......                                                                [100%]
+=================================== FAILURES ===================================
+_____ test_internal_unclassified_company_and_legacy_defaults_never_publish _____
+backend/tests/test_knowledge_boundary.py:126: in test_internal_unclassified_company_and_legacy_defaults_never_publish
+    assert tools.execute(store.get('sessions',s['id']),'search_consultation_knowledge',{'scope':'company','query':PRIVATE})['items']==[]
+E   AssertionError: assert [{'text': 'TE...': 'company'}] == []
+E     
+E     Left contains 2 more items, first extra item: {'text': 'TEST_R2_PUBLIC_FACT 住宅購入は希望と予算を整理します。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項...location': '管理者確認', 'source_url': 'https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html'}, 'scope': 'company'}
+E     Use -v to get more diff
+=============================== warnings summary ===============================
+backend/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /Users/kyoen/Projects/ai-housing-demo/backend/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED backend/tests/test_knowledge_boundary.py::test_internal_unclassified_company_and_legacy_defaults_never_publish
+1 failed, 8 passed, 1 warning in 1.17s

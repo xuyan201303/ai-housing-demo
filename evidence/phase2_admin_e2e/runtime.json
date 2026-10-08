@@ -1,0 +1,16 @@
+{
+  "harness": "phase2_admin_e2e",
+  "database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_admin_e2e/ui-test.db",
+  "upload_dir": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_admin_e2e/ui-uploads",
+  "backend": "http://127.0.0.1:8004",
+  "frontend": "http://localhost:5177",
+  "frontend_proxy": "http://127.0.0.1:8004",
+  "demo_mode": "test",
+  "sdk_version": "1.8.0",
+  "ai_credentials_configured": false,
+  "azure_credentials_configured": false,
+  "external_connections_allowed": false,
+  "provider": "TEST - actual business Tools",
+  "seeded_documents": false,
+  "code_sha256_at_start": "131836241a166dbc81e72ff2c93b9210010f6ed7af8a62ae7c5cd4a679cda44f"
+}

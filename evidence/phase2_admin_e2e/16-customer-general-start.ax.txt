@@ -1,0 +1,92 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5177/, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5177/
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5177, Placeholder: Google で検索または URL を入力
+					10 ボタン このタブをブックマークに追加します
+				11 container
+					12 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					13 ポップアップボタン 拡張機能
+				14 ボタン YAN
+				15 ポップアップボタン Chrome
+			16 ツールバー ブックマーク
+				17 ツールバー 保存したタブグループ
+					18 ボタン タブグループ
+				19 スプリッタ セパレータ
+				20 ブックマーク フォルダ ボタン ミラヴン
+				21 ブックマーク フォルダ ボタン 富士ソフト
+				22 ブックマーク フォルダ ボタン サイト
+				23 ブックマーク ボタン chatGTP
+				24 ブックマーク ボタン Google Gemini
+				25 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				26 ブックマーク ボタン マイドライブ
+				27 ブックマーク ボタン 発注ナビ
+				28 ブックマーク フォルダ ボタン すべてのブックマーク
+				29 スプリッタ セパレータ
+			30 container
+				31 スクロール領域
+					32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5177/
+						33 container
+							34 テキスト 隔離検証データ / TEST
+							35 テキスト  — 通常運用データではありません。Customer の文字回答は実資料と業務Toolsを読む TEST provider です。実AI・日本語音声の検証ではありません。接客は「文字で開始」を使用してください。
+							36 link SANZO HOUSING CONCIERGE, Value: localhost:5177/
+							37 テキスト 建売住宅 AI接客 Demo
+							38 link 管理者, Value: localhost:5177/admin
+							39 link スタッフ, Value: localhost:5177/staff
+							40 テキスト A HOME, A CONVERSATION.
+							41 見出し 新しい暮らしを、いっしょに見つけましょう。, Value: 1
+								42 text 新しい暮らしを、 いっしょに見つけましょう。
+							43 テキスト 住宅購入のこと、購入の流れ、住宅ローン。気になることから自由にご相談ください。
+							44 テキスト 確認・公開済みの情報だけをご案内
+							45 テキスト AI接客の設定が未完了です。公開資料の閲覧は可能ですが、文字・音声での AI 回答にはサーバーの API 設定が必要です。
+							46 container
+								47 text AI HOUSING CONCIERGE ご案内をお待ちしています
+								48 イメージ AI 住宅コンシェルジュ、待機中
+								49 テキスト AI 住宅コンシェルジュ
+								50 見出し 気になることから、お気軽に。, Value: 2
+									51 テキスト 気になることから、お気軽に。
+								52 text 住宅購入・購入の流れ・住宅ローンをお尋ねください。 接客開始後も文字でご相談いただけます。
+								53 ボタン (disabled) 接客を開始 API 未設定, Help: サーバーの OpenAI API 設定が必要です
+								54 ボタン 文字で開始
+								55 text 物件が決まっていなくてもご相談いただけます。 ご相談とご案内 ここにお客様の質問と AI のご案内が表示されます。
+								56 ボタン (disabled) 住宅購入は何から始めればいいですか？
+								57 ボタン (disabled) 購入前に確認することは？
+								58 ボタン (disabled) 住宅ローンについて相談したい
+								59 テキスト ご相談内容
+								60 テキストフィールド (disabled) ご相談内容, Placeholder: 接客を開始すると、文字でご相談できます
+								61 ボタン (disabled) 送信
+								62 テキスト 専門的な判断や資料にない内容は、担当スタッフにおつなぎします。
+							63 container
+								64 text SANZO / AI住宅接客 Demo AI のご案内は確認済み資料に基づきます。詳細・条件は担当スタッフにご確認ください。
+			65 ポップアップボタン タブ検索
+			66 container
+				67 タブグループ
+					68 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 192 MB, Value: off
+						69 ボタン 閉じる
+					70 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 119 MB, Value: on
+						71 ボタン 閉じる
+			72 ボタン 新しいタブ
+			73 ボタン Gemini in Chrome を開く
+	74 閉じるボタン
+	75 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	76 しまうボタン
+77 menu bar
+	78 Chrome
+	79 ファイル
+	80 編集
+	81 表示
+	82 履歴
+	83 ブックマーク
+	84 プロファイル
+	85 タブ
+	86 ウィンドウ
+	87 ヘルプ
+
+The focused UI element is 32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5177/

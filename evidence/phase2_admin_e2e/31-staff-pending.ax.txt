@@ -1,0 +1,108 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5177/staff, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5177/staff
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5177/staff, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5177/staff
+						34 container
+							35 テキスト 隔離検証データ / TEST
+							36 テキスト  — 通常運用データではありません。Customer の文字回答は実資料と業務Toolsを読む TEST provider です。実AI・日本語音声の検証ではありません。接客は「文字で開始」を使用してください。
+							37 link SANZO HOUSING CONCIERGE, Value: localhost:5177/
+							38 テキスト スタッフ接客
+							39 link お客様ページ ↗, Value: localhost:5177/
+							40 link 管理者, Value: localhost:5177/admin
+							41 ボタン ログアウト
+							42 テキスト STAFF DESK
+							43 見出し お客様のご相談を、つなぐ。, Value: 1
+								44 テキスト お客様のご相談を、つなぐ。
+							45 テキスト AI 接客からの呼出を受付し、対応状況をお客様ページに届けます。
+							46 テキスト 2 秒ごとに更新
+							47 container
+								48 text 最終取得  11:11:07
+							49 テキスト 対応をお待ちのお客様
+							50 container
+								51 text 1 件
+							52 テキスト 受付済み・対応中
+							53 container
+								54 text 0 件
+							55 テキスト 対応完了
+							56 container
+								57 text 0 件
+							58 見出し スタッフ呼出, Value: 2
+								59 テキスト スタッフ呼出
+							60 ボタン 未完了 1
+							61 ボタン すべて 1
+							62 container
+								63 text 未受付 2026/10/08 11:10
+								64 見出し 住宅購入の一般相談, Value: 2
+									65 テキスト 住宅購入の一般相談
+								66 定義リスト
+									67 container 呼出理由
+										68 テキスト 呼出理由
+									69 テキスト 住宅ローン審査の判断依頼
+									70 container 最近のご質問
+										71 テキスト 最近のご質問
+									72 テキスト この年収なら、ローン審査に絶対通りますか？
+								73 text 接客 ID:  9d7f55e1953c456097ac4a711daf0d83
+								74 ボタン 受付
+			75 ポップアップボタン タブ検索
+			76 container
+				77 タブグループ
+					78 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 192 MB, Value: off
+						79 ボタン 閉じる
+					80 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 119 MB, Value: off
+						81 ボタン 閉じる
+					82 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 116 MB, Value: off
+						83 ボタン 閉じる
+					84 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 134 MB, Value: off
+						85 ボタン 閉じる
+					86 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 95.4 MB, Value: on
+						87 ボタン 閉じる
+			88 ボタン 新しいタブ
+			89 ボタン Gemini in Chrome を開く
+	90 閉じるボタン
+	91 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	92 しまうボタン
+93 menu bar
+	94 Chrome
+	95 ファイル
+	96 編集
+	97 表示
+	98 履歴
+	99 ブックマーク
+	100 プロファイル
+	101 タブ
+	102 ウィンドウ
+	103 ヘルプ
+
+The focused UI element is 33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5177/staff

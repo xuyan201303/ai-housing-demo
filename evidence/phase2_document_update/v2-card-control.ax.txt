@@ -1,0 +1,130 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176, Placeholder: Google で検索または URL を入力
+					10 ボタン このタブをブックマークに追加します
+				11 container
+					12 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					13 ポップアップボタン 拡張機能
+				14 ボタン YAN
+				15 ポップアップボタン Chrome
+			16 ツールバー ブックマーク
+				17 ツールバー 保存したタブグループ
+					18 ボタン タブグループ
+				19 スプリッタ セパレータ
+				20 ブックマーク フォルダ ボタン ミラヴン
+				21 ブックマーク フォルダ ボタン 富士ソフト
+				22 ブックマーク フォルダ ボタン サイト
+				23 ブックマーク ボタン chatGTP
+				24 ブックマーク ボタン Google Gemini
+				25 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				26 ブックマーク ボタン マイドライブ
+				27 ブックマーク ボタン 発注ナビ
+				28 ブックマーク フォルダ ボタン すべてのブックマーク
+				29 スプリッタ セパレータ
+			30 container
+				31 スクロール領域
+					32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/
+						33 container
+							34 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							35 テキスト 建売住宅 AI接客 Demo
+							36 link 管理者, Value: localhost:5176/admin
+							37 link スタッフ, Value: localhost:5176/staff
+							38 テキスト A HOME, A CONVERSATION.
+							39 見出し 新しい暮らしを、いっしょに見つけましょう。, Value: 1
+								40 text 新しい暮らしを、 いっしょに見つけましょう。
+							41 テキスト 住宅購入のこと、購入の流れ、住宅ローン。気になることから自由にご相談ください。
+							42 テキスト 確認・公開済みの情報だけをご案内
+							43 テキスト AI接客の設定が未完了です。公開資料の閲覧は可能ですが、文字・音声での AI 回答にはサーバーの API 設定が必要です。
+							44 container
+								45 text AI HOUSING CONCIERGE ご案内をお待ちしています
+								46 イメージ AI 住宅コンシェルジュ、待機中
+								47 text AI 住宅コンシェルジュ 文字で接客中 公開版 v2
+								48 ボタン 接客終了
+								49 text 会話履歴は当時のご案内です。現在の条件はご案内資料と最新の試算をご確認ください。 ご相談とご案内 v2 の確認済み資料 お客様 紹介できる物件はありますか？ AIコンシェルジュ TEST: この接客版に登録されているサンプルです。
+								50 ボタン 住宅購入は何から始めればいいですか？
+								51 ボタン 購入前に確認することは？
+								52 ボタン 住宅ローンについて相談したい
+								53 テキスト ご相談内容
+								54 テキストフィールド (settable) ご相談内容, Placeholder: ご相談内容を入力してください
+								55 ボタン (disabled) 送信
+								56 テキスト 担当スタッフへ相談する
+								57 ボタン スタッフを呼ぶ
+								58 テキスト 専門的な判断や資料にない内容は、担当スタッフにおつなぎします。
+							59 container
+								60 見出し ご案内資料, Value: 2
+									61 テキスト ご案内資料
+								62 ボタン 資料を閉じる
+								63 テキスト YOUR NEXT HOME
+								64 見出し コモンステージ八千代中央 分譲住宅 No.15, Value: 2
+									65 テキスト コモンステージ八千代中央 分譲住宅 No.15
+								66 text 公開版 v 2
+								67 container
+									68 イメージ 住宅を表現したオリジナルイメージ
+									69 テキスト 表示イメージ／実際の物件とは異なります。
+								70 テキスト 販売価格
+								71 テキスト 77,900,000 円
+								72 テキスト 間取り
+								73 テキスト 3LDK（No.15公式平面図から分類）
+								74 テキスト 千葉県八千代市大和田新田字向山477番247
+								75 タブグループ 物件資料
+									76 タブ (selected) 物件概要, Value: 1
+									77 タブ (settable, integer) 設備・周辺, Value: 0
+									78 タブ (settable, integer) 参照資料, Value: 0
+								79 定義リスト
+									80 container 交通
+										81 テキスト 交通
+									82 container
+										83 text 東葉高速鉄道 八千代中央駅 交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。 参照資料 確認・公開済み物件資料
+										84 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html
+										85 テキスト 確認・公開済み物件資料
+										86 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+									87 container 土地面積
+										88 テキスト 土地面積
+									89 テキスト 139.85 ㎡
+									90 container 建物面積
+										91 テキスト 建物面積
+									92 テキスト 93.25 ㎡
+									93 container 完成時期
+										94 テキスト 完成時期
+									95 テキスト 2026-05
+									96 container 駐車場
+										97 テキスト 駐車場
+									98 テキスト 記載なし
+							99 container
+								100 text SANZO / AI住宅接客 Demo AI のご案内は確認済み資料に基づきます。詳細・条件は担当スタッフにご確認ください。
+			101 ポップアップボタン タブ検索
+			102 container
+				103 タブグループ
+					104 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 155 MB, Value: off
+						105 ボタン 閉じる
+					106 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						107 ボタン 閉じる
+					108 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 175 MB, Value: on
+						109 ボタン 閉じる
+			110 ボタン 新しいタブ
+			111 ボタン Gemini in Chrome を開く
+	112 閉じるボタン
+	113 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	114 しまうボタン
+115 menu bar
+	116 Chrome
+	117 ファイル
+	118 編集
+	119 表示
+	120 履歴
+	121 ブックマーク
+	122 プロファイル
+	123 タブ
+	124 ウィンドウ
+	125 ヘルプ
+
+The focused UI element is 32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/

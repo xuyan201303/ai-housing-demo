@@ -1,0 +1,62 @@
+{
+  "物件概要_demo.pdf": {
+    "id": "ba269ec128104df3aaaff57ce5fbdf70",
+    "filename": "物件概要_demo.pdf",
+    "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.pdf.extract_native_text",
+    "raw_sha256": "f0e6ee254087cf64968172956cc3117c40f0b08ce644a426d567419a6fe406f5",
+    "normalized_sha256": "47f1f348bde07565238cf9f41d4a1243e905f3190943e871121b20b002ccbda8",
+    "parsed_at": "2026-10-08T09:57:08+09:00"
+  },
+  "設備仕様_demo.pdf": {
+    "id": "48bb8e54383f4c1aab8fc42be4330f29",
+    "filename": "設備仕様_demo.pdf",
+    "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.pdf.extract_native_text",
+    "raw_sha256": "648c882ca3471705928262b195bc10a84736e3ccae8fd13548319f12b663bbad",
+    "normalized_sha256": "121b514c901756d682788f0454e25f9af3ef340335a3d0764dd2aff042612b28",
+    "parsed_at": "2026-10-08T09:57:08+09:00"
+  },
+  "住宅購入基礎FAQ_demo.pdf": {
+    "id": "b628049e9e5e45128185917cadf29ff4",
+    "filename": "住宅購入基礎FAQ_demo.pdf",
+    "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.pdf.extract_native_text",
+    "raw_sha256": "a892ed5fd6b52c20870c0e5e56ac1dcd9201df4429231f9542199f82a39fda01",
+    "normalized_sha256": "44316245e01616b8d5dad6734dbfbe4b8a1201c96e8cb811f9256a0171b122a4",
+    "parsed_at": "2026-10-08T09:57:09+09:00"
+  },
+  "住宅ローン_demo.xlsx": {
+    "id": "db3d9767e9fb4659afea4bcc51f3bdb1",
+    "filename": "住宅ローン_demo.xlsx",
+    "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.excel.inspect_workbook + read_sheet",
+    "raw_sha256": "a0ad248455a025fd222890b3dc596ea377904d91b074b2d008b4d51b8ee31fdd",
+    "normalized_sha256": "ce303313835a7d6d05897cb504cd7305eb940fbc4a38f3750b53aad824543fa8",
+    "parsed_at": "2026-10-08T09:57:09+09:00"
+  },
+  "住宅ローン基礎FAQ_demo.pdf": {
+    "id": "7a53b811d9504f919cebab6bc703d4fa",
+    "filename": "住宅ローン基礎FAQ_demo.pdf",
+    "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.pdf.extract_native_text",
+    "raw_sha256": "500f0c0bb1a2ec8aecab38cab68cf8660a5abd938b1fb1d845876b55017c9375",
+    "normalized_sha256": "38e5d781768fee4d367e974fbf58da40372c2a8c14b3cf5cbc376ac9ff983dae",
+    "parsed_at": "2026-10-08T09:57:09+09:00"
+  },
+  "周辺環境_demo.pdf": {
+    "id": "f40b4aca16a14a8c93bf2e9b6c88425a",
+    "filename": "周辺環境_demo.pdf",
+    "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+    "sdk_version": "1.8.0",
+    "sdk_api": "document_sdk.pdf.extract_native_text",
+    "raw_sha256": "0e6600c32968cd3c9a4b4da6886e6bd3f9c274b188baf38a491e2eb4ed44901b",
+    "normalized_sha256": "01411ba8b908697275650c773971399005e79c6cdbdc24ca77f99610562c42c1",
+    "parsed_at": "2026-10-08T09:57:09+09:00"
+  }
+}

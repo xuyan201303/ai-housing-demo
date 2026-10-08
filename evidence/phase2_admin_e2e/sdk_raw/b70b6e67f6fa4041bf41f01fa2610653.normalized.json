@@ -1,0 +1,31 @@
+{
+  "property": {
+    "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+    "lot": "No.15",
+    "price": 76900000.0,
+    "address": "千葉県八千代市大和田新田字向山477番247",
+    "station": "東葉高速鉄道 八千代中央駅",
+    "land_area": 139.85,
+    "building_area": 93.25,
+    "completion_date": "2026-05",
+    "layout": "3LDK（No.15公式平面図から分類）",
+    "scope_notes": "駅距離920～950m・最長徒歩12分は販売中4戸の掲載範囲。No.15単独の徒歩分数は未確認。",
+    "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP",
+    "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html",
+    "checked_at": "2026-10-07",
+    "effective_date": "2026-10-02",
+    "valid_until": "2026-10-15"
+  },
+  "knowledge": [
+    {
+      "text": "公開情報を基にSANZOがデモ用に再構成 1\n物件概要\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nprice: 76900000\nprice_basis: 土地建物価格（税込）\naddress: 千葉県八千代市大和田新田字向山477番247\nstation: 東葉高速鉄道 八千代中央駅\nland_area: 139.85\nbuilding_area: 93.25\ncompletion_date: 2026-05\narea_unit: m²\nlayout: 3LDK（No.15公式平面図から分類）\nlayout_details: 1階LDK 16.8帖。2階主寝室7.2帖、洋室4.8帖が2室。\nparking_notes: No.15 の平面図に車2台の描写はあるが、駐車可能台数・寸法・対応車種の明記は未確認。2台\n駐車可と断定しない。\nscope_notes: 駅距離920～950m・最長徒歩12分は販売中4戸の掲載範囲。No.15単独の徒歩分数は未確認。\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件概要\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06gaiyou.html\nsource_url: https://www.sekisuihouse.co.jp/bunjouimage/bukken-pub/00015123/368063/PlanSlideshow_1_5_1781504643.jpg\n確認事項\n価格・面積・完成年月はNo.15の公開情報です。価格は76,900,000円（土地建物・税込）。\nNo.15 の公式平面図にある LDK と3室を読み取った分類。ページの文字欄に3LDKの明記はない。\n情報登録日2026-10-02、有効期限2026-10-15。実演前に販売状況を再確認してください。期限後は現行の確定情報として使\n用しません。",
+      "reference": {
+        "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+        "filename": "物件概要_demo.pdf",
+        "location": "p.1"
+      }
+    }
+  ],
+  "rates": [],
+  "faq": []
+}

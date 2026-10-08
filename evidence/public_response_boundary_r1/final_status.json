@@ -1,0 +1,19 @@
+{
+  "task": "HOUSING_V1_PUBLIC_RESPONSE_BOUNDARY_R1",
+  "checked_at": "2026-10-07T21:38:58.155023+09:00",
+  "customer_http_boundary": "PASS",
+  "isolated_chrome_flow": "PASS",
+  "backend_tests": 151,
+  "frontend_build": "PASS",
+  "realtime_sideband_business_output_scripted": "PASS",
+  "provider_datachannel_full_boundary": "NOT_VERIFIED_STATIC_RISK_IDENTIFIED",
+  "paid_api_calls": 0,
+  "normal_db_operations": 0,
+  "normal_backend_restarted": false,
+  "sdk_core_modified": false,
+  "env_overwritten": false,
+  "confidential_mixed_documents_supported": false,
+  "voice_naturalness": "NOT_TESTED",
+  "full_v1_delivery": "NOT_ACCEPTED",
+  "evidence": "acceptance.md"
+}

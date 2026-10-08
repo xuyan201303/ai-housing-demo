@@ -1,0 +1,59 @@
+{
+  "file": {
+    "file_id": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+    "filename": "f37d98f8669945f08147d8d37e540681.pdf",
+    "extension": ".pdf",
+    "mime_type": "application/pdf",
+    "size_bytes": 41734,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "value": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3"
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions": {
+        "width": 595.2755737304688,
+        "height": 841.8897705078125,
+        "unit": "points",
+        "rotation": 0,
+        "angle_degrees": null
+      },
+      "text_blocks": [
+        {
+          "text": "公開情報を基にSANZOがデモ用に再構成 1\n周辺環境\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nstation: 東葉高速鉄道 八千代中央駅\nscope_notes: 周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではあり\nません。\nsurroundings: 八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）\nsurroundings: 八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）\nsurroundings: 東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）\nsurroundings: コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）\nsurroundings: 向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）\nvalid_until: 2026-10-15\n確認事項\nNo.15単独の距離・徒歩分数は未確認です。範囲の端点をNo.15に割り当てていません。\n公式周辺写真の撮影年月2025年8月は情報登録日ではありません。この資料に写真は転載していません。\n徒歩所要時間は公式掲載値です。経路や歩行速度等により変わります。",
+          "source": {
+            "source_type": "pdf",
+            "file_id": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+            "page_number": 1,
+            "bounding_box": null
+          },
+          "confidence": null,
+          "element_id": null,
+          "spans": []
+        }
+      ],
+      "tables": [],
+      "selection_marks": [],
+      "barcodes": [],
+      "formulas": [],
+      "content_spans": [],
+      "source": {
+        "source_type": "pdf",
+        "file_id": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+        "page_number": 1,
+        "bounding_box": null
+      }
+    }
+  ],
+  "tables": [],
+  "content_scopes": [],
+  "paragraphs": [],
+  "key_value_pairs": [],
+  "figures": [],
+  "sections": [],
+  "languages": [],
+  "styles": [],
+  "analyzed_documents": []
+}

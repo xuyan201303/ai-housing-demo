@@ -1,0 +1,141 @@
+{
+  "checked_at": "2026-10-07T01:46:20.122125+00:00",
+  "mode": "normal_readonly_publication_readback",
+  "database": "/Users/kyoen/Projects/ai-housing-demo/data/housing.db",
+  "mutations_performed": 0,
+  "ai_calls": 0,
+  "session_creation_calls": 0,
+  "prepublication_evidence_preserved": true,
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "public_property": {
+    "http": 409,
+    "data": {
+      "error": {
+        "code": "NO_PUBLISHED_DATA",
+        "message": "公開済みの資料がありません。管理画面で確認・公開してください。"
+      }
+    }
+  },
+  "counts": {
+    "documents": 4,
+    "parsed": 4,
+    "confirmed_or_published": 0,
+    "published_documents": 0,
+    "versions": 0,
+    "sessions": 0,
+    "current_version": null
+  },
+  "documents": [
+    {
+      "document_id": "e9e36ae2af88432f9cf9f424e8f2264a",
+      "filename": "住宅ローン_demo.xlsx",
+      "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "matches_formal_demo_file": true,
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "confirmed_at": null,
+      "confirmation_note": null,
+      "published_version": null,
+      "in_current_snapshot": false,
+      "reviewed_differences_from_sdk_normalized": [],
+      "has_human_reviewed_data": false
+    },
+    {
+      "document_id": "97801b7b550b40aca0a385eaa84af084",
+      "filename": "周辺環境_demo.pdf",
+      "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+      "matches_formal_demo_file": true,
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "confirmed_at": null,
+      "confirmation_note": null,
+      "published_version": null,
+      "in_current_snapshot": false,
+      "reviewed_differences_from_sdk_normalized": [],
+      "has_human_reviewed_data": false
+    },
+    {
+      "document_id": "30fc20eb48fe4add83c99e23dd155aaf",
+      "filename": "設備仕様_demo.pdf",
+      "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+      "matches_formal_demo_file": true,
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "confirmed_at": null,
+      "confirmation_note": null,
+      "published_version": null,
+      "in_current_snapshot": false,
+      "reviewed_differences_from_sdk_normalized": [],
+      "has_human_reviewed_data": false
+    },
+    {
+      "document_id": "22e15ea4e0694b0c97f7a765c6f48b08",
+      "filename": "物件概要_demo.pdf",
+      "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+      "matches_formal_demo_file": true,
+      "status": "parsed",
+      "sdk_version": "1.8.0",
+      "confirmed_at": null,
+      "confirmation_note": null,
+      "published_version": null,
+      "in_current_snapshot": false,
+      "reviewed_differences_from_sdk_normalized": [],
+      "has_human_reviewed_data": false
+    }
+  ],
+  "db_crosscheck": {
+    "read_only": true,
+    "api_document_ids_match": true,
+    "api_document_hashes_match": true,
+    "confirmations": 0,
+    "versions": 0,
+    "sessions": 0
+  },
+  "frontend_proxy_health": {
+    "5173": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "demo",
+      "ai_configured": true,
+      "realtime_configured": true
+    },
+    "5174": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "test",
+      "ai_configured": true,
+      "realtime_configured": true
+    }
+  },
+  "status": "WAITING_FOR_NORMAL_ADMIN_CONFIRMATION_AND_PUBLICATION",
+  "reported_publication_correlated": false,
+  "findings": [
+    "The user-reported completed publication is not visible on the normal Backend at this exact readback time.",
+    "All four formal file hashes match and remain SDK-parsed; no confirmations or versions exist.",
+    "Port5173 proxy resolves to demo mode; port5174 proxy resolves to test mode.",
+    "No human business data edits can be compared because reviewed data has not been saved."
+  ],
+  "chrome_readonly_evidence": "evidence/normal_demo_published_chrome/result.json",
+  "chrome_review": {
+    "screenshots": [
+      "evidence/normal_demo_published_chrome/customer.png",
+      "evidence/normal_demo_published_chrome/admin.png"
+    ],
+    "visually_inspected": true,
+    "customer": "資料公開待ち, まだ公開された資料がありません; voice/text start disabled",
+    "admin": "4 registered, 0 confirmed/published, unpublished, 0 sessions",
+    "page_errors": [],
+    "console_errors": [
+      "HTTP409 for /api/property is expected because no published version exists; not recorded as zero errors"
+    ],
+    "no_mutations": true,
+    "initial_harness_failure_preserved": "evidence/normal_demo_published_chrome/initial_result.json",
+    "harness_correction": "Actual voice-start accessible label includes 音声で相談; relaxed matcher only, no product code modification."
+  }
+}

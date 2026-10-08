@@ -1,0 +1,7 @@
+{
+  "isolated": true,
+  "confirmation_status": "confirmed",
+  "published_property_name_type": "dict",
+  "session_started": true,
+  "frontend_consumer": "Customer PropertyPanel renders property.property_name directly as an h2 React child"
+}

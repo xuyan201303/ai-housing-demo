@@ -1,0 +1,2174 @@
+{
+  "status": "PASS",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+  "database": "evidence/public_response_boundary_r1/ui-test.db",
+  "ports": [
+    5184,
+    8014
+  ],
+  "paid_api_calls": 0,
+  "physical_microphone": "NOT_TESTED",
+  "checks": {
+    "general_home_without_property": "PASS",
+    "general_hits_safe_sources": "PASS",
+    "candidates_without_details": "PASS",
+    "property_selection_details_close": "PASS",
+    "automatic_material_reopen_for_new_query": "PASS",
+    "backend_loan_product_conditions_card": "PASS",
+    "staff_pending_accepted_completed": "PASS",
+    "end": "PASS",
+    "browser_actual_response_allowlist": "PASS"
+  },
+  "responses": [
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/sessions",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [],
+        "display_events": [],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 住宅購入では希望と予算を整理します。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 39,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 39,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 公開済みのサンプルをご案内します。",
+        "version": 1,
+        "references": [],
+        "display_events": [
+          {
+            "event_id": 42,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 42,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/property",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 42,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 42,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み物件資料",
+            "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 45,
+            "kind": "property",
+            "property": {
+              "property_id": "No.15",
+              "property_name": "TEST住宅 No.15",
+              "lot": "No.15",
+              "price": 76900000,
+              "address": "TEST展示住所",
+              "layout": "TEST 3LDK",
+              "station": "TEST駅",
+              "walking_minutes": 10,
+              "land_area": 130.7,
+              "building_area": 93.25,
+              "completion_date": null,
+              "parking": null,
+              "equipment": [
+                "TEST設備"
+              ],
+              "surroundings": [
+                "TEST公園"
+              ],
+              "scope_notices": [
+                "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+              ],
+              "checked_at": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "references": [
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 45,
+            "kind": "property",
+            "property": {
+              "property_id": "No.15",
+              "property_name": "TEST住宅 No.15",
+              "lot": "No.15",
+              "price": 76900000,
+              "address": "TEST展示住所",
+              "layout": "TEST 3LDK",
+              "station": "TEST駅",
+              "walking_minutes": 10,
+              "land_area": 130.7,
+              "building_area": 93.25,
+              "completion_date": null,
+              "parking": null,
+              "equipment": [
+                "TEST設備"
+              ],
+              "surroundings": [
+                "TEST公園"
+              ],
+              "scope_notices": [
+                "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+              ],
+              "checked_at": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "references": [
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 公開済み参考金利の商品を選択してください。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 47,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 49,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/mortgage",
+      "status": 200,
+      "body": {
+        "version": 1,
+        "rate_id": "TEST-mufg",
+        "bank": "三菱UFJ銀行",
+        "product": "TEST変動金利",
+        "rate_type": "変動",
+        "property_price": 76900000,
+        "down_payment": 5000000,
+        "loan_amount": 71900000,
+        "annual_interest_rate": 1.195,
+        "years": 35,
+        "monthly_payment": 209563,
+        "calculation_date": "2026-10-07",
+        "effective_date": "2000-01-01",
+        "valid_until": "2099-12-31",
+        "rate_basis": "公開済み参考金利",
+        "price_basis": null,
+        "loan_to_value": 0.9349804941482445,
+        "loan_to_value_percent": 93.49804941482445,
+        "conditions": [
+          "TEST公開条件"
+        ],
+        "product_notes": "TEST審査・利用条件を満たす方。参考金利です。",
+        "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST審査・利用条件を満たす方。参考金利です。",
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 47,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 49,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 50,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "TEST-mufg",
+              "bank": "三菱UFJ銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST審査・利用条件を満たす方。参考金利です。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST審査・利用条件を満たす方。参考金利です。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/staff-calls",
+      "status": 200,
+      "body": {
+        "id": "e03a537aa12442c3ad79bb2f3cccecfa",
+        "status": "pending",
+        "customer_message": "スタッフへの呼出を受け付けました。確認をお待ちください。",
+        "created_at": "2026-10-07T21:37:06+09:00",
+        "accepted_at": null,
+        "completed_at": null
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 47,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 49,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 50,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "TEST-mufg",
+              "bank": "三菱UFJ銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST審査・利用条件を満たす方。参考金利です。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST審査・利用条件を満たす方。参考金利です。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "e03a537aa12442c3ad79bb2f3cccecfa",
+            "status": "accepted",
+            "customer_message": "スタッフが確認しました。ご案内まで少々お待ちください。",
+            "created_at": "2026-10-07T21:37:06+09:00",
+            "accepted_at": "2026-10-07T21:37:06+09:00",
+            "completed_at": null
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 47,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 49,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 50,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "TEST-mufg",
+              "bank": "三菱UFJ銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST審査・利用条件を満たす方。参考金利です。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST審査・利用条件を満たす方。参考金利です。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "e03a537aa12442c3ad79bb2f3cccecfa",
+            "status": "completed",
+            "customer_message": "スタッフの対応が完了しました。",
+            "created_at": "2026-10-07T21:37:06+09:00",
+            "accepted_at": "2026-10-07T21:37:06+09:00",
+            "completed_at": "2026-10-07T21:37:08+09:00"
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/3f33571233474d34a9b25bc4891bfd70/end",
+      "status": 200,
+      "body": {
+        "id": "3f33571233474d34a9b25bc4891bfd70",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "ended",
+        "created_at": "2026-10-07T21:37:02+09:00",
+        "ended_at": "2026-10-07T21:37:10+09:00",
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "TEST展示住所",
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": 130.7,
+          "building_area": 93.25,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [
+            "TEST公園"
+          ],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 38,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 40,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 41,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 43,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T21:37:02+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 44,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 46,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              },
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 47,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 49,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T21:37:05+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 48,
+            "kind": "products",
+            "products": [
+              {
+                "id": "TEST-mufg",
+                "bank": "三菱UFJ銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 50,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "TEST-mufg",
+              "bank": "三菱UFJ銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST審査・利用条件を満たす方。参考金利です。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST審査・利用条件を満たす方。参考金利です。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "e03a537aa12442c3ad79bb2f3cccecfa",
+            "status": "completed",
+            "customer_message": "スタッフの対応が完了しました。",
+            "created_at": "2026-10-07T21:37:06+09:00",
+            "accepted_at": "2026-10-07T21:37:06+09:00",
+            "completed_at": "2026-10-07T21:37:08+09:00"
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    }
+  ],
+  "page_errors": [],
+  "session_id": "3f33571233474d34a9b25bc4891bfd70",
+  "version": 1
+}

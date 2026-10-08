@@ -1,0 +1,111 @@
+{
+  "voices": [
+    "ja-JP-NanamiNeural",
+    "ja-JP-ShioriNeural"
+  ],
+  "phrases": [
+    "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+    "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+    "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。"
+  ],
+  "maximum_synthesis_requests": 6,
+  "voice_list_requests": 1,
+  "paid_execution": true,
+  "naturalness": "WAITING_FOR_USER_LISTENING",
+  "region": "japaneast",
+  "output_format": "riff-24khz-16bit-mono-pcm",
+  "results": [
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "display_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "submitted_characters": 47,
+      "audio": "voice-1-phrase-1.wav",
+      "bytes": 489044,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "display_text": "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+      "submitted_characters": 59,
+      "audio": "voice-1-phrase-2.wav",
+      "bytes": 562844,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "display_text": "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。",
+      "submitted_characters": 49,
+      "audio": "voice-1-phrase-3.wav",
+      "bytes": 596444,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    },
+    {
+      "voice": "ja-JP-ShioriNeural",
+      "style": "neutral",
+      "display_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "submitted_characters": 47,
+      "audio": "voice-2-phrase-1.wav",
+      "bytes": 478844,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    },
+    {
+      "voice": "ja-JP-ShioriNeural",
+      "style": "neutral",
+      "display_text": "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+      "submitted_characters": 59,
+      "audio": "voice-2-phrase-2.wav",
+      "bytes": 552044,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    },
+    {
+      "voice": "ja-JP-ShioriNeural",
+      "style": "neutral",
+      "display_text": "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。",
+      "submitted_characters": 49,
+      "audio": "voice-2-phrase-3.wav",
+      "bytes": 532844,
+      "api_result": "SUCCESS",
+      "actual_output_transcript": null,
+      "transcript_note": "Azure TTS returns audio, not a recognized output transcript; listening remains required."
+    }
+  ],
+  "status": "GENERATED_WAITING_FOR_USER_LISTENING",
+  "synthesis_requests": 6,
+  "voice_list_requests_attempted": 1,
+  "usage_note": "Submitted character counts; REST does not provide actual billed usage or price.",
+  "available_candidates": {
+    "ja-JP-NanamiNeural": {
+      "available": true,
+      "styles": [
+        "chat",
+        "customerservice",
+        "cheerful"
+      ]
+    },
+    "ja-JP-ShioriNeural": {
+      "available": true,
+      "styles": []
+    },
+    "ja-JP-Nanami:DragonHDLatestNeural": {
+      "available": false,
+      "styles": []
+    },
+    "ja-JP-Sakura:MAI-Voice-2-Flash": {
+      "available": false,
+      "styles": []
+    }
+  }
+}

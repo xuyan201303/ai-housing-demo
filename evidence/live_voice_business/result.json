@@ -1,0 +1,765 @@
+{
+  "date": "2026-10-07",
+  "mode": "REAL_CHROME_WEBRTC_REAL_OPENAI_REAL_TOOLS_SYNTHETIC_KYOKO_INPUT",
+  "normal_demo_acceptance": "NOT_RUN",
+  "physical_microphone": "NOT_VERIFIED",
+  "physical_speaker_audibility": "NOT_VERIFIED",
+  "model": "configured .env OPENAI_REALTIME_MODEL",
+  "single_session": true,
+  "inputs": [
+    {
+      "label": "loan_question",
+      "text": "住宅ローンだったら月いくらですか？",
+      "kind": "SYNTHETIC_MACOS_KYOKO_WAV",
+      "sha256": "31173664130218dd7c1e1b6f7c95077e45771d002c35b3956535bab75333230a"
+    }
+  ],
+  "turns": [],
+  "checks": {},
+  "status": "FAIL",
+  "session_id": "21bce84649094cf0a22a903290edaee8",
+  "version": 3,
+  "pinned_snapshot": {
+    "price": 76900000,
+    "rates": [
+      {
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "rate": 1.195,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+        "source_name": "三菱UFJ銀行 住宅ローン金利",
+        "checked_at": "2026-10-07",
+        "years_min": 2,
+        "years_max": 40,
+        "loan_amount_min": 5000000,
+        "loan_amount_max": 300000000,
+        "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+        "reference": {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!2",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+        }
+      },
+      {
+        "bank": "住宅金融支援機構・取扱金融機関",
+        "product": "フラット35 新機構団信付き 21～35年",
+        "rate_type": "全期間固定金利",
+        "rate": 3.83,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+        "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+        "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+        "checked_at": "2026-10-07",
+        "rate_over_90_percent": 3.94,
+        "years_min": 21,
+        "years_max": 35,
+        "loan_amount_min": 1000000,
+        "loan_amount_max": 120000000,
+        "max_loan_to_value": 1,
+        "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+        "reference": {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!3",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+        }
+      }
+    ],
+    "property_name": "コモンステージ八千代中央 分譲住宅 No.15"
+  },
+  "greeting": "こんにちは。AI住宅コンシェルジュです。ご案内するのは「コモンステージ八千代中央 分譲住宅 No.15」です。間取り、設備、周辺環境、住宅ローンのどれについて知りたいですか？",
+  "error": "page.waitForFunction: Timeout 110000ms exceeded.",
+  "page_errors": [],
+  "events": [
+    {
+      "type": "session.created",
+      "at_ms": 1791337447258
+    },
+    {
+      "type": "session.updated",
+      "at_ms": 1791337447417
+    },
+    {
+      "type": "response.created",
+      "at_ms": 1791337447417
+    },
+    {
+      "type": "response.output_item.added",
+      "at_ms": 1791337447476
+    },
+    {
+      "type": "conversation.item.added",
+      "at_ms": 1791337447476
+    },
+    {
+      "type": "response.content_part.added",
+      "at_ms": 1791337447496
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447496
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447501
+    },
+    {
+      "type": "output_audio_buffer.started",
+      "at_ms": 1791337447684
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447692
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447692
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447791
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447799
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447806
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447813
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447821
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447964
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447973
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337447983
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448001
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448009
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448019
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448023
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448032
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448040
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448045
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448317
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448326
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448336
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448340
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448350
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448354
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448363
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448369
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448379
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448394
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448401
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448781
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448781
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448799
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448809
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448816
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448822
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337448828
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449213
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449221
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449227
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449236
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449248
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449275
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449275
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449275
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449275
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449674
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449683
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449691
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449697
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449704
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449715
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449726
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449732
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449739
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449747
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449756
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449764
+    },
+    {
+      "type": "response.output_audio_transcript.delta",
+      "at_ms": 1791337449769
+    },
+    {
+      "type": "response.output_audio.done",
+      "at_ms": 1791337450408
+    },
+    {
+      "type": "response.output_audio_transcript.done",
+      "at_ms": 1791337450408,
+      "transcript": "こんにちは。AI住宅コンシェルジュです。ご案内するのは「コモンステージ八千代中央 分譲住宅 No.15」です。間取り、設備、周辺環境、住宅ローンのどれについて知りたいですか？"
+    },
+    {
+      "type": "response.content_part.done",
+      "at_ms": 1791337450408
+    },
+    {
+      "type": "conversation.item.done",
+      "at_ms": 1791337450408
+    },
+    {
+      "type": "response.output_item.done",
+      "at_ms": 1791337450408
+    },
+    {
+      "type": "response.done",
+      "at_ms": 1791337450414,
+      "status": "completed",
+      "function_calls": 0
+    },
+    {
+      "type": "rate_limits.updated",
+      "at_ms": 1791337450455
+    },
+    {
+      "type": "output_audio_buffer.stopped",
+      "at_ms": 1791337461228
+    },
+    {
+      "type": "input_audio_buffer.speech_started",
+      "at_ms": 1791337463519
+    }
+  ],
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "こんにちは。AI住宅コンシェルジュです。ご案内するのは「コモンステージ八千代中央 分譲住宅 No.15」です。間取り、設備、周辺環境、住宅ローンのどれについて知りたいですか？",
+      "created_at": "2026-10-07T10:44:10+09:00",
+      "channel": "voice",
+      "references": [
+        {
+          "document_id": "08a8c38e0d504756b559df3df2234471",
+          "filename": "物件概要_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+        },
+        {
+          "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+          "filename": "設備仕様_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+        },
+        {
+          "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+          "filename": "周辺環境_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+        },
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "管理者確認・公開済み",
+          "source_url": ""
+        }
+      ],
+      "version": 3,
+      "provider": "openai_realtime",
+      "event_id": 184,
+      "kind": "message"
+    }
+  ],
+  "tool_events": [
+    {
+      "name": "get_property_overview",
+      "arguments": {},
+      "result": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "千葉県八千代市大和田新田字向山477番247",
+          "station": "東葉高速鉄道 八千代中央駅",
+          "land_area": 139.85,
+          "building_area": 93.25,
+          "completion_date": "2026-05",
+          "layout": "3LDK（No.15公式平面図から分類）",
+          "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。",
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）",
+          "valid_until": "2026-10-15",
+          "equipment": [
+            "断熱等級6",
+            "フロントオープン式食洗機（パナソニック）",
+            "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+            "太陽光発電（3.0kW）",
+            "HEMS",
+            "第一種換気",
+            "ビルトイン空気清浄機（Air Me）",
+            "家庭用燃料電池（エネファーム）",
+            "エアコン（2台）",
+            "床暖房（リビング・ダイニング）",
+            "キッチンのタッチレス水栓",
+            "保温浴槽付きユニットバス",
+            "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+            "長期優良住宅",
+            "住宅性能評価書（設計・建築の両方が公式掲載）"
+          ],
+          "surroundings": [
+            "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+            "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+            "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+            "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+          ],
+          "field_references": {
+            "property_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "lot": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "price": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "address": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "station": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "land_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "building_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "completion_date": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "layout": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "scope_notes": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_url": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "checked_at": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "effective_date": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "valid_until": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "equipment": {
+              "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+              "filename": "設備仕様_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "surroundings": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            }
+          }
+        },
+        "references": [
+          {
+            "document_id": "08a8c38e0d504756b559df3df2234471",
+            "filename": "物件概要_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+            "filename": "設備仕様_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+            "filename": "周辺環境_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "管理者確認・公開済み",
+            "source_url": ""
+          }
+        ],
+        "version": 3
+      },
+      "created_at": "2026-10-07T10:44:03+09:00",
+      "event_id": 182,
+      "kind": "tool"
+    },
+    {
+      "name": "get_property_overview",
+      "arguments": {},
+      "result": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "千葉県八千代市大和田新田字向山477番247",
+          "station": "東葉高速鉄道 八千代中央駅",
+          "land_area": 139.85,
+          "building_area": 93.25,
+          "completion_date": "2026-05",
+          "layout": "3LDK（No.15公式平面図から分類）",
+          "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。",
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）",
+          "valid_until": "2026-10-15",
+          "equipment": [
+            "断熱等級6",
+            "フロントオープン式食洗機（パナソニック）",
+            "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+            "太陽光発電（3.0kW）",
+            "HEMS",
+            "第一種換気",
+            "ビルトイン空気清浄機（Air Me）",
+            "家庭用燃料電池（エネファーム）",
+            "エアコン（2台）",
+            "床暖房（リビング・ダイニング）",
+            "キッチンのタッチレス水栓",
+            "保温浴槽付きユニットバス",
+            "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+            "長期優良住宅",
+            "住宅性能評価書（設計・建築の両方が公式掲載）"
+          ],
+          "surroundings": [
+            "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+            "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+            "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+            "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+          ],
+          "field_references": {
+            "property_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "lot": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "price": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "address": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "station": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "land_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "building_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "completion_date": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "layout": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "scope_notes": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_url": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "checked_at": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "effective_date": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "valid_until": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "equipment": {
+              "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+              "filename": "設備仕様_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "surroundings": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            }
+          }
+        },
+        "references": [
+          {
+            "document_id": "08a8c38e0d504756b559df3df2234471",
+            "filename": "物件概要_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+            "filename": "設備仕様_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+            "filename": "周辺環境_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "管理者確認・公開済み",
+            "source_url": ""
+          }
+        ],
+        "version": 3
+      },
+      "created_at": "2026-10-07T10:44:06+09:00",
+      "event_id": 183,
+      "kind": "tool"
+    }
+  ],
+  "realtime_at_failure": {
+    "status": "connected"
+  },
+  "staff_calls_at_failure": [],
+  "cleanup_after_failure": {
+    "status": "ended",
+    "realtime": {
+      "status": "closed",
+      "upstream_hangup_status": 200
+    }
+  }
+}

@@ -1,0 +1,541 @@
+Window: "開く", App: Google Chrome.
+0 シート Description: 開く, ID: open-panel, Secondary Actions: Raise
+	1 グループを分割
+		2 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+			3 アウトライン サイドバー
+				4 row (selectable) Description: 時計, Value: 最近の項目
+				5 row (selectable) Description: 2人, Value: 共有
+				6 row (selectable, expanded) Value: よく使う項目, Secondary Actions: Collapse
+				7 row (selectable) Description: App Storeの文字Aのアイコン, Value: アプリケーション
+				8 row (selectable) Description: 長方形の中のメニューバーとDock, Value: デスクトップ
+				9 row (selectable) Description: 書類のページ, Value: 書類
+				10 row (selectable) Description: 丸下矢印, Value: ダウンロード
+				11 row (selectable, expanded) Value: 場所, Secondary Actions: Collapse
+				12 row (selectable) Description: iCloud, Value: iCloud Drive
+				13 row (selectable) OneDrive
+				14 row (selected) Description: ホーム, Value: kyoen
+				15 row (selectable) Description: Mac mini（第3世代）（塗りつぶし）, Value: 許岩のMac mini
+				16 row (selectable) 取り出す, Value: SANZO_TEST, Description: 外部ハード・ドライブ
+取り出す
+				17 row (selectable, expanded) Value: タグ, Secondary Actions: Collapse
+				18 row (selectable) Description: 小さな円のバッジ（塗りつぶし）, Value: 红色
+				19 row (selectable) Description: 小さな円のバッジ（塗りつぶし）, Value: 绿色
+				20 row (selectable) Description: 小さな円のバッジ（塗りつぶし）, Value: ブルー
+				21 row (selectable) Description: 小さな円のバッジ, Value: 仕事
+				22 row (selectable) Description: 小さな円のバッジ（塗りつぶし）, Value: レッド
+				23 row (selectable) Description: 小さな円のバッジ, Value: 家庭
+				24 row (selectable) Description: 小さな円のバッジ（塗りつぶし）, Value: 橙色
+				25 row (selectable) Description: 2つの小さな円のバッジ, Value: すべてのタグ…
+				26 row (selectable, expanded) Value: メディア, Secondary Actions: Collapse
+				27 row (selectable) 写真
+			28 スクロールバー (settable, float) 0
+				29 値インジケータ (settable, float) 0
+				30 上向き矢印ボタン
+				31 下向き矢印ボタン
+				32 上向きページボタン
+				33 下向きページボタン
+		34 スプリッタ (disabled, settable, float) 170
+		35 ブラウザ Description: カラム表示, ID: ColumnView
+			36 スクロール領域 Secondary Actions: Scroll Left, Scroll Right
+				37 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					38 リスト
+						39 container Secondary Actions: Finder項目を開く
+							40 イメージ
+							41 テキストフィールド (settable) URL: file:///Users/kyoen/codex-acp-arm64-darwin, Value: codex-acp-arm64-darwin, Secondary Actions: Finder項目を開く
+						42 container Secondary Actions: Finder項目を開く
+							43 イメージ
+							44 テキストフィールド (settable) URL: file:///Users/kyoen/document-sdk-validation-sources/, Value: document-sdk-validation-sources, Secondary Actions: Finder項目を開く
+						45 container Secondary Actions: Finder項目を開く
+							46 イメージ
+							47 テキストフィールド (settable) URL: file:///Users/kyoen/FSI/, Value: FSI, Secondary Actions: Finder項目を開く
+						48 container Secondary Actions: Finder項目を開く
+							49 イメージ
+							50 テキストフィールド (settable) URL: file:///Users/kyoen/java_error_in_studio_24548.log, Value: java_error_in_studio_24548.log, Secondary Actions: Finder項目を開く
+						51 container Secondary Actions: Finder項目を開く
+							52 イメージ
+							53 テキストフィールド (settable) URL: file:///Users/kyoen/java_error_in_studio.hprof, Value: java_error_in_studio.hprof, Secondary Actions: Finder項目を開く
+						54 container Secondary Actions: Finder項目を開く
+							55 イメージ
+							56 テキストフィールド (settable) URL: file:///Users/kyoen/node_modules/, Value: node_modules, Secondary Actions: Finder項目を開く
+						57 container Secondary Actions: Finder項目を開く
+							58 イメージ
+							59 テキストフィールド (settable) URL: file:///Users/kyoen/OneDrive, Value: OneDrive, Secondary Actions: Finder項目を開く
+						60 container Secondary Actions: Finder項目を開く
+							61 イメージ
+							62 テキストフィールド (settable) URL: file:///Users/kyoen/package-lock.json, Value: package-lock.json, Secondary Actions: Finder項目を開く
+						63 container Secondary Actions: Finder項目を開く
+							64 イメージ
+							65 テキストフィールド (settable) URL: file:///Users/kyoen/package.json, Value: package.json, Secondary Actions: Finder項目を開く
+						66 container Secondary Actions: Finder項目を開く
+							67 イメージ
+							68 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/, Value: Projects, Secondary Actions: Finder項目を開く
+						69 container Secondary Actions: Finder項目を開く
+							70 イメージ
+							71 テキストフィールド (settable) URL: file:///Users/kyoen/Applications/, Value: アプリケーション, Secondary Actions: Finder項目を開く
+						72 container Secondary Actions: Finder項目を開く
+							73 イメージ
+							74 テキストフィールド (settable) URL: file:///Users/kyoen/Downloads/, Value: ダウンロード, Secondary Actions: Finder項目を開く
+						75 container Secondary Actions: Finder項目を開く
+							76 イメージ
+							77 テキストフィールド (settable) URL: file:///Users/kyoen/Desktop/, Value: デスクトップ, Secondary Actions: Finder項目を開く
+						78 container Secondary Actions: Finder項目を開く
+							79 イメージ
+							80 テキストフィールド (settable) URL: file:///Users/kyoen/Public/, Value: パブリック, Secondary Actions: Finder項目を開く
+						81 container Secondary Actions: Finder項目を開く
+							82 イメージ
+							83 テキストフィールド (settable) URL: file:///Users/kyoen/Pictures/, Value: ピクチャ, Secondary Actions: Finder項目を開く
+						84 container Secondary Actions: Finder項目を開く
+							85 イメージ
+							86 テキストフィールド (settable) URL: file:///Users/kyoen/Music/, Value: ミュージック, Secondary Actions: Finder項目を開く
+						87 container Secondary Actions: Finder項目を開く
+							88 イメージ
+							89 テキストフィールド (settable) URL: file:///Users/kyoen/Movies/, Value: ムービー, Secondary Actions: Finder項目を開く
+						90 container Secondary Actions: Finder項目を開く
+							91 イメージ
+							92 テキストフィールド (settable) URL: file:///Users/kyoen/Documents/, Value: 書類, Secondary Actions: Finder項目を開く
+					93 スクロールバー (settable, float) 0
+						94 値インジケータ (settable, float) 0
+						95 上向き矢印ボタン
+						96 下向き矢印ボタン
+						97 上向きページボタン
+						98 下向きページボタン
+				99 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					100 リスト
+						101 container Secondary Actions: Finder項目を開く
+							102 イメージ
+							103 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/, Value: ai-housing-demo, Secondary Actions: Finder項目を開く
+						104 container Secondary Actions: Finder項目を開く
+							105 イメージ
+							106 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/aiDemo/, Value: aiDemo, Secondary Actions: Finder項目を開く
+						107 container Secondary Actions: Finder項目を開く
+							108 イメージ
+							109 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/document-processing-sdk/, Value: document-processing-sdk, Secondary Actions: Finder項目を開く
+						110 container Secondary Actions: Finder項目を開く
+							111 イメージ
+							112 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/sdk/, Value: sdk, Secondary Actions: Finder項目を開く
+					113 スクロールバー (disabled, settable, float) 0
+				114 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					115 リスト
+						116 container Secondary Actions: Finder項目を開く
+							117 イメージ
+							118 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/assets/, Value: assets, Secondary Actions: Finder項目を開く
+						119 container Secondary Actions: Finder項目を開く
+							120 イメージ
+							121 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/backend/, Value: backend, Secondary Actions: Finder項目を開く
+						122 container Secondary Actions: Finder項目を開く
+							123 イメージ
+							124 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/data/, Value: data, Secondary Actions: Finder項目を開く
+						125 container Secondary Actions: Finder項目を開く
+							126 イメージ
+							127 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/demo_documents/, Value: demo_documents, Secondary Actions: Finder項目を開く
+						128 container Secondary Actions: Finder項目を開く
+							129 イメージ
+							130 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/docs/, Value: docs, Secondary Actions: Finder項目を開く
+						131 container Secondary Actions: Finder項目を開く
+							132 イメージ
+							133 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/, Value: evidence, Secondary Actions: Finder項目を開く
+						134 container Secondary Actions: Finder項目を開く
+							135 イメージ
+							136 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/frontend/, Value: frontend, Secondary Actions: Finder項目を開く
+						137 container Secondary Actions: Finder項目を開く
+							138 イメージ
+							139 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/README.md, Value: README.md, Secondary Actions: Finder項目を開く
+						140 container Secondary Actions: Finder項目を開く
+							141 イメージ
+							142 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/research/, Value: research, Secondary Actions: Finder項目を開く
+						143 container Secondary Actions: Finder項目を開く
+							144 イメージ
+							145 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/scripts/, Value: scripts, Secondary Actions: Finder項目を開く
+						146 container Secondary Actions: Finder項目を開く
+							147 イメージ
+							148 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/uploads/, Value: uploads, Secondary Actions: Finder項目を開く
+					149 スクロールバー (disabled, settable, float) 0
+				150 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					151 リスト
+						152 container Secondary Actions: Finder項目を開く
+							153 イメージ
+							154 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/acceptance.md, Value: acceptance.md, Secondary Actions: Finder項目を開く
+						155 container Secondary Actions: Finder項目を開く
+							156 イメージ
+							157 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/admin_forms_phase2/, Value: admin_forms_phase2, Secondary Actions: Finder項目を開く
+						158 container Secondary Actions: Finder項目を開く
+							159 イメージ
+							160 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/azure_voice_audition_20261007_234823/, Value: azure_voice_audition_20261007_234823, Secondary Actions: Finder項目を開く
+						161 container Secondary Actions: Finder項目を開く
+							162 イメージ
+							163 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/browser/, Value: browser, Secondary Actions: Finder項目を開く
+						164 container Secondary Actions: Finder項目を開く
+							165 イメージ
+							166 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/consultation_positioning/, Value: consultation_positioning, Secondary Actions: Finder項目を開く
+						167 container Secondary Actions: Finder項目を開く
+							168 イメージ
+							169 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/current_rate_conditions_review.md, Value: current_rate_conditions_review.md, Secondary Actions: Finder項目を開く
+						170 container Secondary Actions: Finder項目を開く
+							171 イメージ
+							172 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/customer_knowledge_boundary_r2/, Value: customer_knowledge_boundary_r2, Secondary Actions: Finder項目を開く
+						173 container Secondary Actions: Finder項目を開く
+							174 イメージ
+							175 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/documents/, Value: documents, Secondary Actions: Finder項目を開く
+						176 container Secondary Actions: Finder項目を開く
+							177 イメージ
+							178 テキストフィールド (settable) Value: final_status_before_consultation_positioning.json, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/final_status_before_consultation_positioning.json
+						179 container Secondary Actions: Finder項目を開く
+							180 イメージ
+							181 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/final_status_before_normal_preparation.json, Value: final_status_before_normal_preparation.json, Secondary Actions: Finder項目を開く
+						182 container Secondary Actions: Finder項目を開く
+							183 イメージ
+							184 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/final_status_pre_key.json, Value: final_status_pre_key.json, Secondary Actions: Finder項目を開く
+						185 container Secondary Actions: Finder項目を開く
+							186 イメージ
+							187 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/final_status.json, Value: final_status.json, Secondary Actions: Finder項目を開く
+						188 container Secondary Actions: Finder項目を開く
+							189 イメージ
+							190 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/http_acceptance.json, Value: http_acceptance.json, Secondary Actions: Finder項目を開く
+						191 container Secondary Actions: Finder項目を開く
+							192 イメージ
+							193 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/http-test.db, Value: http-test.db, Secondary Actions: Finder項目を開く
+						194 container Secondary Actions: Finder項目を開く
+							195 イメージ
+							196 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/http-uploads/, Value: http-uploads, Secondary Actions: Finder項目を開く
+						197 container Secondary Actions: Finder項目を開く
+							198 イメージ
+							199 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/japanese_voice_architecture_phase1/, Value: japanese_voice_architecture_phase1, Secondary Actions: Finder項目を開く
+						200 container Secondary Actions: Finder項目を開く
+							201 イメージ
+							202 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_browser/, Value: live_browser, Secondary Actions: Finder項目を開く
+						203 container Secondary Actions: Finder項目を開く
+							204 イメージ
+							205 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_consultation_voice/, Value: live_consultation_voice, Secondary Actions: Finder項目を開く
+						206 container Secondary Actions: Finder項目を開く
+							207 イメージ
+							208 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_consultation_voice_end/, Value: live_consultation_voice_end, Secondary Actions: Finder項目を開く
+						209 container Secondary Actions: Finder項目を開く
+							210 イメージ
+							211 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_consultation_voice_final/, Value: live_consultation_voice_final, Secondary Actions: Finder項目を開く
+						212 container Secondary Actions: Finder項目を開く
+							213 イメージ
+							214 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_consultation_voice_recheck/, Value: live_consultation_voice_recheck, Secondary Actions: Finder項目を開く
+						215 container Secondary Actions: Finder項目を開く
+							216 イメージ
+							217 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_loan_final.json, Value: live_loan_final.json, Secondary Actions: Finder項目を開く
+						218 container Secondary Actions: Finder項目を開く
+							219 イメージ
+							220 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_loan_final.md, Value: live_loan_final.md, Secondary Actions: Finder項目を開く
+						221 container Secondary Actions: Finder項目を開く
+							222 イメージ
+							223 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_loan_revalidation.json, Value: live_loan_revalidation.json, Secondary Actions: Finder項目を開く
+						224 container Secondary Actions: Finder項目を開く
+							225 イメージ
+							226 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_loan_revalidation.md, Value: live_loan_revalidation.md, Secondary Actions: Finder項目を開く
+						227 container Secondary Actions: Finder項目を開く
+							228 イメージ
+							229 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_rate_final.json, Value: live_rate_final.json, Secondary Actions: Finder項目を開く
+						230 container Secondary Actions: Finder項目を開く
+							231 イメージ
+							232 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_rate_final.md, Value: live_rate_final.md, Secondary Actions: Finder項目を開く
+						233 container Secondary Actions: Finder項目を開く
+							234 イメージ
+							235 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_rate_presentation.json, Value: live_rate_presentation.json, Secondary Actions: Finder項目を開く
+						236 container Secondary Actions: Finder項目を開く
+							237 イメージ
+							238 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_rate_presentation.md, Value: live_rate_presentation.md, Secondary Actions: Finder項目を開く
+						239 container Secondary Actions: Finder項目を開く
+							240 イメージ
+							241 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_text_acceptance.json, Value: live_text_acceptance.json, Secondary Actions: Finder項目を開く
+						242 container Secondary Actions: Finder項目を開く
+							243 イメージ
+							244 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_text_acceptance.md, Value: live_text_acceptance.md, Secondary Actions: Finder項目を開く
+						245 container Secondary Actions: Finder項目を開く
+							246 イメージ
+							247 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_version/, Value: live_version, Secondary Actions: Finder項目を開く
+						248 container Secondary Actions: Finder項目を開く
+							249 イメージ
+							250 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_version_acceptance.json, Value: live_version_acceptance.json, Secondary Actions: Finder項目を開く
+						251 container Secondary Actions: Finder項目を開く
+							252 イメージ
+							253 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_version_acceptance.md, Value: live_version_acceptance.md, Secondary Actions: Finder項目を開く
+						254 container Secondary Actions: Finder項目を開く
+							255 イメージ
+							256 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice/, Value: live_voice, Secondary Actions: Finder項目を開く
+						257 container Secondary Actions: Finder項目を開く
+							258 イメージ
+							259 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_accepted/, Value: live_voice_accepted, Secondary Actions: Finder項目を開く
+						260 container Secondary Actions: Finder項目を開く
+							261 イメージ
+							262 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_business/, Value: live_voice_business, Secondary Actions: Finder項目を開く
+						263 container Secondary Actions: Finder項目を開く
+							264 イメージ
+							265 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_business_clocked/, Value: live_voice_business_clocked, Secondary Actions: Finder項目を開く
+						266 container Secondary Actions: Finder項目を開く
+							267 イメージ
+							268 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_business_final/, Value: live_voice_business_final, Secondary Actions: Finder項目を開く
+						269 container Secondary Actions: Finder項目を開く
+							270 イメージ
+							271 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_complete/, Value: live_voice_complete, Secondary Actions: Finder項目を開く
+						272 container Secondary Actions: Finder項目を開く
+							273 イメージ
+							274 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_final/, Value: live_voice_final, Secondary Actions: Finder項目を開く
+						275 container Secondary Actions: Finder項目を開く
+							276 イメージ
+							277 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_final_verified/, Value: live_voice_final_verified, Secondary Actions: Finder項目を開く
+						278 container Secondary Actions: Finder項目を開く
+							279 イメージ
+							280 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_greeting_verified/, Value: live_voice_greeting_verified, Secondary Actions: Finder項目を開く
+						281 container Secondary Actions: Finder項目を開く
+							282 イメージ
+							283 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_review.md, Value: live_voice_review.md, Secondary Actions: Finder項目を開く
+						284 container Secondary Actions: Finder項目を開く
+							285 イメージ
+							286 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_roundtrip/, Value: live_voice_roundtrip, Secondary Actions: Finder項目を開く
+						287 container Secondary Actions: Finder項目を開く
+							288 イメージ
+							289 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/live_voice_verified/, Value: live_voice_verified, Secondary Actions: Finder項目を開く
+						290 container Secondary Actions: Finder項目を開く
+							291 イメージ
+							292 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/nanami_chat_tuning_20261007_235905/, Value: nanami_chat_tuning_20261007_235905, Secondary Actions: Finder項目を開く
+						293 container Secondary Actions: Finder項目を開く
+							294 イメージ
+							295 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/nanami_style_audition_20261007_235302/, Value: nanami_style_audition_20261007_235302, Secondary Actions: Finder項目を開く
+						296 container Secondary Actions: Finder項目を開く
+							297 イメージ
+							298 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_chrome/, Value: normal_demo_chrome, Secondary Actions: Finder項目を開く
+						299 container Secondary Actions: Finder項目を開く
+							300 イメージ
+							301 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_final_readback.json, Value: normal_demo_final_readback.json, Secondary Actions: Finder項目を開く
+						302 container Secondary Actions: Finder項目を開く
+							303 イメージ
+							304 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_preparation.json, Value: normal_demo_preparation.json, Secondary Actions: Finder項目を開く
+						305 container Secondary Actions: Finder項目を開く
+							306 イメージ
+							307 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_preparation.md, Value: normal_demo_preparation.md, Secondary Actions: Finder項目を開く
+						308 container Secondary Actions: Finder項目を開く
+							309 イメージ
+							310 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_published_chrome/, Value: normal_demo_published_chrome, Secondary Actions: Finder項目を開く
+						311 container Secondary Actions: Finder項目を開く
+							312 イメージ
+							313 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_published_readback.json, Value: normal_demo_published_readback.json, Secondary Actions: Finder項目を開く
+						314 container Secondary Actions: Finder項目を開く
+							315 イメージ
+							316 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_demo_published_readback.md, Value: normal_demo_published_readback.md, Secondary Actions: Finder項目を開く
+						317 container Secondary Actions: Finder項目を開く
+							318 イメージ
+							319 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/normal_publication_check.json, Value: normal_publication_check.json, Secondary Actions: Finder項目を開く
+						320 container Secondary Actions: Finder項目を開く
+							321 イメージ
+							322 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase1_user_10min_preparation/, Value: phase1_user_10min_preparation, Secondary Actions: Finder項目を開く
+						323 container Secondary Actions: Finder項目を開く
+							324 イメージ
+							325 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_admin_forms/, Value: phase2_admin_forms, Secondary Actions: Finder項目を開く
+						326 container Secondary Actions: Finder項目を開く
+							327 イメージ
+							328 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/, Value: phase2_document_update, Secondary Actions: Finder項目を開く
+						329 container Secondary Actions: Finder項目を開く
+							330 イメージ
+							331 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/public_response_boundary_r1/, Value: public_response_boundary_r1, Secondary Actions: Finder項目を開く
+						332 container Secondary Actions: Finder項目を開く
+							333 イメージ
+							334 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/sdk/, Value: sdk, Secondary Actions: Finder項目を開く
+						335 container Secondary Actions: Finder項目を開く
+							336 イメージ
+							337 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/voice_mortgage_form_fix.md, Value: voice_mortgage_form_fix.md, Secondary Actions: Finder項目を開く
+						338 container Secondary Actions: Finder項目を開く
+							339 イメージ
+							340 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/voice_quality/, Value: voice_quality, Secondary Actions: Finder項目を開く
+					341 スクロールバー (settable, float) 0.9104339796860572
+						342 値インジケータ (settable, float) 0.9104339796860572
+						343 上向き矢印ボタン
+						344 下向き矢印ボタン
+						345 上向きページボタン
+						346 下向きページボタン
+				347 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					348 リスト
+						349 container Secondary Actions: Finder項目を開く
+							350 イメージ
+							351 テキストフィールド (settable) Value: 01-conditions-restored.png, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/01-conditions-restored.png
+						352 container Secondary Actions: Finder項目を開く
+							353 イメージ
+							354 テキストフィールド (settable) Value: 02-confirmation-flow.png, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/02-confirmation-flow.png
+						355 container Secondary Actions: Finder項目を開く
+							356 イメージ
+							357 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/03-customer-v1.png, Value: 03-customer-v1.png, Secondary Actions: Finder項目を開く
+						358 container Secondary Actions: Finder項目を開く
+							359 イメージ
+							360 テキストフィールド (settable) Value: 04-confirmed-update-v1-retained.png, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/04-confirmed-update-v1-retained.png
+						361 container Secondary Actions: Finder項目を開く
+							362 イメージ
+							363 テキストフィールド (settable) Value: 05-old-session-after-confirm.png, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/05-old-session-after-confirm.png
+						364 container Secondary Actions: Finder項目を開く
+							365 イメージ
+							366 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/acceptance.md, Value: acceptance.md, Secondary Actions: Finder項目を開く
+						367 container Secondary Actions: Finder項目を開く
+							368 イメージ
+							369 テキストフィールド (settable) Value: admin-update-entry.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/admin-update-entry.ax.txt
+						370 container Secondary Actions: Finder項目を開く
+							371 イメージ
+							372 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/backend_initial.log, Value: backend_initial.log, Secondary Actions: Finder項目を開く
+						373 container Secondary Actions: Finder項目を開く
+							374 イメージ
+							375 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/backend_tests.log, Value: backend_tests.log, Secondary Actions: Finder項目を開く
+						376 container Secondary Actions: Finder項目を開く
+							377 イメージ
+							378 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/bug_reproduction.json, Value: bug_reproduction.json, Secondary Actions: Finder項目を開く
+						379 container Secondary Actions: Finder項目を開く
+							380 イメージ
+							381 テキストフィールド (settable) Value: business-update-cancelled.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/business-update-cancelled.ax.txt
+						382 container Secondary Actions: Finder項目を開く
+							383 イメージ
+							384 テキストフィールド (settable) Value: cancel-prepared-business-update.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/cancel-prepared-business-update.ax.txt
+						385 container Secondary Actions: Finder項目を開く
+							386 イメージ
+							387 テキストフィールド (settable) Value: conditions_confirmation_api.json, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/conditions_confirmation_api.json
+						388 container Secondary Actions: Finder項目を開く
+							389 イメージ
+							390 テキストフィールド (settable) Value: conditions-confirmed-bottom.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/conditions-confirmed-bottom.ax.txt
+						391 container Secondary Actions: Finder項目を開く
+							392 イメージ
+							393 テキストフィールド (settable) Value: conditions-confirmed.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/conditions-confirmed.ax.txt
+						394 container Secondary Actions: Finder項目を開く
+							395 イメージ
+							396 テキストフィールド (settable) Value: conditions-restored.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/conditions-restored.ax.txt
+						397 container Secondary Actions: Finder項目を開く
+							398 イメージ
+							399 テキストフィールド (settable) Value: customer-v1-candidate.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/customer-v1-candidate.ax.txt
+						400 container Secondary Actions: Finder項目を開く
+							401 イメージ
+							402 テキストフィールド (settable) Value: customer-v1-general.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/customer-v1-general.ax.txt
+						403 container Secondary Actions: Finder項目を開く
+							404 イメージ
+							405 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/customer-v1-home.ax.txt, Value: customer-v1-home.ax.txt, Secondary Actions: Finder項目を開く
+						406 container Secondary Actions: Finder項目を開く
+							407 イメージ
+							408 テキストフィールド (settable) Value: customer-v1-selected.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/customer-v1-selected.ax.txt
+						409 container Secondary Actions: Finder項目を開く
+							410 イメージ
+							411 テキストフィールド (settable) Value: customer-v1-started.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/customer-v1-started.ax.txt
+						412 container Secondary Actions: Finder項目を開く
+							413 イメージ
+							414 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/frontend_build.log, Value: frontend_build.log, Secondary Actions: Finder項目を開く
+						415 container Secondary Actions: Finder項目を開く
+							416 イメージ
+							417 テキストフィールド (settable) Value: loan_metadata_manual_test.json, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/loan_metadata_manual_test.json
+						418 container Secondary Actions: Finder項目を開く
+							419 イメージ
+							420 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/login-v1.ax.txt, Value: login-v1.ax.txt, Secondary Actions: Finder項目を開く
+						421 container Secondary Actions: Finder項目を開く
+							422 イメージ
+							423 テキストフィールド (settable) Value: new_session_before_publish.json, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/new_session_before_publish.json
+						424 container Secondary Actions: Finder項目を開く
+							425 イメージ
+							426 テキストフィールド (settable) Value: old-customer-after-confirm.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/old-customer-after-confirm.ax.txt
+						427 container Secondary Actions: Finder項目を開く
+							428 イメージ
+							429 テキストフィールド (settable) Value: old-customer-still-v1-after-new-confirm.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/old-customer-still-v1-after-new-confirm.ax.txt
+						430 container Secondary Actions: Finder項目を開く
+							431 イメージ
+							432 テキストフィールド (settable) Value: overview-business-revision.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/overview-business-revision.ax.txt
+						433 container Secondary Actions: Finder項目を開く
+							434 イメージ
+							435 テキストフィールド (settable) Value: overview-revision-confirmed-before-publish.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/overview-revision-confirmed-before-publish.ax.txt
+						436 container Secondary Actions: Finder項目を開く
+							437 イメージ
+							438 テキストフィールド (settable) Value: overview-revision-saved.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/overview-revision-saved.ax.txt
+						439 container Secondary Actions: Finder項目を開く
+							440 イメージ
+							441 テキストフィールド (settable) Value: overview-update-entry.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/overview-update-entry.ax.txt
+						442 container Secondary Actions: Finder項目を開く
+							443 イメージ
+							444 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/protected_before.json, Value: protected_before.json, Secondary Actions: Finder項目を開く
+						445 container Secondary Actions: Finder項目を開く
+							446 イメージ
+							447 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/publication_tests.log, Value: publication_tests.log, Secondary Actions: Finder項目を開く
+						448 container Secondary Actions: Finder項目を開く
+							449 イメージ
+							450 テキストフィールド (settable) Value: publication-entry.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/publication-entry.ax.txt
+						451 container Secondary Actions: Finder項目を開く
+							452 イメージ
+							453 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/r2_regression_payloads/, Value: r2_regression_payloads, Secondary Actions: Finder項目を開く
+						454 container Secondary Actions: Finder項目を開く
+							455 イメージ
+							456 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/reload-v1.ax.txt, Value: reload-v1.ax.txt, Secondary Actions: Finder項目を開く
+						457 container Secondary Actions: Finder項目を開く
+							458 イメージ
+							459 テキストフィールド (settable) Value: replacement_fixture.json, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/replacement_fixture.json
+						460 container Secondary Actions: Finder項目を開く
+							461 イメージ
+							462 テキストフィールド (settable) Value: replacement-file-dialog.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/replacement-file-dialog.ax.txt
+						463 container Secondary Actions: Finder項目を開く
+							464 イメージ
+							465 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/sdk_parse_records.json, Value: sdk_parse_records.json, Secondary Actions: Finder項目を開く
+						466 container Secondary Actions: Finder項目を開く
+							467 イメージ
+							468 テキストフィールド (selected, settable) Value: TEST_overview_replacement.pdf, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/TEST_overview_replacement.pdf
+						469 container Secondary Actions: Finder項目を開く
+							470 イメージ
+							471 テキストフィールド (settable) Value: test-file-selected.ax.txt, Secondary Actions: Finder項目を開く, URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/test-file-selected.ax.txt
+						472 container Secondary Actions: Finder項目を開く
+							473 イメージ
+							474 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/ui_observations.json, Value: ui_observations.json, Secondary Actions: Finder項目を開く
+						475 container Secondary Actions: Finder項目を開く
+							476 イメージ
+							477 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/ui-test.db, Value: ui-test.db, Secondary Actions: Finder項目を開く
+						478 container Secondary Actions: Finder項目を開く
+							479 イメージ
+							480 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/ui-uploads/, Value: ui-uploads, Secondary Actions: Finder項目を開く
+						481 container Secondary Actions: Finder項目を開く
+							482 イメージ
+							483 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/v1_setup_preview.json, Value: v1_setup_preview.json, Secondary Actions: Finder項目を開く
+						484 container Secondary Actions: Finder項目を開く
+							485 イメージ
+							486 テキストフィールド (settable) URL: file:///Users/kyoen/Projects/ai-housing-demo/evidence/phase2_document_update/v1_setup.json, Value: v1_setup.json, Secondary Actions: Finder項目を開く
+					487 スクロールバー (settable, float) 0.8011283497884344
+						488 値インジケータ (settable, float) 0.8011283497884344
+						489 上向き矢印ボタン
+						490 下向き矢印ボタン
+						491 上向きページボタン
+						492 下向きページボタン
+				493 スクロール領域 Secondary Actions: Scroll Up, Scroll Down
+					494 進行状況インジケータ Description: プレビュー, Value: 0
+					495 text TEST_overview_replacement.pdf PDF書類 - 35 KB 情報
+					496 切り替えボタン 表示項目を増やす, Value: off, ID: showMoreLessButton
+					497 text Value: 作成日 今日 10:17 変更日 今日 10:17 タグ, ID: metaCreatedTitle
+					498 スクロール領域
+						499 テキストフィールド Description: タグエディタ, Placeholder: タグを追加…
+					500 スクロールバー (settable, float) 0
+						501 値インジケータ (settable, float) 0
+						502 上向き矢印ボタン
+						503 下向き矢印ボタン
+						504 上向きページボタン
+						505 下向きページボタン
+				506 スクロールバー (settable, float) 0.9735449735449735
+					507 値インジケータ (settable, float) 0.9735449735449735
+					508 上向き矢印ボタン
+					509 下向き矢印ボタン
+					510 上向きページボタン
+					511 下向きページボタン
+		512 container
+			513 ボタン 戻る
+			514 ボタン (disabled) 進む
+		515 メニューボタン Description: カラム表示, Help: アイコン表示、リスト表示、またはカラム表示で表示して、サイドバーの表示/非表示を切り替えます, ID: View Options
+		516 メニューボタン Description: 1×2のライングリッドの下にある3×1の正方形のグリッド, Help: 項目のグループ分けを変更します（表示順序を変更するには、Optionキーを押したままにします）, ID: Group or Sort By
+		517 ポップアップボタン 場所:, Value: phase2_document_update, ID: where popup
+		518 検索テキストフィールド Search
+			519 ボタン 検索
+		520 ボタン オプションを表示, ID: OptionsButton
+		521 ボタン キャンセル, ID: CancelButton
+		522 ボタン 開く, ID: OKButton
+523 menu bar
+	524 Chrome
+	525 ファイル
+	526 編集
+	527 表示
+	528 履歴
+	529 ブックマーク
+	530 プロファイル
+	531 タブ
+	532 ウィンドウ
+	533 ヘルプ
+
+Selected:
+	466 container Secondary Actions: Finder項目を開く
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

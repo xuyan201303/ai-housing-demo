@@ -1,0 +1,14 @@
+{
+  "protected_files_unchanged": {
+    ".env": true,
+    "backend/requirements.txt": true,
+    "frontend/package-lock.json": true
+  },
+  "normal_db_file_metadata_unchanged": true,
+  "isolated_server_matches_current_source": true,
+  "normal_database_connections_from_task": 0,
+  "paid_ai_calls_from_task": 0,
+  "normal_backend_restarted": false,
+  "isolation": "/Users/kyoen/Projects/ai-housing-demo/evidence/public_response_boundary_r1/ui-test.db",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI"
+}

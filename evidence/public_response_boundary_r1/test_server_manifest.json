@@ -1,0 +1,12 @@
+{
+  "database": "/Users/kyoen/Projects/ai-housing-demo/evidence/public_response_boundary_r1/ui-test.db",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+  "outbound_connections": "LOOPBACK_ONLY",
+  "source_hashes": {
+    "backend/app/schemas/customer.py": "97aa30bd8fb3540b5ecc0b384115a8ece97d5e7c2f63f027e820394003c8fb44",
+    "backend/app/services/customer_view.py": "eb56a474a14b0eaf068f709a468d183bf3ba7e228a6033ec9141b387d84d86d1",
+    "backend/app/api/routes.py": "1e0858dd2430a51da13777676eafbcb134aaa97926270a9cf1d6ad189a719761",
+    "backend/app/services/sessions.py": "2410e15b0613dda2b655f611c5a8fe251d3700af07876831aeaee3836aefb22c",
+    "backend/app/services/realtime.py": "fb4741303daad4e28e27cbb184d3ad5db32af16871388b876329a9c66ab8b40f"
+  }
+}

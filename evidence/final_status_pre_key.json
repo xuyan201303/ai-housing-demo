@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-07",
+  "sdk_version": "1.8.0",
+  "sdk_smoke": "PASS",
+  "backend_tests_full_suite": 70,
+  "modified_pdf_version_test_recheck": 4,
+  "frontend_build": "PASS",
+  "chrome_headless_workflow": "PASS",
+  "actual_ai_text": "BLOCKED_OPENAI_API_KEY_NOT_CONFIGURED",
+  "actual_microphone_realtime": "NOT_VERIFIED",
+  "normal_demo_auto_published": false,
+  "normal_ports": [
+    8000,
+    5173
+  ],
+  "isolated_test_ports_stopped": [
+    8001,
+    5174
+  ]
+}

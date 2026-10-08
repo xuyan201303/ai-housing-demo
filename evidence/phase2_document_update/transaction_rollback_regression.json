@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "verification_method": "ISOLATED_FASTAPI_TESTCLIENT_HTTP_ROUTES_AND_REAL_SQLITE_TRANSACTION",
+  "source_test": "backend/tests/test_update_permission_edges.py::test_failure_at_publication_receipt_rolls_back_version_and_is_retryable",
+  "execution_evidence": "backend_tests.log",
+  "final_regression_result": "222 passed, 1 existing deprecation warning",
+  "scope": "Existing isolated regression execution; this record adds references and does not rerun the test",
+  "failure_injection": "TEST SQLite trigger aborts publication_submissions INSERT after version INSERT and document/draft updates",
+  "executed_assertions": [
+    "Publication HTTP response is 500 for the injected SQL failure",
+    "Complete version list remains identical to the pre-submit state",
+    "Document record remains identical to the pre-submit state",
+    "Publication draft remains open",
+    "New Customer session still uses the previous published version",
+    "No receipt exists for the failed idempotency key",
+    "After removing only the TEST failure trigger, the same submission succeeds",
+    "Repeating the same successful submission returns replayed=true and the same version",
+    "Exactly one additional version exists after successful submit and replay"
+  ],
+  "not_claimed": [
+    "Not a Chrome two-window concurrent test",
+    "Not a live network response-loss simulation",
+    "Not an independent capture of response bodies",
+    "Not a normal database operation or real AI/voice acceptance"
+  ],
+  "paid_calls": 0,
+  "normal_database_used": false
+}

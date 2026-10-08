@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-07",
+  "sdk_version": "1.8.0",
+  "sdk_smoke": "PASS",
+  "backend_tests_full_suite": 119,
+  "frontend_build": "PASS",
+  "chrome_headless_workflow": "PASS",
+  "openai_key_configured": true,
+  "normal_backend_restarted": true,
+  "actual_ai_text": "PASS_PUBLIC_FACTS_UNKNOWN_FACTS_VERSION_AND_SELECTED_LOAN",
+  "actual_rate_conditions": "PASS_PER_PRODUCT_SOURCE_REVIEW",
+  "actual_realtime_audio": "PASS_REAL_OPENAI_WITH_SYNTHETIC_TEST_INPUT",
+  "final_avatar_idle_and_media_cleanup": "PASS_ACTUAL_CHROME_OBSERVATION",
+  "actual_microphone_realtime": "NOT_VERIFIED",
+  "physical_speaker_acceptance": "NOT_VERIFIED",
+  "normal_demo_auto_published": false,
+  "normal_documents": 0,
+  "normal_versions": 0,
+  "normal_ports": [
+    8000,
+    5173
+  ],
+  "isolated_test_ports_running_for_manual_microphone_check": [
+    8001,
+    5174
+  ],
+  "evidence": "evidence/acceptance.md",
+  "historical_failures_preserved": true,
+  "actual_realtime_audio_evidence": "evidence/live_voice_final_verified/result.json",
+  "upstream_realtime_hangup_status": 200,
+  "voice_local_media_end": {
+    "peer_state": "closed",
+    "sender_tracks": [
+      "ended"
+    ]
+  },
+  "voice_final_avatar_state": "avatar-stage idle",
+  "verification_complete_except_manual_checks": true
+}

@@ -1,0 +1,392 @@
+{
+  "pdf": {
+    "file": {
+      "file_id": "735af6bb94abef458034bce444babdb55b2258d3301af7b072c2e476d7ac95fc",
+      "filename": "minimal.pdf",
+      "extension": ".pdf",
+      "mime_type": "application/pdf",
+      "size_bytes": 1705,
+      "fingerprint": {
+        "algorithm": "sha256",
+        "value": "735af6bb94abef458034bce444babdb55b2258d3301af7b072c2e476d7ac95fc"
+      }
+    },
+    "pages": [
+      {
+        "page_number": 1,
+        "dimensions": {
+          "width": 595.2755737304688,
+          "height": 841.8897705078125,
+          "unit": "points",
+          "rotation": 0,
+          "angle_degrees": null
+        },
+        "text_blocks": [
+          {
+            "text": "SANZO SDK smoke test\nThis is a native-text PDF created by SANZO for SDK testing.\nProperty: SANZO smoke fixture\nPrice JPY: 12345678\nThis fixture is not a real property and must not be published.",
+            "source": {
+              "source_type": "pdf",
+              "file_id": "735af6bb94abef458034bce444babdb55b2258d3301af7b072c2e476d7ac95fc",
+              "page_number": 1,
+              "bounding_box": null
+            },
+            "confidence": null,
+            "element_id": null,
+            "spans": []
+          }
+        ],
+        "tables": [],
+        "selection_marks": [],
+        "barcodes": [],
+        "formulas": [],
+        "content_spans": [],
+        "source": {
+          "source_type": "pdf",
+          "file_id": "735af6bb94abef458034bce444babdb55b2258d3301af7b072c2e476d7ac95fc",
+          "page_number": 1,
+          "bounding_box": null
+        }
+      }
+    ],
+    "tables": [],
+    "content_scopes": [],
+    "paragraphs": [],
+    "key_value_pairs": [],
+    "figures": [],
+    "sections": [],
+    "languages": [],
+    "styles": [],
+    "analyzed_documents": []
+  },
+  "workbook": {
+    "file": {
+      "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+      "filename": "minimal.xlsx",
+      "extension": ".xlsx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 4412,
+      "fingerprint": {
+        "algorithm": "sha256",
+        "value": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68"
+      }
+    },
+    "sheet_names": [
+      "Smoke"
+    ],
+    "worksheets": [
+      {
+        "name": "Smoke",
+        "used_range": "A1:C5",
+        "max_row": 5,
+        "max_column": 3,
+        "merged_ranges": [],
+        "hidden_rows": [],
+        "hidden_columns": [],
+        "formula_cell_count": 0
+      }
+    ]
+  },
+  "excel": {
+    "file": {
+      "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+      "filename": "minimal.xlsx",
+      "extension": ".xlsx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 4412,
+      "fingerprint": {
+        "algorithm": "sha256",
+        "value": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68"
+      }
+    },
+    "sheet_name": "Smoke",
+    "used_range": "A1:C5",
+    "cells": [
+      {
+        "coordinate": "A1",
+        "value": "SANZO SDK",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "A1"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "A2",
+        "value": "Field",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "A2"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "B2",
+        "value": "Value",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "B2"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "C2",
+        "value": "Purpose",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "C2"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "A3",
+        "value": "Property",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "A3"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "B3",
+        "value": "SANZO smoke fixture",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "B3"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "C3",
+        "value": "Synthetic SDK fixture",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "C3"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "A4",
+        "value": "Price JPY",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "A4"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "B4",
+        "value": 12345678,
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "n",
+        "style_id": null,
+        "number_format": "#,##0",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "B4"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "C4",
+        "value": "Not a real property",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "C4"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "A5",
+        "value": "Publishable",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "A5"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "B5",
+        "value": false,
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "b",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "B5"
+        },
+        "temporal_source": null
+      },
+      {
+        "coordinate": "C5",
+        "value": "Must not be published",
+        "formula": null,
+        "formula_text": null,
+        "cached_value": null,
+        "has_cached_value": false,
+        "cache_available": false,
+        "formula_kind": null,
+        "external_reference": false,
+        "requires_recalculation": false,
+        "data_type": "s",
+        "style_id": null,
+        "number_format": "General",
+        "source": {
+          "source_type": "excel",
+          "file_id": "820fe4015a3ff970cc949c8c35b2965db4935bec96a38319008f57931f7c0f68",
+          "sheet_name": "Smoke",
+          "cell_range": "C5"
+        },
+        "temporal_source": null
+      }
+    ]
+  }
+}

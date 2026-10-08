@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-07",
+  "public_fact_source": "research/public_data.json",
+  "author": "SANZO",
+  "copyright_note": "公開情報を基にSANZOがデモ用に再構成",
+  "pdf_font": "Noto Sans JP static weight 400, embedded",
+  "pdf_visual_qa": "PASS - 3 one-page PDFs rendered with bundled Poppler and visually inspected",
+  "xlsx_visual_qa": "PASS - Rates A1:G3, H1:P3, A5:G12 rendered with Artifact Tool and visually inspected",
+  "native_excel_verified": false,
+  "sdk_parsing": "Separate backend SDK evidence; document authoring does not parse inputs",
+  "artifacts": [
+    {
+      "path": "demo_documents/物件概要_demo.pdf",
+      "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e",
+      "size_bytes": 42243
+    },
+    {
+      "path": "demo_documents/設備仕様_demo.pdf",
+      "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40",
+      "size_bytes": 50409
+    },
+    {
+      "path": "demo_documents/周辺環境_demo.pdf",
+      "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3",
+      "size_bytes": 41734
+    },
+    {
+      "path": "demo_documents/住宅ローン_demo.xlsx",
+      "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "size_bytes": 6144
+    }
+  ]
+}

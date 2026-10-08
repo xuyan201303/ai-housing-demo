@@ -1,0 +1,13 @@
+{
+  "normal_backend": {
+    "error_type": "URLError"
+  },
+  "isolated_frontend_proxy": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "knowledge_boundary_version": 2,
+    "demo_mode": "test",
+    "ai_configured": false,
+    "realtime_configured": false
+  }
+}

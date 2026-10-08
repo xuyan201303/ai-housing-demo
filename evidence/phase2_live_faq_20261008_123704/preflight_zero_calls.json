@@ -1,0 +1,9 @@
+{
+  "question_limit": 2,
+  "generation_limit": 4,
+  "questions": [],
+  "calls": [],
+  "created_sessions": [],
+  "halted": false,
+  "halt_reason": null
+}

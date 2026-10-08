@@ -1,0 +1,15 @@
+{
+  "task": "HOUSING_PHASE2_LIVE_FAQ_CHECK",
+  "at": "2026-10-08T12:41:26+09:00",
+  "database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_live_faq_20261008_123704/live-test.db",
+  "url": "http://localhost:8005",
+  "api_key_configured": true,
+  "model": "gpt-4.1-mini",
+  "instructions_sha256": "41f8b838b3a696ee4c4a31b55bbb8a7e31036cc146412deb5a33f04a2f1d5f67",
+  "normal_db_connected": false,
+  "provider": "CURRENT_APPLICATION_REAL_AISERVICE",
+  "retries": 0,
+  "question_limit": 2,
+  "generation_limit": 4,
+  "voices_called": false
+}

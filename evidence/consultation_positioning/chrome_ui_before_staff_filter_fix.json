@@ -1,0 +1,13 @@
+{
+  "browser": "installed Google Chrome headless",
+  "api_mocks": 0,
+  "physical_microphone": "NOT_VERIFIED",
+  "checks": {
+    "normal_general_start_without_publication": "PASS",
+    "normal_six_parsed_no_confirmation": "PASS"
+  },
+  "page_errors": [],
+  "normal_session_id": "11cf7e16350a4587bbf5f4566b82e8d9",
+  "status": "FAIL",
+  "error": "expect(locator).toContainText(expected) failed\n\nLocator: locator('.staff-call').filter({ hasText: 'f1d825b811d14ba288d039487c2892b3' })\nExpected substring: \"対応完了\"\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toContainText\" locator('.staff-call').filter({ hasText: 'f1d825b811d14ba288d039487c2892b3' }) with timeout 5000ms\n  - waiting for locator('.staff-call').filter({ hasText: 'f1d825b811d14ba288d039487c2892b3' })\n    - locator resolved to <article class=\"card staff-call accepted\">…</article>\n    - unexpected value \"受付済み 2026/10/07 11:08住宅購入の一般相談呼出理由住宅ローン審査の判断依頼最近のご質問この年収なら、ローン審査に絶対通りますか？接客 ID: f1d825b811d14ba288d039487c2892b3更新しています…\"\n"
+}

@@ -1,0 +1,375 @@
+{
+  "mode": "isolated_test_http_one_real_openai_rate_conditions_turn",
+  "customer_turn_limit": 1,
+  "upstream_retry_count": 0,
+  "model_override": false,
+  "session_id": "380ede4de24d4f3c9a09a788baa6316f",
+  "published_version": 3,
+  "question": "頭金500万円、35年を希望。参考金利商品の条件を教えてください。まだ商品は選んでいません。",
+  "checks": {
+    "real_openai_answer": true,
+    "no_calculation_without_product_selection": true,
+    "flat35_lower_ltv_rate_qualified": true,
+    "flat35_higher_ltv_rate_qualified": true,
+    "correct_reference_basis_and_expiry": true,
+    "reference_caveat": true,
+    "source_and_version": true,
+    "no_unsupported_mufg_ltv_restriction": false
+  },
+  "http_status": 200,
+  "response": {
+    "answer": "頭金500万円、35年ローンを希望とのことですね。現在利用できる参考金利商品は2つございます。\n\n1. 三菱UFJ銀行「住宅ローン 新規借入 ずーっと一律優遇コース」\n   - 金利タイプ：変動金利\n   - 金利：1.195%\n   - 期間：2年～40年まで\n   - 借入金額：500万円～3億円\n   - 条件：年齢要件・団体信用生命保険加入・勤続年数・同行給与振込・所定口座利用などの銀行審査あり\n   - 基準日：2026-10-01 ～ 有効期限2026-10-31\n   - 融資率は9割以下\n   - 詳細：https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html\n\n2. 住宅金融支援機構・取扱金融機関「フラット35 新機構団信付き 21～35年」\n   - 金利タイプ：全期間固定金利\n   - 金利：3.83%（融資率9割以下）、3.94%（9割超）\n   - 期間：21年～35年\n   - 借入金額：100万円～1.2億円\n   - 条件：申込者・住宅要件・審査あり。団信付き。金利は受取時適用。\n   - 基準日：2026-10-01 ～ 有効期限2026-10-31\n   - 詳細：https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top\n\nまずはご希望の商品をお知らせいただければ、具体的な月返済額の計算も承ります。金利の基準日・有効期限は2026年10月現在の情報に基づきます。（根拠：公開物件概要および住宅ローン金利資料）",
+    "references": [
+      {
+        "document_id": "08a8c38e0d504756b559df3df2234471",
+        "filename": "物件概要_Chrome検証.pdf",
+        "location": "管理者確認・公開済み",
+        "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+      },
+      {
+        "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+        "filename": "設備仕様_Chrome検証.pdf",
+        "location": "管理者確認・公開済み",
+        "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+      },
+      {
+        "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+        "filename": "周辺環境_Chrome検証.pdf",
+        "location": "管理者確認・公開済み",
+        "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+      },
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "管理者確認・公開済み",
+        "source_url": ""
+      },
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "Rates!2",
+        "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+      },
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "Rates!3",
+        "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+      }
+    ],
+    "tool_results": [],
+    "provider": "openai",
+    "version": 3
+  },
+  "persisted_messages": [
+    {
+      "role": "user",
+      "text": "頭金500万円、35年を希望。参考金利商品の条件を教えてください。まだ商品は選んでいません。",
+      "created_at": "2026-10-07T10:14:55+09:00",
+      "channel": "text",
+      "event_id": 130,
+      "kind": "message"
+    },
+    {
+      "role": "assistant",
+      "text": "頭金500万円、35年ローンを希望とのことですね。現在利用できる参考金利商品は2つございます。\n\n1. 三菱UFJ銀行「住宅ローン 新規借入 ずーっと一律優遇コース」\n   - 金利タイプ：変動金利\n   - 金利：1.195%\n   - 期間：2年～40年まで\n   - 借入金額：500万円～3億円\n   - 条件：年齢要件・団体信用生命保険加入・勤続年数・同行給与振込・所定口座利用などの銀行審査あり\n   - 基準日：2026-10-01 ～ 有効期限2026-10-31\n   - 融資率は9割以下\n   - 詳細：https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html\n\n2. 住宅金融支援機構・取扱金融機関「フラット35 新機構団信付き 21～35年」\n   - 金利タイプ：全期間固定金利\n   - 金利：3.83%（融資率9割以下）、3.94%（9割超）\n   - 期間：21年～35年\n   - 借入金額：100万円～1.2億円\n   - 条件：申込者・住宅要件・審査あり。団信付き。金利は受取時適用。\n   - 基準日：2026-10-01 ～ 有効期限2026-10-31\n   - 詳細：https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top\n\nまずはご希望の商品をお知らせいただければ、具体的な月返済額の計算も承ります。金利の基準日・有効期限は2026年10月現在の情報に基づきます。（根拠：公開物件概要および住宅ローン金利資料）",
+      "created_at": "2026-10-07T10:15:00+09:00",
+      "channel": "text",
+      "references": [
+        {
+          "document_id": "08a8c38e0d504756b559df3df2234471",
+          "filename": "物件概要_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+        },
+        {
+          "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+          "filename": "設備仕様_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+        },
+        {
+          "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+          "filename": "周辺環境_Chrome検証.pdf",
+          "location": "管理者確認・公開済み",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+        },
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "管理者確認・公開済み",
+          "source_url": ""
+        },
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!2",
+          "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+        },
+        {
+          "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+          "filename": "住宅ローン_Chrome検証.xlsx",
+          "location": "Rates!3",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+        }
+      ],
+      "tool_results": [],
+      "version": 3,
+      "event_id": 133,
+      "kind": "message"
+    }
+  ],
+  "persisted_tool_events": [
+    {
+      "name": "get_property_overview",
+      "arguments": {},
+      "result": {
+        "property": {
+          "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": "千葉県八千代市大和田新田字向山477番247",
+          "station": "東葉高速鉄道 八千代中央駅",
+          "land_area": 139.85,
+          "building_area": 93.25,
+          "completion_date": "2026-05",
+          "layout": "3LDK（No.15公式平面図から分類）",
+          "scope_notes": "周辺施設の距離・徒歩時間は公式販売ページの範囲／最長値です。No.15単独の実測値ではありません。",
+          "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 周辺環境",
+          "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-02（物件概要の登録日。周辺ページ固有の更新日は未記載）",
+          "valid_until": "2026-10-15",
+          "equipment": [
+            "断熱等級6",
+            "フロントオープン式食洗機（パナソニック）",
+            "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+            "太陽光発電（3.0kW）",
+            "HEMS",
+            "第一種換気",
+            "ビルトイン空気清浄機（Air Me）",
+            "家庭用燃料電池（エネファーム）",
+            "エアコン（2台）",
+            "床暖房（リビング・ダイニング）",
+            "キッチンのタッチレス水栓",
+            "保温浴槽付きユニットバス",
+            "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+            "長期優良住宅",
+            "住宅性能評価書（設計・建築の両方が公式掲載）"
+          ],
+          "surroundings": [
+            "八千代中央駅：920～950m、最長徒歩12分（販売中4戸の範囲／最長値）",
+            "八千代市立大和田西小学校：510～540m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "みつわなかよし保育園：410～440m、最長徒歩6分（販売中4戸の範囲／最長値）",
+            "東京女子医科大学八千代医療センター：490～520m、最長徒歩7分（販売中4戸の範囲／最長値）",
+            "コープみらい コープ八千代店：830～860m、最長徒歩11分（販売中4戸の範囲／最長値）",
+            "向山第6公園：180～210m、最長徒歩3分（販売中4戸の範囲／最長値）"
+          ],
+          "field_references": {
+            "property_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "lot": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "price": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "address": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "station": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "land_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "building_area": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "completion_date": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "layout": {
+              "document_id": "08a8c38e0d504756b559df3df2234471",
+              "filename": "物件概要_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "scope_notes": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_name": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "source_url": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "checked_at": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "effective_date": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "valid_until": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "equipment": {
+              "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+              "filename": "設備仕様_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            },
+            "surroundings": {
+              "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+              "filename": "周辺環境_Chrome検証.pdf",
+              "location": "管理者確認・公開済み"
+            }
+          }
+        },
+        "references": [
+          {
+            "document_id": "08a8c38e0d504756b559df3df2234471",
+            "filename": "物件概要_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "d19dd4ec9c9241eb8b0370796a89e73f",
+            "filename": "設備仕様_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html"
+          },
+          {
+            "document_id": "2c949cdafbfa4b3fa1905beba35733ab",
+            "filename": "周辺環境_Chrome検証.pdf",
+            "location": "管理者確認・公開済み",
+            "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "管理者確認・公開済み",
+            "source_url": ""
+          }
+        ],
+        "version": 3
+      },
+      "created_at": "2026-10-07T10:14:55+09:00",
+      "event_id": 131,
+      "kind": "tool"
+    },
+    {
+      "name": "get_mortgage_rates",
+      "arguments": {},
+      "result": {
+        "rates": [
+          {
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "rate": 1.195,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+            "source_name": "三菱UFJ銀行 住宅ローン金利",
+            "checked_at": "2026-10-07",
+            "years_min": 2,
+            "years_max": 40,
+            "loan_amount_min": 5000000,
+            "loan_amount_max": 300000000,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            }
+          },
+          {
+            "bank": "住宅金融支援機構・取扱金融機関",
+            "product": "フラット35 新機構団信付き 21～35年",
+            "rate_type": "全期間固定金利",
+            "rate": 3.83,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+            "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+            "checked_at": "2026-10-07",
+            "rate_over_90_percent": 3.94,
+            "years_min": 21,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 120000000,
+            "max_loan_to_value": 1,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!3",
+              "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+            }
+          }
+        ],
+        "references": [
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!3",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ],
+        "version": 3,
+        "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+      },
+      "created_at": "2026-10-07T10:14:55+09:00",
+      "event_id": 132,
+      "kind": "tool"
+    }
+  ],
+  "status": "REQUIRES_SEMANTIC_CORRECTION",
+  "session_final_status": "ended",
+  "automatic_targeted_status": "LIVE_CAPTURED_REQUIRES_MANUAL_QUALIFIER_REVIEW",
+  "semantic_review": {
+    "flat35_qualifiers": "PASS",
+    "dates": "PASS",
+    "no_premature_calculation": "PASS",
+    "additional_fact": "FAIL_UNSUPPORTED_MUFG_90_PERCENT_LTV_RESTRICTION",
+    "actual_phrase": "融資率は9割以下",
+    "source_basis": "Published MUFG row/research mortgage_rates has no max_loan_to_value or stated 90%-only LTV condition; Flat35 bands were applied to another product."
+  }
+}

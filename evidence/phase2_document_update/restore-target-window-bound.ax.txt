@@ -1,0 +1,179 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/admin, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin
+						34 container
+							35 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							36 テキスト 業務管理
+							37 link お客様ページ ↗, Value: localhost:5176/
+							38 link スタッフ, Value: localhost:5176/staff
+							39 ボタン ログアウト
+							40 テキスト 業務管理
+							41 見出し 資料を確認して、安心できるご案内へ。, Value: 1
+								42 テキスト 資料を確認して、安心できるご案内へ。
+							43 テキスト 資料を取り込み、業務内容を編集・保存。社員の確認後に公開します。
+							44 text SANZO SDK  1.8.0 登録資料
+							45 container
+								46 text 7 件
+							47 テキスト 確認・公開済み
+							48 container
+								49 text 7 件
+							50 テキスト 現在の公開版
+							51 テキスト v2
+							52 テキスト 接客履歴
+							53 container
+								54 text 2 件
+							55 container 業務管理メニュー
+								56 ボタン 物件情報
+								57 ボタン 資料管理
+								58 ボタン 設備情報
+								59 ボタン FAQ
+								60 ボタン 住宅ローン
+								61 ボタン 公開管理
+								62 ボタン 接客履歴
+							63 ボタン ファイルを選択: 選択されていません
+							64 ボタン 公開内容を編集
+							65 ボタン 現在の公開情報
+							66 ボタン 公開バージョン履歴
+							67 テキスト 公開版 v2 を作成しました。新しい接客から反映されます。有効な既存接客は開始時の版を維持します。
+							68 container 公開バージョン履歴
+								69 見出し 公開バージョン履歴, Value: 2
+									70 テキスト 公開バージョン履歴
+								71 テキスト 復元は過去版を消さず、現在の用途・期限を再確認して新しい公開版を作成します。取り消された用途や期限を自動で復活させません。
+								72 container
+									73 三角形の展開ボタン v2 · コモンステージ八千代中央 分譲住宅 No.15 2026/10/08 10:27
+										74 テキスト v
+										75 テキスト 2
+										76 テキスト  · 
+										77 テキスト コモンステージ八千代中央 分譲住宅 No.15
+										78 テキスト 2026/10/08 10:27
+									79 定義リスト
+										80 container 操作した管理者
+											81 テキスト 操作した管理者
+										82 テキスト admin（共有管理アカウント）
+										83 container 変更の説明
+											84 テキスト 変更の説明
+										85 テキスト TEST v2：物件概要のみ実SDK解析済み新PDFへ差し替え。設備・周辺・2つの一般FAQ・金利を保持。TEST価格77,900,000円。
+									86 見出し 含まれる資料と確認改訂, Value: 3
+										87 テキスト 含まれる資料と確認改訂
+									88 コンテンツリスト
+										89 container
+											90 AXListMarker • 
+											91 text 住宅ローン_demo.xlsx  · 改訂  b8a16f35  · 確認 # 8
+										92 container
+											93 AXListMarker • 
+											94 text 住宅ローン基礎FAQ_demo.pdf  · 改訂  0cf1cc8c  · 確認 # 5
+										95 container
+											96 AXListMarker • 
+											97 text 住宅購入基礎FAQ_demo.pdf  · 改訂  c02e40d4  · 確認 # 4
+										98 container
+											99 AXListMarker • 
+											100 text 周辺環境_demo.pdf  · 改訂  97895a28  · 確認 # 3
+										101 container
+											102 AXListMarker • 
+											103 text 設備仕様_demo.pdf  · 改訂  47480c27  · 確認 # 2
+										104 container
+											105 AXListMarker • 
+											106 text TEST_overview_replacement.pdf  · 改訂  0d26b162  · 確認 # 10
+									107 ボタン v2 の内容から復元草案を作成
+									108 三角形の展開ボタン 公開版の診断データ
+										109 テキスト 公開版の診断データ
+								110 container
+									111 三角形の展開ボタン v1 · コモンステージ八千代中央 分譲住宅 No.15 2026/10/08 10:21
+										112 テキスト v
+										113 テキスト 1
+										114 テキスト  · 
+										115 テキスト コモンステージ八千代中央 分譲住宅 No.15
+										116 テキスト 2026/10/08 10:21
+									117 定義リスト
+										118 container 操作した管理者
+											119 テキスト 操作した管理者
+										120 テキスト admin（共有管理アカウント）
+										121 container 変更の説明
+											122 テキスト 変更の説明
+										123 テキスト TEST v1初期公開：6資料を実SDK解析・明示確認。loan metadata/conditionsはTEST人工整理。Chrome操作ではなく隔離HTTP setup。
+									124 見出し 含まれる資料と確認改訂, Value: 3
+										125 テキスト 含まれる資料と確認改訂
+									126 コンテンツリスト
+										127 container
+											128 AXListMarker • 
+											129 text 住宅ローン_demo.xlsx  · 改訂  b8a16f35  · 確認 # 8
+										130 container
+											131 AXListMarker • 
+											132 text 住宅ローン基礎FAQ_demo.pdf  · 改訂  0cf1cc8c  · 確認 # 5
+										133 container
+											134 AXListMarker • 
+											135 text 住宅購入基礎FAQ_demo.pdf  · 改訂  c02e40d4  · 確認 # 4
+										136 container
+											137 AXListMarker • 
+											138 text 周辺環境_demo.pdf  · 改訂  97895a28  · 確認 # 3
+										139 container
+											140 AXListMarker • 
+											141 text 設備仕様_demo.pdf  · 改訂  47480c27  · 確認 # 2
+										142 container
+											143 AXListMarker • 
+											144 text 物件概要_demo.pdf  · 改訂  398b157f  · 確認 # 1
+									145 ボタン v1 の内容から復元草案を作成
+									146 三角形の展開ボタン 公開版の診断データ
+										147 テキスト 公開版の診断データ
+			148 ポップアップボタン タブ検索
+			149 container
+				150 タブグループ
+					151 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 160 MB, Value: on
+						152 ボタン 閉じる
+					153 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						154 ボタン 閉じる
+					155 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 174 MB, Value: off
+						156 ボタン 閉じる
+					157 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 114 MB, Value: off
+						158 ボタン 閉じる
+			159 ボタン 新しいタブ
+			160 ボタン Gemini in Chrome を開く
+	161 閉じるボタン
+	162 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	163 しまうボタン
+164 menu bar
+	165 Chrome
+	166 ファイル
+	167 編集
+	168 表示
+	169 履歴
+	170 ブックマーク
+	171 プロファイル
+	172 タブ
+	173 ウィンドウ
+	174 ヘルプ
+
+The focused UI element is 111 三角形の展開ボタン v1 · コモンステージ八千代中央 分譲住宅 No.15 2026/10/08 10:21

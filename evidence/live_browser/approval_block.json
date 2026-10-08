@@ -1,0 +1,17 @@
+{
+  "status": "AUTO_REVIEW_REJECTED_BEFORE_EXECUTION",
+  "action": "node scripts/live_text_browser.mjs against isolated test :5174/:8001",
+  "customer_turn_count": 0,
+  "browser_launched": false,
+  "upstream_retry_count": 0,
+  "reason": "The test sends the property/session context and user question to OpenAI, an untrusted external destination; the user enabled the key but did not explicitly authorize exporting this specific sensitive payload.",
+  "read_only_payload_review": {
+    "destination": "https://api.openai.com/v1/responses",
+    "input": "Published public No.15 property facts, public source references, synthetic station-scope question, business instructions and tool definitions",
+    "credentials_in_model_input": false,
+    "session_token_or_id_in_model_input": false,
+    "private_customer_data": false,
+    "upstream_store": false,
+    "source": "backend/app/services/ai.py actual request construction"
+  }
+}

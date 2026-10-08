@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-07T11:40:49.753318+09:00",
+  "positioning": "COMPANY_HOUSING_AI_CONCIERGE",
+  "sdk_version": "1.8.0",
+  "sdk_core_modified": false,
+  "env_overwritten": false,
+  "normal_demo": {
+    "url": "http://localhost:5173/",
+    "backend": "127.0.0.1:8000",
+    "health": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "demo",
+      "ai_configured": true,
+      "realtime_configured": true
+    },
+    "database": "data/housing.db",
+    "document_count": 6,
+    "parsed_count": 6,
+    "confirmed_count": 0,
+    "published_version": null,
+    "active_session_records": 0,
+    "documents": [
+      {
+        "filename": "住宅ローン基礎FAQ_demo.pdf",
+        "id": "50688bdecad5436cb0179486f76b6ae4",
+        "status": "parsed",
+        "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba"
+      },
+      {
+        "filename": "住宅購入基礎FAQ_demo.pdf",
+        "id": "f4dab4310870418b9f43fd1dea0ba3a6",
+        "status": "parsed",
+        "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026"
+      },
+      {
+        "filename": "住宅ローン_demo.xlsx",
+        "id": "e9e36ae2af88432f9cf9f424e8f2264a",
+        "status": "parsed",
+        "sha256": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471"
+      },
+      {
+        "filename": "周辺環境_demo.pdf",
+        "id": "97801b7b550b40aca0a385eaa84af084",
+        "status": "parsed",
+        "sha256": "bb487b31261a0bfed36318eaafd83004ec862a5e5937da1b8cfd53893c0a52f3"
+      },
+      {
+        "filename": "設備仕様_demo.pdf",
+        "id": "30fc20eb48fe4add83c99e23dd155aaf",
+        "status": "parsed",
+        "sha256": "a7be67d780e1dc94f13705774965c3f114fff05e8837afecf0a6b52145156c40"
+      },
+      {
+        "filename": "物件概要_demo.pdf",
+        "id": "22e15ea4e0694b0c97f7a765c6f48b08",
+        "status": "parsed",
+        "sha256": "0bb9ac96ea5ae3a358bd4a939df110410b216786d88c758ac8b9416ddcecff9e"
+      }
+    ],
+    "file_hash_reuse_verified": true,
+    "frontend_http_status": 200
+  },
+  "normal_parsed_documents": 6,
+  "normal_confirmed_documents": 0,
+  "normal_current_version": null,
+  "normal_requires_manual_confirmation_and_publication": true,
+  "company_materials": "MISSING_NO_INVENTED_COMPANY_FACTS",
+  "normal_customer_voice_acceptance": "NOT_VERIFIED",
+  "physical_microphone": "NOT_VERIFIED",
+  "physical_speaker_audibility": "NOT_VERIFIED",
+  "manual_acceptance_status": "WAITING_FOR_USER_MIC_TEST",
+  "backend_tests_current_turn": "138 passed; one preexisting Starlette deprecation warning",
+  "frontend_build": "PASS",
+  "positioning_review": "evidence/consultation_positioning/review.md",
+  "real_text_targeted": "evidence/consultation_positioning/targeted_text_final.json",
+  "real_text_ui": "evidence/consultation_positioning/text_materials_chrome.json",
+  "real_voice_targeted": "evidence/live_consultation_voice_end/result.json",
+  "voice_input_kind": "SYNTHETIC_MACOS_KYOKO_REAL_REALTIME_SERVICE",
+  "voice_media_end": {
+    "peer_state": "closed",
+    "sender_tracks": [
+      "ended"
+    ],
+    "synthetic_input_tracks": [
+      "ended"
+    ],
+    "playback_paused": true,
+    "playback_source_cleared": true,
+    "avatar": "avatar-stage idle",
+    "active_session_caption": false
+  },
+  "voice_realtime_end": {
+    "status": "closed",
+    "upstream_hangup_status": 200
+  },
+  "voice_session_ended": "ended",
+  "isolated_current_version": 4,
+  "ready_for_customer_demo": "NO",
+  "pending_conditions": [
+    "Human review and publication of six normal documents",
+    "Normal5173 genuine Mac microphone and actual speaker/user acceptance"
+  ],
+  "historical_status_preserved": "evidence/final_status_before_consultation_positioning.json"
+}

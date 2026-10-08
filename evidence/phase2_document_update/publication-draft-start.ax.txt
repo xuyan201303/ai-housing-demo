@@ -1,0 +1,102 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/admin, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin
+						34 container
+							35 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							36 テキスト 業務管理
+							37 link お客様ページ ↗, Value: localhost:5176/
+							38 link スタッフ, Value: localhost:5176/staff
+							39 ボタン ログアウト
+							40 テキスト 業務管理
+							41 見出し 資料を確認して、安心できるご案内へ。, Value: 1
+								42 テキスト 資料を確認して、安心できるご案内へ。
+							43 テキスト 資料を取り込み、業務内容を編集・保存。社員の確認後に公開します。
+							44 text SANZO SDK  1.8.0 登録資料
+							45 container
+								46 text 7 件
+							47 テキスト 確認・公開済み
+							48 container
+								49 text 7 件
+							50 テキスト 現在の公開版
+							51 テキスト v1
+							52 テキスト 接客履歴
+							53 container
+								54 text 2 件
+							55 container 業務管理メニュー
+								56 ボタン 物件情報
+								57 ボタン 資料管理
+								58 ボタン 設備情報
+								59 ボタン FAQ
+								60 ボタン 住宅ローン
+								61 ボタン 公開管理
+								62 ボタン 接客履歴
+							63 ボタン ファイルを選択: TEST_overview_replacement.pdf
+							64 ボタン 公開内容を編集
+							65 ボタン 現在の公開情報
+							66 ボタン 公開バージョン履歴
+							67 container 公開草案の編集
+								68 テキスト 公開草案
+								69 見出し 他の資料を残しながら、必要な内容を更新, Value: 2
+									70 テキスト 他の資料を残しながら、必要な内容を更新
+								71 ボタン 現在の公開版から草案を作成
+								72 テキスト 草案の保存・プレビューでは接客内容は変わりません。追加・差し替え・除外を明示し、最後に差分を確認して公開します。
+								73 container
+									74 text 「現在の公開版から草案を作成」を押してください。 既に保存した草案がある場合は上の一覧から再開できます。
+			75 ポップアップボタン タブ検索
+			76 container
+				77 タブグループ
+					78 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 168 MB, Value: on
+						79 ボタン 閉じる
+					80 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						81 ボタン 閉じる
+			82 ボタン 新しいタブ
+			83 ボタン Gemini in Chrome を開く
+	84 閉じるボタン
+	85 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	86 しまうボタン
+87 menu bar
+	88 Chrome
+	89 ファイル
+	90 編集
+	91 表示
+	92 履歴
+	93 ブックマーク
+	94 プロファイル
+	95 タブ
+	96 ウィンドウ
+	97 ヘルプ
+
+The focused UI element is 61 ボタン 公開管理

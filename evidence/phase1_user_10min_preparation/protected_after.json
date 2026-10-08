@@ -1,0 +1,7 @@
+{
+  ".env": true,
+  "data/housing.db": true,
+  "backend/app/services/tools.py": true,
+  "backend/app/services/sessions.py": true,
+  "backend/app/services/guardrails.py": true
+}

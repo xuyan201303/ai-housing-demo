@@ -1,0 +1,19 @@
+{
+  "protected_files": 65,
+  "unchanged": true,
+  "differences": [],
+  "normal_database_files": [
+    "data/housing.db-shm",
+    "data/housing.db-wal",
+    "data/housing.db"
+  ],
+  "normal_database_sql_connections": 0,
+  "additional_prior_protected_files": 24,
+  "additional_prior_differences": [
+    "backend/app/services/knowledge_access.py"
+  ],
+  "intentional_prior_difference": "backend/app/services/knowledge_access.py (immutable approval associations and explicit permission revocation epochs)",
+  "sdk_source_access": false,
+  "environment_file_unchanged": true,
+  "normal_switch": "NOT_EXECUTED"
+}

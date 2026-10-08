@@ -1,0 +1,13 @@
+
+> sanzo-housing-concierge@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.62 kB │ gzip:  0.44 kB
+dist/assets/index-DEJnn44z.css   35.56 kB │ gzip:  8.46 kB
+dist/assets/index-D4ZdjxMb.js   296.63 kB │ gzip: 91.57 kB
+✓ built in 723ms

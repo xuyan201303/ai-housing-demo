@@ -1,0 +1,181 @@
+{
+  "voice": "ja-JP-NanamiNeural",
+  "styles": [
+    "neutral",
+    "customerservice",
+    "chat"
+  ],
+  "region": "japaneast",
+  "styledegree": {
+    "neutral": null,
+    "customerservice": 1.0,
+    "chat": 1.0
+  },
+  "prosody": {
+    "rate": "DEFAULT_UNSPECIFIED",
+    "pitch": "DEFAULT_UNSPECIFIED",
+    "volume": "DEFAULT_UNSPECIFIED"
+  },
+  "output_format": "riff-24khz-16bit-mono-pcm",
+  "list_requests": 1,
+  "synthesis_requests": 9,
+  "results": [
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "phrase": 1,
+      "display_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "submitted_characters": 47,
+      "ssml": "nanami-neutral-1.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-neutral-1.wav",
+      "bytes": 489044
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "phrase": 2,
+      "display_text": "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+      "submitted_characters": 59,
+      "ssml": "nanami-neutral-2.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-neutral-2.wav",
+      "bytes": 562844
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "neutral",
+      "phrase": 3,
+      "display_text": "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。",
+      "submitted_characters": 49,
+      "ssml": "nanami-neutral-3.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-neutral-3.wav",
+      "bytes": 596444
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "customerservice",
+      "phrase": 1,
+      "display_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "submitted_characters": 47,
+      "ssml": "nanami-customerservice-1.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-customerservice-1.wav",
+      "bytes": 475844
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "customerservice",
+      "phrase": 2,
+      "display_text": "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+      "submitted_characters": 59,
+      "ssml": "nanami-customerservice-2.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-customerservice-2.wav",
+      "bytes": 543644
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "customerservice",
+      "phrase": 3,
+      "display_text": "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。",
+      "submitted_characters": 49,
+      "ssml": "nanami-customerservice-3.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-customerservice-3.wav",
+      "bytes": 574244
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "chat",
+      "phrase": 1,
+      "display_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "submitted_characters": 47,
+      "ssml": "nanami-chat-1.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-chat-1.wav",
+      "bytes": 478844
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "chat",
+      "phrase": 2,
+      "display_text": "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+      "submitted_characters": 59,
+      "ssml": "nanami-chat-2.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-chat-2.wav",
+      "bytes": 545444
+    },
+    {
+      "voice": "ja-JP-NanamiNeural",
+      "style": "chat",
+      "phrase": 3,
+      "display_text": "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。",
+      "submitted_characters": 49,
+      "ssml": "nanami-chat-3.ssml",
+      "status": "SUCCESS",
+      "http_status": 200,
+      "audio": "nanami-chat-3.wav",
+      "bytes": 570044
+    }
+  ],
+  "status": "GENERATED_WAITING_FOR_USER_LISTENING",
+  "naturalness": "WAITING_FOR_USER_LISTENING",
+  "openai_calls": 0,
+  "actual_output_transcript": null,
+  "exact_billed_usage": null,
+  "usage_note": "Submitted display character counts only; not a bill or output transcript.",
+  "official_style_reference": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup-voice",
+  "voice_list_http_status": 200,
+  "nanami_voice_list_entry": {
+    "Name": "Microsoft Server Speech Text to Speech Voice (ja-JP, NanamiNeural)",
+    "DisplayName": "Nanami",
+    "LocalName": "七海",
+    "ShortName": "ja-JP-NanamiNeural",
+    "Gender": "Female",
+    "Locale": "ja-JP",
+    "LocaleName": "Japanese (Japan)",
+    "StyleList": [
+      "chat",
+      "customerservice",
+      "cheerful"
+    ],
+    "SampleRateHertz": "48000",
+    "VoiceType": "Neural",
+    "Status": "GA",
+    "VoiceTag": {
+      "Capabilities": [
+        "multi-style"
+      ],
+      "ModelSeries": [
+        "Monolingual"
+      ],
+      "PersonaId": [
+        "Nanami"
+      ],
+      "Source": [
+        "Azure"
+      ],
+      "TailoredScenarios": [
+        "Narration",
+        "News"
+      ],
+      "VoicePersonalities": [
+        "Bright",
+        "Cheerful"
+      ]
+    },
+    "WordsPerMinute": "305"
+  },
+  "protected_files_unchanged": true
+}

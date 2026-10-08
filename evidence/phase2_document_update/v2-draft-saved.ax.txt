@@ -1,0 +1,149 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/admin, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin
+						34 container
+							35 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							36 テキスト 業務管理
+							37 link お客様ページ ↗, Value: localhost:5176/
+							38 link スタッフ, Value: localhost:5176/staff
+							39 ボタン ログアウト
+							40 テキスト 業務管理
+							41 見出し 資料を確認して、安心できるご案内へ。, Value: 1
+								42 テキスト 資料を確認して、安心できるご案内へ。
+							43 テキスト 資料を取り込み、業務内容を編集・保存。社員の確認後に公開します。
+							44 text SANZO SDK  1.8.0 登録資料
+							45 container
+								46 text 7 件
+							47 テキスト 確認・公開済み
+							48 container
+								49 text 7 件
+							50 テキスト 現在の公開版
+							51 テキスト v1
+							52 テキスト 接客履歴
+							53 container
+								54 text 2 件
+							55 container 業務管理メニュー
+								56 ボタン 物件情報
+								57 ボタン 資料管理
+								58 ボタン 設備情報
+								59 ボタン FAQ
+								60 ボタン 住宅ローン
+								61 ボタン 公開管理
+								62 ボタン 接客履歴
+							63 ボタン ファイルを選択: TEST_overview_replacement.pdf
+							64 ボタン 公開内容を編集
+							65 ボタン 現在の公開情報
+							66 ボタン 公開バージョン履歴
+							67 テキスト 公開草案を保存しました。ページを再読み込みしても内容は保持されます。接客にはまだ反映されません。
+							68 container 公開草案の編集
+								69 テキスト 公開草案
+								70 見出し 他の資料を残しながら、必要な内容を更新, Value: 2
+									71 テキスト 他の資料を残しながら、必要な内容を更新
+								72 ボタン 現在の公開版から草案を作成
+								73 テキスト 草案の保存・プレビューでは接客内容は変わりません。追加・差し替え・除外を明示し、最後に差分を確認して公開します。
+								74 container
+									75 テキスト 保存済みの公開草案
+									76 ポップアップ ボタン 保存済みの公開草案, Value: v1 を基に更新 · 2026/10/08 10:25 · TEST v2：物件概要のみ実SDK解析済み新PDFへ差し替え。設備・周辺・2つの一般FAQ・金利を保持。TEST価格77,900,000円。
+										77 (selected) v1 を基に更新 · 2026/10/08 10:25 · 変更説明なし
+								78 container
+									79 text 基準： 公開版 v1
+								80 テキスト 草案 第1版 · 保存済み
+								81 container
+									82 text 住宅ローン_demo.xlsx 改訂  b8a16f35  · 確認 # 8  ·  顧客への案内に使用可 この資料の次版
+									83 ポップアップ ボタン 住宅ローン_demo.xlsx の公開改訂, Value: 住宅ローン_demo.xlsx / 確認 #8 · 改訂 b8a16f35
+										84 (selected) 住宅ローン_demo.xlsx / 確認 #8 · 改訂 b8a16f35
+									85 ボタン 住宅ローン_demo.xlsx を次版から除外
+								86 container
+									87 text 住宅ローン基礎FAQ_demo.pdf 改訂  0cf1cc8c  · 確認 # 5  ·  顧客への案内に使用可 この資料の次版
+									88 ポップアップ ボタン 住宅ローン基礎FAQ_demo.pdf の公開改訂, Value: 住宅ローン基礎FAQ_demo.pdf / 確認 #5 · 改訂 0cf1cc8c
+										89 (selected) 住宅ローン基礎FAQ_demo.pdf / 確認 #5 · 改訂 0cf1cc8c
+									90 ボタン 住宅ローン基礎FAQ_demo.pdf を次版から除外
+								91 container
+									92 text 住宅購入基礎FAQ_demo.pdf 改訂  c02e40d4  · 確認 # 4  ·  顧客への案内に使用可 この資料の次版
+									93 ポップアップ ボタン 住宅購入基礎FAQ_demo.pdf の公開改訂, Value: 住宅購入基礎FAQ_demo.pdf / 確認 #4 · 改訂 c02e40d4
+										94 (selected) 住宅購入基礎FAQ_demo.pdf / 確認 #4 · 改訂 c02e40d4
+									95 ボタン 住宅購入基礎FAQ_demo.pdf を次版から除外
+								96 container
+									97 text 周辺環境_demo.pdf 改訂  97895a28  · 確認 # 3  ·  顧客への案内に使用可 この資料の次版
+									98 ポップアップ ボタン 周辺環境_demo.pdf の公開改訂, Value: 周辺環境_demo.pdf / 確認 #3 · 改訂 97895a28
+										99 (selected) 周辺環境_demo.pdf / 確認 #3 · 改訂 97895a28
+									100 ボタン 周辺環境_demo.pdf を次版から除外
+								101 container
+									102 text 設備仕様_demo.pdf 改訂  47480c27  · 確認 # 2  ·  顧客への案内に使用可 この資料の次版
+									103 ポップアップ ボタン 設備仕様_demo.pdf の公開改訂, Value: 設備仕様_demo.pdf / 確認 #2 · 改訂 47480c27
+										104 (selected) 設備仕様_demo.pdf / 確認 #2 · 改訂 47480c27
+									105 ボタン 設備仕様_demo.pdf を次版から除外
+								106 container
+									107 text TEST_overview_replacement.pdf 改訂  0d26b162  · 確認 # 10  ·  顧客への案内に使用可 差し替え元： 物件概要_demo.pdf  / 確認 # 1 この資料の次版
+									108 ポップアップ ボタン TEST_overview_replacement.pdf の公開改訂, Value: TEST_overview_replacement.pdf / 確認 #10 · 改訂 0d26b162
+										109 (selected) TEST_overview_replacement.pdf / 確認 #10 · 改訂 0d26b162
+									110 ボタン TEST_overview_replacement.pdf を次版から除外
+								111 container
+									112 テキスト 確認済み資料を追加
+									113 ポップアップ ボタン 公開草案に追加する資料, Value: 資料・改訂を選択
+										114 (selected) 資料・改訂を選択
+								115 ボタン (disabled) 資料を追加
+								116 container
+									117 テキスト 変更の説明
+									118 テキスト入力領域 (settable) 公開変更の説明, Value: TEST v2：物件概要のみ実SDK解析済み新PDFへ差し替え。設備・周辺・2つの一般FAQ・金利を保持。TEST価格77,900,000円。
+									119 テキスト 何を更新・除外するのか記録します。共有管理者による操作として履歴に残ります。
+								120 ボタン 公開草案を保存
+								121 ボタン 公開前の差分を確認
+			122 ポップアップボタン タブ検索
+			123 container
+				124 タブグループ
+					125 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 168 MB, Value: on
+						126 ボタン 閉じる
+					127 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						128 ボタン 閉じる
+			129 ボタン 新しいタブ
+			130 ボタン Gemini in Chrome を開く
+	131 閉じるボタン
+	132 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	133 しまうボタン
+134 menu bar
+	135 Chrome
+	136 ファイル
+	137 編集
+	138 表示
+	139 履歴
+	140 ブックマーク
+	141 プロファイル
+	142 タブ
+	143 ウィンドウ
+	144 ヘルプ
+
+The focused UI element is 33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin

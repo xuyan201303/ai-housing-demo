@@ -1,0 +1,41 @@
+{
+  "document_id": "943986e694d84d7cb1c927221c083df8",
+  "document_sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+  "source_revision": "c7b070b9f6ddf5af19af013ab6fb981f9c8a72a6ccdbb74163e2c00940aa18f9",
+  "base_confirmation_id": 7,
+  "base_published_version": 2,
+  "revision": 6,
+  "reviewed": {
+    "document": {
+      "source_name": "SANZO自有TEST FAQ（人工入力）",
+      "source_url": "urn:sanzo:phase2-live-faq",
+      "checked_at": "2026-10-07",
+      "effective_date": "2026-10-07",
+      "valid_until": "2026-11-06",
+      "scope_notes": "SANZOが作成した非機密の動作確認専用TEST FAQ。実際の会社サービス・公的制度・銀行の声明ではありません。SDK原文とは別の人工入力改訂です。",
+      "scope": "general"
+    },
+    "property": {},
+    "knowledge": [],
+    "rates": [],
+    "faq": [
+      {
+        "question": "TEST案内の確認方法は？",
+        "answer": "SANZOが用意した動作確認用のTEST資料です。確認は青色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+        "reference": {
+          "location": "TEST人工入力・青色確認票の比較基線",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+        },
+        "source_url": "urn:sanzo:phase2-live-faq"
+      }
+    ]
+  },
+  "usage": "customer",
+  "note": "TEST限定：手入力FAQの出典を自有TESTと明示し、青色確認票の比較基線を準備。公式機関・実際の会社サービスの情報ではありません。",
+  "saved_at": "2026-10-08T12:42:33+09:00",
+  "saved_by": "admin",
+  "confirmed_at": null,
+  "stale": false
+}

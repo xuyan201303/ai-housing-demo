@@ -1,0 +1,59 @@
+{
+  "file": {
+    "file_id": "30e05a356a1d406905820ad6549f100471fb5380df0f6d68d3d7fd3bef09a17a",
+    "filename": "142759b7cb2c48eaa53392c2b3da9e4d.pdf",
+    "extension": ".pdf",
+    "mime_type": "application/pdf",
+    "size_bytes": 19644,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "value": "30e05a356a1d406905820ad6549f100471fb5380df0f6d68d3d7fd3bef09a17a"
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions": {
+        "width": 595.2755737304688,
+        "height": 841.8897705078125,
+        "unit": "points",
+        "rotation": 0,
+        "angle_degrees": null
+      },
+      "text_blocks": [
+        {
+          "text": "TEST ONLY - Scenario B 価格更新検証\nこの資料は隔離テスト専用です。公式の販売価格更新ではありません。\nproperty_name: TEST ONLY - version update fixture\nlot: No.15 TEST\nprice: 77000000\nsource_name: SANZO generated TEST ONLY version-update fixture\nsource_url: https://example.invalid/scenario-b-test-price-update\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-10-15\nscope_notes: TEST専用の合成価格77000000円。公式価格を変更する資料ではありません。\n元資料の物件は隔離版1に残します。正式DemoのDB・公開版を変更しません。\nSANZO generated synthetic TEST source - not a developer official document",
+          "source": {
+            "source_type": "pdf",
+            "file_id": "30e05a356a1d406905820ad6549f100471fb5380df0f6d68d3d7fd3bef09a17a",
+            "page_number": 1,
+            "bounding_box": null
+          },
+          "confidence": null,
+          "element_id": null,
+          "spans": []
+        }
+      ],
+      "tables": [],
+      "selection_marks": [],
+      "barcodes": [],
+      "formulas": [],
+      "content_spans": [],
+      "source": {
+        "source_type": "pdf",
+        "file_id": "30e05a356a1d406905820ad6549f100471fb5380df0f6d68d3d7fd3bef09a17a",
+        "page_number": 1,
+        "bounding_box": null
+      }
+    }
+  ],
+  "tables": [],
+  "content_scopes": [],
+  "paragraphs": [],
+  "key_value_pairs": [],
+  "figures": [],
+  "sections": [],
+  "languages": [],
+  "styles": [],
+  "analyzed_documents": []
+}

@@ -1,0 +1,273 @@
+{
+  "session_id": "50509e184c114f98a2b5bf5f7557579b",
+  "version": 4,
+  "initial_property": {},
+  "mode": "REAL_OPENAI_TEXT_TARGETED_ONE_LOAN_CALL",
+  "ai_retries": 0,
+  "physical_microphone": "NOT_VERIFIED",
+  "status": "PASS",
+  "question": "物件はまだ決めていません。借入額は三千万円です。35年です。三菱UFJ銀行の変動金利でお願いします。月額の試算をお願いします。",
+  "answer": {
+    "answer": "三菱UFJ銀行の変動金利「住宅ローン 新規借入 ずーっと一律優遇コース」での借入額3000万円、返済期間35年の月額返済額の試算は約87,439円です。\n\n参考金利は1.195%（2026年10月1日基準、10月31日まで有効）での計算です。元利均等返済・ボーナス返済なしのシミュレーションで、手数料や保険料は含みません。将来の金利変動は考慮していません。\n\n詳細は三菱UFJ銀行の住宅ローン金利の公式ページをご確認ください。\n（参照：住宅ローン_Chrome検証.xlsx Rates!2 https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html）",
+    "references": [
+      {
+        "document_id": "c268173429a745bd84bb434d0ad8a805",
+        "filename": "住宅購入基礎FAQ_demo.pdf",
+        "location": "p.1",
+        "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+      },
+      {
+        "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+        "filename": "住宅ローン基礎FAQ_demo.pdf",
+        "location": "p.1",
+        "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+      },
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "Rates!2",
+        "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+      },
+      {
+        "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+        "filename": "住宅ローン_Chrome検証.xlsx",
+        "location": "Rates!3",
+        "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+      }
+    ],
+    "tool_results": [
+      {
+        "name": "calculate_mortgage",
+        "result": {
+          "property_price": null,
+          "down_payment": null,
+          "loan_amount": 30000000,
+          "annual_interest_rate": 1.195,
+          "years": 35,
+          "monthly_payment": 87439,
+          "calculation_date": "2026-10-07",
+          "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+          "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+          "bank": "三菱UFJ銀行",
+          "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+          "rate_type": "変動金利",
+          "effective_date": "2026-10-01",
+          "valid_until": "2026-10-31",
+          "references": [
+            {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            }
+          ],
+          "version": 4,
+          "property_context": null,
+          "price_basis": "物件未選択・顧客申告借入額",
+          "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+        }
+      }
+    ],
+    "provider": "openai",
+    "version": 4
+  },
+  "tool_events": [
+    {
+      "name": "get_consultation_context",
+      "arguments": {},
+      "result": {
+        "items": [
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "c268173429a745bd84bb434d0ad8a805",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            },
+            "scope": "general"
+          },
+          {
+            "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+            "reference": {
+              "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            "scope": "general"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "c268173429a745bd84bb434d0ad8a805",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "document_id": "eb6bd04cdf61436b8ef25252e3478d4d",
+            "filename": "住宅ローン基礎FAQ_demo.pdf",
+            "location": "p.1",
+            "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+          }
+        ],
+        "version": 4,
+        "property_selected": false,
+        "customer_declared": {
+          "loan_amount": 30000000.0,
+          "property_price": null,
+          "source": "顧客の発話。公開資料の事実ではない。"
+        },
+        "company_material_available": false,
+        "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+      },
+      "created_at": "2026-10-07T11:21:52+09:00",
+      "event_id": 328,
+      "kind": "tool"
+    },
+    {
+      "name": "get_mortgage_rates",
+      "arguments": {},
+      "result": {
+        "rates": [
+          {
+            "bank": "三菱UFJ銀行",
+            "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+            "rate_type": "変動金利",
+            "rate": 1.195,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+            "source_name": "三菱UFJ銀行 住宅ローン金利",
+            "checked_at": "2026-10-07",
+            "years_min": 2,
+            "years_max": 40,
+            "loan_amount_min": 5000000,
+            "loan_amount_max": 300000000,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!2",
+              "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+            },
+            "scope": "property",
+            "requires_acquisition_price_for_estimate": false,
+            "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+            "loan_to_value_conditions": "融資率による金利区分・融資率上限はこの商品の公開資料には未登録です。別商品の9割条件をこの商品に転用しないでください。"
+          },
+          {
+            "bank": "住宅金融支援機構・取扱金融機関",
+            "product": "フラット35 新機構団信付き 21～35年",
+            "rate_type": "全期間固定金利",
+            "rate": 3.83,
+            "effective_date": "2026-10-01",
+            "valid_until": "2026-10-31",
+            "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+            "source_name": "住宅金融支援機構 フラット35 最新の金利情報",
+            "checked_at": "2026-10-07",
+            "rate_over_90_percent": 3.94,
+            "years_min": 21,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 120000000,
+            "max_loan_to_value": 1,
+            "id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:1",
+            "reference": {
+              "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+              "filename": "住宅ローン_Chrome検証.xlsx",
+              "location": "Rates!3",
+              "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+            },
+            "scope": "property",
+            "requires_acquisition_price_for_estimate": true,
+            "estimate_input_rule": "物件未選択: 申告借入額・年数・明示商品選択。頭金は計算入力に不要。取得価格は requires_acquisition_price_for_estimate=true の場合のみ必要。金融機関の申込要件とは別のDemo計算入力。",
+            "loan_to_value_conditions": "融資率9割以下の参考金利: 3.83%。9割超の参考金利: 3.94%。この区分はこの商品だけに適用。"
+          }
+        ],
+        "references": [
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          },
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!3",
+            "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ],
+        "version": 4,
+        "note": "参考金利。基準日と適用条件を確認。審査・将来の変動金利を確約しません。"
+      },
+      "created_at": "2026-10-07T11:21:52+09:00",
+      "event_id": 329,
+      "kind": "tool"
+    },
+    {
+      "name": "calculate_mortgage",
+      "arguments": {
+        "down_payment": null,
+        "years": 35,
+        "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+        "loan_amount": 30000000,
+        "property_price": null
+      },
+      "result": {
+        "property_price": null,
+        "down_payment": null,
+        "loan_amount": 30000000,
+        "annual_interest_rate": 1.195,
+        "years": 35,
+        "monthly_payment": 87439,
+        "calculation_date": "2026-10-07",
+        "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "rate_id": "84543ef5a4a64bbaaf7d4e8911c0739e:rate:0",
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "references": [
+          {
+            "document_id": "84543ef5a4a64bbaaf7d4e8911c0739e",
+            "filename": "住宅ローン_Chrome検証.xlsx",
+            "location": "Rates!2",
+            "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ],
+        "version": 4,
+        "property_context": null,
+        "price_basis": "物件未選択・顧客申告借入額",
+        "product_notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。"
+      },
+      "created_at": "2026-10-07T11:21:55+09:00",
+      "event_id": 330,
+      "kind": "tool"
+    }
+  ],
+  "checks": {
+    "japanese_amount_actual_tool_calculation": "PASS",
+    "no_default_property_payload_or_price": "PASS"
+  },
+  "company_policy": {
+    "answer": "会社のサービス・営業時間について、確認・公開済みの会社資料がまだありません。担当スタッフへご相談ください。",
+    "references": [],
+    "tool_results": [],
+    "provider": "backend_policy",
+    "version": 4
+  },
+  "ambiguous_policy": {
+    "answer": "どの物件についてのご質問でしょうか。一般的な住宅購入のご相談も、そのままお伺いできます。",
+    "references": [],
+    "tool_results": [],
+    "provider": "backend_policy",
+    "version": 4
+  },
+  "end_status": 200
+}

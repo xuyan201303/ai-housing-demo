@@ -1,0 +1,123 @@
+{
+  "distribution_name": "document-processing-sdk",
+  "import_package": "document_sdk",
+  "version": "1.8.0",
+  "requires_python": "<3.13,>=3.12",
+  "runtime_dependencies": [
+    "defusedxml>=0.7,<1",
+    "pydantic>=2.10,<3"
+  ],
+  "optional_dependencies": {
+    "image": [
+      "pillow>=11,<13"
+    ],
+    "image-opencv": [
+      "numpy>=2,<3",
+      "opencv-python==4.13.0.92",
+      "pillow>=11,<13"
+    ],
+    "pdf": [
+      "pdfminer.six==20251230",
+      "pdfplumber==0.11.9",
+      "pillow>=11,<13",
+      "pypdf==6.14.2",
+      "pypdfium2==5.12.1"
+    ],
+    "excel": [
+      "openpyxl>=3.1.5,<4"
+    ],
+    "azure-document-intelligence": [
+      "azure-ai-documentintelligence>=1.0,<2",
+      "azure-identity>=1.24,<2",
+      "pillow>=11,<13",
+      "pypdfium2>=4.30,<6"
+    ],
+    "ocr-rapidocr": [
+      "antlr4-python3-runtime==4.9.3",
+      "colorlog==6.12.0",
+      "numpy==2.5.1",
+      "omegaconf==2.3.1",
+      "onnxruntime==1.27.0",
+      "opencv-python==4.13.0.92",
+      "pillow==12.3.0",
+      "pyclipper==1.4.0",
+      "pyyaml==6.0.3",
+      "rapidocr==3.9.2",
+      "requests==2.34.2",
+      "shapely==2.1.2",
+      "six==1.17.0",
+      "tqdm==4.70.0"
+    ],
+    "all": [
+      "azure-ai-documentintelligence>=1.0,<2",
+      "azure-identity>=1.24,<2",
+      "numpy>=2,<3",
+      "opencv-python==4.13.0.92",
+      "openpyxl>=3.1.5,<4",
+      "pillow>=11,<13",
+      "pypdfium2>=4.30,<6"
+    ]
+  },
+  "wheel_requires_dist": [
+    "defusedxml<1,>=0.7",
+    "pydantic<3,>=2.10",
+    "azure-ai-documentintelligence<2,>=1.0; extra == 'all'",
+    "azure-identity<2,>=1.24; extra == 'all'",
+    "numpy<3,>=2; extra == 'all'",
+    "opencv-python==4.13.0.92; extra == 'all'",
+    "openpyxl<4,>=3.1.5; extra == 'all'",
+    "pillow<13,>=11; extra == 'all'",
+    "pypdfium2<6,>=4.30; extra == 'all'",
+    "azure-ai-documentintelligence<2,>=1.0; extra == 'azure-document-intelligence'",
+    "azure-identity<2,>=1.24; extra == 'azure-document-intelligence'",
+    "pillow<13,>=11; extra == 'azure-document-intelligence'",
+    "pypdfium2<6,>=4.30; extra == 'azure-document-intelligence'",
+    "openpyxl<4,>=3.1.5; extra == 'excel'",
+    "pillow<13,>=11; extra == 'image'",
+    "numpy<3,>=2; extra == 'image-opencv'",
+    "opencv-python==4.13.0.92; extra == 'image-opencv'",
+    "pillow<13,>=11; extra == 'image-opencv'",
+    "antlr4-python3-runtime==4.9.3; extra == 'ocr-rapidocr'",
+    "colorlog==6.12.0; extra == 'ocr-rapidocr'",
+    "numpy==2.5.1; extra == 'ocr-rapidocr'",
+    "omegaconf==2.3.1; extra == 'ocr-rapidocr'",
+    "onnxruntime==1.27.0; extra == 'ocr-rapidocr'",
+    "opencv-python==4.13.0.92; extra == 'ocr-rapidocr'",
+    "pillow==12.3.0; extra == 'ocr-rapidocr'",
+    "pyclipper==1.4.0; extra == 'ocr-rapidocr'",
+    "pyyaml==6.0.3; extra == 'ocr-rapidocr'",
+    "rapidocr==3.9.2; extra == 'ocr-rapidocr'",
+    "requests==2.34.2; extra == 'ocr-rapidocr'",
+    "shapely==2.1.2; extra == 'ocr-rapidocr'",
+    "six==1.17.0; extra == 'ocr-rapidocr'",
+    "tqdm==4.70.0; extra == 'ocr-rapidocr'",
+    "pdfminer-six==20251230; extra == 'pdf'",
+    "pdfplumber==0.11.9; extra == 'pdf'",
+    "pillow<13,>=11; extra == 'pdf'",
+    "pypdf==6.14.2; extra == 'pdf'",
+    "pypdfium2==5.12.1; extra == 'pdf'"
+  ],
+  "wheel_provides_extra": [
+    "all",
+    "azure-document-intelligence",
+    "excel",
+    "image",
+    "image-opencv",
+    "ocr-rapidocr",
+    "pdf"
+  ],
+  "build_backend": "hatchling.build",
+  "build_requires": [
+    "hatchling>=1.27"
+  ],
+  "development_dependencies_not_runtime": [
+    "mypy>=1.14,<2",
+    "python-dotenv>=1.1,<2",
+    "pytest>=8.3,<10",
+    "pytest-cov>=6,<8",
+    "ruff>=0.9,<1",
+    "types-openpyxl>=3.1.5.20241225",
+    "types-pillow>=10.2.0.20240822"
+  ],
+  "license": "Proprietary and Confidential - Internal Use Only; see distribution LICENSE"
+}

@@ -1,0 +1,104 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/staff, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/staff
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/staff, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/staff
+						34 container
+							35 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							36 テキスト スタッフ接客
+							37 link お客様ページ ↗, Value: localhost:5176/
+							38 link 管理者, Value: localhost:5176/admin
+							39 ボタン ログアウト
+							40 テキスト STAFF DESK
+							41 見出し お客様のご相談を、つなぐ。, Value: 1
+								42 テキスト お客様のご相談を、つなぐ。
+							43 テキスト AI 接客からの呼出を受付し、対応状況をお客様ページに届けます。
+							44 テキスト 2 秒ごとに更新
+							45 container
+								46 text 最終取得  10:28:28
+							47 テキスト 対応をお待ちのお客様
+							48 container
+								49 text 1 件
+							50 テキスト 受付済み・対応中
+							51 container
+								52 text 0 件
+							53 テキスト 対応完了
+							54 container
+								55 text 0 件
+							56 見出し スタッフ呼出, Value: 2
+								57 テキスト スタッフ呼出
+							58 ボタン 未完了 1
+							59 ボタン すべて 1
+							60 container
+								61 text 未受付 2026/10/08 10:28
+								62 見出し コモンステージ八千代中央 分譲住宅 No.15, Value: 2
+									63 テキスト コモンステージ八千代中央 分譲住宅 No.15
+								64 定義リスト
+									65 container 呼出理由
+										66 テキスト 呼出理由
+									67 テキスト TEST v2：住宅ローンの審査判断は担当スタッフへ相談します。
+									68 container 最近のご質問
+										69 テキスト 最近のご質問
+									70 テキスト 住宅ローンを相談したいです
+								71 text 接客 ID:  d603579728334f9891788e937613d2b9
+								72 ボタン 受付
+			73 ポップアップボタン タブ検索
+			74 container
+				75 タブグループ
+					76 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 155 MB, Value: off
+						77 ボタン 閉じる
+					78 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						79 ボタン 閉じる
+					80 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 175 MB, Value: off
+						81 ボタン 閉じる
+					82 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 114 MB, Value: on
+						83 ボタン 閉じる
+			84 ボタン 新しいタブ
+			85 ボタン Gemini in Chrome を開く
+	86 閉じるボタン
+	87 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	88 しまうボタン
+89 menu bar
+	90 Chrome
+	91 ファイル
+	92 編集
+	93 表示
+	94 履歴
+	95 ブックマーク
+	96 プロファイル
+	97 タブ
+	98 ウィンドウ
+	99 ヘルプ
+
+The focused UI element is 33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/staff

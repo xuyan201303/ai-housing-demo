@@ -1,0 +1,12 @@
+{
+  "version": "1.8.0",
+  "import_file": "/Users/kyoen/Projects/ai-housing-demo/backend/.venv/lib/python3.12/site-packages/document_sdk/__init__.py",
+  "python": "3.12.13 (main, Jul 23 2026, 14:33:47) [Clang 22.1.3 ]",
+  "public_api": {
+    "extract_native_text": "(path: 'Path', *, limits: 'PdfProcessingLimits | None' = None) -> 'Document'",
+    "inspect_pdf": "(path: 'Path', *, limits: 'PdfProcessingLimits | None' = None) -> 'PdfInspection'",
+    "inspect_workbook": "(path: 'Path', *, package_limits: 'ExcelPackageLimits | None' = None) -> 'WorkbookInspection'",
+    "read_sheet": "(path: 'Path', sheet_name: 'str', *, max_cells: 'int | None' = None, formula_view: 'FormulaView' = 'both') -> 'WorksheetData'"
+  },
+  "exception_base": "DocumentSdkError"
+}

@@ -1,0 +1,41 @@
+{
+  "property": {
+    "property_name": "コモンステージ八千代中央 分譲住宅 No.15",
+    "lot": "No.15",
+    "equipment": [
+      "断熱等級6",
+      "フロントオープン式食洗機（パナソニック）",
+      "屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）",
+      "太陽光発電（3.0kW）",
+      "HEMS",
+      "第一種換気",
+      "ビルトイン空気清浄機（Air Me）",
+      "家庭用燃料電池（エネファーム）",
+      "エアコン（2台）",
+      "床暖房（リビング・ダイニング）",
+      "キッチンのタッチレス水栓",
+      "保温浴槽付きユニットバス",
+      "トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしていない。停電時200Vの全負荷出力。）",
+      "長期優良住宅",
+      "住宅性能評価書（設計・建築の両方が公式掲載）"
+    ],
+    "source_name": "積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP",
+    "source_url": "https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html",
+    "checked_at": "2026-10-07",
+    "effective_date": "2026-10-02",
+    "valid_until": "2026-10-15",
+    "scope_notes": "すべて公式ページでNo.15に掲載された設備。性能保証や未掲載の仕様を補完しません。"
+  },
+  "knowledge": [
+    {
+      "text": "公開情報を基にSANZOがデモ用に再構成 1\n設備仕様\nコモンステージ八千代中央 分譲住宅 No.15\nproperty_name: コモンステージ八千代中央 分譲住宅 No.15\nlot: No.15\nequipment: 断熱等級6\nequipment: フロントオープン式食洗機（パナソニック）\nequipment: 屋外センサーカメラ（スマートフォン・ドアホンとの連動機能）\nequipment: 太陽光発電（3.0kW）\nequipment: HEMS\nequipment: 第一種換気\nequipment: ビルトイン空気清浄機（Air Me）\nequipment: 家庭用燃料電池（エネファーム）\nequipment: エアコン（2台）\nequipment: 床暖房（リビング・ダイニング）\nequipment: キッチンのタッチレス水栓\nequipment: 保温浴槽付きユニットバス\nequipment: トライブリット蓄電システムII（公式の容量表記は「4.9kW」。電力量単位への読み替えをしてい\nない。停電時200Vの全負荷出力。）\nequipment: 長期優良住宅\nequipment: 住宅性能評価書（設計・建築の両方が公式掲載）\nsource_name: 積水ハウス コモンステージ八千代中央 分譲住宅 物件TOP\nsource_url: https://www.sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-02\nvalid_until: 2026-10-15\nscope_notes: すべて公式ページでNo.15に掲載された設備。性能保証や未掲載の仕様を補完しません。\n確認事項\n蓄電システムの公式表記「4.9kW」を記録しています。kWhへの訂正・換算は行っていません。\n第三者の写真・図面は使用していません。設備の詳細条件は担当スタッフにご確認ください。",
+      "reference": {
+        "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+        "filename": "設備仕様_demo.pdf",
+        "location": "p.1"
+      }
+    }
+  ],
+  "rates": [],
+  "faq": []
+}

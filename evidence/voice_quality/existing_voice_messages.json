@@ -1,0 +1,600 @@
+[
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "こんにちは。",
+    "created_at": "2026-10-07T11:48:05+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "もしもし。",
+    "created_at": "2026-10-07T11:48:06+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "はい、もしもし。  \n住宅の購入や手続き、住宅ローンのことなど、気になっていることを気軽にどうぞ。  \nまだ具体的な物件が決まっていなくても大丈夫です。ご希望や状況を少し教えていただければ、整理しながら一緒に考えていきますね。",
+    "created_at": "2026-10-07T11:48:10+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "お願いします。",
+    "created_at": "2026-10-07T11:48:16+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "はい、聞こえてますよ。\n今お電話の感じで大丈夫そうです。何かご相談はありますか？",
+    "created_at": "2026-10-07T11:48:18+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "わかる。",
+    "created_at": "2026-10-07T11:48:19+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "うん、こちらは大丈夫です。聞こえてますよ。  \n何か話",
+    "created_at": "2026-10-07T11:48:20+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "うん。",
+    "created_at": "2026-10-07T11:48:22+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "うん、何か気になることがあれば何でもどうぞ。  \nたとえば、家探しの進め方や、購入の流",
+    "created_at": "2026-10-07T11:48:23+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "うん。",
+    "created_at": "2026-10-07T11:48:25+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "うん、どうする？ 何か相談したいことがあれば、例えば住宅ローンの基本、購入まで",
+    "created_at": "2026-10-07T11:48:26+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "もしもし。",
+    "created_at": "2026-10-07T11:48:28+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "はい、もしもし。大丈夫です、聞こえてますよ。  \nお家のこと、手続き、ローンのことなど、気になることがあればそのまま話してくださいね。",
+    "created_at": "2026-10-07T11:48:31+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "すごい。",
+    "created_at": "2026-10-07T11:48:33+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "user",
+    "text": "もしもし。",
+    "created_at": "2026-10-07T11:48:35+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "うん、聞こえてますよ。  \n何か話したいことがあれば、そのまま続けてください。住宅のことでも、ただの雑談でもOKです。",
+    "created_at": "2026-10-07T11:48:36+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "f401fcbe32d2444eae1214b08d8dd83f",
+    "kind": "message",
+    "role": "assistant",
+    "text": "はい、もしもし。こちらはちゃんと聞こえてます。  \nもし接続の確認ならこのままでOKですし、何か相談したいことがあれば一言テーマを教えてください。  \n例えば、ローンの流れ、購入手続き、物件資料の見方など、どこからでも大丈夫です。",
+    "created_at": "2026-10-07T11:48:40+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "こんにちは。AI住宅コンシェルジュです。住宅購入のこと、購入の流れ、住宅ローンの考え方など、自由にご相談いただ",
+    "created_at": "2026-10-07T11:48:55+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "おつおつ。",
+    "created_at": "2026-10-07T11:48:56+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "Hey! I’m here and ready to help. If you want to chat about buying a home, the steps, or mortgage options, we can jump in. Or if you’re just saying hi, hi back!",
+    "created_at": "2026-10-07T11:48:59+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "ますます。",
+    "created_at": "2026-10-07T11:49:10+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "Haha, love the vibe. If you’re in the mood, we can talk about anything—home buying plans, questions about the process, or just keep the laughter going. What’s on your mind?",
+    "created_at": "2026-10-07T11:49:13+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "もしもし。",
+    "created_at": "2026-10-07T11:49:39+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "もしもし！聞こえてますよ。雑談でも、住宅購入やローンの相談でも大歓迎です。どうします？何か話したいこと、ありますか？",
+    "created_at": "2026-10-07T11:49:42+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "しわ。",
+    "created_at": "2026-10-07T11:49:52+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "…「きわ」",
+    "created_at": "2026-10-07T11:49:53+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "你过来",
+    "created_at": "2026-10-07T11:49:53+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "「きわ」ですね。かわいい一言…！意味や続きがありますか？たとえば、地名、名前、合図みたいな感じでしょうか。もし特に意味がないなら、それはそれでOKです。何か話したいことがあれば、そこから広げますよ。",
+    "created_at": "2026-10-07T11:49:57+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "うん。",
+    "created_at": "2026-10-07T11:49:58+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "ふふ、なんだか不思議で楽しいですね。  \n「きわ」って、言い方や雰囲気で印象が変わる言葉なので、ちょっと余韻があって好きです。  \n続きあります？ それとも別の話題にいきます？",
+    "created_at": "2026-10-07T11:50:02+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "はい、お願いします。",
+    "created_at": "2026-10-07T11:50:18+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "今のは音だけって感じでした。もしかしてテスト中ですか？ それとも何か雰囲気を伝えたいのかな。もし相談したいことがあれば、住宅のことでも雑談でも、ちゃんと声で受け止めますよ。",
+    "created_at": "2026-10-07T11:50:21+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "住宅ローンについて相談したい。",
+    "created_at": "2026-10-07T11:50:38+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "では、住宅ローンの相談に向けて必要な確認を整理しながら進めますね。",
+    "created_at": "2026-10-07T11:50:41+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "まず、今の段階だと物件が未選択なので、最初に次を教えてください。借入額、つまり希望の借入金額と、返済年数、それから検討したいローン商品がもう決まっているかどうかです。商品が決まっていない場合は、参考金利と条件を資料から確認して、そこから選んでいただく形になります。\n\nもし資料にない詳細や判断が必要な場合は、「現在確認できる資料には記載がありません。詳細は担当スタッフよりご案内いたします。」とお伝えして、スタッフへおつなぎします。",
+    "created_at": "2026-10-07T11:50:50+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "我感情",
+    "created_at": "2026-10-07T11:51:01+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "了解です、住宅ローンの候補商品を確認してからお話を進めますね。",
+    "created_at": "2026-10-07T11:51:03+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "大哥,我这做的刚做出来。",
+    "created_at": "2026-10-07T11:51:04+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "公開されている確認済みの参考金利が、今は有効期限内のものが見つからず、こちらでは商品一覧をお見せできません。担当スタッフに確認依頼を出してありますので、続きはスタッフからの案内をお待ちください。必要であれば、借入額や返済年数など、事前に整えておくとスムーズな内容について一緒に整理できますよ。",
+    "created_at": "2026-10-07T11:51:09+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "哈哈，没关系，刚坐下也没问题。  \n目前的情况是：公开资料里没有在有效期内的参考金利，所以我这边没法展示贷款商品，已经帮你把问题转给工作人员了。  \n接下来可以等他们联系你。你也可以先想一想自己的希望借款金额和还款年限，这样到时候会更顺利。",
+    "created_at": "2026-10-07T11:51:16+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "传桥的",
+    "created_at": "2026-10-07T11:51:55+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "高層",
+    "created_at": "2026-10-07T11:51:57+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "听起来像是你在说“转调的”或者“传调的”，但我还不太确定具体指什么。",
+    "created_at": "2026-10-07T11:51:58+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "价格告诉我",
+    "created_at": "2026-10-07T11:52:00+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "你是想说“高层”吗？如果是在聊住宅类型，高层通常是指楼层比较高的住宅，比如高层公寓。不过我这边不能凭空添加具体事实。关于物件的具体信息，需要有公开资料或由工作人员来提供。\n\n你方便说说“高层”具体是指什么吗？是房屋类型、楼层偏好，还是贷款相关的条件？",
+    "created_at": "2026-10-07T11:52:04+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "价格我现在不能直接告诉你，因为还没有确定具体的物件，也没有对应的公开资料作为依据。  \n\n如果你是想了解某个房源的价格，需要先选择一个具体的房源，或者让我先给你展示可供选择的物件列表，你从中挑一个。  \n\n如果你只是想了解一般的价格范围，很抱歉，目前我这边没有可用的公开数据可以作为参考。你可以等工作人员联系你，或者告诉我你想看物件列表，我来帮你进入下一步。",
+    "created_at": "2026-10-07T11:52:11+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "高級マンションのことです。",
+    "created_at": "2026-10-07T11:52:28+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "高層マンションのお話ですね。価格を案内する前に、確認させてください。",
+    "created_at": "2026-10-07T11:52:37+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "ごめんなさい、今の時点では「高層マンション」というだけでは、価格の根拠になる公開資料がありません。物件はまだ選ばれていない状態です。\n\nもし特定の物件資料を見たい場合は、まず物件一覧の案内ができます。その中から気になる物件を選んでいただければ、その物件の公開資料を参照して価格をお伝えできます。  \n希望があれば、資料一覧を出しますか？",
+    "created_at": "2026-10-07T11:52:37+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "user",
+    "text": "まずの地図があり。",
+    "created_at": "2026-10-07T11:52:50+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "cc403e496f744064afb41b4a8f702b46",
+    "kind": "message",
+    "role": "assistant",
+    "text": "すみません、今のはちょっと内容がはっきり聞き取れませんでした。\n\n高層マンションの価格を知りたい場合は、特定の物件を指定していただくか、物件資料の一覧を見たいと伝えてください。資料の一覧をご希望なら、公開されている物件名の案内から始めます。",
+    "created_at": "2026-10-07T11:52:54+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "こんにちは。AI住宅コンシェルジュです。住宅購入の流れ、資金計画、住宅ローンの考え方など、自由に相談できますよ。希望や不安な点があれば、まずはざっくり教えてください。一緒に整理していきましょう。",
+    "created_at": "2026-10-07T13:22:15+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "user",
+    "text": "作成します。",
+    "created_at": "2026-10-07T13:22:30+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "Hi there! How can I help with your home-buying questions today? If you’d like, tell me what you’re thinking about—budget, timeline, mortgage, or just getting started—and we’ll take it step by step.",
+    "created_at": "2026-10-07T13:22:34+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "user",
+    "text": "どうぞお見せ。",
+    "created_at": "2026-10-07T13:22:43+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "user",
+    "text": "Yes, that is.",
+    "created_at": "2026-10-07T13:22:45+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "Great. What would you like to talk about first—budget, mortgage options, the buying process, or maybe you want to look at property materials? If it’s property materials, I can list the available ones for you to choose from.",
+    "created_at": "2026-10-07T13:22:49+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "user",
+    "text": "日本語でお願いします。",
+    "created_at": "2026-10-07T13:23:07+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "まずは何から話しましょうか？ たとえば、予算や住宅ローンの選び方、購入までの流れの確認、あるいは物件資料の一覧を見たい、というのもOKです。 物件資料をご希望なら、まず候補をリストでお見せします。",
+    "created_at": "2026-10-07T13:23:11+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "user",
+    "text": "購入前は二尿を確認する。",
+    "created_at": "2026-10-07T13:23:31+09:00",
+    "channel": "voice"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "購入までどんな流れになるのか、順番に整理してお話ししますね。",
+    "created_at": "2026-10-07T13:23:34+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  },
+  {
+    "session_id": "2bccc78e5b284a41bb5cb7546b07f610",
+    "kind": "message",
+    "role": "assistant",
+    "text": "現在確認できる資料には、購入前の手続きの具体的な流れは記載がありません。詳細は担当スタッフよりご案内いたします。必要であれば、スタッフへおつなぎするよう手配しますので、その旨を教えてください。",
+    "created_at": "2026-10-07T13:23:37+09:00",
+    "channel": "voice",
+    "references": [],
+    "version": null,
+    "provider": "openai_realtime"
+  }
+]

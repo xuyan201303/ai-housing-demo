@@ -1,0 +1,61 @@
+{
+  "sessions_completed": 3,
+  "responses_completed": 9,
+  "content_deviations": [],
+  "usage": {
+    "total_tokens": 7379,
+    "input_tokens": 4677,
+    "output_tokens": 2702,
+    "output_audio_tokens": 2004,
+    "output_text_tokens": 698,
+    "cached_input_tokens": 1792
+  },
+  "audio_files": [
+    {
+      "file": "marin_1.wav",
+      "seconds": 7.9,
+      "sha256": "b9aec912d2dc6cfc7c35de75a043322d9bb3e2f51fb3c3d99420fad75a38d90d"
+    },
+    {
+      "file": "marin_2.wav",
+      "seconds": 10.05,
+      "sha256": "13e86519682423b93796928616cb05f00cd953839275e3b6610ec4cf60816454"
+    },
+    {
+      "file": "marin_3.wav",
+      "seconds": 14.35,
+      "sha256": "7479dc632c806f819f93f58232281713cacfb43b9a331abc823412c783347e3b"
+    },
+    {
+      "file": "cedar_1.wav",
+      "seconds": 8.5,
+      "sha256": "4af2c39f853ef114fe2de5e86c7831218060db254ba61ed29609c955ba0a32c7"
+    },
+    {
+      "file": "cedar_2.wav",
+      "seconds": 10.1,
+      "sha256": "ab4f540de8f8861627fcec618d385dd69941dafa716301a9a991bee508d18174"
+    },
+    {
+      "file": "cedar_3.wav",
+      "seconds": 14.3,
+      "sha256": "604fab8a4086a927488a2ea236ab99eef1a9cb6fd7369c36d0a0d8c44e1f4965"
+    },
+    {
+      "file": "coral_1.wav",
+      "seconds": 8.85,
+      "sha256": "87385ed8ef9b161d9a686b54f59bdf320263ed20db9b3753d570cf290783cca0"
+    },
+    {
+      "file": "coral_2.wav",
+      "seconds": 10.95,
+      "sha256": "ad589b7d4336e82e753174b25a67a3c8e695474c757fd24a7013f35c093978a8"
+    },
+    {
+      "file": "coral_3.wav",
+      "seconds": 15.2,
+      "sha256": "c88c018f46a4abb2b206b2321db4712b7a4ac5fa4c7c3534a441636ec74e2920"
+    }
+  ],
+  "naturalness": "WAITING_FOR_USER_LISTENING"
+}

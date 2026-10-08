@@ -1,0 +1,1 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="ja-JP"><voice name="ja-JP-NanamiNeural"><mstts:express-as style="chat" styledegree="1.0"><prosody rate="+10%">こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。</prosody></mstts:express-as></voice></speak>

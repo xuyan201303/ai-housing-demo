@@ -1,0 +1,140 @@
+{
+  "browser": "Google Chrome",
+  "ui_technology": "cua_repl native AX",
+  "origin": "http://localhost:5176",
+  "database": "evidence/phase2_document_update/ui-test.db",
+  "sdk": "REAL_INSTALLED_1.8.0",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+  "paid_ai_tts_calls": 0,
+  "microphone": "NOT_USED",
+  "checks": {
+    "conditions_add_edit_delete_save_refresh": "PASS",
+    "conditions_explicit_confirmation_raw_immutable": "PASS",
+    "customer_general_property_selection_v1": "PASS",
+    "old_session_v1_after_new_business_confirmation": "PASS",
+    "new_file_actual_sdk_review_and_confirmation": "PASS",
+    "cancel_unpublished_business_update_keeps_v1": "PASS",
+    "publication_draft_save_refresh_baseline_retains_five": "PASS",
+    "real_chrome_preview_explicit_v2_publication": "PASS",
+    "old_session_remains_v1_after_v2": "PASS",
+    "new_customer_uses_v2": "PASS",
+    "equipment_surroundings_card_close_v2_loan_backend": "PASS",
+    "v2_staff_pending_accepted_completed_customer_sync_end": "PASS",
+    "restore_preview_business_price": "PASS",
+    "real_chrome_restore_creates_v3": "PASS",
+    "history_shared_admin_v1_v2_v3_retained": "PASS"
+  },
+  "screenshots": [
+    {
+      "file": "01-conditions-restored.png",
+      "title": "金利条件：追加・修正・削除後に保存し、Chrome を刷新して復元",
+      "observation": "元の補足・数値条件とは別に、2行のTEST条件を順番どおり保持。",
+      "recorded_at": "2026-10-08T01:18:28.647Z"
+    },
+    {
+      "file": "02-confirmation-flow.png",
+      "title": "保存・社員確認・公開は別操作",
+      "observation": "確認済みの下書き。SDK raw / normalized は API ハッシュ検査で不変。公開版はまだ作成していません。",
+      "recorded_at": "2026-10-08T01:19:14.218Z"
+    },
+    {
+      "file": "03-customer-v1.png",
+      "title": "更新前の接客は公開版 v1",
+      "observation": "物件選択後に76,900,000円を表示。一般相談と物件資料は実際のToolsを使用、回答文言はTESTです。",
+      "recorded_at": "2026-10-08T01:21:48.703Z"
+    },
+    {
+      "file": "04-confirmed-update-v1-retained.png",
+      "title": "登録内容の修正を確認しても、まだ公開版 v1",
+      "observation": "77,900,000円はTEST人工修正。新しい業務確認を作成した時点では公開していません。",
+      "recorded_at": "2026-10-08T01:22:15.546Z"
+    },
+    {
+      "file": "05-old-session-after-confirm.png",
+      "title": "新しい確認の後も、旧 v1 接客が76,900,000円を回答",
+      "observation": "Backend再起動後に実際のToolsからv1価格を取得。字幕と資料カードが旧公開版の金額を維持。",
+      "recorded_at": "2026-10-08T01:22:33.231Z"
+    },
+    {
+      "file": "06-new-file-update-entry.png",
+      "title": "新しいファイルに差し替える：旧資料と明示的に関連付け",
+      "observation": "別のTEST PDFを新資料として登録。解析・確認・公開はこれからで、v1は保持。",
+      "recorded_at": "2026-10-08T01:24:17.821Z"
+    },
+    {
+      "file": "07-sdk-replacement-reviewed.png",
+      "title": "実 SDK 解析した差し替え候補を照合・確認",
+      "observation": "TEST PDFは独立資料・独立確認として保存。元ファイルとv1は維持。",
+      "recorded_at": "2026-10-08T01:24:48.781Z"
+    },
+    {
+      "file": "08-v2-publication-diff.png",
+      "title": "v1 → v2：物件概要1件の差し替え、他5件は維持",
+      "observation": "価格76,900,000円→77,900,000円（TEST）。追加0、差し替え1、維持5、除外0。最終公開前の差分。",
+      "recorded_at": "2026-10-08T01:25:52.751Z"
+    },
+    {
+      "file": "09-v2-published.png",
+      "title": "Chromeで差分を確認して v2 を明示公開",
+      "observation": "新しい接客から反映。有効な既存v1接客は開始時の版を維持。",
+      "recorded_at": "2026-10-08T01:27:21.421Z"
+    },
+    {
+      "file": "10-old-v1-after-v2.png",
+      "title": "v2公開後も開始済みv1接客は旧価格を維持",
+      "observation": "再度Tools問い合わせを実行。v1 / 76,900,000円を維持し、新旧資料を混ぜません。",
+      "recorded_at": "2026-10-08T01:27:29.031Z"
+    },
+    {
+      "file": "11-new-customer-v2.png",
+      "title": "新しい接客は v2 / TEST77,900,000円",
+      "observation": "同じ時点で旧タブはv1、新しいタブはv2。選択後の物件カードに新版価格を表示。",
+      "recorded_at": "2026-10-08T01:27:51.068Z"
+    },
+    {
+      "file": "12-v2-backend-mortgage.png",
+      "title": "v2価格と登録金利で Backend が試算",
+      "observation": "頭金500万円・35年・明示選択商品。金利、条件、期限、必要免責を保留。AIによる金額計算はしていません。",
+      "recorded_at": "2026-10-08T01:28:14.238Z"
+    },
+    {
+      "file": "13-staff-accepted-customer.png",
+      "title": "Staff受付とCustomer状態の同期",
+      "observation": "同じv2接客の呼出を実Staff画面で受付。",
+      "recorded_at": "2026-10-08T01:28:49.089Z"
+    },
+    {
+      "file": "14-version-history.png",
+      "title": "版本履歴：v1とv2、共有admin、説明、実際の確認改訂",
+      "observation": "原版は削除・上書きせず保持。実在しない社員個人アカウントは記録しません。",
+      "recorded_at": "2026-10-08T01:29:43.179Z"
+    },
+    {
+      "file": "15-restore-preview.png",
+      "title": "v1復元の差分を再確認",
+      "observation": "基準v2、復元元v1。価格77,900,000円→76,900,000円を明示。追加1・除外1・維持5、別ファイルを置換と偽らない。",
+      "recorded_at": "2026-10-08T01:35:25.795Z"
+    },
+    {
+      "file": "16-restored-v3.png",
+      "title": "復元はv3を新規作成",
+      "observation": "実Chromeで差分確認後に明示公開。現在の公開版がv3となり、v1/v2は履歴を保持する。",
+      "recorded_at": "2026-10-08T01:35:38.947Z"
+    },
+    {
+      "file": "17-history-v1-v2-v3.png",
+      "title": "全履歴を保持した復元後",
+      "observation": "v3の実操作身份はadmin共有管理者。確認改訂6件を保持し、v2/v1の履歴は削除せず残る。",
+      "recorded_at": "2026-10-08T01:35:49.955Z"
+    }
+  ],
+  "issues": [
+    {
+      "id": "RESTORE_MAJOR_FIELD_DIFF",
+      "initial_evidence": "15-initial-restore-missing-price.png",
+      "initial_result": "復元価格差分が表示されない",
+      "fixed_evidence": "15-restore-preview.png",
+      "result": "実Chrome再プレビューで77,900,000円→76,900,000円を確認"
+    }
+  ]
+}

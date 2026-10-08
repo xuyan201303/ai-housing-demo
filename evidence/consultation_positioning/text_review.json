@@ -1,0 +1,17 @@
+{
+  "original_text_evidence": "live_text.json",
+  "original_status": "FAIL",
+  "original_failure": "HTTPStatusError: Client error '404 Not Found' for url 'http://127.0.0.1:8001/api/staff/calls/befa4958bbff45359356f5f047bf3c38'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+  "classification": "TEST_HARNESS_WRONG_STAFF_ENDPOINT_NAMES",
+  "business_checks": {
+    "general_source_grounded_no_property": "PASS",
+    "ambiguous_property_clarification": "PASS",
+    "missing_company_not_invented": "PASS",
+    "explicit_property_context": "PASS",
+    "explicit_loan_without_no15_price": "PASS"
+  },
+  "targeted_reverification": "PASS",
+  "staff_call_id": "befa4958bbff45359356f5f047bf3c38",
+  "ai_replays": 0,
+  "final_text_and_staff_status": "PASS_WITH_TARGETED_STAFF_UI_REVERIFICATION"
+}

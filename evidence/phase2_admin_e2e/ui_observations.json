@@ -1,0 +1,236 @@
+[
+  {
+    "name": "01-empty-first-use",
+    "note": "初回ログイン。登録資料0、確認0、公開版なし。事前API取込・確認・公開なし。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:54:14.069Z"
+  },
+  {
+    "name": "02-property-candidate",
+    "note": "SDK候補を普通の物件表で照合し、駐車場の未確認表記だけ手入力。下書き保存と確認は別。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:56:26.865Z"
+  },
+  {
+    "name": "03-equipment-confirmed",
+    "note": "設備を普通の行フォームで整理・保存・TEST明示確認。15項目保持、JSON不使用。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:57:28.173Z"
+  },
+  {
+    "name": "04-incomplete-faq-draft",
+    "note": "質問が未入力のFAQをBackend下書きへ保存。確認・公開していない。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:58:06.414Z"
+  },
+  {
+    "name": "05-failure-unsaved-logout",
+    "note": "実際に未保存FAQを編集後、ログアウトをクリックすると注意なしでログイン画面へ移った。保存済み不完全草稿は保持、未保存分は失われた。修正前の失敗記録。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:58:26.649Z"
+  },
+  {
+    "name": "06-incomplete-draft-restored",
+    "note": "Chrome刷新・再ログイン後も質問未入力のFAQ草稿、初回回答、出典位置、確認メモを復元。未保存の破棄分は保存内容に混入しない。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:59:41.634Z"
+  },
+  {
+    "name": "07-missing-question-error",
+    "note": "確認を実行するとFAQの質問欄に「質問を入力してください。」が表示される。エラーコードだけではない。確認は成立していない。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T01:59:49.913Z"
+  },
+  {
+    "name": "08-unsaved-logout-guard",
+    "note": "修正後、未保存FAQでログアウトすると保存/破棄を説明する日文確認を表示。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:00:27.677Z"
+  },
+  {
+    "name": "09-missing-field-focused",
+    "note": "修正後の同じ未確認草稿。確認失敗時、自動で質問欄に移動・フォーカスし「質問を入力してください。」を表示。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:01:21.231Z"
+  },
+  {
+    "name": "10-faq-corrected-confirmed",
+    "note": "欠落した質問を普通のFAQ表で補完し、保存後にTESTブラウザで明示確認。原SDK本文とTEST手入力は別。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:01:36.191Z"
+  },
+  {
+    "name": "11-loan-conditions-form",
+    "note": "Excel実SDKの2商品を核対。conditionsを普通の行入力で追加・修正し、補足/数値条件と区別。JSON不使用。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:03:48.006Z"
+  },
+  {
+    "name": "12-first-publish-label-before-fix",
+    "note": "公開版が存在しない初回状態なのに、入口が「現在の公開版から草案を作成」、説明も更新前提。初回操作の迷いを減らす文言修正対象。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:04:01.989Z"
+  },
+  {
+    "name": "13-first-publication-entry",
+    "note": "最終同版コード。公開版なしの初回入口を「初めての公開草案を作成」と明示。6資料がTESTブラウザ確認済み、公開はまだ0。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:05:42.681Z"
+  },
+  {
+    "name": "14-first-publication-preview",
+    "note": "TEST浏览器：初回公開の差分は追加6、差替0、維持0、除外0。妨げる確認事項なし。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:08:22.604Z"
+  },
+  {
+    "name": "15-first-publication-success",
+    "note": "Chrome页面明确发布首版v1。仅TEST浏览器人工步骤模拟，不是用户或员工本人确认。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:08:27.773Z"
+  },
+  {
+    "name": "16-customer-general-start",
+    "note": "隔离Customer首页以一般咨询为中心，无默认物件详情。TEST provider、API未配置、文字开始入口明确。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:08:37.923Z"
+  },
+  {
+    "name": "17-customer-v1-faq",
+    "note": "实际一般知识Tool返回本次已发布FAQ A1；Customer显示v1来源与正文，尚未选物件。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:08:46.424Z"
+  },
+  {
+    "name": "18-customer-v1-property-equipment",
+    "note": "明示的な物件選択後に実Toolから価格76,900,000円・15設備を取得。フォーム修正「断熱等級6（原資料に記載）」も表示。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:02.174Z"
+  },
+  {
+    "name": "19-customer-v1-mortgage",
+    "note": "実Backend計算：v1価格76,900,000円・頭金5,000,000円・35年・MUFG1.195%。登録条件と出典も表示。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:18.556Z"
+  },
+  {
+    "name": "20-update-entry",
+    "note": "公開済みFAQ資料を明示選択し、登録内容の修正理由を入力。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:30.290Z"
+  },
+  {
+    "name": "21-update-draft-saved",
+    "note": "FAQ1件のTEST修正をページ保存。未確認・未公開の下書き、旧v1は保持。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:40.006Z"
+  },
+  {
+    "name": "22-v1-before-update-confirmation",
+    "note": "TEST provider局限：已选物件时走物件知识检索，本次FAQ再问没有命中一般FAQ，不据此声称FAQ A1复验通过。未选物件的一般咨询将在独立v1接客复验。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:42.081Z"
+  },
+  {
+    "name": "23-update-confirmed-not-published",
+    "note": "TEST浏览器明确确认FAQ新修订。旧v1发布版仍未改变。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:09:43.857Z"
+  },
+  {
+    "name": "24-new-v1-after-update-confirmation",
+    "note": "新FAQ修订已确认但尚未发布，新的未选房一般接客仍使用v1、实Tool返回FAQ A1。不以历史字幕充当当前Tool结果。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:00.040Z"
+  },
+  {
+    "name": "25-update-publication-preview",
+    "note": "v1基準、FAQのみ確認#3→#7差し替え、他5資料維持、追加0・除外0。A1/A2前後を確認。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:22.678Z"
+  },
+  {
+    "name": "26-update-published-v2",
+    "note": "Chrome明确发布v2。FAQ替换1、维持5、移除0，成功说明新接客采用新版。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:30.108Z"
+  },
+  {
+    "name": "27-old-v1-after-v2-publication",
+    "note": "v2发布后，同一未选物件的旧v1接客重新调用一般知识Tool仍取得A1，明确保留旧发布版本。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:32.242Z"
+  },
+  {
+    "name": "28-new-v2-faq",
+    "note": "Chrome新接客采用v2，实际一般知识Tool返回FAQ A2，显示源链接。旧v1仍A1，5份资料确认ID维持。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:39.374Z"
+  },
+  {
+    "name": "29-v2-no-property-mortgage",
+    "note": "v2未选房；通过普通试算表单明确输入借款3,000万円、35年，MUFG1.195%。取得价格为空，不代入样本房价；实际Backend计算。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:10:59.073Z"
+  },
+  {
+    "name": "30-staff-pending-customer",
+    "note": "实际call_staff Tool：贷款审查不保证，Customer pending与呼叫记录联动。TEST provider不是模型行为证明。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:00.640Z"
+  },
+  {
+    "name": "31-staff-pending",
+    "note": "同套Staff页面读取v2接客call_staff的真实pending记录、呼出理由、最近问题与Session ID。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:08.041Z"
+  },
+  {
+    "name": "32-staff-accepted-customer",
+    "note": "Staff页面受付后，Customer轮询同步担当スタッフ正在确认。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:09.556Z"
+  },
+  {
+    "name": "33-staff-completed-customer",
+    "note": "Staff页面対応完了后，Customer显示对应已完成状态。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:11.695Z"
+  },
+  {
+    "name": "34-v2-retained-property-equipment",
+    "note": "v2更新FAQ后，保留物件资料和15设备仍由实际Tool取得并展示。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:24.430Z"
+  },
+  {
+    "name": "35-v2-session-ended",
+    "note": "Customer页面结束v2接客，回到可开始状态；文字TEST接客，不是麦克风结束验收。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:11:25.699Z"
+  },
+  {
+    "name": "36-version-history-v1-v2",
+    "note": "公開履歴で共享admin身份、理由、全資料・确认修订显示。v1/v2不覆盖；仅读页面，不创建恢复草案。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:12:17.430Z"
+  },
+  {
+    "name": "37-version-history-v2",
+    "note": "v2履歴の6資料と確認修订、共享admin身份、TEST更新理由を画面確認。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:12:23.774Z"
+  },
+  {
+    "name": "38-unsaved-document-switch-warning",
+    "note": "同資料内の区分切替は編集内容を保持。別資料切替には未保存変更を破棄するかChrome確認あり。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:12:34.044Z"
+  },
+  {
+    "name": "39-admin-ready-for-user-review",
+    "note": "別資料切替で明示破棄した未保存TEST文は消え、v2の保存FAQ A2が保持。FAQ資料を開き、未保存変更のない状態で引継ぎ。",
+    "method": "ACTUAL_CHROME_CUA_PAGE_ACTIONS",
+    "at": "2026-10-08T02:12:57.557Z"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "provider": "TEST_ONLY_FAKE_WEBRTC_AND_ELECTRONIC_TONE",
+  "paid_api_calls": 0,
+  "physical_microphone": "NOT_TESTED",
+  "physical_speaker": "NOT_TESTED",
+  "checks": {
+    "new_mode_start_no_property": "PASS",
+    "text_delta_done_saved_event_playback_idle": "PASS",
+    "audio_transcript_ignored_no_duplicate": "PASS",
+    "property_selection_materials_close": "PASS",
+    "loan_backend_amount_card_subtitle": "PASS",
+    "barge_in_playback_stopped": {
+      "status": "PASS",
+      "observed_ms": 7
+    },
+    "barge_in_pending_request_aborted": "PASS",
+    "failure_visible_subtitle_kept_no_fallback": "PASS",
+    "staff_policy_and_state_sync": "PASS",
+    "end_tracks_peer_audio_urls": "PASS",
+    "event_id_only_no_overlap": "PASS",
+    "server_text_only_cancel_end_and_tts_same_text": "PASS"
+  },
+  "page_errors": [],
+  "cleanup": {
+    "tracks": [
+      "ended"
+    ],
+    "peers": [
+      "closed"
+    ],
+    "urls": 0,
+    "playing": 0,
+    "maxPlaying": 1,
+    "speechBodies": [
+      {
+        "assistant_event_id": 7
+      },
+      {
+        "assistant_event_id": 14
+      },
+      {
+        "assistant_event_id": 21
+      },
+      {
+        "assistant_event_id": 28
+      },
+      {
+        "assistant_event_id": 35
+      },
+      {
+        "assistant_event_id": 42
+      },
+      {
+        "assistant_event_id": 49
+      },
+      {
+        "assistant_event_id": 56
+      },
+      {
+        "assistant_event_id": 63
+      },
+      {
+        "assistant_event_id": 69
+      },
+      {
+        "assistant_event_id": 78
+      }
+    ],
+    "audioEvents": [
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "pause",
+      "ended",
+      "emptied",
+      "playing",
+      "emptied",
+      "emptied"
+    ]
+  }
+}

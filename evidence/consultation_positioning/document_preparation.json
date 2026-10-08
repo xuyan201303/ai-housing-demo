@@ -1,0 +1,107 @@
+{
+  "normal": {
+    "url": "http://localhost:5173",
+    "database": "data/housing.db",
+    "health": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "demo",
+      "ai_configured": true,
+      "realtime_configured": true
+    },
+    "documents": [
+      {
+        "id": "f4dab4310870418b9f43fd1dea0ba3a6",
+        "filename": "住宅購入基礎FAQ_demo.pdf",
+        "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+        "status": "parsed",
+        "sdk_version": "1.8.0",
+        "sdk_api": "document_sdk.pdf.extract_native_text",
+        "metadata": {
+          "source_name": "国土交通省：消費者向け不動産取引のお知らせ",
+          "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-07",
+          "valid_until": "2026-11-06",
+          "scope_notes": "日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。",
+          "scope": "general"
+        },
+        "knowledge_pages": 1
+      },
+      {
+        "id": "50688bdecad5436cb0179486f76b6ae4",
+        "filename": "住宅ローン基礎FAQ_demo.pdf",
+        "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba",
+        "status": "parsed",
+        "sdk_version": "1.8.0",
+        "sdk_api": "document_sdk.pdf.extract_native_text",
+        "metadata": {
+          "source_name": "住宅金融支援機構：フラット35・新築住宅購入時の融資手続",
+          "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-07",
+          "valid_until": "2026-11-06",
+          "scope_notes": "日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。",
+          "scope": "general"
+        },
+        "knowledge_pages": 1
+      }
+    ],
+    "registered_count": 6,
+    "confirmed_count": 0,
+    "published_version": null
+  },
+  "isolated": {
+    "url": "http://localhost:5174",
+    "database": "evidence/http-test.db",
+    "health": {
+      "status": "ok",
+      "sdk_version": "1.8.0",
+      "demo_mode": "test",
+      "ai_configured": true,
+      "realtime_configured": true
+    },
+    "documents": [
+      {
+        "id": "c268173429a745bd84bb434d0ad8a805",
+        "filename": "住宅購入基礎FAQ_demo.pdf",
+        "sha256": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+        "status": "confirmed",
+        "sdk_version": "1.8.0",
+        "sdk_api": "document_sdk.pdf.extract_native_text",
+        "metadata": {
+          "source_name": "国土交通省：消費者向け不動産取引のお知らせ",
+          "source_url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-07",
+          "valid_until": "2026-11-06",
+          "scope_notes": "日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。",
+          "scope": "general"
+        },
+        "knowledge_pages": 1
+      },
+      {
+        "id": "eb6bd04cdf61436b8ef25252e3478d4d",
+        "filename": "住宅ローン基礎FAQ_demo.pdf",
+        "sha256": "f2c028dd552ded46e7ed56a2c820b0b98145e6d21ff5bfe89e15b3f59efff8ba",
+        "status": "confirmed",
+        "sdk_version": "1.8.0",
+        "sdk_api": "document_sdk.pdf.extract_native_text",
+        "metadata": {
+          "source_name": "住宅金融支援機構：フラット35・新築住宅購入時の融資手続",
+          "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html",
+          "checked_at": "2026-10-07",
+          "effective_date": "2026-10-07",
+          "valid_until": "2026-11-06",
+          "scope_notes": "日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。",
+          "scope": "general"
+        },
+        "knowledge_pages": 1
+      }
+    ],
+    "registered_count": 14,
+    "confirmed_count": 14,
+    "published_version": 4
+  },
+  "physical_microphone": "NOT_VERIFIED"
+}

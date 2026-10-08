@@ -1,0 +1,32 @@
+{
+  "status": "PASS_NORMAL_ADMIN_STAFF_READONLY_CHROME",
+  "browser": "installed Google Chrome headless",
+  "base": "http://localhost:5173",
+  "ai_calls": 0,
+  "confirmation_calls": 0,
+  "publication_calls": 0,
+  "session_calls": 0,
+  "page_errors": [],
+  "console_errors": [],
+  "mutations": [],
+  "started_at": "2026-10-07T01:43:44.736Z",
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "admin": {
+    "document_rows": 4,
+    "parsed_badges": 4,
+    "publication": "未公開",
+    "confirmation_button_disabled": true,
+    "horizontal_overflow": false
+  },
+  "staff": {
+    "authenticated": true,
+    "horizontal_overflow": false
+  },
+  "completed_at": "2026-10-07T01:43:48.079Z"
+}

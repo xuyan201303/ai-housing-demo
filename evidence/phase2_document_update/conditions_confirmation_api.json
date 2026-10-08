@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "document_id": "804b26a8b3bd4e6982da70df0ee564ff",
+  "confirmation_id": 7,
+  "conditions": [
+    "TEST：一番目の条件を修正。実際の金融条件ではありません。",
+    "TEST：二番目の行。順番と未編集データを保持します。"
+  ],
+  "raw_sha256": "30fc39d92301fc3c7595ce2c11330b88e6681aba92f3d32c93913f86f5adeb1b",
+  "normalized_sha256": "eb3f41f4b6ef879055e0180612873c1d5372ae650f150053b97430782d1272eb",
+  "notes_numeric_conditions": "UNCHANGED",
+  "sdk": "REAL_1.8.0"
+}

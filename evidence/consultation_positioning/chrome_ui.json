@@ -1,0 +1,16 @@
+{
+  "browser": "installed Google Chrome headless",
+  "api_mocks": 0,
+  "physical_microphone": "NOT_VERIFIED",
+  "checks": {
+    "normal_general_start_without_publication": "PASS",
+    "normal_six_parsed_no_confirmation": "PASS",
+    "normal_general_rate_source_draft_no_confirmation": "PASS",
+    "general_staff_actual_ui_accept_complete": "PASS",
+    "mobile_no_horizontal_overflow": "PASS"
+  },
+  "page_errors": [],
+  "normal_session_id": "8544672462474793849299f9a549f65d",
+  "staff_call_id": "befa4958bbff45359356f5f047bf3c38",
+  "status": "PASS"
+}

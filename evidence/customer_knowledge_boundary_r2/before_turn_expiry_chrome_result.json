@@ -1,0 +1,1953 @@
+{
+  "status": "PASS",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+  "database": "evidence/customer_knowledge_boundary_r2/ui-final.db",
+  "ports": [
+    5186,
+    8016
+  ],
+  "paid_api_calls": 0,
+  "physical_microphone": "NOT_TESTED",
+  "checks": {
+    "admin_internal_publish_denied": "PASS",
+    "admin_usage_actual_confirmation_publication": "PASS",
+    "general_home_without_property": "PASS",
+    "general_hits_safe_sources": "PASS",
+    "candidates_without_details": "PASS",
+    "property_selection_details_close": "PASS",
+    "automatic_material_reopen_for_new_query": "PASS",
+    "backend_loan_product_conditions_card": "PASS",
+    "staff_pending_accepted_completed": "PASS",
+    "end": "PASS",
+    "browser_actual_response_allowlist": "PASS"
+  },
+  "responses": [
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "knowledge_boundary_version": 2,
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "knowledge_boundary_version": 2,
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/sessions",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [],
+        "display_events": [],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 住宅購入では希望と予算を整理します。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST_R2_PUBLIC_FACT 住宅購入は希望と予算を整理します。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確…",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              },
+              {
+                "text": "住宅購入で確認することは？\nTEST_R2_PUBLIC_FACT 契約前に重要事項説明を確認します。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST_R2_PUBLIC_FACT 住宅購入は希望と予算を整理します。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確認事項。TEST確…",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              },
+              {
+                "text": "住宅購入で確認することは？\nTEST_R2_PUBLIC_FACT 契約前に重要事項説明を確認します。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 公開済みのサンプルをご案内します。",
+        "version": 1,
+        "references": [],
+        "display_events": [
+          {
+            "event_id": 5,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 5,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/property",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 5,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 5,
+            "kind": "properties",
+            "properties": [
+              {
+                "property_id": "No.15",
+                "property_name": "TEST住宅 No.15"
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "label": "確認・公開済み会社資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "label": "確認・公開済み物件資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 8,
+            "kind": "property",
+            "property": {
+              "property_id": "No.15",
+              "property_name": "TEST住宅 No.15",
+              "lot": "No.15",
+              "price": 76900000,
+              "address": null,
+              "layout": "TEST 3LDK",
+              "station": "TEST駅",
+              "walking_minutes": 10,
+              "land_area": null,
+              "building_area": null,
+              "completion_date": null,
+              "parking": null,
+              "equipment": [
+                "TEST設備"
+              ],
+              "surroundings": [],
+              "scope_notices": [
+                "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+              ],
+              "checked_at": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "references": [
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 7,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 9,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み会社資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 8,
+            "kind": "property",
+            "property": {
+              "property_id": "No.15",
+              "property_name": "TEST住宅 No.15",
+              "lot": "No.15",
+              "price": 76900000,
+              "address": null,
+              "layout": "TEST 3LDK",
+              "station": "TEST駅",
+              "walking_minutes": 10,
+              "land_area": null,
+              "building_area": null,
+              "completion_date": null,
+              "parking": null,
+              "equipment": [
+                "TEST設備"
+              ],
+              "surroundings": [],
+              "scope_notices": [
+                "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+              ],
+              "checked_at": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "references": [
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 公開済み参考金利の商品を選択してください。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 11,
+            "kind": "products",
+            "products": [
+              {
+                "id": "A-rates:rate:0",
+                "bank": "TEST銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 7,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 9,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み会社資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 10,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 12,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 11,
+            "kind": "products",
+            "products": [
+              {
+                "id": "A-rates:rate:0",
+                "bank": "TEST銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/mortgage",
+      "status": 200,
+      "body": {
+        "version": 1,
+        "rate_id": "A-rates:rate:0",
+        "bank": "TEST銀行",
+        "product": "TEST変動金利",
+        "rate_type": "変動",
+        "property_price": 76900000,
+        "down_payment": 5000000,
+        "loan_amount": 71900000,
+        "annual_interest_rate": 1.195,
+        "years": 35,
+        "monthly_payment": 209563,
+        "calculation_date": "2026-10-07",
+        "effective_date": "2000-01-01",
+        "valid_until": "2099-12-31",
+        "rate_basis": "公開済み参考金利",
+        "price_basis": null,
+        "loan_to_value": 0.9349804941482445,
+        "loan_to_value_percent": 93.49804941482445,
+        "conditions": [
+          "TEST公開条件"
+        ],
+        "product_notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+        "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          },
+          {
+            "label": "確認・公開済み物件資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ]
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/staff-calls",
+      "status": 200,
+      "body": {
+        "id": "187f308546924320aa5b34cc8ac8060c",
+        "status": "pending",
+        "customer_message": "スタッフへの呼出を受け付けました。確認をお待ちください。",
+        "created_at": "2026-10-07T22:25:28+09:00",
+        "accepted_at": null,
+        "completed_at": null
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 7,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 9,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み会社資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 10,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 12,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 11,
+            "kind": "products",
+            "products": [
+              {
+                "id": "A-rates:rate:0",
+                "bank": "TEST銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 13,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "A-rates:rate:0",
+              "bank": "TEST銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "187f308546924320aa5b34cc8ac8060c",
+            "status": "accepted",
+            "customer_message": "スタッフが確認しました。ご案内まで少々お待ちください。",
+            "created_at": "2026-10-07T22:25:28+09:00",
+            "accepted_at": "2026-10-07T22:25:28+09:00",
+            "completed_at": null
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "active",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": null,
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 7,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 9,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み会社資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 10,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 12,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 11,
+            "kind": "products",
+            "products": [
+              {
+                "id": "A-rates:rate:0",
+                "bank": "TEST銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 13,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "A-rates:rate:0",
+              "bank": "TEST銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "187f308546924320aa5b34cc8ac8060c",
+            "status": "completed",
+            "customer_message": "スタッフの対応が完了しました。",
+            "created_at": "2026-10-07T22:25:28+09:00",
+            "accepted_at": "2026-10-07T22:25:28+09:00",
+            "completed_at": "2026-10-07T22:25:29+09:00"
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/1b89b1dd180e4b959322117d493ed366/end",
+      "status": 200,
+      "body": {
+        "id": "1b89b1dd180e4b959322117d493ed366",
+        "version": 1,
+        "mode": "text",
+        "property_id": "No.15",
+        "status": "ended",
+        "created_at": "2026-10-07T22:25:24+09:00",
+        "ended_at": "2026-10-07T22:25:31+09:00",
+        "property": {
+          "property_id": "No.15",
+          "property_name": "TEST住宅 No.15",
+          "lot": "No.15",
+          "price": 76900000,
+          "address": null,
+          "layout": "TEST 3LDK",
+          "station": "TEST駅",
+          "walking_minutes": 10,
+          "land_area": null,
+          "building_area": null,
+          "completion_date": null,
+          "parking": null,
+          "equipment": [
+            "TEST設備"
+          ],
+          "surroundings": [],
+          "scope_notices": [
+            "交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。"
+          ],
+          "checked_at": "2026-10-07",
+          "effective_date": "2000-01-01",
+          "valid_until": "2099-12-31",
+          "references": [
+            {
+              "label": "確認・公開済み物件資料",
+              "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+            }
+          ]
+        },
+        "products": [
+          {
+            "id": "A-rates:rate:0",
+            "bank": "TEST銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 4,
+            "role": "user",
+            "text": "紹介できる物件はありますか？",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 6,
+            "role": "assistant",
+            "text": "TEST: 公開済みのサンプルをご案内します。",
+            "created_at": "2026-10-07T22:25:24+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 7,
+            "role": "user",
+            "text": "No.15の設備を教えてください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 9,
+            "role": "assistant",
+            "text": "TEST: No.15の価格は7690万円です。TEST設備が掲載されています。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み会社資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              },
+              {
+                "label": "確認・公開済み物件資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          },
+          {
+            "event_id": 10,
+            "role": "user",
+            "text": "住宅ローンについて相談したい",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 12,
+            "role": "assistant",
+            "text": "TEST: 公開済み参考金利の商品を選択してください。",
+            "created_at": "2026-10-07T22:25:27+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 11,
+            "kind": "products",
+            "products": [
+              {
+                "id": "A-rates:rate:0",
+                "bank": "TEST銀行",
+                "product": "TEST変動金利",
+                "rate_type": "変動",
+                "rate": 1.195,
+                "rate_over_90_percent": null,
+                "effective_date": "2000-01-01",
+                "valid_until": "2099-12-31",
+                "years_min": 1,
+                "years_max": 35,
+                "loan_amount_min": 1000000,
+                "loan_amount_max": 100000000,
+                "max_loan_to_value": null,
+                "notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+                "conditions": [
+                  "TEST公開条件"
+                ],
+                "requires_acquisition_price_for_estimate": false,
+                "references": [
+                  {
+                    "label": "確認・公開済み参考金利資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "event_id": 13,
+            "kind": "mortgage",
+            "result": {
+              "version": 1,
+              "rate_id": "A-rates:rate:0",
+              "bank": "TEST銀行",
+              "product": "TEST変動金利",
+              "rate_type": "変動",
+              "property_price": 76900000,
+              "down_payment": 5000000,
+              "loan_amount": 71900000,
+              "annual_interest_rate": 1.195,
+              "years": 35,
+              "monthly_payment": 209563,
+              "calculation_date": "2026-10-07",
+              "effective_date": "2000-01-01",
+              "valid_until": "2099-12-31",
+              "rate_basis": "公開済み参考金利",
+              "price_basis": null,
+              "loan_to_value": 0.9349804941482445,
+              "loan_to_value_percent": 93.49804941482445,
+              "conditions": [
+                "TEST公開条件"
+              ],
+              "product_notes": "TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 TEST_R2_PUBLIC_FACT TEST審査・利用条件を満たす方。TEST末尾条件：契約前の確認であり、審査の承認を意味しません。",
+              "references": [
+                {
+                  "label": "確認・公開済み住宅購入資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                },
+                {
+                  "label": "確認・公開済み物件資料",
+                  "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                }
+              ]
+            }
+          }
+        ],
+        "staff_calls": [
+          {
+            "id": "187f308546924320aa5b34cc8ac8060c",
+            "status": "completed",
+            "customer_message": "スタッフの対応が完了しました。",
+            "created_at": "2026-10-07T22:25:28+09:00",
+            "accepted_at": "2026-10-07T22:25:28+09:00",
+            "completed_at": "2026-10-07T22:25:29+09:00"
+          }
+        ],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    }
+  ],
+  "page_errors": [],
+  "published_version": 1,
+  "session_id": "1b89b1dd180e4b959322117d493ed366",
+  "version": 1
+}

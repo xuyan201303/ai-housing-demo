@@ -1,0 +1,398 @@
+{
+  "status": "FAIL",
+  "provider": "TEST_DETERMINISTIC_NOT_REAL_AI",
+  "database": "evidence/public_response_boundary_r1/ui-test.db",
+  "ports": [
+    5184,
+    8014
+  ],
+  "paid_api_calls": 0,
+  "physical_microphone": "NOT_TESTED",
+  "checks": {
+    "general_home_without_property": "PASS"
+  },
+  "responses": [
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "body": {
+        "status": "ok",
+        "sdk_version": "1.8.0",
+        "demo_mode": "test",
+        "ai_configured": false,
+        "realtime_configured": false,
+        "realtime_voice": "marin",
+        "voice_instructions_sha256": "a7e00332e5ba69c6179c34fc45ec51336377e069d17a7789578b0c8f414de74b"
+      }
+    },
+    {
+      "path": "/api/sessions",
+      "status": 200,
+      "body": {
+        "id": "4d7a5a39d45d4d49a80bb2034f36d504",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:29:06+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [],
+        "display_events": [],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/4d7a5a39d45d4d49a80bb2034f36d504/messages",
+      "status": 200,
+      "body": {
+        "answer": "TEST: 住宅購入では希望と予算を整理します。",
+        "version": 1,
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_call": null
+      }
+    },
+    {
+      "path": "/api/sessions/4d7a5a39d45d4d49a80bb2034f36d504",
+      "status": 200,
+      "body": {
+        "id": "4d7a5a39d45d4d49a80bb2034f36d504",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:29:06+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/4d7a5a39d45d4d49a80bb2034f36d504",
+      "status": 200,
+      "body": {
+        "id": "4d7a5a39d45d4d49a80bb2034f36d504",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:29:06+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    },
+    {
+      "path": "/api/sessions/4d7a5a39d45d4d49a80bb2034f36d504",
+      "status": 200,
+      "body": {
+        "id": "4d7a5a39d45d4d49a80bb2034f36d504",
+        "version": 1,
+        "mode": "text",
+        "property_id": null,
+        "status": "active",
+        "created_at": "2026-10-07T21:29:06+09:00",
+        "ended_at": null,
+        "property": null,
+        "products": [
+          {
+            "id": "TEST-mufg",
+            "bank": "三菱UFJ銀行",
+            "product": "TEST変動金利",
+            "rate_type": "変動",
+            "rate": 1.195,
+            "rate_over_90_percent": null,
+            "effective_date": "2000-01-01",
+            "valid_until": "2099-12-31",
+            "years_min": 1,
+            "years_max": 35,
+            "loan_amount_min": 1000000,
+            "loan_amount_max": 100000000,
+            "max_loan_to_value": null,
+            "notes": "TEST審査・利用条件を満たす方。参考金利です。",
+            "conditions": [
+              "TEST公開条件"
+            ],
+            "requires_acquisition_price_for_estimate": false,
+            "references": [
+              {
+                "label": "確認・公開済み参考金利資料",
+                "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+              }
+            ]
+          }
+        ],
+        "messages": [
+          {
+            "event_id": 1,
+            "role": "user",
+            "text": "住宅購入は何から始めればよいですか？",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [],
+            "historical": true
+          },
+          {
+            "event_id": 3,
+            "role": "assistant",
+            "text": "TEST: 住宅購入では希望と予算を整理します。",
+            "created_at": "2026-10-07T21:29:06+09:00",
+            "channel": "text",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料",
+                "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+              }
+            ],
+            "historical": true
+          }
+        ],
+        "display_events": [
+          {
+            "event_id": 2,
+            "kind": "sources",
+            "items": [
+              {
+                "text": "TEST住宅購入では希望と予算を整理し、重要事項説明を確認します。",
+                "scope": "general",
+                "references": [
+                  {
+                    "label": "確認・公開済み住宅購入資料",
+                    "url": "https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "staff_calls": [],
+        "realtime": {
+          "status": "not_started",
+          "error": null
+        }
+      }
+    }
+  ],
+  "page_errors": [],
+  "session_id": "4d7a5a39d45d4d49a80bb2034f36d504",
+  "version": 1,
+  "error": "expect(locator).toHaveCount(expected) failed\n\nLocator:  locator('.consultation-materials a[href*=\"mlit.go.jp\"]')\nExpected: 1\nReceived: 2\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveCount\" locator('.consultation-materials a[href*=\"mlit.go.jp\"]') with timeout 5000ms\n  - waiting for locator('.consultation-materials a[href*=\"mlit.go.jp\"]')\n    14 × locator resolved to 2 elements\n       - unexpected value \"2\"\n"
+}

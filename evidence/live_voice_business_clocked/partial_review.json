@@ -1,0 +1,11 @@
+{
+  "status": "FAIL_INCOMPLETE_CONTINUOUS_SCENE",
+  "actual_customer_voice_turns": 3,
+  "actual_successful_calculations": 0,
+  "first_voice_product_bands": "PASS_BOTH_PUBLISHED_FLAT35_BANDS",
+  "unresolved_cause": "REALTIME_SIDEBAND_WITH_UI_DISCONNECT_OBSERVED; HMR timing requires corroboration",
+  "last_response_done_at": "2026-10-07T10:49:15.284+09:00",
+  "ended_at": "2026-10-07T10:49:39+09:00",
+  "physical_microphone": "NOT_VERIFIED",
+  "physical_speaker": "NOT_VERIFIED"
+}

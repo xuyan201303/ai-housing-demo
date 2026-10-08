@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-10-07T01:46:57.171Z",
+  "browser": "installed Google Chrome headless",
+  "base": "http://localhost:5173",
+  "ai_calls": 0,
+  "session_calls": 0,
+  "microphone_permission_requested": false,
+  "mutations": [],
+  "page_errors": [],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 409 (Conflict)",
+    "Failed to load resource: the server responded with a status of 409 (Conflict)"
+  ],
+  "status": "WAITING_FOR_NORMAL_PUBLICATION_RENDER_VERIFIED",
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "public_property": {
+    "http": 409,
+    "data": {
+      "error": {
+        "code": "NO_PUBLISHED_DATA",
+        "message": "公開済みの資料がありません。管理画面で確認・公開してください。"
+      }
+    }
+  },
+  "customer": {
+    "text": "SANZO\nHOUSING CONCIERGE\n建売住宅 AI接客 Demo\n管理者\nスタッフ\nA HOME, A CONVERSATION.\n新しい暮らしを、いっしょに見つけましょう。\n\n物件のことも、暮らしのことも。確認済みの資料から、わかりやすくご案内します。\n\n資料公開待ち\nAI HOUSING CONCIERGE\nご案内をお待ちしています\nAI 住宅コンシェルジュ\n気になることから、お気軽に。\n\n物件・設備・周辺環境をお尋ねください。\n接客開始後も文字でご相談いただけます。\n\n接客を開始\n音声で相談\n文字で開始\n開始時に公開版の資料を固定してご案内します。\nご相談とご案内\nここにお客様の質問と AI のご案内が表示されます。\nこの物件の特徴は？\n駅から何分ですか？\nどんな設備がありますか？\nご相談内容\n専門的な判断や資料にない内容は、担当スタッフにおつなぎします。\nYOUR NEXT HOME\n公開資料の準備中\n表示イメージ／実際の物件とは異なります。\nまだ公開された資料がありません\n\n管理者が資料を取り込み、確認・公開すると\nこちらに物件情報が表示されます。\n\nSANZO / AI住宅接客 Demo\nAI のご案内は確認済み資料に基づきます。詳細・条件は担当スタッフにご確認ください。",
+    "start_disabled": true,
+    "horizontal_overflow": false
+  },
+  "admin": {
+    "stats": "登録資料\n4件\n確認・公開済み\n0件\n現在の公開版\n未公開\n接客履歴\n0件",
+    "document_count": 4,
+    "horizontal_overflow": false
+  },
+  "completed_at": "2026-10-07T01:46:59.648Z"
+}

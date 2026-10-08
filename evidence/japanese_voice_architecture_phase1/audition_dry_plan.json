@@ -1,0 +1,16 @@
+{
+  "voices": [
+    "ja-JP-NanamiNeural",
+    "ja-JP-ShioriNeural",
+    "ja-JP-Nanami:DragonHDLatestNeural"
+  ],
+  "phrases": [
+    "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+    "住宅購入では、ご希望やご予算を整理しながら、条件に合う住まいをご案内いたします。まず、どのような暮らしをご希望ですか。",
+    "これは発音確認用です。借入額は三千万円、返済期間は三十五年、参考金利は年一・一九五パーセントです。"
+  ],
+  "maximum_synthesis_requests": 9,
+  "voice_list_requests": 1,
+  "paid_execution": false,
+  "naturalness": "WAITING_FOR_USER_LISTENING"
+}

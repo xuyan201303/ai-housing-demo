@@ -1,0 +1,148 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/admin
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176/admin, Placeholder: Google で検索または URL を入力
+					10 ボタン パスワードを保存
+					11 ボタン このタブをブックマークに追加します
+				12 container
+					13 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					14 ポップアップボタン 拡張機能
+				15 ボタン YAN
+				16 ポップアップボタン Chrome
+			17 ツールバー ブックマーク
+				18 ツールバー 保存したタブグループ
+					19 ボタン タブグループ
+				20 スプリッタ セパレータ
+				21 ブックマーク フォルダ ボタン ミラヴン
+				22 ブックマーク フォルダ ボタン 富士ソフト
+				23 ブックマーク フォルダ ボタン サイト
+				24 ブックマーク ボタン chatGTP
+				25 ブックマーク ボタン Google Gemini
+				26 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				27 ブックマーク ボタン マイドライブ
+				28 ブックマーク ボタン 発注ナビ
+				29 ブックマーク フォルダ ボタン すべてのブックマーク
+				30 スプリッタ セパレータ
+			31 container
+				32 スクロール領域
+					33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin
+						34 container
+							35 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							36 テキスト 業務管理
+							37 link お客様ページ ↗, Value: localhost:5176/
+							38 link スタッフ, Value: localhost:5176/staff
+							39 ボタン ログアウト
+							40 テキスト 業務管理
+							41 見出し 資料を確認して、安心できるご案内へ。, Value: 1
+								42 テキスト 資料を確認して、安心できるご案内へ。
+							43 テキスト 資料を取り込み、業務内容を編集・保存。社員の確認後に公開します。
+							44 text SANZO SDK  1.8.0 登録資料
+							45 container
+								46 text 7 件
+							47 テキスト 確認・公開済み
+							48 container
+								49 text 7 件
+							50 テキスト 現在の公開版
+							51 テキスト v2
+							52 テキスト 接客履歴
+							53 container
+								54 text 2 件
+							55 container 業務管理メニュー
+								56 ボタン 物件情報
+								57 ボタン 資料管理
+								58 ボタン 設備情報
+								59 ボタン FAQ
+								60 ボタン 住宅ローン
+								61 ボタン 公開管理
+								62 ボタン 接客履歴
+							63 ボタン ファイルを選択: 選択されていません
+							64 ボタン 公開内容を編集
+							65 ボタン 現在の公開情報
+							66 ボタン 公開バージョン履歴
+							67 テキスト 公開版 v2 を作成しました。新しい接客から反映されます。有効な既存接客は開始時の版を維持します。
+							68 container
+								69 text PUBLISHED / v 2
+								70 見出し コモンステージ八千代中央 分譲住宅 No.15, Value: 2
+									71 テキスト コモンステージ八千代中央 分譲住宅 No.15
+								72 text 公開中 変更は公開草案で準備します。現在の公開版・過去の確認内容を上書きしません。
+								73 定義リスト
+									74 container 販売価格
+										75 テキスト 販売価格
+									76 テキスト 77,900,000 円
+									77 container 間取り
+										78 テキスト 間取り
+									79 テキスト 3LDK（No.15公式平面図から分類）
+									80 container 公開日時
+										81 テキスト 公開日時
+									82 テキスト 2026/10/08 10:27
+								83 見出し FAQ, Value: 3
+									84 テキスト FAQ
+								85 見出し 住宅ローン参考金利, Value: 3
+									86 テキスト 住宅ローン参考金利
+								87 テキスト 三菱UFJ銀行
+								88 見出し 住宅ローン 新規借入 ずーっと一律優遇コース, Value: 4
+									89 テキスト 住宅ローン 新規借入 ずーっと一律優遇コース
+								90 text 年  1.195 % 変動金利 基準日  2026-10-01  / 期限  2026-10-31 参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。
+								91 コンテンツリスト
+									92 container
+										93 AXListMarker • 
+										94 テキスト TEST：一番目の条件を修正。実際の金融条件ではありません。
+									95 container
+										96 AXListMarker • 
+										97 テキスト TEST：二番目の行。順番と未編集データを保持します。
+								98 text 参照資料 住宅ローン_demo.xlsx  ·  Rates!2
+								99 link 原情報 ↗, Value: bk.mufg.jp/kariru/jutaku/yuuguu/index.html
+								100 テキスト 住宅金融支援機構・取扱金融機関
+								101 見出し フラット35 新機構団信付き 21～35年, Value: 4
+									102 テキスト フラット35 新機構団信付き 21～35年
+								103 text 年  3.83 % 全期間固定金利 基準日  2026-10-01  / 期限  2026-10-31 参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。 参照資料 住宅ローン_demo.xlsx  ·  Rates!3
+								104 link 原情報 ↗, Value: simulation.jhf.go.jp/flat35/kinri/index.php/rates/top
+								105 text 参照資料 住宅ローン_demo.xlsx  ·  管理者確認・公開済み
+								106 link 原情報 ↗, Value: bk.mufg.jp/kariru/jutaku/yuuguu/index.html
+								107 text 住宅ローン基礎FAQ_demo.pdf  ·  管理者確認・公開済み
+								108 link 原情報 ↗, Value: flat35.com/loan/lineup/flat35/flow_shinchiku.html
+								109 text 住宅購入基礎FAQ_demo.pdf  ·  管理者確認・公開済み
+								110 link 原情報 ↗, Value: mlit.go.jp/totikensangyo/const/1_6_bf_000013.html
+								111 text 周辺環境_demo.pdf  ·  管理者確認・公開済み
+								112 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html
+								113 text 設備仕様_demo.pdf  ·  管理者確認・公開済み
+								114 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+								115 text TEST_overview_replacement.pdf  ·  管理者確認・公開済み
+								116 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+			117 ポップアップボタン タブ検索
+			118 container
+				119 タブグループ
+					120 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 155 MB, Value: on
+						121 ボタン 閉じる
+					122 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: off
+						123 ボタン 閉じる
+					124 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 174 MB, Value: off
+						125 ボタン 閉じる
+					126 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 114 MB, Value: off
+						127 ボタン 閉じる
+			128 ボタン 新しいタブ
+			129 ボタン Gemini in Chrome を開く
+	130 閉じるボタン
+	131 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	132 しまうボタン
+133 menu bar
+	134 Chrome
+	135 ファイル
+	136 編集
+	137 表示
+	138 履歴
+	139 ブックマーク
+	140 プロファイル
+	141 タブ
+	142 ウィンドウ
+	143 ヘルプ
+
+The focused UI element is 33 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/admin

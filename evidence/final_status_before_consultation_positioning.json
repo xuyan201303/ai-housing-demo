@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-07",
+  "sdk_version": "1.8.0",
+  "sdk_smoke": "PASS",
+  "backend_tests_full_suite": 119,
+  "frontend_build": "PASS_AFTER_VOICE_FORM_SYNC",
+  "chrome_headless_workflow": "PASS",
+  "openai_key_configured": true,
+  "normal_backend_restarted": true,
+  "actual_ai_text": "PASS_PUBLIC_FACTS_UNKNOWN_FACTS_VERSION_AND_SELECTED_LOAN",
+  "actual_rate_conditions": "PASS_PER_PRODUCT_SOURCE_REVIEW",
+  "actual_realtime_audio": "PASS_REAL_OPENAI_WITH_SYNTHETIC_TEST_INPUT",
+  "final_avatar_idle_and_media_cleanup": "PASS_SAME_SESSION_CONTINUOUS_BUSINESS",
+  "actual_microphone_realtime": "NOT_VERIFIED",
+  "physical_speaker_acceptance": "NOT_VERIFIED",
+  "normal_demo_auto_published": false,
+  "normal_documents": 4,
+  "normal_versions": 0,
+  "normal_ports": [
+    8000,
+    5173
+  ],
+  "isolated_test_ports_running_for_manual_microphone_check": [
+    8001,
+    5174
+  ],
+  "evidence": "evidence/acceptance.md",
+  "historical_failures_preserved": true,
+  "actual_realtime_audio_evidence": "evidence/live_voice_final_verified/result.json",
+  "upstream_realtime_hangup_status": 200,
+  "voice_local_media_end": {
+    "peer_state": "closed",
+    "sender_tracks": [
+      "ended"
+    ],
+    "synthetic_input_tracks": [
+      "ended"
+    ],
+    "playback_paused": true,
+    "playback_source_cleared": true,
+    "avatar": "avatar-stage idle",
+    "active_session_caption": false
+  },
+  "voice_final_avatar_state": "avatar-stage idle",
+  "verification_complete_except_manual_checks": true,
+  "normal_parsed_documents": 4,
+  "normal_confirmed_documents": 0,
+  "normal_current_version": null,
+  "normal_database": "data/housing.db",
+  "normal_demo_preparation": "evidence/normal_demo_preparation.json",
+  "normal_chrome_readonly": "PASS_INSTALLED_CHROME_ADMIN_STAFF",
+  "normal_requires_manual_confirmation_and_publication": true,
+  "normal_customer_voice_acceptance": "NOT_VERIFIED",
+  "manual_acceptance_status": "WAITING_FOR_USER_MIC_TEST",
+  "ready_for_customer_demo": "NO",
+  "pending_conditions": [
+    "User business confirmation and publication of four normal documents",
+    "Normal 5173 real microphone and actual speaker acceptance"
+  ],
+  "normal_frontend_restarted": true,
+  "normal_publication_readback": "evidence/normal_demo_published_readback.json",
+  "normal_reported_publication_correlated": false,
+  "normal_latest_readback_status": "WAITING_FOR_NORMAL_ADMIN_CONFIRMATION_AND_PUBLICATION",
+  "user_real_microphone_reply": "WILL_TEST_LATER_NOT_ACCEPTED",
+  "rate_conditions_current_review": "evidence/current_rate_conditions_review.md",
+  "user_normal_publication_reply": "NOT_YET_PERFORMED_EARLIER_OPTION_ONLY",
+  "backend_tests_current_turn": "119 passed, 1 preexisting Starlette deprecation warning",
+  "minimal_fixes_current_turn": [
+    "Restore stopped normal Vite 5173 with existing dependencies",
+    "Synchronize voice loan form with actual Backend Tool event",
+    "First rate listing summarizes published term/amount and eligibility/screening conditions"
+  ],
+  "fixed_code_frozen_for_live_voice_acceptance": true,
+  "isolated_backend_restarted": true,
+  "continuous_voice_business_status": "PASS_REAL_REALTIME_SYNTHETIC_INPUT_WITH_OFFLINE_TRANSCRIPT_REVIEW",
+  "normal_health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "current_readback_at": "2026-10-07T01:58:07.954922+00:00",
+  "normal_latest_readback": "evidence/normal_demo_final_readback.json",
+  "continuous_voice_business_evidence": "evidence/live_voice_business_final/result.json",
+  "continuous_voice_session_id": "4d740adfb11f4408a21300808e07e76f",
+  "continuous_voice_version": 3,
+  "continuous_voice_speech_inputs": 5,
+  "continuous_voice_calculation": {
+    "down_payment": 5000000,
+    "years": 35,
+    "loan_amount": 71900000,
+    "annual_interest_rate": 3.94,
+    "monthly_payment": 315773
+  },
+  "continuous_voice_staff_sync": "PASS_ACTUAL_STAFF_UI_AND_CUSTOMER_POLLING",
+  "continuous_voice_first_rate_conditions": "PASS_SOURCE_BACKED_NON_EXHAUSTIVE_SPOKEN_SUMMARY",
+  "continuous_voice_first_rate_conditions_limits": [
+    "First answer did not enumerate every Flat35 notes condition or expiry date; detailed published conditions remain in UI/source and final calculation notes"
+  ],
+  "source_hashes_unchanged_during_voice_run": true
+}

@@ -1,0 +1,12 @@
+{
+  "browser": "installed Google Chrome headless",
+  "api_mocks": 0,
+  "physical_microphone": "NOT_VERIFIED",
+  "checks": {
+    "normal_general_start_without_publication": "PASS"
+  },
+  "page_errors": [],
+  "normal_session_id": "73990a55d3e14aabba7ca3355de381bb",
+  "status": "FAIL",
+  "error": "expect(locator).toHaveValue(expected) failed\n\nLocator: getByLabel('知識範囲', { exact: true })\nExpected: \"general\"\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toHaveValue\" getByLabel('知識範囲', { exact: true }) with timeout 5000ms\n  - waiting for getByLabel('知識範囲', { exact: true })\n"
+}

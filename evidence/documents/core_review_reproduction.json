@@ -1,0 +1,19 @@
+{
+  "isolated": true,
+  "sdk_api": "document_sdk.pdf.extract_native_text",
+  "document_expiries": [
+    {
+      "filename": "物件概要_demo.pdf",
+      "valid_until": "2020-01-01"
+    },
+    {
+      "filename": "設備仕様_demo.pdf",
+      "valid_until": "2030-12-31"
+    }
+  ],
+  "snapshot_valid_until": "2030-12-31",
+  "session_started": true,
+  "returned_price": 76900000.0,
+  "price_source_filename": "物件概要_demo.pdf",
+  "finding": "Expired overview price is exposed because later equipment document overwrites snapshot deadline"
+}

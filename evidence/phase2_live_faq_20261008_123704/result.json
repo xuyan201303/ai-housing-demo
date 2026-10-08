@@ -1,0 +1,45 @@
+{
+  "task": "HOUSING_PHASE2_LIVE_FAQ_CHECK",
+  "text_integration_status": "NEEDS_FIX",
+  "old_new_live_comparison": "INCOMPLETE_STOPPED_ON_SOURCE_ANOMALY",
+  "employee_review": "WAITING_FOR_USER_REVIEW",
+  "model": "gpt-4.1-mini",
+  "customer_questions_sent": 1,
+  "actual_generation_requests": 1,
+  "usage": {
+    "input_tokens": 2585,
+    "output_tokens": 69,
+    "total_tokens": 2654
+  },
+  "cost": null,
+  "stop_reason": "Manual inspection found unrelated flat35 official source displayed as reference of own TEST FAQ. No second question, retry or paid fix verification. Provider guard did not detect this semantic issue.",
+  "old_session": {
+    "session_id": "55d0892a48e24016a08b60d89d3b973f",
+    "version": 3,
+    "confirmation_id": 8,
+    "revision_id": "2c33dd6e64ab4bd8a9a1452ef2441c22",
+    "answer": "TEST案内の確認方法についてですが、SANZOが用意した動作確認用のTEST資料で、実際の会社サービスや公的制度の案内ではありません。確認は青色の確認票を使って行います。詳細は確認・公開済み住宅購入資料を参照ください。",
+    "key_meaning_correct": true,
+    "new_content_in_old_input_or_answer": false
+  },
+  "new_session": {
+    "session_id": "5e0da4a790534115accceaf131d093fd",
+    "version": 4,
+    "confirmation_id": 9,
+    "revision_id": "22b7dbd1113d49ef8a1b92cda1b8e5b1",
+    "answer": null,
+    "reason": "Not asked after first result source anomaly"
+  },
+  "environment_after_stop": {
+    "temporary_8005_running": false,
+    "preserved_5177": {
+      "status": "ok",
+      "demo_mode": "test",
+      "ai_configured": false,
+      "sdk_version": "1.8.0"
+    }
+  },
+  "business_code_modified": false,
+  "normal_db_connected": false,
+  "paid_voice_calls": 0
+}

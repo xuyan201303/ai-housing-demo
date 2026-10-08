@@ -1,0 +1,20 @@
+{
+  "ai_calls": 0,
+  "api_mocks": 0,
+  "mode": "REAL_HTTP_CALCULATOR_AND_CHROME_UI",
+  "sizes": [
+    {
+      "width": 1000,
+      "material_card": "PASS",
+      "end_control_reachable": "PASS",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "material_card": "PASS",
+      "end_control_reachable": "PASS",
+      "overflow": false
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "FIXED_FOR_EXACT_KEY_VALUE_PRICE_FORMAT",
+  "test_only": true,
+  "test": "backend/tests/test_publication_updates.py::test_price_literal_conflict_blocks_preview_and_commit_without_changing_current_version",
+  "verified": [
+    "Actual SDK input and real isolated Admin APIs",
+    "Approved structure-only amendment remains unpublished candidate",
+    "Preview per-document SOURCE_PRICE_CONFLICT",
+    "Final commit rejects identical conflict",
+    "Current v1 and old/new sessions remain original published price",
+    "Explicit TEST reviewed-body correction can publish consistent new version",
+    "Original SDK raw/normalized and old snapshot remain unchanged",
+    "tool_evidence after consistent publication contains new price, no old price literal"
+  ],
+  "backend_regression": "221 passed",
+  "normal_db_accessed": false,
+  "paid_calls": 0,
+  "customer_core_changed": false,
+  "automatic_text_rewrite": false,
+  "limitation": "Only unambiguous numeric price: lines in the current existing key:value format. Does not infer prices in arbitrary free text or detect all other business contradictions."
+}

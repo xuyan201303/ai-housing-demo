@@ -1,0 +1,42 @@
+{
+  "question_limit": 2,
+  "generation_limit": 4,
+  "questions": [
+    {
+      "session_id": "55d0892a48e24016a08b60d89d3b973f",
+      "version": 3,
+      "text": "TEST案内の確認方法は？",
+      "at": "2026-10-08T12:44:17+09:00"
+    }
+  ],
+  "calls": [
+    {
+      "number": 1,
+      "session_id": "55d0892a48e24016a08b60d89d3b973f",
+      "counted_before_outbound_at": "2026-10-08T12:44:17+09:00",
+      "status": "COMPLETED",
+      "http_status": 200,
+      "finished_at": "2026-10-08T12:44:19+09:00",
+      "usage": {
+        "input_tokens": 2585,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 69,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2654
+      },
+      "response_id": "resp_0d1d2ff7ca1f065f016ac711925e8887d088bdf5ce38a2ecc0",
+      "response_status": "completed"
+    }
+  ],
+  "created_sessions": [
+    "55d0892a48e24016a08b60d89d3b973f",
+    "5e0da4a790534115accceaf131d093fd"
+  ],
+  "halted": false,
+  "halt_reason": null
+}

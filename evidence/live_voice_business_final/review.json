@@ -1,0 +1,30 @@
+{
+  "status": "PASS_TESTED_CONTINUOUS_REAL_VOICE_SCENARIO_WITH_SYNTHETIC_INPUT",
+  "session_id": "4d740adfb11f4408a21300808e07e76f",
+  "version": 3,
+  "customer_voice_turns": 5,
+  "raw_record": "result.json",
+  "raw_status_preserved": "PASS_AUTOMATED_CONTINUOUS_VOICE_BUSINESS_PENDING_MANUAL_TRANSCRIPT_REVIEW",
+  "first_rate_presentation_review": "PASS_PUBLISHED_BOUNDS_MUFG_ELIGIBILITY_SCREENING_SUMMARY_AND_BOTH_FLAT35_LTV_BANDS; NOT_EVERY_NOTE_SPOKEN_VERBATIM",
+  "preselection_calculation": "NONE",
+  "calculator_event_id": 232,
+  "spoken_amount_literal": "約31万5,773円",
+  "spoken_amount_normalized_jpy": 315773,
+  "audio_associated_transcript_ui_subtitle_and_calculation_card": "PASS_SAME_315773_JPY_AND_FLAT35_3_94_PERCENT_OVER_90_PERCENT",
+  "form_selection_sync": "PASS_FLAT35_SOURCE_ID_AND_5000000_DOWN_35_YEARS",
+  "underwriting_audio_policy": "PASS_NO_GUARANTEE_AND_ACTUAL_STAFF_RECORD",
+  "staff_accept_complete_customer_poll": "PASS_ACTUAL_UI_AND_SAME_SESSION",
+  "ending": "PASS_ENDED_TRACKS_PAUSED_PLAYBACK_CLEARED_SOURCE_CLOSED_RTC_HANGUP_200_SESSION_ENDED_AVATAR_IDLE",
+  "actual_output_audio_file": {
+    "path": "actual_openai_response.webm",
+    "bytes": 4353745,
+    "sha256": "d4f490df30d04f6beb7b7c74752935dc3229dae1f3aaa9f75cffa2e05857545c"
+  },
+  "app_source_unchanged_during_run": true,
+  "normal_demo_acceptance": "NOT_RUN",
+  "physical_microphone": "NOT_VERIFIED",
+  "physical_speaker_audibility": "NOT_VERIFIED",
+  "physical_echo_behavior": "NOT_VERIFIED",
+  "human_acceptance": "WAITING_FOR_USER_MIC_TEST",
+  "review_method": "Offline inspection of actual Realtime audio-associated transcript, UI DOM readback, screenshots, persisted source/tool/history and cleanup evidence. No additional API call. Harness regex did not recognize mixed 万/Arabic comma monetary notation."
+}

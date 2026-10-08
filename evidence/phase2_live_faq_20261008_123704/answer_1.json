@@ -1,0 +1,20 @@
+{
+  "answer": "TEST案内の確認方法についてですが、SANZOが用意した動作確認用のTEST資料で、実際の会社サービスや公的制度の案内ではありません。確認は青色の確認票を使って行います。詳細は確認・公開済み住宅購入資料を参照ください。",
+  "references": [
+    {
+      "document_id": "3e15caace3244e91bd84c606f3744d52",
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "location": "p.1",
+      "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+    },
+    {
+      "location": "TEST人工入力・青色確認票の比較基線",
+      "document_id": "943986e694d84d7cb1c927221c083df8",
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "source_url": "urn:sanzo:phase2-live-faq"
+    }
+  ],
+  "tool_results": [],
+  "provider": "openai",
+  "version": 3
+}

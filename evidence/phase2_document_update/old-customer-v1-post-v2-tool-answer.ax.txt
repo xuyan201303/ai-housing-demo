@@ -1,0 +1,170 @@
+Window: "SANZO | AI住宅コンシェルジュ", App: Google Chrome.
+0 標準ウインドウ SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/, Secondary Actions: Raise
+	1 container SANZO | AI住宅コンシェルジュ - Google Chrome - YAN, URL: localhost:5176/
+		2 container
+			3 ツールバー
+				4 ボタン 戻る
+				5 ボタン (disabled) 進む
+				6 ボタン 再読み込み
+				7 container
+					8 ポップアップボタン サイト情報を表示
+					9 テキストフィールド (settable) アドレス検索バー, Value: localhost:5176, Placeholder: Google で検索または URL を入力
+					10 ボタン このタブをブックマークに追加します
+				11 container
+					12 ポップアップボタン Jira Assistant
+このサイトへのアクセス許可が必要です
+					13 ポップアップボタン 拡張機能
+				14 ボタン YAN
+				15 ポップアップボタン Chrome
+			16 ツールバー ブックマーク
+				17 ツールバー 保存したタブグループ
+					18 ボタン タブグループ
+				19 スプリッタ セパレータ
+				20 ブックマーク フォルダ ボタン ミラヴン
+				21 ブックマーク フォルダ ボタン 富士ソフト
+				22 ブックマーク フォルダ ボタン サイト
+				23 ブックマーク ボタン chatGTP
+				24 ブックマーク ボタン Google Gemini
+				25 ブックマーク ボタン 【オーダーケーキの通販・専門店】ルナコーボーLunaKOBO – 【オーダーケーキの通販・専⾨店】⼤阪堀江のルナコーボーLunaKOBO
+				26 ブックマーク ボタン マイドライブ
+				27 ブックマーク ボタン 発注ナビ
+				28 ブックマーク フォルダ ボタン すべてのブックマーク
+				29 スプリッタ セパレータ
+			30 container
+				31 スクロール領域
+					32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/
+						33 container
+							34 link SANZO HOUSING CONCIERGE, Value: localhost:5176/
+							35 テキスト 建売住宅 AI接客 Demo
+							36 link 管理者, Value: localhost:5176/admin
+							37 link スタッフ, Value: localhost:5176/staff
+							38 テキスト A HOME, A CONVERSATION.
+							39 見出し 新しい暮らしを、いっしょに見つけましょう。, Value: 1
+								40 text 新しい暮らしを、 いっしょに見つけましょう。
+							41 テキスト 住宅購入のこと、購入の流れ、住宅ローン。気になることから自由にご相談ください。
+							42 テキスト 確認・公開済みの情報だけをご案内
+							43 テキスト AI接客の設定が未完了です。公開資料の閲覧は可能ですが、文字・音声での AI 回答にはサーバーの API 設定が必要です。
+							44 container
+								45 text AI HOUSING CONCIERGE ご案内をお待ちしています
+								46 イメージ AI 住宅コンシェルジュ、待機中
+								47 text AI 住宅コンシェルジュ 文字で接客中 公開版 v1
+								48 ボタン 接客終了
+								49 テキスト 会話履歴は当時のご案内です。現在の条件はご案内資料と最新の試算をご確認ください。
+								50 テキスト ご相談とご案内
+								51 テキスト v1 の確認済み資料
+								52 テキスト お客様
+								53 テキスト 住宅購入について相談したいです
+								54 テキスト AIコンシェルジュ
+								55 テキスト TEST: 確認・公開済みの住宅購入資料を表示します。
+								56 text 参照資料 確認・公開済み住宅購入資料
+								57 link 原情報 ↗, Value: flat35.com/loan/lineup/flat35/flow_shinchiku.html
+								58 テキスト 確認・公開済み住宅購入資料
+								59 link 原情報 ↗, Value: mlit.go.jp/totikensangyo/const/1_6_bf_000013.html
+								60 テキスト お客様
+								61 テキスト 紹介できる物件はありますか？
+								62 テキスト AIコンシェルジュ
+								63 テキスト TEST: この接客版に登録されているサンプルです。
+								64 テキスト お客様
+								65 テキスト 価格を教えてください
+								66 テキスト AIコンシェルジュ
+								67 テキスト TEST: この接客版の登録価格は 76,900,000.0 円です。資料カードでご確認ください。
+								68 text 参照資料 確認・公開済み住宅購入資料
+								69 link 原情報 ↗, Value: bk.mufg.jp/kariru/jutaku/yuuguu/index.html
+								70 テキスト 確認・公開済み住宅購入資料
+								71 link 原情報 ↗, Value: flat35.com/loan/lineup/flat35/flow_shinchiku.html
+								72 テキスト 確認・公開済み住宅購入資料
+								73 link 原情報 ↗, Value: mlit.go.jp/totikensangyo/const/1_6_bf_000013.html
+								74 テキスト 確認・公開済み物件資料
+								75 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html
+								76 テキスト 確認・公開済み物件資料
+								77 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+								78 テキスト お客様
+								79 テキスト 価格をもう一度確認したいです
+								80 テキスト AIコンシェルジュ
+								81 テキスト TEST: この接客版の登録価格は 76,900,000.0 円です。資料カードでご確認ください。
+								82 text 参照資料 確認・公開済み住宅購入資料
+								83 link 原情報 ↗, Value: bk.mufg.jp/kariru/jutaku/yuuguu/index.html
+								84 テキスト 確認・公開済み住宅購入資料
+								85 link 原情報 ↗, Value: flat35.com/loan/lineup/flat35/flow_shinchiku.html
+								86 テキスト 確認・公開済み住宅購入資料
+								87 link 原情報 ↗, Value: mlit.go.jp/totikensangyo/const/1_6_bf_000013.html
+								88 テキスト 確認・公開済み物件資料
+								89 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html
+								90 テキスト 確認・公開済み物件資料
+								91 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+								92 ボタン 住宅購入は何から始めればいいですか？
+								93 ボタン 購入前に確認することは？
+								94 ボタン 住宅ローンについて相談したい
+								95 テキスト ご相談内容
+								96 テキストフィールド (settable) ご相談内容, Placeholder: ご相談内容を入力してください
+								97 ボタン (disabled) 送信
+								98 テキスト 担当スタッフへ相談する
+								99 ボタン スタッフを呼ぶ
+								100 テキスト 専門的な判断や資料にない内容は、担当スタッフにおつなぎします。
+							101 container
+								102 見出し ご案内資料, Value: 2
+									103 テキスト ご案内資料
+								104 ボタン 資料を閉じる
+								105 テキスト YOUR NEXT HOME
+								106 見出し コモンステージ八千代中央 分譲住宅 No.15, Value: 2
+									107 テキスト コモンステージ八千代中央 分譲住宅 No.15
+								108 text 公開版 v 1
+								109 container
+									110 イメージ 住宅を表現したオリジナルイメージ
+									111 テキスト 表示イメージ／実際の物件とは異なります。
+								112 テキスト 販売価格
+								113 テキスト 76,900,000 円
+								114 テキスト 間取り
+								115 テキスト 3LDK（No.15公式平面図から分類）
+								116 テキスト 千葉県八千代市大和田新田字向山477番247
+								117 タブグループ 物件資料
+									118 タブ (selected) 物件概要, Value: 1
+									119 タブ (settable, integer) 設備・周辺, Value: 0
+									120 タブ (settable, integer) 参照資料, Value: 0
+								121 定義リスト
+									122 container 交通
+										123 テキスト 交通
+									124 container
+										125 text 東葉高速鉄道 八千代中央駅 交通・徒歩距離の対象範囲をご確認ください。分譲全体の範囲として記載された値を、号地単独の正確な距離として扱わないでください。 参照資料 確認・公開済み物件資料
+										126 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06town.html
+										127 テキスト 確認・公開済み物件資料
+										128 link 原情報 ↗, Value: sekisuihouse.co.jp/bunjou/1/12221/b350007/s357006/00015123/06top.html
+									129 container 土地面積
+										130 テキスト 土地面積
+									131 テキスト 139.85 ㎡
+									132 container 建物面積
+										133 テキスト 建物面積
+									134 テキスト 93.25 ㎡
+									135 container 完成時期
+										136 テキスト 完成時期
+									137 テキスト 2026-05
+									138 container 駐車場
+										139 テキスト 駐車場
+									140 テキスト 記載なし
+							141 container
+								142 text SANZO / AI住宅接客 Demo AI のご案内は確認済み資料に基づきます。詳細・条件は担当スタッフにご確認ください。
+			143 ポップアップボタン タブ検索
+			144 container
+				145 タブグループ
+					146 タブ (settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 155 MB, Value: off
+						147 ボタン 閉じる
+					148 タブ (selected, settable, boolean) SANZO | AI住宅コンシェルジュ - メモリ使用量 - 125 MB, Value: on
+						149 ボタン 閉じる
+			150 ボタン 新しいタブ
+			151 ボタン Gemini in Chrome を開く
+	152 閉じるボタン
+	153 フルスクリーンボタン Help: このボタンにはウインドウを拡大する操作もあります, Secondary Actions: ウインドウを拡大
+	154 しまうボタン
+155 menu bar
+	156 Chrome
+	157 ファイル
+	158 編集
+	159 表示
+	160 履歴
+	161 ブックマーク
+	162 プロファイル
+	163 タブ
+	164 ウィンドウ
+	165 ヘルプ
+
+The focused UI element is 32 HTML コンテンツ SANZO | AI住宅コンシェルジュ, URL: localhost:5176/

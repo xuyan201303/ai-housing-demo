@@ -1,0 +1,8 @@
+Phase 2 隔離検証専用ログイン
+通常運用のアカウントではありません。共有・公開しないでください。
+
+Admin: http://localhost:5177/admin
+管理者パスワード: EShukZZW2egYFDOir5RkkJpQ
+
+Staff: http://localhost:5177/staff
+スタッフパスワード: GTAd65fDJpQJWhFE8Aegs61_

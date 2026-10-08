@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "sdk_version": "1.8.0",
+  "import_file": "/Users/kyoen/Projects/ai-housing-demo/backend/.venv/lib/python3.12/site-packages/document_sdk/__init__.py",
+  "python": "3.12.13",
+  "apis": {
+    "extract_native_text": "(path: 'Path', *, limits: 'PdfProcessingLimits | None' = None) -> 'Document'",
+    "inspect_workbook": "(path: 'Path', *, package_limits: 'ExcelPackageLimits | None' = None) -> 'WorkbookInspection'",
+    "read_sheet": "(path: 'Path', sheet_name: 'str', *, max_cells: 'int | None' = None, formula_view: 'FormulaView' = 'both') -> 'WorksheetData'"
+  },
+  "result_keys": {
+    "pdf": [
+      "file",
+      "pages",
+      "tables",
+      "content_scopes",
+      "paragraphs",
+      "key_value_pairs",
+      "figures",
+      "sections",
+      "languages",
+      "styles",
+      "analyzed_documents"
+    ],
+    "workbook": [
+      "file",
+      "sheet_names",
+      "worksheets"
+    ],
+    "excel": [
+      "file",
+      "sheet_name",
+      "used_range",
+      "cells"
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-08T02:12:34.589538+00:00",
+  "method": "FILESYSTEM_HASH_ONLY_NO_NORMAL_SQL",
+  "baseline_count": 1056,
+  "changed_paths": [
+    "frontend/src/Admin.tsx",
+    "frontend/src/AdminPublication.tsx",
+    "frontend/src/AdminReview.tsx",
+    "frontend/src/App.tsx"
+  ],
+  "missing_paths": [],
+  "protected_unchanged": true,
+  "backend_business_files_count": 32,
+  "backend_business_code_unchanged": true,
+  "old_two_round_evidence_files_count": 996,
+  "old_two_round_files_changed_or_removed": [],
+  "old_two_round_added_paths": [],
+  "old_two_round_evidence_unchanged": true,
+  "normal_db_and_env_unchanged": true,
+  "sdk_distribution_wheel_unchanged": true,
+  "current_code_sha256": "131836241a166dbc81e72ff2c93b9210010f6ed7af8a62ae7c5cd4a679cda44f",
+  "runtime_code_sha256": "131836241a166dbc81e72ff2c93b9210010f6ed7af8a62ae7c5cd4a679cda44f",
+  "runtime_same_code_version": true
+}

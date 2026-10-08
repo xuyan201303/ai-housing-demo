@@ -1,0 +1,13 @@
+{
+  "browser": "installed Google Chrome headless",
+  "api_mocks": 0,
+  "physical_microphone": "NOT_VERIFIED",
+  "checks": {
+    "normal_general_start_without_publication": "PASS",
+    "normal_six_parsed_no_confirmation": "PASS"
+  },
+  "page_errors": [],
+  "normal_session_id": "e0690d107ec341edaf252b0d31466c03",
+  "status": "FAIL",
+  "error": "Cannot read properties of undefined (reading 'length')"
+}

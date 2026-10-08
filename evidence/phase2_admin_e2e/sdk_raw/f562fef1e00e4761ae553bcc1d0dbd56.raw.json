@@ -1,0 +1,1245 @@
+{
+  "inspection": {
+    "file": {
+      "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+      "filename": "f562fef1e00e4761ae553bcc1d0dbd56.xlsx",
+      "extension": ".xlsx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size_bytes": 6144,
+      "fingerprint": {
+        "algorithm": "sha256",
+        "value": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471"
+      }
+    },
+    "sheet_names": [
+      "Rates"
+    ],
+    "worksheets": [
+      {
+        "name": "Rates",
+        "used_range": "A1:P12",
+        "max_row": 12,
+        "max_column": 16,
+        "merged_ranges": [],
+        "hidden_rows": [],
+        "hidden_columns": [],
+        "formula_cell_count": 0
+      }
+    ]
+  },
+  "sheets": [
+    {
+      "file": {
+        "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+        "filename": "f562fef1e00e4761ae553bcc1d0dbd56.xlsx",
+        "extension": ".xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 6144,
+        "fingerprint": {
+          "algorithm": "sha256",
+          "value": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471"
+        }
+      },
+      "sheet_name": "Rates",
+      "used_range": "A1:P12",
+      "cells": [
+        {
+          "coordinate": "A1",
+          "value": "bank",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "B1",
+          "value": "product",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "B1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "C1",
+          "value": "rate_type",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "C1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "D1",
+          "value": "rate",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "D1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "E1",
+          "value": "effective_date",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "E1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "F1",
+          "value": "valid_until",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "F1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "G1",
+          "value": "notes",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "G1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "H1",
+          "value": "source_url",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "H1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "I1",
+          "value": "source_name",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "I1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "J1",
+          "value": "checked_at",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "J1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "K1",
+          "value": "rate_over_90_percent",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "K1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "L1",
+          "value": "years_min",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "L1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "M1",
+          "value": "years_max",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "M1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "N1",
+          "value": "loan_amount_min",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "N1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "O1",
+          "value": "loan_amount_max",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "O1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "P1",
+          "value": "max_loan_to_value",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "P1"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A2",
+          "value": "三菱UFJ銀行",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "B2",
+          "value": "住宅ローン 新規借入 ずーっと一律優遇コース",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "B2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "C2",
+          "value": "変動金利",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "C2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "D2",
+          "value": 1.195,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0.000\" %\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "D2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "E2",
+          "value": "2026-10-01T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "E2"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46296",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "F2",
+          "value": "2026-10-31T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "F2"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46326",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "G2",
+          "value": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "G2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "H2",
+          "value": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "H2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "I2",
+          "value": "三菱UFJ銀行 住宅ローン金利",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "I2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "J2",
+          "value": "2026-10-07T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "J2"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46302",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "L2",
+          "value": 2,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0\" 年\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "L2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "M2",
+          "value": 40,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0\" 年\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "M2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "N2",
+          "value": 5000000,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "#,##0\" 円\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "N2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "O2",
+          "value": 300000000,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "#,##0\" 円\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "O2"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A3",
+          "value": "住宅金融支援機構・取扱金融機関",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "B3",
+          "value": "フラット35 新機構団信付き 21～35年",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "B3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "C3",
+          "value": "全期間固定金利",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "C3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "D3",
+          "value": 3.83,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0.000\" %\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "D3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "E3",
+          "value": "2026-10-01T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "E3"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46296",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "F3",
+          "value": "2026-10-31T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "F3"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46326",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "G3",
+          "value": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "G3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "H3",
+          "value": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "H3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "I3",
+          "value": "住宅金融支援機構 フラット35 最新の金利情報",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "I3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "J3",
+          "value": "2026-10-07T00:00:00",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "d",
+          "style_id": null,
+          "number_format": "yyyy-mm-dd",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "J3"
+          },
+          "temporal_source": {
+            "kind": "excel_serial",
+            "raw_value": "46302",
+            "date_system": "1900",
+            "origin": "value"
+          }
+        },
+        {
+          "coordinate": "K3",
+          "value": 3.94,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0.00\" %\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "K3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "L3",
+          "value": 21,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0\" 年\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "L3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "M3",
+          "value": 35,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0\" 年\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "M3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "N3",
+          "value": 1000000,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "#,##0\" 円\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "N3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "O3",
+          "value": 120000000,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "#,##0\" 円\"",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "O3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "P3",
+          "value": 1,
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "n",
+          "style_id": null,
+          "number_format": "0%",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "P3"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A5",
+          "value": "住宅ローン参考金利",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A5"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A7",
+          "value": "公開情報を基にSANZOがデモ用に再構成",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A7"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A8",
+          "value": "基準日：2026-10-07。rateの数値単位は年利％（1.195は1.195％）。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A8"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A9",
+          "value": "参考金利は2026年10月借入／資金受取分。有効期限後は現行金利として使用しません。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A9"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A10",
+          "value": "融資可否は審査によります。フラット35は融資率9割超の場合、参考金利3.94％。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A10"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A11",
+          "value": "月額返済はDemoのBackendで計算します。このExcelは金利Master資料です。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A11"
+          },
+          "temporal_source": null
+        },
+        {
+          "coordinate": "A12",
+          "value": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。",
+          "formula": null,
+          "formula_text": null,
+          "cached_value": null,
+          "has_cached_value": false,
+          "cache_available": false,
+          "formula_kind": null,
+          "external_reference": false,
+          "requires_recalculation": false,
+          "data_type": "s",
+          "style_id": null,
+          "number_format": "General",
+          "source": {
+            "source_type": "excel",
+            "file_id": "21c9daa657471b4761f498efef045ee7693c5756d4cbabee0b6abc77fb0ca471",
+            "sheet_name": "Rates",
+            "cell_range": "A12"
+          },
+          "temporal_source": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Window: "localhost:5177 の内容", App: Google Chrome.
+0 ウインドウ localhost:5177 の内容, Description: localhost:5177 の内容、保存していない変更があります。破棄して別の資料を開きますか？, Secondary Actions: Raise
+	1 container localhost:5177 の内容
+		2 container
+			3 見出し localhost:5177 の内容
+			4 スクロール領域
+				5 テキスト 保存していない変更があります。破棄して別の資料を開きますか？
+			6 container
+				7 ボタン キャンセル
+				8 ボタン OK
+9 menu bar
+	10 Chrome
+	11 ファイル
+	12 編集
+	13 表示
+	14 履歴
+	15 ブックマーク
+	16 プロファイル
+	17 タブ
+	18 ウィンドウ
+	19 ヘルプ

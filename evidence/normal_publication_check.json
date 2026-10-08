@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-07T12:30:05.977290+09:00",
+  "pages": {
+    "customer": 200,
+    "admin": 200,
+    "staff": 200
+  },
+  "health": {
+    "status": "ok",
+    "sdk_version": "1.8.0",
+    "demo_mode": "demo",
+    "ai_configured": true,
+    "realtime_configured": true
+  },
+  "documents": [
+    {
+      "id": "50688bdecad5436cb0179486f76b6ae4",
+      "filename": "住宅ローン基礎FAQ_demo.pdf",
+      "status": "parsed",
+      "scope": "general",
+      "content_counts": {
+        "knowledge": 1,
+        "faq": 0,
+        "rates": 0
+      }
+    },
+    {
+      "id": "f4dab4310870418b9f43fd1dea0ba3a6",
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "status": "parsed",
+      "scope": "general",
+      "content_counts": {
+        "knowledge": 1,
+        "faq": 0,
+        "rates": 0
+      }
+    },
+    {
+      "id": "e9e36ae2af88432f9cf9f424e8f2264a",
+      "filename": "住宅ローン_demo.xlsx",
+      "status": "parsed",
+      "scope": "property (legacy/default)",
+      "content_counts": {
+        "knowledge": 0,
+        "faq": 0,
+        "rates": 2
+      }
+    },
+    {
+      "id": "97801b7b550b40aca0a385eaa84af084",
+      "filename": "周辺環境_demo.pdf",
+      "status": "parsed",
+      "scope": "property (legacy/default)",
+      "content_counts": {
+        "knowledge": 1,
+        "faq": 0,
+        "rates": 0
+      }
+    },
+    {
+      "id": "30fc20eb48fe4add83c99e23dd155aaf",
+      "filename": "設備仕様_demo.pdf",
+      "status": "parsed",
+      "scope": "property (legacy/default)",
+      "content_counts": {
+        "knowledge": 1,
+        "faq": 0,
+        "rates": 0
+      }
+    },
+    {
+      "id": "22e15ea4e0694b0c97f7a765c6f48b08",
+      "filename": "物件概要_demo.pdf",
+      "status": "parsed",
+      "scope": "property (legacy/default)",
+      "content_counts": {
+        "knowledge": 1,
+        "faq": 0,
+        "rates": 0
+      }
+    }
+  ],
+  "versions": [],
+  "sessions": [
+    {
+      "id": "cc403e496f744064afb41b4a8f702b46",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "f401fcbe32d2444eae1214b08d8dd83f",
+      "status": "active",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "8544672462474793849299f9a549f65d",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "e0690d107ec341edaf252b0d31466c03",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "49cca70079a44e19a63f8c79c6d51329",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "11cf7e16350a4587bbf5f4566b82e8d9",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    },
+    {
+      "id": "73990a55d3e14aabba7ca3355de381bb",
+      "status": "ended",
+      "version": null,
+      "property_id": null
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "model": "gpt-realtime-2.1",
+  "input_kind": "TEXT_PRONUNCIATION_SAMPLE_NOT_MIC_ACCEPTANCE",
+  "style_sha256": "df799ca0383602b5db86cee6c76d823fee4f985010516bdd66e90e2508e9c889",
+  "naturalness": "WAITING_FOR_USER_LISTENING",
+  "results": [
+    {
+      "voice": "marin",
+      "sample": 1,
+      "requested_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 726,
+        "input_tokens": 505,
+        "output_tokens": 221,
+        "input_token_details": {
+          "text_tokens": 505,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 63,
+          "audio_tokens": 158,
+          "reasoning_tokens": 18
+        }
+      },
+      "audio_file": "marin_1.wav",
+      "transcript": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "audio_bytes": 379200
+    },
+    {
+      "voice": "marin",
+      "sample": 2,
+      "requested_text": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 795,
+        "input_tokens": 518,
+        "output_tokens": 277,
+        "input_token_details": {
+          "text_tokens": 518,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 76,
+          "audio_tokens": 201,
+          "reasoning_tokens": 16
+        }
+      },
+      "audio_file": "marin_2.wav",
+      "transcript": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "audio_bytes": 482400
+    },
+    {
+      "voice": "marin",
+      "sample": 3,
+      "requested_text": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 920,
+        "input_tokens": 536,
+        "output_tokens": 384,
+        "input_token_details": {
+          "text_tokens": 536,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 97,
+          "audio_tokens": 287,
+          "reasoning_tokens": 16
+        }
+      },
+      "audio_file": "marin_3.wav",
+      "transcript": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "audio_bytes": 688800
+    },
+    {
+      "voice": "cedar",
+      "sample": 1,
+      "requested_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 735,
+        "input_tokens": 505,
+        "output_tokens": 230,
+        "input_token_details": {
+          "text_tokens": 505,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 60,
+          "audio_tokens": 170,
+          "reasoning_tokens": 16
+        }
+      },
+      "audio_file": "cedar_1.wav",
+      "transcript": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "audio_bytes": 408000
+    },
+    {
+      "voice": "cedar",
+      "sample": 2,
+      "requested_text": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 799,
+        "input_tokens": 518,
+        "output_tokens": 281,
+        "input_token_details": {
+          "text_tokens": 518,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 79,
+          "audio_tokens": 202,
+          "reasoning_tokens": 18
+        }
+      },
+      "audio_file": "cedar_2.wav",
+      "transcript": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "audio_bytes": 484800
+    },
+    {
+      "voice": "cedar",
+      "sample": 3,
+      "requested_text": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 919,
+        "input_tokens": 536,
+        "output_tokens": 383,
+        "input_token_details": {
+          "text_tokens": 536,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 97,
+          "audio_tokens": 286,
+          "reasoning_tokens": 16
+        }
+      },
+      "audio_file": "cedar_3.wav",
+      "transcript": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "audio_bytes": 686400
+    },
+    {
+      "voice": "coral",
+      "sample": 1,
+      "requested_text": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 744,
+        "input_tokens": 505,
+        "output_tokens": 239,
+        "input_token_details": {
+          "text_tokens": 505,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 62,
+          "audio_tokens": 177,
+          "reasoning_tokens": 18
+        }
+      },
+      "audio_file": "coral_1.wav",
+      "transcript": "こんにちは。AI住宅コンシェルジュです。住宅購入や住宅ローンについて、お気軽にご相談ください。",
+      "audio_bytes": 424800
+    },
+    {
+      "voice": "coral",
+      "sample": 2,
+      "requested_text": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 809,
+        "input_tokens": 518,
+        "output_tokens": 291,
+        "input_token_details": {
+          "text_tokens": 518,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 72,
+          "audio_tokens": 219,
+          "reasoning_tokens": 12
+        }
+      },
+      "audio_file": "coral_2.wav",
+      "transcript": "住宅購入では、ご希望や予算を整理し、資料と現地で条件を確認していきます。まず、どのような暮らしをご希望ですか。",
+      "audio_bytes": 525600
+    },
+    {
+      "voice": "coral",
+      "sample": 3,
+      "requested_text": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "status": "completed",
+      "usage": {
+        "total_tokens": 932,
+        "input_tokens": 536,
+        "output_tokens": 396,
+        "input_token_details": {
+          "text_tokens": 536,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 92,
+          "audio_tokens": 304,
+          "reasoning_tokens": 11
+        }
+      },
+      "audio_file": "coral_3.wav",
+      "transcript": "これは発音確認用の架空の例です。借入額は三千万円、返済期間は三十五年、年利は一点一九五パーセントです。実際の物件や融資条件のご案内ではありません。",
+      "audio_bytes": 729600
+    }
+  ],
+  "sessions": [
+    {
+      "voice": "marin",
+      "status": "COMPLETED",
+      "session_id": "sess_EWEis4j2cHnBmU7npNcHT",
+      "actual_model": "gpt-realtime-2.1"
+    },
+    {
+      "voice": "cedar",
+      "status": "COMPLETED",
+      "session_id": "sess_EWEj4trqdczZjubye9vK7",
+      "actual_model": "gpt-realtime-2.1"
+    },
+    {
+      "voice": "coral",
+      "status": "COMPLETED",
+      "session_id": "sess_EWEjGsxpknLV1Tx3TB5bn",
+      "actual_model": "gpt-realtime-2.1"
+    }
+  ],
+  "response_requests": 9
+}

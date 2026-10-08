@@ -1,0 +1,30 @@
+{
+  "task": "HOUSING_V1_JAPANESE_VOICE_ARCHITECTURE",
+  "recorded_at": "2026-10-07T23:18:30.250510+09:00",
+  "implementation": "READY_FOR_AZURE_CREDENTIALS",
+  "normal_default": "openai_realtime",
+  "azure_credentials_present": false,
+  "azure_voice_availability": "NOT_CHECKED_WITH_REAL_ACCOUNT",
+  "naturalness": "WAITING_FOR_USER_LISTENING",
+  "real_openai_text_only_integration": "NOT_TESTED",
+  "user_microphone_and_speaker": "WAITING",
+  "paid_api_calls": 0,
+  "backend_tests": {
+    "passed": 183,
+    "warnings": 1
+  },
+  "frontend_build": "PASS",
+  "isolated_chrome": {
+    "status": "PASS",
+    "checks": 13,
+    "provider": "TEST_ONLY_FAKE_WEBRTC_AND_ELECTRONIC_TONE"
+  },
+  "protected_scope": {
+    "protected_files_changed": [],
+    "normal_db_file_stats_unchanged": true,
+    "normal_db_connected": false,
+    "env_unchanged": true,
+    "r1_r2_frozen_evidence_unchanged": true
+  },
+  "phase2": "NOT_STARTED"
+}

@@ -1,0 +1,55 @@
+{
+  "mode": "isolated_test_http",
+  "sdk": "PASS",
+  "upload_parse_confirm_publish": "PASS",
+  "source_references": "PASS",
+  "published_version": 2,
+  "document_ids": [
+    "e0d74aab5ea44d669d206cb9de996169",
+    "336b34e9f33e4a50b3037accf4653cab",
+    "5b565027cb814945977db970a65232e2",
+    "ebde8c60517a410d804f182182df58f1"
+  ],
+  "session_id": "823f99af1e634f1e93ee1ee1f87921e3",
+  "ai": "BLOCKED: missing OPENAI_API_KEY",
+  "voice": "NOT_VERIFIED",
+  "mortgage": {
+    "status": "PASS",
+    "result": {
+      "property_price": 76900000,
+      "down_payment": 5000000,
+      "loan_amount": 71900000,
+      "annual_interest_rate": 3.94,
+      "years": 35,
+      "monthly_payment": 315773,
+      "calculation_date": "2026-10-07",
+      "notes": "本結果は概算です。実際の適用金利・融資条件等は金融機関により異なります。元利均等・毎月返済・ボーナス返済なし。金利を返済期間中一定と仮定し、月額を1円単位に四捨五入しています。手数料・税・保険料は含まず、変動金利の将来変化や融資審査は予測しません。 参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+      "bank": "住宅金融支援機構・取扱金融機関",
+      "product": "フラット35 新機構団信付き 21～35年",
+      "rate_type": "全期間固定金利",
+      "rate_id": "ebde8c60517a410d804f182182df58f1:rate:1",
+      "rate_basis": "融資率9割超の公開済み参考金利",
+      "loan_to_value": 0.9349804941482445,
+      "loan_to_value_percent": 93.49804941482445,
+      "effective_date": "2026-10-01",
+      "valid_until": "2026-10-31",
+      "conditions": [],
+      "product_notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+      "references": [
+        {
+          "document_id": "ebde8c60517a410d804f182182df58f1",
+          "filename": "住宅ローン_demo.xlsx",
+          "location": "Rates!3",
+          "source_url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+        },
+        {
+          "document_id": "e0d74aab5ea44d669d206cb9de996169",
+          "filename": "物件概要_demo.pdf",
+          "location": "管理者確認・公開済み"
+        }
+      ],
+      "version": 2
+    }
+  },
+  "staff_notification": "PASS: persisted backend record, separate staff auth, customer readback accepted/completed"
+}

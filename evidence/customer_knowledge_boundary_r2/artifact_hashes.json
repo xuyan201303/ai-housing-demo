@@ -1,0 +1,17 @@
+{
+  "acceptance.md": "8519d5710cfeef0c9c8ad445400dea4c1a80842464160142f777225413429b52",
+  "backend_final.txt": "ff91624abe7d10990ca11a92da1b0b1c63ab8214c0599ebfcb26af12eb5a6148",
+  "frontend_build.txt": "0859c56872c9d1d228647d2693c87dae011553a77372cf25e0907486267caba9",
+  "chrome_result.json": "69c7b455510a979c8af01778c00d2f04ce80a4a525e73a21dbb4874cc97fddff",
+  "admin-usage-published.png": "caf7472d2bb186d34f0f75bcbeb2c77dc93cebcbd5e53637e1bd806ddecdd1c4",
+  "customer-loan.png": "5273be9b5bd8edff119e9b1287c36b5adfa6665a2dde01d36662698e6df4ba18",
+  "text_outbound.json": "3e8645f783aa51eebe2cfd94ccb96fc02e74538fbf322fd49cda9ac2f4f82bc7",
+  "text_error_outbound.json": "f266820364b66326748090a20a50655743761a68ce816ccf32a08aa18dfdc4d2",
+  "realtime_creation_outbound.json": "1414f1dae04f95ab5087bd91d4ec956897da3908555440f0b5c867f73b825cf7",
+  "realtime_turns_outbound.json": "1c3b949337b9a8b73c77fa17407b13acf0db5c096fabff740cf3b0fb5a021692",
+  "test_server_manifest.json": "13497c6fbe96727f8ede2cbbdf3c6bc5d83de384a01613c65828479e213e5985",
+  "runtime_health.json": "25c1cd635e246e544b0abbf6fac11dfe8110227eb890c14b78ebf14cfaea85eb",
+  "protected_before.json": "e1b62eeac4998c08f5148955224020385c19ae75720d53faaca97531d84df732",
+  "protected_after.json": "e1b62eeac4998c08f5148955224020385c19ae75720d53faaca97531d84df732",
+  "final_status.json": "80f41793b0489895dd263b2e76654d93980c783a2244805361860118440a2d2e"
+}

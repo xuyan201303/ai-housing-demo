@@ -1,0 +1,14 @@
+{
+  "document_id": "804b26a8b3bd4e6982da70df0ee564ff",
+  "sdk_claim": false,
+  "manual_test_metadata": {
+    "scope": "general",
+    "source_name": "TEST：住宅ローン資料（商品記載期間を資料単位に手動整理）",
+    "source_url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html",
+    "checked_at": "2026-10-07",
+    "effective_date": "2026-10-01",
+    "valid_until": "2026-10-31",
+    "scope_notes": "TEST人工整理。資料単位の期間は掲載商品の期間を照合して設定。SDK認識結果の追記ではない。"
+  },
+  "reason": "TEST人工整理：Excelの商品日付を原資料と照合し、共通知識範囲・資料単位の基準日と有効期限を設定。SDK raw/normalizedは未変更。"
+}

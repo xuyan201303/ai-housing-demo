@@ -1,0 +1,59 @@
+{
+  "file": {
+    "file_id": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+    "filename": "943986e694d84d7cb1c927221c083df8.pdf",
+    "extension": ".pdf",
+    "mime_type": "application/pdf",
+    "size_bytes": 53678,
+    "fingerprint": {
+      "algorithm": "sha256",
+      "value": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026"
+    }
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "dimensions": {
+        "width": 595.2755737304688,
+        "height": 841.8897705078125,
+        "unit": "points",
+        "rotation": 0,
+        "angle_degrees": null
+      },
+      "text_blocks": [
+        {
+          "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅購入の基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 国土交通省：消費者向け不動産取引のお知らせ\nsource_url: https://www.mlit.go.jp/totikensangyo/const/1_6_bf_000013.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本の住宅購入に関する一般情報。会社の対応・個別契約・特定物件の条件ではありません。\nfaq_question: 住宅購入は何から始めればよいですか？\nfaq_answer: まず希望条件を整理し、購入候補の資料と現地の状況を確認しましょう。国土交通省は取引の流\nれを例として示し、実際の流れは契約相手や仲介業者へ確認するよう案内しています。この会社固有の購入手\n順は、会社資料の確認後にご案内します。\nfaq_question: 重要事項説明とは何ですか？\nfaq_answer: 購入予定の物件について知っておくべき重要な事項を、不動産業者から説明してもらう手続です。\n対面のほかオンラインで受ける方法もあります。利用方法は取引を担当する業者へ確認してください。AIの案内\nで重要事項説明を代行するものではありません。\nfaq_question: 写真やオンライン説明だけで購入を決めてもよいですか？\nfaq_answer: 現地訪問は、画像だけでは判断しづらい物件状況の把握に役立ちます。写真の情報と現地の状況\nを確認しましょう。この会社の見学受付方法や日時は未登録のためスタッフへ確認してください。\nfaq_question: 仲介手数料は必ずかかりますか？\nfaq_answer: 国土交通省の説明は、仲介で契約が成立した場合の仲介手数料を対象としています。仲介を依頼\nする際には、定められた上限の範囲で金額を事前に合意することが重要です。この会社の販売形態や手数料の\n有無は会社資料で未確認です。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+          "source": {
+            "source_type": "pdf",
+            "file_id": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+            "page_number": 1,
+            "bounding_box": null
+          },
+          "confidence": null,
+          "element_id": null,
+          "spans": []
+        }
+      ],
+      "tables": [],
+      "selection_marks": [],
+      "barcodes": [],
+      "formulas": [],
+      "content_spans": [],
+      "source": {
+        "source_type": "pdf",
+        "file_id": "429f6cc1b93dd2e884e40a24728aceed984367066eb312eda97c2c56accd5026",
+        "page_number": 1,
+        "bounding_box": null
+      }
+    }
+  ],
+  "tables": [],
+  "content_scopes": [],
+  "paragraphs": [],
+  "key_value_pairs": [],
+  "figures": [],
+  "sections": [],
+  "languages": [],
+  "styles": [],
+  "analyzed_documents": []
+}
