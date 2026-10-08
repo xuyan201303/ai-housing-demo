@@ -1,0 +1,116 @@
+{
+  "changed_protected_source_files": [
+    "backend/app/services/ai.py",
+    "backend/app/services/ai_evidence.py"
+  ],
+  "original_e2e_evidence_and_db_unchanged": true,
+  "env_unchanged": true,
+  "normal_db_connected": false,
+  "source_live_test_db_unchanged": true,
+  "sdk_documents": [
+    {
+      "document_id": "b70b6e67f6fa4041bf41f01fa2610653",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    },
+    {
+      "document_id": "57fa0ce159714fceba9f4c55e85e9bb0",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    },
+    {
+      "document_id": "943986e694d84d7cb1c927221c083df8",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    },
+    {
+      "document_id": "f37d98f8669945f08147d8d37e540681",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    },
+    {
+      "document_id": "3e15caace3244e91bd84c606f3744d52",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    },
+    {
+      "document_id": "f562fef1e00e4761ae553bcc1d0dbd56",
+      "raw_unchanged": true,
+      "normalized_unchanged": true,
+      "sha256_unchanged": true
+    }
+  ],
+  "previous_versions": [
+    {
+      "version": 1,
+      "unchanged": true
+    },
+    {
+      "version": 2,
+      "unchanged": true
+    },
+    {
+      "version": 3,
+      "unchanged": true
+    },
+    {
+      "version": 4,
+      "unchanged": true
+    }
+  ],
+  "previous_confirmations": [
+    {
+      "confirmation_id": 1,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 2,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 3,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 4,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 5,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 6,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 7,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 8,
+      "unchanged": true
+    },
+    {
+      "confirmation_id": 9,
+      "unchanged": true
+    }
+  ],
+  "sessions_ended": [
+    {
+      "id": "14ddd0ae54d144e2a0cb2cb5420e5fbc",
+      "version": 4,
+      "status": "ended"
+    },
+    {
+      "id": "61892e7d3dc04fdc9e94b7fcfac7da1c",
+      "version": 5,
+      "status": "ended"
+    }
+  ]
+}

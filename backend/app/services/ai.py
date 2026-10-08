@@ -5,7 +5,7 @@ import httpx
 from app.models.domain import AppError, now
 from app.services.tools import TOOL_DEFINITIONS
 from app.services.context import observe_customer
-from app.services.ai_evidence import tool_evidence
+from app.services.ai_evidence import tool_evidence, tool_references
 from app.services.knowledge_access import evidence_revision, RESTART_MESSAGE
 from app.services.guardrails import needs_loan_handoff, HANDOFF_MESSAGE, consultation_policy
 
@@ -96,16 +96,17 @@ class AiService:
         # the model chooses to answer immediately. No mutable latest-version lookup.
         overview = tool_evidence(self.store, session, 'get_consultation_context', context, query=text)
         conversation.insert(0, {'role': 'user', 'content': json.dumps({'consultation_evidence': overview}, ensure_ascii=False)})
-        tool_results, references = [], context['references'][:]
+        tool_results, references = [], tool_references(self.store, session, 'get_consultation_context', context, overview)
         # Message prose cannot carry a reliable rate ID/expiry between turns.
         # Refresh the controlled, pinned rate result for every loan conversation.
         if any(re.search(r'ローン|金利|頭金|返済|フラット|flat\s*35|ufj', e['text'], re.I) for e in events if e['role'] == 'user'):
             try:
                 rates = self.tools.execute(session, 'get_mortgage_rates', {})
-                references.extend(rates['references'])
             except AppError as exc:
                 rates = {'error': {'code': exc.code, 'message': exc.message}}
-            conversation.insert(1, {'role': 'user', 'content': json.dumps({'current_rate_evidence': tool_evidence(self.store, session, 'get_mortgage_rates', rates)}, ensure_ascii=False)})
+            rate_evidence = tool_evidence(self.store, session, 'get_mortgage_rates', rates)
+            references.extend(tool_references(self.store, session, 'get_mortgage_rates', rates, rate_evidence))
+            conversation.insert(1, {'role': 'user', 'content': json.dumps({'current_rate_evidence': rate_evidence}, ensure_ascii=False)})
         async with httpx.AsyncClient(timeout=45) as client:
             for _ in range(6):
                 if evidence_revision(self.store, session) != revision:
@@ -127,8 +128,8 @@ class AiService:
                         except (AppError, ValueError, TypeError) as exc:
                             result = {'error': {'code': getattr(exc, 'code', 'TOOL_ARGUMENTS'), 'message': getattr(exc, 'message', 'ツール入力が正しくありません。')}}
                         tool_results.append({'name': call['name'], 'result': result})
-                        references.extend(result.get('references', []))
                         safe_result = tool_evidence(self.store, session, call['name'], result, query=text)
+                        references.extend(tool_references(self.store, session, call['name'], result, safe_result))
                         conversation.append({'type': 'function_call_output', 'call_id': call['call_id'], 'output': json.dumps(safe_result, ensure_ascii=False)})
                     continue
                 answer = '\n'.join(c.get('text', '') for o in output if o.get('type') == 'message' for c in o.get('content', []) if c.get('type') == 'output_text')

@@ -1,0 +1,34 @@
+{
+  "task": "HOUSING_PHASE2_LIVE_AI_PUBLICATION_CHECK",
+  "source_database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_live_faq_20261008_123704/live-test.db",
+  "source_database_sha256": "ce1b2d92754dd83ff73733a64a7be2ffddd6825cc4482ad14396fb2555de712e",
+  "isolated_database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_live_ai_publication_20261008_150851/live-test.db",
+  "baseline_version": 4,
+  "faq_confirmation": 9,
+  "faq_revision": "22b7dbd1113d49ef8a1b92cda1b8e5b1",
+  "faq": [
+    {
+      "question": "TEST案内の確認方法は？",
+      "answer": "SANZOが用意した動作確認用のTEST資料です。確認は緑色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+      "reference": {
+        "location": "TEST人工入力・緑色確認票の更新修訂",
+        "document_id": "943986e694d84d7cb1c927221c083df8",
+        "filename": "住宅購入基礎FAQ_demo.pdf",
+        "source_url": "urn:sanzo:phase2-live-faq"
+      },
+      "source_url": "urn:sanzo:phase2-live-faq"
+    }
+  ],
+  "document": {
+    "source_name": "SANZO自有TEST FAQ（人工入力）",
+    "source_url": "urn:sanzo:phase2-live-faq",
+    "checked_at": "2026-10-07",
+    "effective_date": "2026-10-07",
+    "valid_until": "2026-11-06",
+    "scope_notes": "SANZOが作成した非機密の動作確認専用TEST FAQ。実際の会社サービス・公的制度・銀行の声明ではありません。SDK原文とは別の人工入力改訂です。",
+    "scope": "general"
+  },
+  "document_count": 6,
+  "normal_db_connected": false,
+  "sdk_reparsed": false
+}

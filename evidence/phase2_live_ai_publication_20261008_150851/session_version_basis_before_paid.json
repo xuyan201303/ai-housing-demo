@@ -1,0 +1,84 @@
+[
+  {
+    "session_id": "14ddd0ae54d144e2a0cb2cb5420e5fbc",
+    "version": 4,
+    "status": "active",
+    "created_at": "2026-10-08T15:12:27+09:00",
+    "publication_time": "2026-10-08T12:43:48+09:00",
+    "property_id": null,
+    "faq_confirmation_id": 9,
+    "faq_revision_id": "22b7dbd1113d49ef8a1b92cda1b8e5b1",
+    "reviewed_document": {
+      "source_name": "SANZO自有TEST FAQ（人工入力）",
+      "source_url": "urn:sanzo:phase2-live-faq",
+      "checked_at": "2026-10-07",
+      "effective_date": "2026-10-07",
+      "valid_until": "2026-11-06",
+      "scope_notes": "SANZOが作成した非機密の動作確認専用TEST FAQ。実際の会社サービス・公的制度・銀行の声明ではありません。SDK原文とは別の人工入力改訂です。",
+      "scope": "general"
+    },
+    "faq": [
+      {
+        "question": "TEST案内の確認方法は？",
+        "answer": "SANZOが用意した動作確認用のTEST資料です。確認は緑色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+        "reference": {
+          "location": "TEST人工入力・緑色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        },
+        "source_url": "urn:sanzo:phase2-live-faq"
+      }
+    ],
+    "document_approvals": {
+      "b70b6e67f6fa4041bf41f01fa2610653": 1,
+      "57fa0ce159714fceba9f4c55e85e9bb0": 2,
+      "f37d98f8669945f08147d8d37e540681": 4,
+      "943986e694d84d7cb1c927221c083df8": 9,
+      "3e15caace3244e91bd84c606f3744d52": 5,
+      "f562fef1e00e4761ae553bcc1d0dbd56": 6
+    },
+    "messages_before_paid": []
+  },
+  {
+    "session_id": "61892e7d3dc04fdc9e94b7fcfac7da1c",
+    "version": 5,
+    "status": "active",
+    "created_at": "2026-10-08T15:14:40+09:00",
+    "publication_time": "2026-10-08T15:14:32+09:00",
+    "property_id": null,
+    "faq_confirmation_id": 10,
+    "faq_revision_id": "4d295a8584f84f1fa436d567714848ad",
+    "reviewed_document": {
+      "source_name": "SANZO自有TEST FAQ（人工入力）",
+      "source_url": "urn:sanzo:phase2-live-faq",
+      "checked_at": "2026-10-07",
+      "effective_date": "2026-10-07",
+      "valid_until": "2026-11-06",
+      "scope_notes": "SANZOが作成した非機密の動作確認専用TEST FAQ。実際の会社サービス・公的制度・銀行の声明ではありません。SDK原文とは別の人工入力改訂です。",
+      "scope": "general"
+    },
+    "faq": [
+      {
+        "question": "TEST案内の確認方法は？",
+        "answer": "SANZOが用意した動作確認用のTEST資料です。確認は橙色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+        "reference": {
+          "location": "TEST人工入力・橙色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        },
+        "source_url": "urn:sanzo:phase2-live-faq"
+      }
+    ],
+    "document_approvals": {
+      "b70b6e67f6fa4041bf41f01fa2610653": 1,
+      "57fa0ce159714fceba9f4c55e85e9bb0": 2,
+      "f37d98f8669945f08147d8d37e540681": 4,
+      "943986e694d84d7cb1c927221c083df8": 10,
+      "3e15caace3244e91bd84c606f3744d52": 5,
+      "f562fef1e00e4761ae553bcc1d0dbd56": 6
+    },
+    "messages_before_paid": []
+  }
+]

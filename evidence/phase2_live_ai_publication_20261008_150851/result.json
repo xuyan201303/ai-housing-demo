@@ -1,0 +1,145 @@
+{
+  "task": "HOUSING_PHASE2_LIVE_AI_PUBLICATION_CHECK",
+  "status": "PASS",
+  "scope": "Only this self-authored TEST FAQ publication update, real text AI and Customer display",
+  "comparison": [
+    {
+      "session_id": "14ddd0ae54d144e2a0cb2cb5420e5fbc",
+      "fixed_version": 4,
+      "confirmation_id": 9,
+      "revision_id": "22b7dbd1113d49ef8a1b92cda1b8e5b1",
+      "approved_faq": {
+        "question": "TEST案内の確認方法は？",
+        "answer": "SANZOが用意した動作確認用のTEST資料です。確認は緑色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+        "reference": {
+          "location": "TEST人工入力・緑色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        },
+        "source_url": "urn:sanzo:phase2-live-faq"
+      },
+      "actual_application_tools": [
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result_version": 4
+        }
+      ],
+      "actual_provider_evidence": {
+        "version": 4,
+        "property_selected": false,
+        "company_material_available": false,
+        "customer_declared": {
+          "origin": "顧客申告。会社・物件資料の事実ではありません。"
+        },
+        "property_scope_conditions": [],
+        "properties": [],
+        "items": [
+          {
+            "text": "TEST案内の確認方法は？\nSANZOが用意した動作確認用のTEST資料です。確認は緑色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+            "scope": "general",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料"
+              }
+            ]
+          }
+        ],
+        "rates": []
+      },
+      "actual_ai_answer": "「TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料で、緑色の確認票を使って確認します。これは実際の会社サービスや公的制度の案内ではありません。」とあります（確認・公開済み住宅購入資料より）。",
+      "answer_references": [
+        {
+          "location": "TEST人工入力・緑色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        }
+      ],
+      "provider": "openai",
+      "model_requested": "gpt-4.1-mini",
+      "customer_display_capture": "06_old_v4_real_answer_and_source.png",
+      "mixed_versions_observed": false
+    },
+    {
+      "session_id": "61892e7d3dc04fdc9e94b7fcfac7da1c",
+      "fixed_version": 5,
+      "confirmation_id": 10,
+      "revision_id": "4d295a8584f84f1fa436d567714848ad",
+      "approved_faq": {
+        "question": "TEST案内の確認方法は？",
+        "answer": "SANZOが用意した動作確認用のTEST資料です。確認は橙色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+        "reference": {
+          "location": "TEST人工入力・橙色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        },
+        "source_url": "urn:sanzo:phase2-live-faq"
+      },
+      "actual_application_tools": [
+        {
+          "name": "get_consultation_context",
+          "arguments": {},
+          "result_version": 5
+        }
+      ],
+      "actual_provider_evidence": {
+        "version": 5,
+        "property_selected": false,
+        "company_material_available": false,
+        "customer_declared": {
+          "origin": "顧客申告。会社・物件資料の事実ではありません。"
+        },
+        "property_scope_conditions": [],
+        "properties": [],
+        "items": [
+          {
+            "text": "TEST案内の確認方法は？\nSANZOが用意した動作確認用のTEST資料です。確認は橙色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+            "scope": "general",
+            "references": [
+              {
+                "label": "確認・公開済み住宅購入資料"
+              }
+            ]
+          }
+        ],
+        "rates": []
+      },
+      "actual_ai_answer": "TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料を使い、橙色の確認票で確認する形です。これは実際の会社サービスや公的制度の案内ではありませんのでご注意ください。（確認・公開済み住宅購入資料より）",
+      "answer_references": [
+        {
+          "location": "TEST人工入力・橙色確認票の更新修訂",
+          "document_id": "943986e694d84d7cb1c927221c083df8",
+          "filename": "住宅購入基礎FAQ_demo.pdf",
+          "source_url": "urn:sanzo:phase2-live-faq"
+        }
+      ],
+      "provider": "openai",
+      "model_requested": "gpt-4.1-mini",
+      "customer_display_capture": "07_new_v5_real_answer_and_source.png",
+      "mixed_versions_observed": false
+    }
+  ],
+  "customer_questions": 2,
+  "upstream_generation_requests": 2,
+  "per_turn_request_counts": {
+    "14ddd0ae54d144e2a0cb2cb5420e5fbc": 1,
+    "61892e7d3dc04fdc9e94b7fcfac7da1c": 1
+  },
+  "usage": {
+    "input_tokens": 3874,
+    "output_tokens": 136,
+    "total_tokens": 4010
+  },
+  "precise_billed_cost": null,
+  "retries": 0,
+  "failed_requests": 0,
+  "model_initiated_tool_calls": 0,
+  "employee_usability": "WAITING_FOR_USER_REVIEW",
+  "normal_environment": "NOT_SWITCHED",
+  "temporary_service_stopped": true,
+  "sessions_ended": true,
+  "voice_or_tts_calls": 0
+}

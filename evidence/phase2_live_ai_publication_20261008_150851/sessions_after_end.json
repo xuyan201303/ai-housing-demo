@@ -1,0 +1,178 @@
+[
+  {
+    "id": "14ddd0ae54d144e2a0cb2cb5420e5fbc",
+    "version": 4,
+    "status": "ended",
+    "created_at": "2026-10-08T15:12:27+09:00",
+    "ended_at": "2026-10-08T15:15:51+09:00",
+    "events": [
+      {
+        "role": "user",
+        "text": "TEST案内の確認方法は？",
+        "created_at": "2026-10-08T15:15:01+09:00",
+        "channel": "text",
+        "kind": "message"
+      },
+      {
+        "name": "get_consultation_context",
+        "arguments": {},
+        "result": {
+          "items": [
+            {
+              "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+              "reference": {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              },
+              "scope": "general"
+            },
+            {
+              "question": "TEST案内の確認方法は？",
+              "answer": "SANZOが用意した動作確認用のTEST資料です。確認は緑色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+              "reference": {
+                "location": "TEST人工入力・緑色確認票の更新修訂",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "urn:sanzo:phase2-live-faq"
+              },
+              "source_url": "urn:sanzo:phase2-live-faq",
+              "scope": "general"
+            }
+          ],
+          "references": [
+            {
+              "document_id": "3e15caace3244e91bd84c606f3744d52",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            {
+              "location": "TEST人工入力・緑色確認票の更新修訂",
+              "document_id": "943986e694d84d7cb1c927221c083df8",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "source_url": "urn:sanzo:phase2-live-faq"
+            }
+          ],
+          "version": 4,
+          "property_selected": false,
+          "customer_declared": {
+            "loan_amount": null,
+            "property_price": null,
+            "source": "顧客の発話。公開資料の事実ではない。"
+          },
+          "company_material_available": false,
+          "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+        },
+        "created_at": "2026-10-08T15:15:01+09:00",
+        "kind": "tool"
+      },
+      {
+        "role": "assistant",
+        "text": "「TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料で、緑色の確認票を使って確認します。これは実際の会社サービスや公的制度の案内ではありません。」とあります（確認・公開済み住宅購入資料より）。",
+        "created_at": "2026-10-08T15:15:04+09:00",
+        "channel": "text",
+        "references": [
+          {
+            "location": "TEST人工入力・緑色確認票の更新修訂",
+            "document_id": "943986e694d84d7cb1c927221c083df8",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "source_url": "urn:sanzo:phase2-live-faq"
+          }
+        ],
+        "tool_results": [],
+        "version": 4,
+        "kind": "message"
+      }
+    ]
+  },
+  {
+    "id": "61892e7d3dc04fdc9e94b7fcfac7da1c",
+    "version": 5,
+    "status": "ended",
+    "created_at": "2026-10-08T15:14:40+09:00",
+    "ended_at": "2026-10-08T15:15:50+09:00",
+    "events": [
+      {
+        "role": "user",
+        "text": "TEST案内の確認方法は？",
+        "created_at": "2026-10-08T15:15:20+09:00",
+        "channel": "text",
+        "kind": "message"
+      },
+      {
+        "name": "get_consultation_context",
+        "arguments": {},
+        "result": {
+          "items": [
+            {
+              "text": "公開情報を基にSANZOがデモ用に再構成 1\n住宅ローンの基礎 FAQ\n公式情報の要約 / 管理者確認・公開前の資料\nknowledge_scope: general\nsource_name: 住宅金融支援機構：フラット35・新築住宅購入時の融資手続\nsource_url: https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html\nchecked_at: 2026-10-07\neffective_date: 2026-10-07\nvalid_until: 2026-11-06\nscope_notes: 日本のフラット35による新築住宅購入の一般説明。他商品へ条件を転用しません。\nproduct_source_url: https://www.flat35.com/loan/lineup/flat35/index.html\nfaq_question: フラット35はどのような住宅ローンですか？\nfaq_answer: 民間金融機関と住宅金融支援機構が提携する、最長35年の全期間固定金利の住宅ローンです。借\n入時に返済終了までの金利が確定します。対象住宅や申込条件の確認が必要です。金利の具体的な数値は別の\n確認・公開済み参考金利資料を使います。\nfaq_question: 新築住宅でフラット35を利用する手続は？\nfaq_answer: 取扱金融機関へ借入れを申し込み、金融機関から審査結果の連絡を受けます。対象住宅の検査・\n適合証明の手続もあります。物件検査に合格しても融資審査の承認は保証されません。実際の必要書類や手続\nは取扱金融機関へ確認してください。\nfaq_question: 住宅の物件検査に合格すればローン審査にも通りますか？\nfaq_answer: いいえ。住宅金融支援機構は、物件検査に合格しても取扱金融機関または機構の審査により希望\nに沿えない場合があると案内しています。個別の審査判断は金融機関へ確認してください。AIは合否を断定しま\nせん。\n確認事項\n確認日・基準日はSANZOによる確認日です。公式ページの更新日を推定していません。\n有効期限はDemoでの再確認期限です。公式制度の失効日ではありません。管理者が範囲・日付・説明を照合し、確認・公\n開するまでAIには使用しません。",
+              "reference": {
+                "document_id": "3e15caace3244e91bd84c606f3744d52",
+                "filename": "住宅ローン基礎FAQ_demo.pdf",
+                "location": "p.1",
+                "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+              },
+              "scope": "general"
+            },
+            {
+              "question": "TEST案内の確認方法は？",
+              "answer": "SANZOが用意した動作確認用のTEST資料です。確認は橙色の確認票を使います。実際の会社サービスや公的制度の案内ではありません。",
+              "reference": {
+                "location": "TEST人工入力・橙色確認票の更新修訂",
+                "document_id": "943986e694d84d7cb1c927221c083df8",
+                "filename": "住宅購入基礎FAQ_demo.pdf",
+                "source_url": "urn:sanzo:phase2-live-faq"
+              },
+              "source_url": "urn:sanzo:phase2-live-faq",
+              "scope": "general"
+            }
+          ],
+          "references": [
+            {
+              "document_id": "3e15caace3244e91bd84c606f3744d52",
+              "filename": "住宅ローン基礎FAQ_demo.pdf",
+              "location": "p.1",
+              "source_url": "https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html"
+            },
+            {
+              "location": "TEST人工入力・橙色確認票の更新修訂",
+              "document_id": "943986e694d84d7cb1c927221c083df8",
+              "filename": "住宅購入基礎FAQ_demo.pdf",
+              "source_url": "urn:sanzo:phase2-live-faq"
+            }
+          ],
+          "version": 5,
+          "property_selected": false,
+          "customer_declared": {
+            "loan_amount": null,
+            "property_price": null,
+            "source": "顧客の発話。公開資料の事実ではない。"
+          },
+          "company_material_available": false,
+          "note": "記載のない知識・会社のサービス・営業時間・約束を補わない。"
+        },
+        "created_at": "2026-10-08T15:15:20+09:00",
+        "kind": "tool"
+      },
+      {
+        "role": "assistant",
+        "text": "TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料を使い、橙色の確認票で確認する形です。これは実際の会社サービスや公的制度の案内ではありませんのでご注意ください。（確認・公開済み住宅購入資料より）",
+        "created_at": "2026-10-08T15:15:22+09:00",
+        "channel": "text",
+        "references": [
+          {
+            "location": "TEST人工入力・橙色確認票の更新修訂",
+            "document_id": "943986e694d84d7cb1c927221c083df8",
+            "filename": "住宅購入基礎FAQ_demo.pdf",
+            "source_url": "urn:sanzo:phase2-live-faq"
+          }
+        ],
+        "tool_results": [],
+        "version": 5,
+        "kind": "message"
+      }
+    ]
+  }
+]

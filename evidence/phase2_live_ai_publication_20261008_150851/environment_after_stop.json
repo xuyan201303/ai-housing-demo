@@ -1,0 +1,17 @@
+{
+  "temporary_8005_running": false,
+  "preserved_test_environment": {
+    "5177": {
+      "status": "ok",
+      "mode": "test",
+      "ai_configured": false,
+      "sdk_version": "1.8.0"
+    },
+    "8004": {
+      "status": "ok",
+      "mode": "test",
+      "ai_configured": false,
+      "sdk_version": "1.8.0"
+    }
+  }
+}

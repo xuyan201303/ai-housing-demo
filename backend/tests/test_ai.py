@@ -202,3 +202,72 @@ def test_loan_next_turn_receives_fresh_pinned_ids_dates_not_only_prior_prose(sys
     assert 'TEST-exact-doc-local-rate-id' in controlled
     assert '2099-12-31' in controlled
     assert not any(e.get('name') == 'calculate_mortgage' for e in store.events(session['id']))
+
+
+def prepare_general_faq_sources(store, session):
+    """Owned artificial approvals; no SDK, existing DB or provider call."""
+    session.update(mode='text', created_at='2026-10-07T12:00:00+09:00')
+    snapshot = store.version(1)
+    snapshot['faq'] = [
+        {'question': '点検票の確認方法は？', 'answer': 'TEST：青色の確認票を使います。実際の会社サービスではありません。',
+         'scope': 'general', 'reference': {'document_id': 'TEST-owned-faq', 'source_url': 'urn:test:owned-faq'}},
+        {'question': '手続きの確認方法は？', 'answer': 'TEST：別資料の手続きについて確認してください。',
+         'scope': 'general', 'reference': {'document_id': 'TEST-unrelated-faq', 'source_url': 'https://www.flat35.com/loan/lineup/flat35/flow_shinchiku.html'}},
+    ]
+    snapshot = approve_fixture(store, snapshot)
+    with store.connect() as db:
+        db.execute('UPDATE versions SET payload=? WHERE version=1', (json.dumps(snapshot, ensure_ascii=False),))
+    stamp_session(store, session)
+
+
+def test_exact_faq_evidence_and_customer_sources_do_not_include_unrelated_context(system, monkeypatch):
+    from app.services.customer_view import answer_view, session_view
+    store, session, service, _ = system
+    prepare_general_faq_sources(store, session)
+    requests = scripted_transport(monkeypatch, [(200, message('TEST：青色の確認票を使います。実際の会社サービスではありません。'))])
+    result = asyncio.run(service.respond(session, '点検票の確認方法は？'))
+    evidence = json.loads(requests[0]['input'][0]['content'])['consultation_evidence']
+    assert len(evidence['items']) == 1 and '青色' in evidence['items'][0]['text']
+    assert 'property' not in evidence  # A selected property's facts are irrelevant to this exact general FAQ.
+    assert 'flat35.com' not in json.dumps(evidence)
+    assert {r['document_id'] for r in result['references']} == {'TEST-owned-faq'}
+    answer = answer_view(store, session, result).model_dump()
+    assert answer['references'] == [{'label': '確認・公開済み住宅購入資料', 'url': None}]
+    history = session_view(store, store.get('sessions', session['id'])).model_dump()
+    assert history['messages'][-1]['references'] == answer['references']
+
+
+def test_exact_faq_tool_continuation_keeps_same_evidence_sources(system, monkeypatch):
+    store, session, service, _ = system
+    prepare_general_faq_sources(store, session)
+    requests = scripted_transport(monkeypatch, [
+        (200, function('search_consultation_knowledge', {'query': '確認方法', 'scope': 'general'})),
+        (200, message('TEST：青色の確認票です。')),
+    ])
+    result = asyncio.run(service.respond(session, '点検票の確認方法は？'))
+    assert len(requests) == 2
+    output = next(i for i in requests[1]['input'] if i.get('type') == 'function_call_output')
+    evidence = json.loads(output['output'])
+    assert len(evidence['items']) == 1 and '青色' in evidence['items'][0]['text']
+    assert 'flat35.com' not in json.dumps(evidence)
+    assert {r['document_id'] for r in result['references']} == {'TEST-owned-faq'}
+    # Preserve actual internal Tool/audit results; only provider and answer citations are narrowed.
+    assert {i['reference']['document_id'] for i in result['tool_results'][0]['result']['items']} == {'TEST-owned-faq', 'TEST-unrelated-faq'}
+
+
+def test_nonexact_consultation_keeps_relevant_facts_and_cites_only_admitted_facts(system):
+    from app.services.ai_evidence import tool_evidence, tool_references
+    store, session, service, _ = system
+    prepare_general_faq_sources(store, session)
+    session['property_id'] = None
+    store.put('sessions', session)
+    context = service.tools.execute(session, 'get_consultation_context', {})
+    evidence = tool_evidence(store, session, 'get_consultation_context', context, query='確認方法を教えてください')
+    assert len(evidence['items']) == 2  # Existing broad relevance path remains available.
+    refs = tool_references(store, session, 'get_consultation_context', context, evidence)
+    assert {r['document_id'] for r in refs} == {'TEST-owned-faq', 'TEST-unrelated-faq'}
+    empty = tool_evidence(store, session, 'get_consultation_context', context, query='zzzz-no-match')
+    assert empty['items'] == []
+    assert tool_references(store, session, 'get_consultation_context', context, empty) == []
+    error = {'error': {'code': 'EVIDENCE_BUDGET_EXCEEDED'}}
+    assert tool_references(store, session, 'get_consultation_context', context, error) == []

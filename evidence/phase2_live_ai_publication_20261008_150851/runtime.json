@@ -1,0 +1,20 @@
+{
+  "task": "HOUSING_PHASE2_LIVE_AI_PUBLICATION_CHECK",
+  "at": "2026-10-08T15:11:59+09:00",
+  "database": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_live_ai_publication_20261008_150851/live-test.db",
+  "url": "http://localhost:8005",
+  "api_key_configured": true,
+  "model": "gpt-4.1-mini",
+  "instructions_sha256": "41f8b838b3a696ee4c4a31b55bbb8a7e31036cc146412deb5a33f04a2f1d5f67",
+  "normal_db_connected": false,
+  "provider": "CURRENT_APPLICATION_REAL_AISERVICE",
+  "retries": 0,
+  "question_limit": 2,
+  "generation_limit": 4,
+  "per_turn_generation_limit": 2,
+  "budget_path": "/Users/kyoen/Projects/ai-housing-demo/evidence/phase2_live_ai_publication_check_budget.json",
+  "application_ai_class": "app.services.ai.AiService",
+  "ai_service_sha256": "c51c73cb331c842dfb892ec711c3bdda8eb41fe81a276df6fa0d6d55b1036463",
+  "ai_evidence_sha256": "292d3cdfba444b7103f4aa1847d900be710eb6f0dbbf4461df877d382ca0039d",
+  "voices_called": false
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "14ddd0ae54d144e2a0cb2cb5420e5fbc",
+    "version": 4,
+    "mode": "text",
+    "property_id": null,
+    "status": "ended",
+    "created_at": "2026-10-08T15:12:27+09:00",
+    "ended_at": "2026-10-08T15:15:51+09:00",
+    "property": null,
+    "products": [
+      {
+        "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "rate": 1.195,
+        "rate_over_90_percent": null,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 2,
+        "years_max": 40,
+        "loan_amount_min": 5000000.0,
+        "loan_amount_max": 300000000.0,
+        "max_loan_to_value": null,
+        "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "conditions": [
+          "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+        ],
+        "requires_acquisition_price_for_estimate": false,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ]
+      },
+      {
+        "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+        "bank": "住宅金融支援機構・取扱金融機関",
+        "product": "フラット35 新機構団信付き 21～35年",
+        "rate_type": "全期間固定金利",
+        "rate": 3.83,
+        "rate_over_90_percent": 3.94,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 21,
+        "years_max": 35,
+        "loan_amount_min": 1000000.0,
+        "loan_amount_max": 120000000.0,
+        "max_loan_to_value": 1.0,
+        "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+        "conditions": [],
+        "requires_acquisition_price_for_estimate": true,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "event_id": 50,
+        "role": "user",
+        "text": "TEST案内の確認方法は？",
+        "created_at": "2026-10-08T15:15:01+09:00",
+        "channel": "text",
+        "references": [],
+        "historical": true
+      },
+      {
+        "event_id": 52,
+        "role": "assistant",
+        "text": "「TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料で、緑色の確認票を使って確認します。これは実際の会社サービスや公的制度の案内ではありません。」とあります（確認・公開済み住宅購入資料より）。",
+        "created_at": "2026-10-08T15:15:04+09:00",
+        "channel": "text",
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": null
+          }
+        ],
+        "historical": true
+      }
+    ],
+    "display_events": [],
+    "staff_calls": [],
+    "realtime": {
+      "status": "not_started",
+      "error": null
+    }
+  },
+  {
+    "id": "61892e7d3dc04fdc9e94b7fcfac7da1c",
+    "version": 5,
+    "mode": "text",
+    "property_id": null,
+    "status": "ended",
+    "created_at": "2026-10-08T15:14:40+09:00",
+    "ended_at": "2026-10-08T15:15:50+09:00",
+    "property": null,
+    "products": [
+      {
+        "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:0",
+        "bank": "三菱UFJ銀行",
+        "product": "住宅ローン 新規借入 ずーっと一律優遇コース",
+        "rate_type": "変動金利",
+        "rate": 1.195,
+        "rate_over_90_percent": null,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 2,
+        "years_max": 40,
+        "loan_amount_min": 5000000.0,
+        "loan_amount_max": 300000000.0,
+        "max_loan_to_value": null,
+        "notes": "参考金利（優遇コースの掲載適用金利）。2026年10月借入分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：借入・完済時の年齢要件、団体信用生命保険への加入要件、原則1年以上の勤続と同行への給与振込、同行所定口座・ダイレクトの利用要件、銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。借入時手数料は借入金額の2.2%。変動金利の将来変化を概算返済額に織り込んでいません。諸費用・税・保険を月額計算に含めません。",
+        "conditions": [
+          "銀行所定の審査。審査によって掲載利率と異なる場合があり、融資可否を保証しません。"
+        ],
+        "requires_acquisition_price_for_estimate": false,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.bk.mufg.jp/kariru/jutaku/yuuguu/index.html"
+          }
+        ]
+      },
+      {
+        "id": "f562fef1e00e4761ae553bcc1d0dbd56:rate:1",
+        "bank": "住宅金融支援機構・取扱金融機関",
+        "product": "フラット35 新機構団信付き 21～35年",
+        "rate_type": "全期間固定金利",
+        "rate": 3.83,
+        "rate_over_90_percent": 3.94,
+        "effective_date": "2026-10-01",
+        "valid_until": "2026-10-31",
+        "years_min": 21,
+        "years_max": 35,
+        "loan_amount_min": 1000000.0,
+        "loan_amount_max": 120000000.0,
+        "max_loan_to_value": 1.0,
+        "notes": "参考金利（融資率9割以下の最頻金利）。2026年10月資金受取分。公式ページは月単位で表示。月初日をデータ上の期間開始日に使用。公表日ではない。 利用条件：申込者・住宅の要件と金融機関等の審査、掲載金利は新機構団信付き、融資率と返済期間によって金利区分が変わる、申込時ではなく資金受取時の金利、取扱金融機関が実際の金利・手数料を決定。最頻金利は提供金利の集計値で、すべての金融機関・申込者への確定金利ではありません。融資率9割超は参考3.94%。団信の種類で金利が異なります。S・子育てプラス等の引下げ適用を本物件・顧客に自動判定しません。融資手数料・物件検査費用・保険等を月額計算に含めません。",
+        "conditions": [],
+        "requires_acquisition_price_for_estimate": true,
+        "references": [
+          {
+            "label": "確認・公開済み参考金利資料",
+            "url": "https://www.simulation.jhf.go.jp/flat35/kinri/index.php/rates/top"
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "event_id": 53,
+        "role": "user",
+        "text": "TEST案内の確認方法は？",
+        "created_at": "2026-10-08T15:15:20+09:00",
+        "channel": "text",
+        "references": [],
+        "historical": true
+      },
+      {
+        "event_id": 55,
+        "role": "assistant",
+        "text": "TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料を使い、橙色の確認票で確認する形です。これは実際の会社サービスや公的制度の案内ではありませんのでご注意ください。（確認・公開済み住宅購入資料より）",
+        "created_at": "2026-10-08T15:15:22+09:00",
+        "channel": "text",
+        "references": [
+          {
+            "label": "確認・公開済み住宅購入資料",
+            "url": null
+          }
+        ],
+        "historical": true
+      }
+    ],
+    "display_events": [],
+    "staff_calls": [],
+    "realtime": {
+      "status": "not_started",
+      "error": null
+    }
+  }
+]

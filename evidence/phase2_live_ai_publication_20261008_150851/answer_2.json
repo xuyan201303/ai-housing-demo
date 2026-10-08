@@ -1,0 +1,14 @@
+{
+  "answer": "TEST案内の確認方法は、SANZOが用意した動作確認用のTEST資料を使い、橙色の確認票で確認する形です。これは実際の会社サービスや公的制度の案内ではありませんのでご注意ください。（確認・公開済み住宅購入資料より）",
+  "references": [
+    {
+      "location": "TEST人工入力・橙色確認票の更新修訂",
+      "document_id": "943986e694d84d7cb1c927221c083df8",
+      "filename": "住宅購入基礎FAQ_demo.pdf",
+      "source_url": "urn:sanzo:phase2-live-faq"
+    }
+  ],
+  "tool_results": [],
+  "provider": "openai",
+  "version": 5
+}
